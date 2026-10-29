@@ -37,7 +37,7 @@ class AutoScout24(Site):
     def resolve(self, profile: SearchProfile, overrides: dict[str, str]) -> dict[str, str]:
         return {
             "make_slug": overrides.get("make_slug") or slugify(profile.make, "-"),
-            "model_slug": overrides.get("model_slug") or slugify(profile.model, "-"),
+            "model_slug": overrides.get("model_slug") or (slugify(profile.model, "-") if profile.model else ""),
         }
 
     def build_url(self, profile: SearchProfile, ids: dict[str, str]) -> tuple[str, list[str]]:
@@ -73,7 +73,7 @@ class AutoScout24(Site):
             params.append(("gear", ",".join(GEARBOXES[g] for g in profile.gearbox)))
         params += [("zip", profile.location.zip), ("zipr", str(radius))]
 
-        path = f"{SEARCH_URL}/{ids['make_slug']}/{ids['model_slug']}"
+        path = "/".join(p for p in (SEARCH_URL, ids["make_slug"], ids["model_slug"]) if p)
         return f"{path}?{urlencode(params)}", notes
 
     def page_url(self, url: str, page: int) -> str:
@@ -110,6 +110,7 @@ def parse_listing(raw: dict) -> Listing:
         source_id=str(raw["id"]),
         url=BASE_URL + raw["url"],
         title=title or raw.get("title") or "",
+        model=vehicle.get("model"),
         price_eur=(raw.get("price") or {}).get("priceRaw") or parse_int(tracking.get("price")) or 0,
         price_label=label if label and label != "unknown" else None,
         mileage_km=parse_int(tracking.get("mileage")),

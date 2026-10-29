@@ -51,6 +51,7 @@ def parse_int(text: str | None) -> int | None:
 class Site(ABC):
     key: ClassVar[str]
     name: ClassVar[str]
+    country: ClassVar[str] = "DE"
     can_fetch: ClassVar[bool] = False
 
     def __init__(self, client: httpx.Client, cache: Cache) -> None:
@@ -73,7 +74,7 @@ class Site(ABC):
     def fetch(self, profile: SearchProfile, max_pages: int) -> list[Listing]:
         """Fetch result pages and return listings that really match the profile."""
         ids = self.resolve(profile, profile.overrides.get(self.key, {}))
-        url, _ = self.build_url(profile, ids)
+        url = self.fetch_url(profile, ids)
         listings: list[Listing] = []
         for page in range(1, max_pages + 1):
             if page > 1:
@@ -84,6 +85,10 @@ class Site(ABC):
             if not has_more:
                 break
         return [item for item in listings if matches(profile, item)]
+
+    def fetch_url(self, profile: SearchProfile, ids: dict[str, str]) -> str:
+        """URL the fetcher reads; differs from the link when robots.txt rules out some filters."""
+        return self.build_url(profile, ids)[0]
 
     def page_url(self, url: str, page: int) -> str:
         raise NotImplementedError

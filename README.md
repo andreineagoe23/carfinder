@@ -1,16 +1,25 @@
 # carfinder
 
-Find a used car across the big German marketplaces from **one search form**: pick the
-car, set your limits, and get every matching listing in one ranked list. Each listing is
-scored, de-duplicated across sites and flagged for anything suspicious.
+Find a used car across the big **German and Romanian** marketplaces from **one search
+form**. Pick a make, then one model or *All models*, and set your limits. You get every
+matching listing in one ranked list, with prices as listed. Each listing is scored,
+de-duplicated across sites and flagged for anything suspicious.
 
 **Web app:** `https://<your-github-user>.github.io/carfinder/`
 
-| Site | How it's covered |
-|---|---|
-| [AutoScout24](https://www.autoscout24.de) | Listings fetched and shown in the app |
-| [Kleinanzeigen](https://www.kleinanzeigen.de) | Listings fetched and shown in the app |
-| [mobile.de](https://www.mobile.de) | Pre-filtered link only (mobile.de blocks automated reading) |
+| | Site | Sellers | How it's covered |
+|---|---|---|---|
+| 🇩🇪 | [mobile.de](https://www.mobile.de) | Mostly dealers | Pre-filtered link (blocks automated reading) |
+| 🇩🇪 | [AutoScout24](https://www.autoscout24.de) | Mostly dealers, with a price rating | **Listings shown in the app** |
+| 🇩🇪 | [Kleinanzeigen](https://www.kleinanzeigen.de) | Mostly private | **Listings shown in the app** |
+| 🇷🇴 | [Autovit](https://www.autovit.ro) | Mostly dealers | **Listings shown in the app** |
+| 🇷🇴 | [OLX.ro](https://www.olx.ro) | Mostly private | Link: make, model, year and price (blocks automated reading) |
+| 🇷🇴 | [Publi24](https://www.publi24.ro) | Private classifieds | Link: make, model and fuel (other URL filters are unreliable) |
+| 🇷🇴 | [AutoUncle.ro](https://www.autouncle.ro) | Collects Romanian ads and rates the price | Link: make and model |
+
+German sites search around a zip code. Romanian sites search the whole country. Prices
+in lei are converted to euros at the day's ECB rate, and the card also shows the
+listed amount.
 
 ## How it works
 
@@ -55,7 +64,8 @@ GitHub Pages (site/)                GitHub Actions                     results b
 
 Each car gets a score from 0 to 100, built from:
 
-- **Price vs. similar cars** in the same search (same year ±1)
+- **Price vs. similar cars** in the same search: same model, same year ±1. In an
+  *All models* search, Kleinanzeigen ads get their model guessed from the title.
 - **Kilometres per year**
 - **AutoScout24's own price rating** (top / good / fair price)
 - **Seller type:** dealers in Germany owe 12 months' warranty (*Gewährleistung*)
@@ -69,11 +79,9 @@ Flags warn about:
 - Private sellers
 - Price reductions
 
-The same car listed on both sites is merged into one card, with an "Also on" link to the
-other site.
-
-**Cost to Romania:** the settings hold your own estimates for the trip, export plates,
-RAR checks and registration. They're added to every price as an "on the road" total.
+The same car listed on several sites is merged into one card, with an "Also on" link to
+the other site. In the results you can filter by country and by seller type (dealer or
+private).
 
 ## Command line
 
@@ -106,6 +114,7 @@ site/                    static web app (GitHub Pages)
   data/catalog.json      makes/models with mobile.de IDs
 src/carfinder/
   sites/                 one module per marketplace: link builder + fetcher/parser
+  catalog.py             make/model catalog; guesses the model from ad titles
   search.py              one run: fetch → dedupe → score → save
   dedupe.py, scoring.py, store.py, notify.py, catalog.py
   cli.py
@@ -124,7 +133,9 @@ This is a personal tool, kept to a human pace:
 - It identifies itself honestly in the User-Agent and doesn't try to get around bot
   protection.
 - It only requests paths that the sites' `robots.txt` allow.
-- mobile.de disallows automated access, so carfinder only links to it.
+- mobile.de and OLX block automated access, so carfinder only links to them.
+- Autovit's robots.txt rules out price parameters, so the price filter is applied
+  after the page is fetched.
 
 Respect each site's terms of use. carfinder is not affiliated with any of these
 marketplaces, and its scores are a starting point, not advice. Always have the car

@@ -16,6 +16,7 @@ def car(source="autoscout24", source_id="1", price=9000, km=100_000, year=2016, 
         source_id=source_id,
         url=f"https://example.test/{source}/{source_id}",
         title=kw.pop("title", "Mazda CX-3"),
+        model=kw.pop("model", "CX-3"),
         price_eur=price,
         mileage_km=km,
         year=year,
@@ -38,6 +39,13 @@ def test_dedupe_merges_same_car_across_sites():
 def test_dedupe_drops_repeated_ads_from_same_site():
     a = car("kleinanzeigen", "same")
     assert len(dedupe([a, a.model_copy()])) == 1
+
+
+def test_dedupe_drops_reposted_ad_with_new_id():
+    a = car("autoscout24", "a")
+    b = car("autoscout24", "b")
+    kept = dedupe([a, b])
+    assert len(kept) == 1 and kept[0].also_on == []
 
 
 def test_score_flags_damage_words_in_title():
@@ -64,6 +72,13 @@ def test_score_prefers_cheaper_and_lower_mileage():
     assert ranked[0].source_id == "cheap"
     assert ranked[-1].source_id == "pricey"
     assert all(0 <= x.score <= 100 for x in ranked)
+
+
+def test_score_only_compares_same_model():
+    listings = [car(source_id=str(i), price=20_000, model="CX-5") for i in range(4)]
+    listings.append(car(source_id="cx3", price=9000))
+    cx3 = next(x for x in score(listings, today=date(2026, 10, 1)) if x.source_id == "cx3")
+    assert not any("below similar cars" in f for f in cx3.flags)
 
 
 def test_score_flags_suspiciously_cheap_and_private():
@@ -132,3 +147,12 @@ def test_telegram_message_lists_new_cars(profile, cache, tmp_path, monkeypatch):
     result = run_search(profile, client, cache, Store(tmp_path))
     message = format_message(result)
     assert "1 new" in message and "€9,000" in message and 'href="https://example.test/' in message
+
+
+def test_label_models_guesses_from_title_for_any_model_search(profile):
+    from carfinder.search import label_models
+
+    profile.model = None
+    listing = car(source="kleinanzeigen", title="Mazda CX3 2.0 Skyactiv", model=None)
+    label_models(profile, [listing])
+    assert listing.model == "CX-3"

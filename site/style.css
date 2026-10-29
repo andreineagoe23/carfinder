@@ -266,6 +266,22 @@ button:disabled {
   font-size: 0.9rem;
 }
 
+.hint {
+  margin: -0.4rem 0 0;
+}
+#site-chips {
+  display: grid;
+  gap: 0.6rem;
+}
+.site-group {
+  display: grid;
+  gap: 0.35rem;
+}
+.site-group-name {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 /* ---------- saved searches */
 
 .saved {
@@ -318,6 +334,18 @@ button.icon {
 }
 .link.disabled {
   color: var(--muted);
+}
+#links {
+  display: grid;
+  gap: 1rem;
+}
+.link-group h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+}
+.trust {
+  color: var(--text);
+  font-size: 0.8rem;
 }
 
 /* ---------- status */
@@ -577,9 +605,4 @@ dialog::backdrop {
   border-radius: 8px;
   background: var(--ok-bg);
   color: var(--ok);
-}
-.cost-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.6rem;
 }

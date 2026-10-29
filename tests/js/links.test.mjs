@@ -3,7 +3,18 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { autoScout24, buildLinks, kleinanzeigen, mobileDe, slugify, snapRadius } from "../../site/js/links.js";
+import {
+  autoScout24,
+  autoUncleRo,
+  autovit,
+  buildLinks,
+  kleinanzeigen,
+  mobileDe,
+  olx,
+  publi24,
+  slugify,
+  snapRadius,
+} from "../../site/js/links.js";
 
 const query = {
   make: "Mazda",
@@ -63,4 +74,41 @@ test("Kleinanzeigen without location warns", () => {
 test("buildLinks respects site selection", () => {
   const links = buildLinks({ ...query, sites: ["autoscout24"] });
   assert.deepEqual(links.map((l) => l.site), ["autoscout24"]);
+});
+
+// Same query as the Python URLs these were generated from (`Site(...).link(profile).url`).
+const ro = { ...query, fuel: ["petrol", "hybrid"], gearbox: ["automatic"] };
+const anyModel = { ...ro, model: null };
+
+test("Autovit", () => {
+  const params =
+    "?search%5Bfilter_float_year%3Afrom%5D=2015&search%5Bfilter_float_year%3Ato%5D=2017" +
+    "&search%5Bfilter_float_mileage%3Ato%5D=160000&search%5Bfilter_float_price%3Afrom%5D=8000" +
+    "&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol" +
+    "&search%5Bfilter_enum_fuel_type%5D%5B1%5D=hybrid&search%5Bfilter_enum_fuel_type%5D%5B2%5D=plugin-hybrid" +
+    "&search%5Bfilter_enum_gearbox%5D=automatic";
+  assert.equal(autovit(ro).url, `https://www.autovit.ro/autoturisme/mazda/cx-3${params}`);
+  assert.equal(autovit(anyModel).url, `https://www.autovit.ro/autoturisme/mazda${params}`);
+});
+
+test("OLX.ro", () => {
+  assert.equal(
+    olx(ro).url,
+    "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/mazda/?search%5Bfilter_enum_model%5D%5B0%5D=cx-3" +
+      "&search%5Bfilter_float_year%3Afrom%5D=2015&search%5Bfilter_float_year%3Ato%5D=2017" +
+      "&search%5Bfilter_float_price%3Afrom%5D=8000&search%5Bfilter_float_price%3Ato%5D=10000",
+  );
+});
+
+test("Publi24 and AutoUncle.ro", () => {
+  assert.equal(publi24(ro).url, "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mazda/cx-3/?gearname=automata");
+  assert.equal(publi24(anyModel).url, "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mazda/?gearname=automata");
+  assert.equal(autoUncleRo(ro).url, "https://www.autouncle.ro/ro/masini-second-hand/Mazda/CX-3");
+  assert.equal(autoUncleRo(anyModel).url, "https://www.autouncle.ro/ro/masini-second-hand/Mazda");
+});
+
+test("all models on German sites", () => {
+  assert.match(autoScout24(anyModel).url, /^https:\/\/www\.autoscout24\.de\/lst\/mazda\?/);
+  assert.match(mobileDe(anyModel, { make_id: "16800" }).url, /ms=16800%3B%3B%3B/);
+  assert.doesNotMatch(kleinanzeigen(anyModel, "6234").url, /model_s/);
 });

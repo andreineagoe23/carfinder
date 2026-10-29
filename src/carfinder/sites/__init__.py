@@ -7,11 +7,15 @@ import httpx
 from carfinder.cache import Cache
 from carfinder.models import SearchLink, SearchProfile
 from carfinder.sites.autoscout24 import AutoScout24
+from carfinder.sites.autovit import Autovit
 from carfinder.sites.base import Site
 from carfinder.sites.kleinanzeigen import Kleinanzeigen
 from carfinder.sites.mobile_de import MobileDe
+from carfinder.sites.romania_links import AutoUncleRo, Olx, Publi24
 
-SITES: dict[str, type[Site]] = {s.key: s for s in (MobileDe, AutoScout24, Kleinanzeigen)}
+SITES: dict[str, type[Site]] = {
+    s.key: s for s in (MobileDe, AutoScout24, Kleinanzeigen, Autovit, Olx, Publi24, AutoUncleRo)
+}
 
 
 def build_links(

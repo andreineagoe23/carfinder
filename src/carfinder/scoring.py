@@ -10,6 +10,7 @@ import re
 from datetime import date
 from statistics import median
 
+from carfinder.catalog import compact
 from carfinder.models import Listing
 
 PRICE_LABEL_POINTS = {
@@ -28,14 +29,17 @@ DAMAGE_WORDS = re.compile(
 
 
 def market_price(listing: Listing, all_listings: list[Listing]) -> float | None:
-    """Median price of other cars within a year of this one."""
+    """Median price of other cars of the same model within a year of this one."""
+    if listing.year is None or listing.model is None:
+        return None
     comparables = [
         other.price_eur
         for other in all_listings
         if other is not listing
         and other.year is not None
-        and listing.year is not None
         and abs(other.year - listing.year) <= 1
+        and other.model is not None
+        and compact(other.model) == compact(listing.model)
     ]
     return median(comparables) if len(comparables) >= MIN_COMPARABLES else None
 

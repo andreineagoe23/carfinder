@@ -7,7 +7,7 @@ import json
 from enum import StrEnum
 from typing import Literal
 
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 class Fuel(StrEnum):
     PETROL = "petrol"
@@ -63,7 +63,7 @@ class SearchProfile(BaseModel):
 
     name: str = Field("", max_length=80)
     make: str = Field(min_length=1, max_length=60)
-    model: str = Field(min_length=1, max_length=60)
+    model: str | None = Field(None, max_length=60)  # None = every model of the make
     year: Range = Range()
     mileage_km: Range = Range()
     price_eur: Range = Range()
@@ -72,6 +72,11 @@ class SearchProfile(BaseModel):
     location: Location
     sites: list[str] | None = None
     overrides: dict[str, dict[str, str]] = {}
+
+    @field_validator("model", mode="before")
+    @classmethod
+    def _blank_model_is_any(cls, value: str | None) -> str | None:
+        return value.strip() or None if isinstance(value, str) else value
 
     @model_validator(mode="after")
     def _safe_overrides(self) -> SearchProfile:
@@ -83,7 +88,7 @@ class SearchProfile(BaseModel):
 
     @property
     def title(self) -> str:
-        return self.name or f"{self.make} {self.model}"
+        return self.name or f"{self.make} {self.model or '(all models)'}"
 
     def query_id(self) -> str:
         """Stable ID for this search, so re-running it updates the same results file."""
@@ -93,13 +98,13 @@ class SearchProfile(BaseModel):
 
     def summary(self) -> str:
         parts = [
-            f"{self.make} {self.model}",
+            f"{self.make} {self.model or '(all models)'}",
             f"year {self.year.label(grouped=False)}",
             f"{self.mileage_km.label()} km",
             f"€{self.price_eur.label()}",
             "/".join(self.fuel) or "any fuel",
             "/".join(self.gearbox) or "any gearbox",
-            f"{self.location.radius_km} km around {self.location.zip} {self.location.country}",
+            f"DE: {self.location.radius_km} km around {self.location.zip}",
         ]
         return " · ".join(parts)
 
@@ -124,9 +129,13 @@ class Listing(BaseModel):
 
     source: str
     source_id: str
+    country: str = "DE"
     url: str
     title: str
+    model: str | None = None
     price_eur: int
+    listed_price: int | None = None  # original amount when the ad isn't priced in euros
+    listed_currency: str | None = None
     old_price_eur: int | None = None
     negotiable: bool = False
     price_label: str | None = None  # the site's own rating, e.g. AutoScout24 "good-price"

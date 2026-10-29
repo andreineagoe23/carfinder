@@ -29,6 +29,8 @@ class MobileDe(Site):
             f"mobile_de:make:{slugify(profile.make, '-')}",
             lambda: self._find_id(f"{LOOKUP_API}/makes/Car", "makes", profile.make),
         )
+        if not profile.model:
+            return {"make_id": make_id, "model_id": ""}
         model_id = overrides.get("model_id") or self.cache.get_or_fetch(
             f"mobile_de:model:{make_id}:{slugify(profile.model, '-')}",
             lambda: self._find_id(f"{LOOKUP_API}/models/{make_id}", "models", profile.model),

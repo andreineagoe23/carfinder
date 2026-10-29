@@ -46,7 +46,7 @@ class Kleinanzeigen(Site):
         )
         return {
             "make_slug": overrides.get("make_slug") or slugify(profile.make, "_"),
-            "model_slug": overrides.get("model_slug") or slugify(profile.model, "_"),
+            "model_slug": overrides.get("model_slug") or (slugify(profile.model, "_") if profile.model else ""),
             "location_id": location_id,
         }
 
@@ -64,10 +64,9 @@ class Kleinanzeigen(Site):
         if note:
             notes.append(note)
 
-        filters: dict[str, str] = {
-            "autos.marke_s": ids["make_slug"],
-            "autos.model_s": ids["model_slug"],
-        }
+        filters: dict[str, str] = {"autos.marke_s": ids["make_slug"]}
+        if ids["model_slug"]:
+            filters["autos.model_s"] = ids["model_slug"]
         if years := span(profile.year, ","):
             filters["autos.ez_i"] = years
         if km := span(profile.mileage_km, ","):

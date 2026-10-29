@@ -6,13 +6,18 @@ from carfinder.models import Listing, SearchLink
 from carfinder.sites import SITES
 
 # Site order of preference for the listing we keep: richer data first.
-PREFERENCE = ["autoscout24", "kleinanzeigen"]
+PREFERENCE = ["autoscout24", "autovit", "kleinanzeigen"]
 
 
 def same_car(a: Listing, b: Listing) -> bool:
-    if a.source == b.source or None in (a.mileage_km, b.mileage_km, a.year, b.year):
+    if a.source == b.source:
+        # The same ad posted twice under different IDs.
+        return (a.title, a.price_eur, a.mileage_km, a.year) == (b.title, b.price_eur, b.mileage_km, b.year)
+    if None in (a.mileage_km, b.mileage_km, a.year, b.year):
         return False
     if a.first_registration and b.first_registration and a.first_registration != b.first_registration:
+        return False
+    if a.country != b.country or (a.model and b.model and a.model.lower() != b.model.lower()):
         return False
     # Sellers often price the same car differently per site, so price is only a loose check.
     return (
@@ -36,6 +41,8 @@ def dedupe(listings: list[Listing]) -> list[Listing]:
         twin = next((k for k in kept if same_car(k, listing)), None)
         if twin is None:
             kept.append(listing)
+            continue
+        if twin.source == listing.source:
             continue
         name = SITES[listing.source].name if listing.source in SITES else listing.source
         twin.also_on.append(SearchLink(site=listing.source, name=name, url=listing.url))

@@ -63,3 +63,28 @@ def test_fetch_follows_pages_and_drops_mismatches(profile, cache, monkeypatch):
     assert pages == ["1", "2"]  # fixture says 2 pages in total
     # The fixture's cars cost more than the profile's €10,000 cap, so all are filtered out.
     assert listings == []
+
+
+def test_autovit_parse_page_converts_lei(profile, cache):
+    from carfinder.sites.autovit import Autovit
+    from tests.conftest import fake_client
+
+    client = fake_client({"/v1/latest": {"rates": {"EUR": 0.2}}})
+    html = (FIXTURES / "autovit_page.html").read_text()
+    listings, has_more = Autovit(client, cache).parse_page(html, profile)
+    assert has_more  # 32 per page, 40 in total
+    first, _, lei = listings
+    assert (first.country, first.model, first.price_eur, first.year, first.mileage_km) == ("RO", "CX-3", 11990, 2017, 85386)
+    assert first.fuel == Fuel.PETROL and first.power_hp == 120 and first.seller_type == "dealer"
+    assert first.city == "Bucuresti" and first.url.startswith("https://www.autovit.ro/")
+    assert (lei.price_eur, lei.listed_price, lei.listed_currency) == (12000, 60000, "RON")
+    assert lei.seller_type == "private"
+
+
+def test_autovit_fetch_url_has_no_price_filter(profile, cache):
+    from carfinder.sites.autovit import Autovit
+
+    site = Autovit(None, cache)
+    ids = site.resolve(profile, {})
+    assert "_price" not in site.fetch_url(profile, ids)  # robots.txt disallows *_price*
+    assert "filter_float_price" in site.build_url(profile, ids)[0]

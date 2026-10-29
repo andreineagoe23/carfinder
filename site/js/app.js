@@ -1,5 +1,5 @@
 import { GitHub, GitHubError, repoFromLocation } from "./github.js";
-import { SITES, buildLinks } from "./links.js";
+import { COUNTRIES, SITES, buildLinks } from "./links.js";
 
 const DEFAULT_QUERY = {
   make: "Mazda",
@@ -12,11 +12,11 @@ const DEFAULT_QUERY = {
   location: { zip: "93339", country: "DE", radius_km: 200 },
   sites: Object.keys(SITES),
 };
-const DEFAULT_COSTS = { trip: 250, plates: 150, rar: 150, registration: 100, other: 0 };
 // Kleinanzeigen location IDs we already know; more are learned from search results.
 const KNOWN_KA_LOCATIONS = { 93339: "6234" };
 const POLL_MS = 5000;
 const POLL_TIMEOUT_MS = 10 * 60 * 1000;
+const FLAGS = { DE: "🇩🇪", RO: "🇷🇴" };
 const PRICE_LABELS = {
   "top-price": ["Top price", "good"],
   "good-price": ["Good price", "good"],
@@ -45,7 +45,7 @@ const store = {
 
 const state = {
   catalog: { makes: [] },
-  settings: { repo: "", token: "", costs: { ...DEFAULT_COSTS }, ...store.get("settings", {}) },
+  settings: { repo: "", token: "", ...store.get("settings", {}) },
   kaLocations: { ...KNOWN_KA_LOCATIONS, ...store.get("kaLocations", {}) },
   result: null,
   polling: null,
@@ -95,19 +95,40 @@ function fillMakes() {
 function fillModels(selected) {
   const make = findMake(form.make.value);
   const models = make ? make.models : [];
-  form.model.replaceChildren(...models.map((m) => el("option", { value: m.name }, m.name)));
-  if (selected && models.some((m) => m.name === selected)) form.model.value = selected;
+  form.model.replaceChildren(
+    el("option", { value: "" }, "All models"),
+    ...models.map((m) => el("option", { value: m.name }, m.name)),
+  );
+  form.model.value = selected && models.some((m) => m.name === selected) ? selected : "";
+}
+
+function sitesByCountry() {
+  return Object.keys(COUNTRIES).map((country) => [
+    country,
+    Object.entries(SITES).filter(([, site]) => site.country === country),
+  ]);
 }
 
 function fillSites() {
   $("#site-chips").replaceChildren(
-    ...Object.entries(SITES).map(([key, site]) =>
+    ...sitesByCountry().map(([country, sites]) =>
       el(
-        "label",
-        { class: "chip", title: site.fetches ? "" : "Link only — this site blocks automated reading" },
-        el("input", { type: "checkbox", name: "site", value: key }),
-        site.name,
-        site.fetches ? null : el("small", {}, " link"),
+        "div",
+        { class: "site-group" },
+        el("span", { class: "site-group-name" }, `${FLAGS[country]} ${COUNTRIES[country]}`),
+        el(
+          "div",
+          { class: "chips" },
+          sites.map(([key, site]) =>
+            el(
+              "label",
+              { class: "chip", title: site.fetches ? site.note : `${site.note}. Link only: no automated reading.` },
+              el("input", { type: "checkbox", name: "site", value: key }),
+              site.name,
+              site.fetches ? null : el("small", {}, " link"),
+            ),
+          ),
+        ),
       ),
     ),
   );
@@ -124,9 +145,9 @@ function numberOrNull(input) {
 function readForm() {
   const f = form.elements;
   const q = {
-    name: `${f.make.value} ${f.model.value}`,
+    name: `${f.make.value} ${f.model.value || "(all models)"}`,
     make: f.make.value,
-    model: f.model.value,
+    model: f.model.value || null,
     year: { min: numberOrNull(f.year_min), max: numberOrNull(f.year_max) },
     mileage_km: { min: null, max: numberOrNull(f.km_max) },
     price_eur: { min: numberOrNull(f.price_min), max: numberOrNull(f.price_max) },
@@ -163,7 +184,7 @@ function writeForm(q) {
 }
 
 function validate(q) {
-  if (!q.make || !q.model) return "Pick a make and model.";
+  if (!q.make) return "Pick a make.";
   if (!/^\d{5}$/.test(q.location.zip)) return "Zip must be a 5-digit German postcode.";
   for (const [label, range] of [["Year", q.year], ["Price", q.price_eur]]) {
     if (range.min != null && range.max != null && range.min > range.max) return `${label}: “from” is above “to”.`;
@@ -174,8 +195,10 @@ function validate(q) {
 
 function mobileIds(q) {
   const make = findMake(q.make);
-  const model = make?.models.find((m) => m.name === q.model);
-  return make && model ? { make_id: String(make.mobile_de), model_id: String(model.mobile_de) } : null;
+  if (!make) return null;
+  if (!q.model) return { make_id: String(make.mobile_de) };
+  const model = make.models.find((m) => m.name === q.model);
+  return model ? { make_id: String(make.mobile_de), model_id: String(model.mobile_de) } : null;
 }
 
 /** Stable ID per search (ignores the display name and lookup overrides). */
@@ -199,15 +222,30 @@ function flatKeys(obj, out = {}) {
 function renderLinks() {
   const q = readForm();
   const links = buildLinks(q, { mobileIds: mobileIds(q), kaLocationId: state.kaLocations[q.location.zip] });
+  const groups = Object.keys(COUNTRIES)
+    .map((country) => [country, links.filter((l) => l.country === country)])
+    .filter(([, group]) => group.length);
   $("#links").replaceChildren(
-    ...links.map((link) =>
+    ...groups.map(([country, group]) =>
       el(
         "div",
-        { class: "link-item" },
-        link.error
-          ? el("span", { class: "link disabled" }, link.name)
-          : el("a", { class: "link", href: link.url, target: "_blank", rel: "noopener" }, `${link.name} ↗`),
-        ...(link.error ? [link.error] : link.notes).map((n) => el("small", { class: "muted" }, n)),
+        { class: "link-group" },
+        el("h3", {}, `${FLAGS[country]} ${COUNTRIES[country]}`),
+        el(
+          "div",
+          { class: "links" },
+          group.map((link) =>
+            el(
+              "div",
+              { class: "link-item" },
+              link.error
+                ? el("span", { class: "link disabled" }, link.name)
+                : el("a", { class: "link", href: link.url, target: "_blank", rel: "noopener" }, `${link.name} ↗`),
+              el("small", { class: "trust" }, link.fetches ? `${link.note} · shown below` : link.note),
+              ...(link.error ? [link.error] : link.notes).map((n) => el("small", { class: "muted" }, n)),
+            ),
+          ),
+        ),
       ),
     ),
   );
@@ -222,11 +260,6 @@ function learnKaLocation(result) {
 }
 
 // ---------- results
-
-function totalCost(price) {
-  const c = state.settings.costs;
-  return price + Object.values(c).reduce((sum, v) => sum + (Number(v) || 0), 0);
-}
 
 function sortListings(listings, how) {
   const by = {
@@ -266,10 +299,14 @@ function renderResults() {
   );
 
   const onlyNew = $("#only-new").checked;
+  const country = $("#filter-country").value;
+  const seller = $("#filter-seller").value;
   const text = $("#filter-text").value.trim().toLowerCase();
   const visible = sortListings(all, $("#sort").value).filter(
     (l) =>
       (!onlyNew || l.first_seen === result.updated_at) &&
+      (!country || (l.country || "DE") === country) &&
+      (!seller || l.seller_type === seller) &&
       (!text || `${l.title} ${l.city || ""} ${l.seller_name || ""}`.toLowerCase().includes(text)),
   );
   $("#results").replaceChildren(
@@ -310,7 +347,7 @@ function card(l, result) {
       el(
         "div",
         { class: "badges" },
-        el("span", { class: "badge site" }, SITES[l.source]?.name || l.source),
+        el("span", { class: "badge site" }, `${FLAGS[l.country || "DE"]} ${SITES[l.source]?.name || l.source}`),
         isNew ? el("span", { class: "badge new" }, "NEW") : null,
         label ? el("span", { class: `badge ${label[1]}` }, label[0]) : null,
         l.seller_type ? el("span", { class: "badge" }, l.seller_type === "dealer" ? "Dealer" : "Private") : null,
@@ -324,8 +361,10 @@ function card(l, result) {
         l.old_price_eur ? el("s", {}, euro.format(l.old_price_eur)) : null,
         firstPrice && firstPrice !== l.price_eur ? el("s", {}, euro.format(firstPrice)) : null,
       ),
-      el("p", { class: "total muted small" }, `≈ ${euro.format(totalCost(l.price_eur))} on the road in Romania`),
-      el("p", { class: "specs" }, specs.join(" · ")),
+      l.listed_currency
+        ? el("p", { class: "muted small" }, `Listed at ${num.format(l.listed_price)} ${l.listed_currency === "RON" ? "lei" : l.listed_currency}`)
+        : null,
+      el("p", { class: "specs" }, [l.model, ...specs].filter(Boolean).join(" · ")),
       el(
         "p",
         { class: "muted small" },
@@ -438,9 +477,12 @@ async function runSearch(event) {
     await github().dispatch({ query: JSON.stringify(q), id });
     await pollForResult(id, started);
   } catch (err) {
-    const hint = err instanceof GitHubError && [401, 403, 404].includes(err.status)
-      ? " Check the token and repository in Settings."
-      : "";
+    const hints = {
+      401: " The token is invalid or expired — paste a new one in Settings.",
+      403: " The token can't start workflows. Edit it on GitHub: Repository access → Only select repositories → this repo, and Permissions → Actions: Read and write.",
+      404: " Repository not found — check owner/name in Settings, and that the token can access it.",
+    };
+    const hint = (err instanceof GitHubError && hints[err.status]) || "";
     setStatus(`${err.message}.${hint}`, "error");
   } finally {
     button.disabled = false;
@@ -492,7 +534,6 @@ function openSettings(reason) {
   const s = state.settings;
   f.repo.value = s.repo || repoFromLocation() || "";
   f.token.value = s.token || "";
-  for (const key of Object.keys(DEFAULT_COSTS)) f[`cost_${key}`].value = s.costs[key] ?? DEFAULT_COSTS[key];
   $("#settings-reason").hidden = !reason;
   $("#settings-reason").textContent = reason || "";
   $("#settings").showModal();
@@ -501,9 +542,7 @@ function openSettings(reason) {
 function saveSettings() {
   if ($("#settings").returnValue !== "save") return;
   const f = $("#settings-form").elements;
-  const costs = {};
-  for (const key of Object.keys(DEFAULT_COSTS)) costs[key] = Number(f[`cost_${key}`].value) || 0;
-  state.settings = { repo: f.repo.value.trim(), token: f.token.value.trim(), costs };
+  state.settings = { repo: f.repo.value.trim(), token: f.token.value.trim() };
   store.set("settings", state.settings);
   renderResults();
   loadSaved();
@@ -519,7 +558,7 @@ async function main() {
     setStatus("Couldn't load the car catalog.", "error");
   }
   fillMakes();
-  writeForm(store.get("lastQuery", DEFAULT_QUERY));
+  writeForm(store.get("lastQuery.v2", DEFAULT_QUERY));
 
   form.make.addEventListener("change", () => {
     fillModels();
@@ -527,10 +566,12 @@ async function main() {
   });
   form.addEventListener("input", () => {
     renderLinks();
-    store.set("lastQuery", readForm());
+    store.set("lastQuery.v2", readForm());
   });
   form.addEventListener("submit", runSearch);
-  for (const id of ["#sort", "#only-new", "#filter-text"]) $(id).addEventListener("input", renderResults);
+  for (const id of ["#sort", "#only-new", "#filter-text", "#filter-country", "#filter-seller"]) {
+    $(id).addEventListener("input", renderResults);
+  }
   $("#open-settings").addEventListener("click", () => openSettings());
   $("#settings").addEventListener("close", saveSettings);
 

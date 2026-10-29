@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>carfinder</title>
-    <meta name="description" content="Search mobile.de, AutoScout24 and Kleinanzeigen from one form." />
+    <meta name="description" content="Search German and Romanian used-car sites from one form." />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="topbar">
       <a class="brand" href="./">car<span>finder</span></a>
-      <p class="tagline">One search across mobile.de, AutoScout24 &amp; Kleinanzeigen</p>
+      <p class="tagline">One search across German &amp; Romanian car sites</p>
       <button type="button" class="ghost" id="open-settings" aria-label="Settings">⚙ Settings</button>
     </header>
 
@@ -65,7 +65,7 @@
           </fieldset>
 
           <div class="row">
-            <label>Near zip (DE)
+            <label>🇩🇪 Near zip
               <input name="zip" inputmode="numeric" pattern="\d{5}" maxlength="5" required />
             </label>
             <label>Radius
@@ -80,9 +80,11 @@
             </label>
           </div>
 
+          <p class="muted small hint">🇷🇴 Romanian sites search the whole country.</p>
+
           <fieldset>
             <legend>Sites</legend>
-            <div class="chips" id="site-chips"></div>
+            <div id="site-chips"></div>
           </fieldset>
 
           <p class="form-error" id="form-error" role="alert" hidden></p>
@@ -102,8 +104,8 @@
       <section class="content">
         <section class="card links-card">
           <h2>Open on the sites</h2>
-          <p class="muted small">Always up to date with the form; opens the site's own search.</p>
-          <div class="links" id="links"></div>
+          <p class="muted small">Follows the form as you type and opens each site's own search.</p>
+          <div id="links"></div>
         </section>
 
         <div class="status" id="status" hidden></div>
@@ -115,6 +117,16 @@
               <p class="muted small" id="results-meta"></p>
             </div>
             <div class="controls">
+              <select id="filter-country" aria-label="Country">
+                <option value="">🇩🇪 + 🇷🇴</option>
+                <option value="DE">🇩🇪 Germany</option>
+                <option value="RO">🇷🇴 Romania</option>
+              </select>
+              <select id="filter-seller" aria-label="Seller">
+                <option value="">Any seller</option>
+                <option value="dealer">Dealers only</option>
+                <option value="private">Private only</option>
+              </select>
               <label class="inline">Sort
                 <select id="sort">
                   <option value="score">Best match</option>
@@ -136,10 +148,10 @@
         <section class="card intro" id="intro">
           <h2>How it works</h2>
           <ol>
-            <li>Pick the car and your limits on the left. The links above update as you type.</li>
-            <li><b>Search &amp; show cars</b> runs a GitHub Action that reads AutoScout24 and Kleinanzeigen and
-              brings the matches back here, scored and de-duplicated. Takes about a minute.</li>
-            <li>mobile.de blocks automated reading, so use its link above.</li>
+            <li>Pick a make, and a model or <b>All models</b>, then set your limits. The links above update as you type.</li>
+            <li><b>Search &amp; show cars</b> runs a GitHub Action that reads AutoScout24, Kleinanzeigen (🇩🇪) and
+              Autovit (🇷🇴) and brings the matches back here, scored and de-duplicated. Takes about a minute.</li>
+            <li>mobile.de, OLX, Publi24 and AutoUncle don't allow automated reading, so use their links above.</li>
             <li>Saved searches are re-checked twice a day; new cars get a <span class="badge new">NEW</span> badge.</li>
           </ol>
           <p class="muted small">First time? Open <b>Settings</b> and add a GitHub token so the site can start searches.</p>
@@ -148,8 +160,8 @@
     </main>
 
     <footer class="footer muted small">
-      Personal tool. Not affiliated with mobile.de, AutoScout24 or Kleinanzeigen. Prices and import costs are estimates —
-      always check the car in person.
+      Personal tool, not affiliated with any of these sites. Prices are as listed; lei prices are converted at the
+      day's ECB rate. Always check the car and its history in person.
     </footer>
 
     <dialog id="settings">
@@ -170,16 +182,6 @@
           for <b>this repository only</b> with <b>Actions: Read and write</b> and <b>Contents: Read-only</b>.
           It's stored in this browser only.
         </p>
-
-        <h3>Cost to bring it to Romania (€)</h3>
-        <p class="muted small">Your own estimates; added to each car's price as “total”.</p>
-        <div class="cost-grid">
-          <label>Trip &amp; fuel <input name="cost_trip" type="number" min="0" step="10" /></label>
-          <label>Export plates + insurance <input name="cost_plates" type="number" min="0" step="10" /></label>
-          <label>RAR checks <input name="cost_rar" type="number" min="0" step="10" /></label>
-          <label>Registration (RO) <input name="cost_registration" type="number" min="0" step="10" /></label>
-          <label>Other <input name="cost_other" type="number" min="0" step="10" /></label>
-        </div>
 
         <div class="actions">
           <button value="cancel" formnovalidate class="ghost">Cancel</button>

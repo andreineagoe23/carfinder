@@ -96,3 +96,47 @@ def test_build_links_reports_site_errors_without_failing_others(profile, cache):
 def test_build_links_rejects_unknown_site(profile, cache):
     with pytest.raises(ValueError, match="nope"):
         build_links(profile, fake_client({}), cache, only=["nope"])
+
+
+def test_any_model_links(profile, cache):
+    from carfinder.sites.autovit import Autovit
+    from carfinder.sites.romania_links import AutoUncleRo, Olx, Publi24
+
+    profile.model = None
+    assert ("ms", "16800;;;") in query(MobileDe(fake_client(MOBILE_ROUTES), cache).link(profile).url)
+    assert urlsplit(AutoScout24(None, cache).link(profile).url).path == "/lst/mazda"
+    ka = Kleinanzeigen(fake_client(KLEIN_ROUTES), cache).link(profile).url
+    assert "autos.marke_s:mazda" in ka and "model_s" not in ka
+    assert urlsplit(Autovit(None, cache).link(profile).url).path == "/autoturisme/mazda"
+    assert urlsplit(Olx(None, cache).link(profile).url).path == "/auto-masini-moto-ambarcatiuni/autoturisme/mazda/"
+    assert Publi24(None, cache).link(profile).url.startswith(
+        "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mazda/?carfueltype=benzina"
+    )
+    assert AutoUncleRo(None, cache).link(profile).url == "https://www.autouncle.ro/ro/masini-second-hand/Mazda"
+
+
+def test_autovit_url(profile, cache):
+    from carfinder.sites.autovit import Autovit
+
+    profile.fuel = ["petrol", "hybrid"]
+    profile.gearbox = ["automatic"]
+    link = Autovit(None, cache).link(profile)
+    assert urlsplit(link.url).path == "/autoturisme/mazda/cx-3"
+    assert query(link.url) == [
+        ("search[filter_float_year:from]", "2015"),
+        ("search[filter_float_year:to]", "2017"),
+        ("search[filter_float_mileage:to]", "160000"),
+        ("search[filter_float_price:from]", "8000"),
+        ("search[filter_float_price:to]", "10000"),
+        ("search[filter_enum_fuel_type][0]", "petrol"),
+        ("search[filter_enum_fuel_type][1]", "hybrid"),
+        ("search[filter_enum_fuel_type][2]", "plugin-hybrid"),
+        ("search[filter_enum_gearbox]", "automatic"),
+    ]
+
+
+def test_blank_model_means_all_models():
+    from carfinder.models import SearchProfile
+
+    p = SearchProfile(make="Mazda", model="  ", location={"zip": "93339"})
+    assert p.model is None and p.title == "Mazda (all models)"

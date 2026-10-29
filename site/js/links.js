@@ -1,10 +1,17 @@
 // Search-link builders for each site. Mirror of src/carfinder/sites/*.py (build_url);
 // tests/js/links.test.mjs checks both produce the same URLs.
 
+export const COUNTRIES = { DE: "Germany", RO: "Romania" };
+
+// fetches: carfinder reads the listings itself; otherwise it can only link to the site.
 export const SITES = {
-  mobile_de: { name: "mobile.de", fetches: false },
-  autoscout24: { name: "AutoScout24", fetches: true },
-  kleinanzeigen: { name: "Kleinanzeigen", fetches: true },
+  mobile_de: { name: "mobile.de", country: "DE", fetches: false, note: "Biggest German market, mostly dealers" },
+  autoscout24: { name: "AutoScout24", country: "DE", fetches: true, note: "Mostly dealers, with a price rating" },
+  kleinanzeigen: { name: "Kleinanzeigen", country: "DE", fetches: true, note: "Mostly private sellers — check carefully" },
+  autovit: { name: "Autovit", country: "RO", fetches: true, note: "Biggest Romanian market, mostly dealers" },
+  olx_ro: { name: "OLX.ro", country: "RO", fetches: false, note: "Mostly private sellers — check carefully" },
+  publi24: { name: "Publi24", country: "RO", fetches: false, note: "Classifieds, private sellers" },
+  autouncle_ro: { name: "AutoUncle.ro", country: "RO", fetches: false, note: "Collects Romanian ads and rates the price" },
 };
 
 export function slugify(text, sep) {
@@ -34,6 +41,20 @@ export function span(range, sep) {
   return `${min ?? ""}${sep}${max ?? ""}`;
 }
 
+function withQuery(url, params) {
+  const query = params.toString();
+  return query ? `${url}?${query}` : url;
+}
+
+function addRanges(params, ranges) {
+  for (const [name, range] of ranges) {
+    if (range?.min != null) params.append(`search[filter_float_${name}:from]`, String(range.min));
+    if (range?.max != null) params.append(`search[filter_float_${name}:to]`, String(range.max));
+  }
+}
+
+// ---------- Germany
+
 const MOBILE = {
   url: "https://suchen.mobile.de/fahrzeuge/search.html",
   radii: [10, 20, 50, 100, 150, 200],
@@ -42,8 +63,8 @@ const MOBILE = {
 };
 
 export function mobileDe(q, ids) {
-  if (!ids?.make_id || !ids?.model_id) {
-    return { error: `${q.make} ${q.model} isn't in the mobile.de catalog` };
+  if (!ids?.make_id || (q.model && !ids.model_id)) {
+    return { error: `${q.make} ${q.model || ""} isn't in the mobile.de catalog` };
   }
   const [radius, note] = snapRadius(q.location.radius_km, MOBILE.radii);
   const params = new URLSearchParams([
@@ -51,7 +72,7 @@ export function mobileDe(q, ids) {
     ["s", "Car"],
     ["vc", "Car"],
     ["dam", "false"],
-    ["ms", `${ids.make_id};${ids.model_id};;`],
+    ["ms", `${ids.make_id};${q.model ? ids.model_id : ""};;`],
   ]);
   for (const [key, value] of [
     ["fr", span(q.year, ":")],
@@ -102,7 +123,7 @@ export function autoScout24(q) {
   if (q.gearbox?.length) params.append("gear", q.gearbox.map((g) => AS24.gearboxes[g]).join(","));
   params.append("zip", q.location.zip);
   params.append("zipr", String(radius));
-  const path = `${AS24.url}/${slugify(q.make, "-")}/${slugify(q.model, "-")}`;
+  const path = [AS24.url, slugify(q.make, "-"), q.model ? slugify(q.model, "-") : null].filter(Boolean).join("/");
   return { url: `${path}?${params}`, notes: note ? [note] : [] };
 }
 
@@ -120,10 +141,8 @@ export function kleinanzeigen(q, locationId) {
   const [radius, note] = snapRadius(q.location.radius_km, KA.radii);
   if (note) notes.push(note);
 
-  const filters = {
-    "autos.marke_s": slugify(q.make, "_"),
-    "autos.model_s": slugify(q.model, "_"),
-  };
+  const filters = { "autos.marke_s": slugify(q.make, "_") };
+  if (q.model) filters["autos.model_s"] = slugify(q.model, "_");
   const years = span(q.year, ",");
   if (years) filters["autos.ez_i"] = years;
   const km = span(q.mileage_km, ",");
@@ -146,12 +165,63 @@ export function kleinanzeigen(q, locationId) {
   return { url: `${KA.url}/s-autos/${segments.join("/")}`, notes };
 }
 
+// ---------- Romania (whole country)
+
+const AUTOVIT_FUELS = {
+  petrol: ["petrol"],
+  diesel: ["diesel"],
+  hybrid: ["hybrid", "plugin-hybrid"],
+  electric: ["electric"],
+  lpg: ["petrol-lpg"],
+};
+
+export function autovit(q) {
+  const path = ["https://www.autovit.ro/autoturisme", slugify(q.make, "-"), q.model ? slugify(q.model, "-") : null]
+    .filter(Boolean)
+    .join("/");
+  const params = new URLSearchParams();
+  addRanges(params, [["year", q.year], ["mileage", q.mileage_km], ["price", q.price_eur]]);
+  (q.fuel || []).flatMap((f) => AUTOVIT_FUELS[f]).forEach((v, i) => params.append(`search[filter_enum_fuel_type][${i}]`, v));
+  if (q.gearbox?.length === 1) params.append("search[filter_enum_gearbox]", q.gearbox[0]);
+  return { url: withQuery(path, params), notes: [] };
+}
+
+export function olx(q) {
+  const path = `https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/${slugify(q.make, "-")}/`;
+  const params = new URLSearchParams();
+  if (q.model) params.append("search[filter_enum_model][0]", slugify(q.model, "-"));
+  addRanges(params, [["year", q.year], ["price", q.price_eur]]);
+  const notes = q.fuel?.length || q.gearbox?.length || q.mileage_km?.max != null ? ["set fuel, gearbox and km on the site"] : [];
+  return { url: withQuery(path, params), notes };
+}
+
+const PUBLI24_FUELS = { petrol: "benzina", diesel: "diesel" };
+
+export function publi24(q) {
+  const parts = ["https://www.publi24.ro/anunturi/auto-moto/masini-second-hand", slugify(q.make, "-")];
+  if (q.model) parts.push(slugify(q.model, "-"));
+  const params = new URLSearchParams();
+  if (q.fuel?.length === 1 && PUBLI24_FUELS[q.fuel[0]]) params.append("carfueltype", PUBLI24_FUELS[q.fuel[0]]);
+  if (q.gearbox?.length === 1 && q.gearbox[0] === "automatic") params.append("gearname", "automata");
+  return { url: withQuery(`${parts.join("/")}/`, params), notes: ["set years, price and km on the site"] };
+}
+
+export function autoUncleRo(q) {
+  const parts = ["https://www.autouncle.ro/ro/masini-second-hand", encodeURIComponent(q.make.replaceAll(" ", "-"))];
+  if (q.model) parts.push(encodeURIComponent(q.model.replaceAll(" ", "-")));
+  return { url: parts.join("/"), notes: ["set years, price and km on the site"] };
+}
+
 export function buildLinks(q, { mobileIds, kaLocationId } = {}) {
   const builders = {
     mobile_de: () => mobileDe(q, mobileIds),
     autoscout24: () => autoScout24(q),
     kleinanzeigen: () => kleinanzeigen(q, kaLocationId),
+    autovit: () => autovit(q),
+    olx_ro: () => olx(q),
+    publi24: () => publi24(q),
+    autouncle_ro: () => autoUncleRo(q),
   };
   const keys = q.sites?.length ? q.sites : Object.keys(SITES);
-  return keys.map((site) => ({ site, name: SITES[site].name, ...builders[site]() }));
+  return keys.filter((site) => builders[site]).map((site) => ({ site, ...SITES[site], ...builders[site]() }));
 }

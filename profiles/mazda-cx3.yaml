@@ -3,7 +3,7 @@
 
 name: Mazda CX-3
 make: Mazda
-model: CX-3
+model: CX-3                       # leave empty (model:) for every model of the make
 
 year: {min: 2015, max: 2017}      # CX-3 production started in 2015
 mileage_km: {max: 160000}
@@ -12,12 +12,14 @@ price_eur: {min: 8000, max: 10000}
 fuel: [petrol]                    # petrol, diesel, hybrid, electric, lpg ([] = any)
 gearbox: []                       # manual, automatic ([] = any)
 
-location:
+location:                         # used by the German sites
   zip: "93339"                    # Riedenburg
   country: DE
   radius_km: 200
 
-# Limit to some sites (omit = all): mobile_de, autoscout24, kleinanzeigen
+# Limit to some sites (omit = all):
+#   Germany: mobile_de, autoscout24, kleinanzeigen   (search around location.zip)
+#   Romania: autovit, olx_ro, publi24, autouncle_ro  (whole country)
 # sites: [mobile_de, autoscout24]
 
 # Only needed if the automatic make/model lookup fails for a site:

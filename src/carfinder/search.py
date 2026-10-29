@@ -5,8 +5,9 @@ from __future__ import annotations
 import httpx
 
 from carfinder.cache import Cache
+from carfinder.catalog import guess_model, model_names
 from carfinder.dedupe import dedupe
-from carfinder.models import SearchProfile
+from carfinder.models import Listing, SearchProfile
 from carfinder.scoring import score
 from carfinder.sites import SITES, build_links
 from carfinder.store import SearchResult, Store, check_id, merge_history, now_iso
@@ -36,6 +37,7 @@ def run_search(
         except (httpx.HTTPError, LookupError, ValueError, KeyError) as exc:
             errors[link.site] = f"fetch failed: {exc}"
 
+    label_models(profile, fetched)
     previous = store.load(search_id)
     # A site that failed this time keeps its last known listings rather than having them vanish
     # (and reappear as "new" on the next successful run).
@@ -57,3 +59,11 @@ def run_search(
     )
     store.save(result)
     return result
+
+
+def label_models(profile: SearchProfile, listings: list[Listing]) -> None:
+    """Make sure every listing knows its model, so prices are compared like for like."""
+    known = model_names(profile.make) if not profile.model else []
+    for listing in listings:
+        if listing.model is None:
+            listing.model = profile.model or guess_model(listing.title, profile.make, known)
