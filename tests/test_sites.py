@@ -12,6 +12,7 @@ from tests.conftest import fake_client
 MOBILE_ROUTES = {
     "/svc/r/makes/Car": {"makes": [{"i": 3500, "n": "BMW"}, {"i": 16800, "n": "Mazda"}]},
     "/svc/r/models/16800": {"models": [{"i": 34, "n": "CX-3"}, {"i": 42, "n": "CX-30"}]},
+    "/de/93339": {"places": [{"place name": "Riedenburg", "longitude": "11.6833", "latitude": "48.9667", "state": "Bayern"}]},
 }
 KLEIN_ROUTES = {"/s-ort-empfehlungen.json": {"_0": "Deutschland", "_6234": "93339 Riedenburg"}}
 
@@ -41,8 +42,18 @@ def test_mobile_de_resolves_ids_and_builds_url(profile, cache):
     assert ("ml", ":160000") in q
     assert ("p", "8000:10000") in q
     assert ("ft", "PETROL") in q
-    assert ("zip", "93339") in q and ("zipr", "200") in q
+    # Current mobile.de location format (copied from a real search URL): coordinates + radius.
+    assert ("ll", "48.9667,11.6833") in q and ("rd", "200") in q and ("gn", "Riedenburg, Bayern") in q
+    assert ("cn", "DE") in q
+    assert not any(k in ("zip", "zipr") for k, _ in q)
     assert link.notes == []
+
+
+def test_mobile_de_without_coordinates_still_links(profile, cache):
+    routes = {k: v for k, v in MOBILE_ROUTES.items() if k != "/de/93339"}
+    link = MobileDe(fake_client(routes), cache).link(profile)
+    assert not any(k == "ll" for k, _ in query(link.url))
+    assert any("set the location" in n for n in link.notes)
 
 
 def test_mobile_de_caches_lookups(profile, cache):

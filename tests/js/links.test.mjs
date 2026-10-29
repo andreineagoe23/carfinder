@@ -39,11 +39,15 @@ test("snapRadius rounds up", () => {
 });
 
 test("mobile.de", () => {
+  const place = { latLng: "48.9667,11.6833", name: "Riedenburg, Bayern" };
+  // Same URL as the Python builder; location format copied from a real mobile.de search.
   assert.equal(
-    mobileDe(query, { make_id: "16800", model_id: "34" }).url,
+    mobileDe(query, { make_id: "16800", model_id: "34" }, place).url,
     "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false" +
-      "&ms=16800%3B34%3B%3B&fr=2015%3A2017&ml=%3A160000&p=8000%3A10000&ft=PETROL&zip=93339&zipr=200&cn=DE",
+      "&ms=16800%3B34%3B%3B&fr=2015%3A2017&ml=%3A160000&p=8000%3A10000&ft=PETROL&cn=DE" +
+      "&ll=48.9667%2C11.6833&rd=200&gn=Riedenburg%2C+Bayern",
   );
+  assert.ok(mobileDe(query, { make_id: "16800", model_id: "34" }, null).notes.some((n) => n.includes("location")));
   assert.ok(mobileDe(query, null).error);
 });
 

@@ -62,7 +62,9 @@ const MOBILE = {
   gearboxes: { manual: "MANUAL_GEAR", automatic: "AUTOMATIC_GEAR" },
 };
 
-export function mobileDe(q, ids) {
+// place: { latLng: "48.9667,11.6833", name: "Riedenburg, Bayern" } for the zip, looked up by the app.
+// mobile.de wants coordinates (ll/rd/gn); it ignores zip/zipr.
+export function mobileDe(q, ids, place) {
   if (!ids?.make_id || (q.model && !ids.model_id)) {
     return { error: `${q.make} ${q.model || ""} isn't in the mobile.de catalog` };
   }
@@ -83,10 +85,16 @@ export function mobileDe(q, ids) {
   }
   for (const f of q.fuel || []) params.append("ft", MOBILE.fuels[f]);
   for (const g of q.gearbox || []) params.append("tr", MOBILE.gearboxes[g]);
-  params.append("zip", q.location.zip);
-  params.append("zipr", String(radius));
   params.append("cn", q.location.country);
-  return { url: `${MOBILE.url}?${params}`, notes: note ? [note] : [] };
+  const notes = note ? [note] : [];
+  if (place) {
+    params.append("ll", place.latLng);
+    params.append("rd", String(radius));
+    params.append("gn", place.name);
+  } else {
+    notes.push(`couldn't locate zip ${q.location.zip}; set the location on the site`);
+  }
+  return { url: `${MOBILE.url}?${params}`, notes };
 }
 
 const AS24 = {
@@ -225,9 +233,9 @@ export function autoUncleRo(q) {
   return { url: parts.join("/"), notes: ["set years, price and km on the site", ...roCityNotes(q)] };
 }
 
-export function buildLinks(q, { mobileIds, kaLocationId } = {}) {
+export function buildLinks(q, { mobileIds, kaLocationId, place } = {}) {
   const builders = {
-    mobile_de: () => mobileDe(q, mobileIds),
+    mobile_de: () => mobileDe(q, mobileIds, place),
     autoscout24: () => autoScout24(q),
     kleinanzeigen: () => kleinanzeigen(q, kaLocationId),
     autovit: () => autovit(q),

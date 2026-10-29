@@ -28,6 +28,7 @@ const state = {
   catalog: { makes: [] },
   settings: { repo: "", token: "", ...store.get("settings", {}) },
   kaLocations: { ...KNOWN_KA_LOCATIONS, ...store.get("kaLocations", {}) },
+  places: Object.fromEntries(Object.entries(store.get("places", {})).filter(([, p]) => p)),
   result: null,
   shared: null, // shortlist opened from someone's #list= link
   view: "intro", // intro | results | shortlist
@@ -180,10 +181,32 @@ function flatKeys(obj, out = {}) {
 
 // ---------- site links
 
+/** Coordinates for a German zip (mobile.de searches by coordinates). Cached; re-renders links when found. */
+function placeFor(zip) {
+  if (!/^\d{5}$/.test(zip)) return null;
+  if (zip in state.places) return state.places[zip];
+  state.places[zip] = null; // lookup in flight
+  fetch(`https://api.zippopotam.us/de/${zip}`)
+    .then((r) => (r.ok ? r.json() : null))
+    .then((data) => {
+      const p = data?.places?.[0];
+      if (!p) return;
+      state.places[zip] = { latLng: `${p.latitude},${p.longitude}`, name: [p["place name"], p.state].filter(Boolean).join(", ") };
+      store.set("places", state.places);
+      renderLinks();
+    })
+    .catch(() => {});
+  return null;
+}
+
 function renderLinks() {
   const q = readForm();
   const links = q.sites.length
-    ? buildLinks(q, { mobileIds: mobileIds(q), kaLocationId: state.kaLocations[q.location.zip] })
+    ? buildLinks(q, {
+        mobileIds: mobileIds(q),
+        kaLocationId: state.kaLocations[q.location.zip],
+        place: placeFor(q.location.zip),
+      })
     : [];
   const groups = Object.keys(COUNTRIES)
     .map((country) => [country, links.filter((l) => l.country === country)])
