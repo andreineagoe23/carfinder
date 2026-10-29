@@ -1,0 +1,2407 @@
+{
+ "id": "2b401019cb93",
+ "query": {
+  "name": "Nissan (all models)",
+  "make": "Nissan",
+  "model": null,
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 160000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [
+   "petrol"
+  ],
+  "gearbox": [
+   "automatic"
+  ],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "18700"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-29T21:44:16Z",
+ "updated_at": "2026-10-29T21:44:16Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=18700%3B%3B%3B&fr=2014%3A2018&ml=%3A160000&p=%3A10000&ft=PETROL&tr=AUTOMATIC_GEAR&zip=93339&zipr=200&cn=DE",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/nissan?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=160000&priceto=10000&fuel=B&gear=A&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.fuel_s:benzin+autos.km_i:%2C160000+autos.marke_s:nissan+autos.shift_s:automatik",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/nissan?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=160000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_gearbox%5D=automatic",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/nissan/?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/nissan/?carfueltype=benzina&gearname=automata",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Nissan",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "autoscout24",
+   "source_id": "d9c8c8d7-ff97-420f-b2f3-453b238afef1",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-micra-acenta-1-2-automatik-klima-shz-tempomat-benzin-schwarz-cat_ma52gr201056ge1623va3595mt4465tr847-d9c8c8d7-ff97-420f-b2f3-453b238afef1",
+   "title": "Nissan Micra Acenta 1,2 Automatik Klima SHZ Tempomat",
+   "model": "Micra",
+   "price_eur": 8490,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 49004,
+   "year": 2016,
+   "first_registration": "03/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 80,
+   "zip": "72793",
+   "city": "Pfullingen",
+   "distance_km": 189,
+   "seller_type": "dealer",
+   "seller_name": "Eitel-Mobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/d9c8c8d7-ff97-420f-b2f3-453b238afef1_4a078ab2-bf29-40de-8761-05d7cf008458.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d9c8c8d7-ff97-420f-b2f3-453b238afef1_f7a118bd-c6be-43fd-bf11-1f4f456720e8.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d9c8c8d7-ff97-420f-b2f3-453b238afef1_964bc0af-d4df-4f20-b0e6-67431c72bfed.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d9c8c8d7-ff97-420f-b2f3-453b238afef1_6c081c6f-c4e5-4d10-9798-3a5ebc1b73dd.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d9c8c8d7-ff97-420f-b2f3-453b238afef1_b03b2139-9bf6-4624-9320-bd6e96f907e1.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d9c8c8d7-ff97-420f-b2f3-453b238afef1_88766828-c075-4ac4-be76-bef15c7c64f2.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 79,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8490
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060790161",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ID7HQm4h.html",
+   "title": "Nissan Juke",
+   "model": "Juke",
+   "price_eur": 6900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 149000,
+   "year": 2014,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": null,
+   "city": "Lugoj, Timis",
+   "distance_km": null,
+   "seller_type": "dealer",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/1e9w7c9vuvey-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 78,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 6900
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "9e896f68-fa05-4db8-a14f-84c79e089ebe",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-n-connecta-klima-navi-shz-pdc-assistenz-benzin-weiss-cat_ma52gr201054ge1650va3593mt4728tr5606-9e896f68-fa05-4db8-a14f-84c79e089ebe",
+   "title": "Nissan Qashqai N-Connecta *KLIMA*NAVI*SHZ*PDC*ASSISTENZ",
+   "model": "Qashqai",
+   "price_eur": 7490,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 133500,
+   "year": 2016,
+   "first_registration": "03/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "90571",
+   "city": "Schwaig",
+   "distance_km": 66,
+   "seller_type": "dealer",
+   "seller_name": "ASS Auto Service Schwaig",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_f40fc663-b682-4498-a91f-63bc7d4e7b56.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_4ee3be7f-f24b-419f-9cec-f811eae2f880.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_5510590a-730b-4201-9bbb-97453d540437.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_7d02ae9e-04d9-419b-b555-ac5ba2776924.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_7e7cbe4a-a2db-49ab-a40a-34888807fe83.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_17ca67b7-a765-4628-99a7-6cc4742a47d2.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-klima-navi-shz-pdc-assistenz/3522629147-216-6377",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 77,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 7490
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "69a7661d-3ac4-4501-a859-b18267b3f158",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-juke-acenta-benzin-grau-cat_ma52gr201057ge1609va3596mt4201tr853-69a7661d-3ac4-4501-a859-b18267b3f158",
+   "title": "Nissan Juke Acenta",
+   "model": "Juke",
+   "price_eur": 8800,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 38508,
+   "year": 2015,
+   "first_registration": "04/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": "89407",
+   "city": "Hausen (Dillingen a.d.Donau)",
+   "distance_km": 98,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/69a7661d-3ac4-4501-a859-b18267b3f158_2c809078-8fed-4af3-8aa1-2cf644505c5e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/69a7661d-3ac4-4501-a859-b18267b3f158_55d33ab3-12e2-4d81-be02-d8bab38915ef.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/69a7661d-3ac4-4501-a859-b18267b3f158_59ea2649-1e8d-4fbc-8824-802f56ae45fc.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/69a7661d-3ac4-4501-a859-b18267b3f158_efa1498f-8bd1-4266-ad4b-fd21c57fa5b1.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/69a7661d-3ac4-4501-a859-b18267b3f158_81996e8b-e730-48d6-8cd0-28f900d49625.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/69a7661d-3ac4-4501-a859-b18267b3f158_256c35a6-019c-425e-94f9-48216365ef37.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke/3537245879-216-7106",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 74,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8800
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060915698",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQSJ4.html",
+   "title": "Nissan Qashqai",
+   "model": "Qashqai",
+   "price_eur": 4300,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 123000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 115,
+   "zip": null,
+   "city": "Sibiu",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/domn14e16w3r2-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 74,
+   "flags": [
+    "52% below similar cars — check for damage or scam",
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 4300
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "01ba6ff2-0319-4126-8917-a7e338bf3657",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-micra-acenta-automatic-klima-pdc-shz-alu-wenig-km-benzin-grau-cat_ma52gr201056ge1623va3595mt4465tr847-01ba6ff2-0319-4126-8917-a7e338bf3657",
+   "title": "Nissan Micra Acenta/Automatic/Klima/PDC/SHZ/Alu/wenig KM",
+   "model": "Micra",
+   "price_eur": 8860,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 70700,
+   "year": 2016,
+   "first_registration": "09/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 80,
+   "zip": "63868",
+   "city": "Grosswallstadt",
+   "distance_km": 210,
+   "seller_type": "dealer",
+   "seller_name": "Image-Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/01ba6ff2-0319-4126-8917-a7e338bf3657_0328960d-3dd7-4552-94da-1218bb6bc828.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/01ba6ff2-0319-4126-8917-a7e338bf3657_6e4c03c3-021e-4ac7-976a-21e74af303a0.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/01ba6ff2-0319-4126-8917-a7e338bf3657_fac7502b-28c2-4198-a3e1-563f92b411b0.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/01ba6ff2-0319-4126-8917-a7e338bf3657_fc6c1040-3fbb-41f3-8f9e-5c21c6c54c98.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/01ba6ff2-0319-4126-8917-a7e338bf3657_a99e80c3-84ef-4659-95e0-d9ab35c30555.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/01ba6ff2-0319-4126-8917-a7e338bf3657_3a4817cf-8642-4725-8903-a9f58e153a7f.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 73,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8860
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3532689946",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta/3532689946-216-8362",
+   "title": "Nissan Qashqai N-Connecta",
+   "model": "Qashqai",
+   "price_eur": 6200,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 119707,
+   "year": 2017,
+   "first_registration": "12/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "71570",
+   "city": "Oppenweiler",
+   "distance_km": 163,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f1/f1a180b1-bf83-4533-9954-127f6cc3a14e?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 72,
+   "flags": [
+    "31% below similar cars — check for damage or scam"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 6200
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "e09a1fe5-65d3-43d0-83f0-57f0df517bfc",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-pulsar-1-2-automatik-2-hand-tempo-shz-tuev-neu-benzin-weiss-cat_ma52gr201068ge1648mt4725tr860-e09a1fe5-65d3-43d0-83f0-57f0df517bfc",
+   "title": "Nissan Pulsar 1.2 AUTOMATIK*2.HAND *TEMPO *SHZ *TÜV NEU",
+   "model": "Pulsar",
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 80000,
+   "year": 2018,
+   "first_registration": "08/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "86641",
+   "city": "Rain am Lech",
+   "distance_km": 64,
+   "seller_type": "dealer",
+   "seller_name": "Autohaus NORD CARS",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/e09a1fe5-65d3-43d0-83f0-57f0df517bfc_fd17426b-d539-49d3-ab2a-a4419187699c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e09a1fe5-65d3-43d0-83f0-57f0df517bfc_1e0f03c8-49c1-4a5c-9282-0560e886d97e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e09a1fe5-65d3-43d0-83f0-57f0df517bfc_7073f5f0-578b-4dbf-8df3-de6f2d9c0f8c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e09a1fe5-65d3-43d0-83f0-57f0df517bfc_230b6aa4-b06e-4e21-95c5-c5edbc6fc2df.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e09a1fe5-65d3-43d0-83f0-57f0df517bfc_651aaa1f-97f2-42f9-bead-d1fbcea094df.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e09a1fe5-65d3-43d0-83f0-57f0df517bfc_ad0b9382-0818-44e5-a850-28e279254311.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-pulsar-1-2-automatik-2-hand-tempo-shz-tuev-neu/3554421695-216-7155",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 70,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "02c22d06-47c8-4c3a-b09d-bf4fe9e80711",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-micra-1-2-dig-s-tekna-aut-facelift-keyless-lm-sd-benzin-weiss-cat_ma52gr201056ge1623va3595mt4466tr7815-02c22d06-47c8-4c3a-b09d-bf4fe9e80711",
+   "title": "Nissan Micra 1.2 DIG-S Tekna AUT Facelift KeyLess LM SD",
+   "model": "Micra",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 27344,
+   "year": 2014,
+   "first_registration": "02/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 98,
+   "zip": "80687",
+   "city": "München",
+   "distance_km": 93,
+   "seller_type": "dealer",
+   "seller_name": "DIT München GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/02c22d06-47c8-4c3a-b09d-bf4fe9e80711_546f1f56-daba-4e08-a13d-e612d548007f.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/02c22d06-47c8-4c3a-b09d-bf4fe9e80711_ffd7c7c6-2f09-40bf-8407-9da1d411fd6d.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/02c22d06-47c8-4c3a-b09d-bf4fe9e80711_57547011-e261-4fe0-bd88-45da5f924e78.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/02c22d06-47c8-4c3a-b09d-bf4fe9e80711_15fa91ac-0748-40bd-a843-89d7605206db.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/02c22d06-47c8-4c3a-b09d-bf4fe9e80711_1cc65b61-2798-4388-ab8d-dc8736d3e7f9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/02c22d06-47c8-4c3a-b09d-bf4fe9e80711_6810b1e6-a886-479d-8c7c-9eefb9e86c6e.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 70,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "82e47b61-d06d-41bb-84c5-821034a087b5",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-n-connecta-navi-autom-rfk-shz-benzin-violett-cat_ma52gr201054ge1650va3593mt4728tr5606-82e47b61-d06d-41bb-84c5-821034a087b5",
+   "title": "Nissan Qashqai N-Connecta, Navi, Autom, RFK, SHZ",
+   "model": "Qashqai",
+   "price_eur": 8499,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 118147,
+   "year": 2016,
+   "first_registration": "11/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "90765",
+   "city": "Fürth",
+   "distance_km": 77,
+   "seller_type": "dealer",
+   "seller_name": "BB Autohandel & Vermittlung",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_3003c4bf-b9c0-40c7-81be-8970f5548a2a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_831fb968-091b-4694-81a9-8bb611e14f7f.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_31ed2268-8626-4e20-aef9-0210a3195b68.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_ed907a15-00d8-4ecb-93aa-114e2edcbe3b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_9a04ab88-4790-46e4-bd53-73ea48f37507.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_6688e7fd-37be-421a-8d02-07327e1e9ea2.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 68,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8499
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "c10e0604-56f2-41e7-aacc-e6e26b846712",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-micra-tekna-automatik-pano-navi-pdc-klima-benzin-weiss-cat_ma52gr201056ge1623va3595mt4466tr7815-c10e0604-56f2-41e7-aacc-e6e26b846712",
+   "title": "Nissan Micra Tekna Automatik Pano Navi PDC Klima",
+   "model": "Micra",
+   "price_eur": 7990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 67618,
+   "year": 2014,
+   "first_registration": "05/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 98,
+   "zip": "80999",
+   "city": "München",
+   "distance_km": 89,
+   "seller_type": "dealer",
+   "seller_name": "IK Automobile München",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/c10e0604-56f2-41e7-aacc-e6e26b846712_a6423942-0927-41c8-bf90-2551f1df2843.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10e0604-56f2-41e7-aacc-e6e26b846712_7403bac9-f019-40d5-b428-39296b7cec16.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10e0604-56f2-41e7-aacc-e6e26b846712_15838aae-a030-4141-a4b2-449244e256cd.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10e0604-56f2-41e7-aacc-e6e26b846712_2b15eb4c-7513-4255-add9-4f31705eb6d2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10e0604-56f2-41e7-aacc-e6e26b846712_b62b13cc-54ec-469d-b403-3833ae1cc321.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10e0604-56f2-41e7-aacc-e6e26b846712_44b513b1-f652-4837-b51b-632145671311.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-micra-tekna-automatik-pano-navi-pdc-klima/3549541881-216-6445",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 64,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 7990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "b31340b8-2540-47f8-92a4-16a02d5ae256",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-acenta-navi-kamera-benzin-weiss-cat_ma52gr201054ge1650va3593mt4728tr846-b31340b8-2540-47f8-92a4-16a02d5ae256",
+   "title": "Nissan Qashqai Acenta/ Navi / Kamera",
+   "model": "Qashqai",
+   "price_eur": 8490,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 146500,
+   "year": 2017,
+   "first_registration": "02/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "74080",
+   "city": "Heilbronn",
+   "distance_km": 183,
+   "seller_type": "dealer",
+   "seller_name": "Auto- Center- Heilbronn",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_06706251-5069-4dcd-9761-c74460e72919.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_3ca6a28a-1b1e-4a23-ab66-c495d72c078c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_0a38ff34-2bae-4026-bdca-7b200dc78100.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_9eb519dd-627b-4c22-9484-7d00564412fb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_56cf5832-bc83-480d-bc6d-5a7188d78fa9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_cfe19054-74cf-4a22-8d27-2870738ac314.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-automatik/3501152399-216-9247",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 64,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8490
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3493396755",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-360-automatik-panorama-navi-keyless-kam/3493396755-216-8684",
+   "title": "Nissan Qashqai 360° Automatik Panorama Navi Keyless Kam",
+   "model": "Qashqai",
+   "price_eur": 7990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 70000,
+   "year": 2015,
+   "first_registration": "06/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89155",
+   "city": "Erbach",
+   "distance_km": 149,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2b/2b497877-7d28-4b8f-8002-b327bfa46149?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 64,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 7990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "f1553d66-fcd2-4cfc-99a4-3b8bb34a1a5d",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-juke-acenta-nissan-connect-benzin-schwarz-cat_ma52gr201057ge1609va3596mt4201tr853-f1553d66-fcd2-4cfc-99a4-3b8bb34a1a5d",
+   "title": "Nissan Juke Acenta*Nissan Connect*",
+   "model": "Juke",
+   "price_eur": 9490,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 61200,
+   "year": 2016,
+   "first_registration": "05/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": "74653",
+   "city": "Künzelsau",
+   "distance_km": 150,
+   "seller_type": "dealer",
+   "seller_name": "Auto Walter GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/f1553d66-fcd2-4cfc-99a4-3b8bb34a1a5d_323ce8cd-5ec1-4a16-a541-2e36823bb36e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f1553d66-fcd2-4cfc-99a4-3b8bb34a1a5d_5ffeb439-c89b-49cd-b01b-a1ca32788b7e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f1553d66-fcd2-4cfc-99a4-3b8bb34a1a5d_1a3caae5-1c2e-43b0-adda-ca1b1bf68896.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f1553d66-fcd2-4cfc-99a4-3b8bb34a1a5d_2fb06c09-6d40-4161-865d-190a5ae5e368.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f1553d66-fcd2-4cfc-99a4-3b8bb34a1a5d_8df54056-9bf4-4dae-a668-1d4a9611b64e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f1553d66-fcd2-4cfc-99a4-3b8bb34a1a5d_fe855095-59db-451c-939a-a60cb1384c7c.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-acenta-nissan-connect-/3533699717-216-9259",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 63,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9490
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "07f5b048-1eee-4094-85d8-835f3a190f52",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-juke-n-connecta-4x4-benzin-schwarz-cat_ma52gr201057ge1609va3596mt4202tr5608-07f5b048-1eee-4094-85d8-835f3a190f52",
+   "title": "Nissan Juke N-Connecta 4x4",
+   "model": "Juke",
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 88000,
+   "year": 2017,
+   "first_registration": "07/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 190,
+   "zip": "70376",
+   "city": "Stuttgart",
+   "distance_km": 183,
+   "seller_type": "dealer",
+   "seller_name": "CH Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/07f5b048-1eee-4094-85d8-835f3a190f52_23d1db26-0463-40da-9af9-2208554c9ac2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/07f5b048-1eee-4094-85d8-835f3a190f52_63154353-5f76-43a1-a801-1ccad2489915.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/07f5b048-1eee-4094-85d8-835f3a190f52_9ca9dfc7-ee8a-4cbf-9725-1ee1591acca7.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/07f5b048-1eee-4094-85d8-835f3a190f52_e6619a21-6d36-414f-a3cd-d765f1710f9c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/07f5b048-1eee-4094-85d8-835f3a190f52_f383f124-45e7-40d4-8e85-95562e596cc5.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/07f5b048-1eee-4094-85d8-835f3a190f52_6190e4a3-2b04-4f26-b222-036f0c0f0ab9.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 61,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "b3b72c79-0075-46c2-9051-6b3c2d3f6dfd",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-juke-n-connecta-190-ps-allrad-xenon-benzin-silber-cat_ma52gr201057ge1609va3596mt4202tr5608-b3b72c79-0075-46c2-9051-6b3c2d3f6dfd",
+   "title": "Nissan Juke N-CONNECTA 190 PS ( * ALLRAD * XENON * )",
+   "model": "Juke",
+   "price_eur": 9890,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 94990,
+   "year": 2016,
+   "first_registration": "06/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 190,
+   "zip": "83512",
+   "city": "Wasserburg",
+   "distance_km": 110,
+   "seller_type": "dealer",
+   "seller_name": "Huber GebrauchtWagenPark GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/b3b72c79-0075-46c2-9051-6b3c2d3f6dfd_3a2516aa-ceb7-4a07-9fc7-9bcb9af1e1cb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b3b72c79-0075-46c2-9051-6b3c2d3f6dfd_34e4a4e1-d096-4aa3-856b-3395f9aa698b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b3b72c79-0075-46c2-9051-6b3c2d3f6dfd_c9af8e98-c64c-4abf-a6ad-442e559f58ab.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b3b72c79-0075-46c2-9051-6b3c2d3f6dfd_2e2a4133-65dd-4d2b-a732-de311e9cd016.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b3b72c79-0075-46c2-9051-6b3c2d3f6dfd_9dff83fa-7633-4838-8b2d-1fd9e8f993cb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b3b72c79-0075-46c2-9051-6b3c2d3f6dfd_12c3a01a-a0b4-420d-b1e4-4a0d84ecd5c2.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 61,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9890
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "b6bec19d-7e76-4c44-8f13-0b31577a29fb",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-pulsar-tekna-automatic-benzin-rot-cat_ma52gr201068ge1648mt4725tr7827-b6bec19d-7e76-4c44-8f13-0b31577a29fb",
+   "title": "Nissan Pulsar Tekna Automatic",
+   "model": "Pulsar",
+   "price_eur": 5750,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 63000,
+   "year": 2016,
+   "first_registration": "12/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "94469",
+   "city": "Deggendorf",
+   "distance_km": 95,
+   "seller_type": "dealer",
+   "seller_name": "Thomas-Mobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/b6bec19d-7e76-4c44-8f13-0b31577a29fb_b1a71d0c-9ebf-4811-b542-2cf4b76d6421.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b6bec19d-7e76-4c44-8f13-0b31577a29fb_d0ed0260-fdf3-4df2-85f9-887fdf5f165c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b6bec19d-7e76-4c44-8f13-0b31577a29fb_c3c72cdd-250c-40bb-aaa6-31a538fd50d0.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b6bec19d-7e76-4c44-8f13-0b31577a29fb_0530d377-1a02-4b0f-b4c9-3c353f52b58b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b6bec19d-7e76-4c44-8f13-0b31577a29fb_5c232c03-06e2-40f7-827c-184ba529c987.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b6bec19d-7e76-4c44-8f13-0b31577a29fb_d5302820-d7ac-4cf7-b048-8fd1ab710079.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 59,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 5750
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060938491",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ID7HQYEH.html",
+   "title": "Nissan Juke",
+   "model": "Juke",
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 67700,
+   "year": 2016,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": null,
+   "city": "Medgidia, Constanta",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/4ya8l344enf03-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 59,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "b71c0006-79b6-40ec-8fab-febf395a822a",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-note-acenta-benzin-weiss-cat_ma52gr201062ge1630mt4533tr850-b71c0006-79b6-40ec-8fab-febf395a822a",
+   "title": "Nissan Note Acenta",
+   "model": "Note",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 77700,
+   "year": 2015,
+   "first_registration": "02/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 98,
+   "zip": "75446",
+   "city": "Wiernsheim",
+   "distance_km": 208,
+   "seller_type": "dealer",
+   "seller_name": "Mulliqi Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/b71c0006-79b6-40ec-8fab-febf395a822a_417e57a3-2b03-4c1c-bcb4-b97e5061bf7c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b71c0006-79b6-40ec-8fab-febf395a822a_4b775fb4-6b9b-43ec-b33f-a961117531fa.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b71c0006-79b6-40ec-8fab-febf395a822a_262378d5-cf3e-4648-adcb-954f16ff2deb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b71c0006-79b6-40ec-8fab-febf395a822a_9cceea6a-526a-4bfd-b56c-5394eb8108ac.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b71c0006-79b6-40ec-8fab-febf395a822a_8b728ab3-e97f-438e-89b8-cb77ceab0b37.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b71c0006-79b6-40ec-8fab-febf395a822a_9eaf696d-3487-4c7a-ab15-b4eb438dc949.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 58,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060799236",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ver-1-6l-dig-t-x-tronic-m8-4x4-nismo-rs-ID7HQoqE.html",
+   "title": "Nissan Juke 1.6L DIG-T X-TRONIC-M8 4X4 Nismo RS",
+   "model": "Juke",
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 101000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 215,
+   "zip": null,
+   "city": "Brasov",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/1l9k41ginlxy1-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 58,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3512295660",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-1-6-dig-t-n-connecta-4x4-xtronic-m7-n-c-/3512295660-216-9062",
+   "title": "Nissan Juke 1.6 DIG-T N-CONNECTA 4x4 Xtronic-M7 N-C...",
+   "model": "Juke",
+   "price_eur": 7600,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 8700,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 144000,
+   "year": 2018,
+   "first_registration": "01/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "71638",
+   "city": "Ludwigsburg",
+   "distance_km": 182,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bb/bbc3be7e-955a-4c96-817d-60535597c012?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 58,
+   "flags": [
+    "Price reduced from €8,700"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 7600
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "e8832690-76ae-4102-ae46-73a48eb55a88",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-tekna-benzin-schwarz-cat_ma52gr201054ge1650va3593mt4728tr7812-e8832690-76ae-4102-ae46-73a48eb55a88",
+   "title": "Nissan Qashqai Tekna",
+   "model": "Qashqai",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 60000,
+   "year": 2016,
+   "first_registration": "07/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "75446",
+   "city": "Wiernsheim",
+   "distance_km": 208,
+   "seller_type": "dealer",
+   "seller_name": "Mulliqi Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_7a418a64-f8fb-4d2c-b1ad-ffd3a70b4799.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_14dc2c40-d033-4965-bb6d-0acd297c8e14.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_b500a283-16eb-4ae1-9e3b-d520cdff3772.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_0edc2a8f-57ae-427e-8b0c-69007198e080.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_bf4536c1-1d8f-4124-917f-27442bd8ea72.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_5056da01-0914-48a3-a50d-a83923a76ee7.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 56,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060896083",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ID7HQNCH.html",
+   "title": "Nissan Juke",
+   "model": "Juke",
+   "price_eur": 8999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 51000,
+   "year": 2016,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": null,
+   "city": "Braila",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/fvihb9o06lwq-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 55,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3526171218",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/-getriebeschaden-nissan-qashqai-j11-tekna-automatik-1-2-dig/3526171218-216-6400",
+   "title": "!Getriebeschaden! Nissan Qashqai J11 TEKNA/ Automatik 1.2 DIG",
+   "model": "Qashqai",
+   "price_eur": 6399,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 104757,
+   "year": 2015,
+   "first_registration": "05/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "84137",
+   "city": "Vilsbiburg",
+   "distance_km": 74,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b0/b0eb4aea-f421-4f01-aee8-864f2e791cdf?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 55,
+   "flags": [
+    "Title mentions “schaden” — likely damage or defect"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 6399
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3539629279",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-note-n-tec-navi-automatik-360-alu-shz/3539629279-216-8603",
+   "title": "Nissan Note N-Tec Navi Automatik 360° Alu SHZ",
+   "model": "Note",
+   "price_eur": 6500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 45900,
+   "year": 2015,
+   "first_registration": "11/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "74831",
+   "city": "Gundelsheim",
+   "distance_km": 188,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/80/808a6962-b6be-4d9d-8297-c939978fec05?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 55,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 6500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3531544624",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-4x4i-system-mit-torque-vectoring-drehmomentverteilung/3531544624-216-8351",
+   "title": "Nissan Juke 4x4i System mit torque vectoring drehmomentverteilung",
+   "model": "Juke",
+   "price_eur": 8700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 125000,
+   "year": 2015,
+   "first_registration": "02/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "88285",
+   "city": "Bodnegg",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2d/2d89aef8-6b86-43f7-b4e2-9f48f1f9770d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 54,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8700
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3546290824",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-klima-pano-automatik-kamera/3546290824-216-16909",
+   "title": "Nissan Qashqai N-Connecta-KLIMA-PANO-AUTOMATIK-KAMERA",
+   "model": "Qashqai",
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 105000,
+   "year": 2017,
+   "first_registration": "02/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "94469",
+   "city": "Deggendorf",
+   "distance_km": 95,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f03635ea-d8c3-4ead-bf31-713509404622?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 53,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3549201473",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-micra-1-2-acenta-cvt-acenta/3549201473-216-9056",
+   "title": "Nissan Micra 1.2 Acenta CVT Acenta",
+   "model": "Micra",
+   "price_eur": 6300,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 89000,
+   "year": 2014,
+   "first_registration": "09/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89520",
+   "city": "Heidenheim an der Brenz",
+   "distance_km": 114,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/bac16005-258e-46c2-8d54-725c6af804e7?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 53,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 6300
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3555701207",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-note-acenta-2-hand-autom-klimaauto-/3555701207-216-6623",
+   "title": "Nissan Note Acenta|2.Hand|Autom.|Klimaauto.|",
+   "model": "Note",
+   "price_eur": 8450,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 69300,
+   "year": 2017,
+   "first_registration": "03/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "84453",
+   "city": "Mühldorf a.Inn",
+   "distance_km": 98,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7d63ad91-3f1e-43f7-beb9-b266d0d3b9d2?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 52,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8450
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "4e08b91c-0bbc-4dad-af02-417d9f594c6d",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-juke-acenta-automatik-navi-pano-kamera360-8-fach-benzin-blau-cat_ma52gr201057ge1609va3596mt4201tr853-4e08b91c-0bbc-4dad-af02-417d9f594c6d",
+   "title": "Nissan Juke Acenta Automatik*NAVI*PANO*KAMERA360*8-fach",
+   "model": "Juke",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 100000,
+   "year": 2015,
+   "first_registration": "02/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": "86836",
+   "city": "Untermeitingen",
+   "distance_km": 109,
+   "seller_type": "dealer",
+   "seller_name": "Auto Songut",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/4e08b91c-0bbc-4dad-af02-417d9f594c6d_e8bdd86e-315e-4942-98cb-01b1b85025eb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4e08b91c-0bbc-4dad-af02-417d9f594c6d_75eedd21-a72a-4f8c-8402-18c0f7b65252.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4e08b91c-0bbc-4dad-af02-417d9f594c6d_6426131c-0b63-42d4-acb2-90164e2bf86a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4e08b91c-0bbc-4dad-af02-417d9f594c6d_5dc2483c-4c7c-4d01-8863-b7d56112a134.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4e08b91c-0bbc-4dad-af02-417d9f594c6d_b41dfbb4-59ae-4daf-a3f6-b63c00f78c91.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4e08b91c-0bbc-4dad-af02-417d9f594c6d_727048fd-5749-41cc-8930-6fcba1e7dd09.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 50,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060922227",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ID7HQUqn.html",
+   "title": "Nissan Juke",
+   "model": "Juke",
+   "price_eur": 9490,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 89693,
+   "year": 2017,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": null,
+   "city": "Suceava",
+   "distance_km": null,
+   "seller_type": "dealer",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/6i9vjpwulc7c2-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 50,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9490
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060795095",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ID7HQnlR.html",
+   "title": "Nissan Juke",
+   "model": "Juke",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 97000,
+   "year": 2017,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": null,
+   "city": "Balan, Harghita",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/6xbn0zu3vvj43-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 50,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3548868010",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-1-6-dig-t-nismo-rs-4x4/3548868010-216-7138",
+   "title": "Nissan Juke 1.6 DIG-T NISMO RS 4x4",
+   "model": "Juke",
+   "price_eur": 9000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 150000,
+   "year": 2015,
+   "first_registration": "02/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "86316",
+   "city": "Friedberg",
+   "distance_km": 83,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/ee2d2dab-dd9a-44e7-852c-f749f97fe700?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3537837820",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-micra/3537837820-216-7619",
+   "title": "Nissan Micra",
+   "model": "Micra",
+   "price_eur": 9300,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 9500,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 56000,
+   "year": 2017,
+   "first_registration": "05/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "87435",
+   "city": "Kempten",
+   "distance_km": 172,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d3/d3e0b3cd-b397-4e47-a5a6-3d70f12af1b7?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "flags": [
+    "Price reduced from €9,500"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9300
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "3f02fb74-2e3f-4d8f-9fbe-57ae55024eaa",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-juke-1-6-dig-t-all-mode-4x4i-xtronic-nismo-rs-benzin-cat_ma52gr201057ge1609va1604mt4202tr480575-3f02fb74-2e3f-4d8f-9fbe-57ae55024eaa",
+   "title": "Nissan Juke 1.6 DIG-T ALL-MODE 4x4i Xtronic Nismo RS",
+   "model": "Juke",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 145000,
+   "year": 2017,
+   "first_registration": "01/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 213,
+   "zip": "89257",
+   "city": "Illertissen ",
+   "distance_km": 140,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/3f02fb74-2e3f-4d8f-9fbe-57ae55024eaa_ebfdeaaf-ff0b-408f-b027-e7c729c27a6b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/3f02fb74-2e3f-4d8f-9fbe-57ae55024eaa_d1806241-cd3f-4316-8529-881acc121ccc.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/3f02fb74-2e3f-4d8f-9fbe-57ae55024eaa_f6a82baa-d718-47d1-badb-2111ae198fbd.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/3f02fb74-2e3f-4d8f-9fbe-57ae55024eaa_09fe5e7f-00f9-45ff-8460-9d5d7173dc57.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/3f02fb74-2e3f-4d8f-9fbe-57ae55024eaa_0923ccc1-7498-4d14-b588-34cd0578bb96.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/3f02fb74-2e3f-4d8f-9fbe-57ae55024eaa_be1718f5-1d6c-4fd4-8dc6-88f1e876e493.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 48,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "7554b4b3-be6b-454c-940f-567cf0969235",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-qashqai-1-2-dig-t-xtronic-360-benzin-blau-cat_ma52gr201054ge1650va3593mt4728tr714-7554b4b3-be6b-454c-940f-567cf0969235",
+   "title": "Nissan Qashqai Qashqai 1.2 DIG-T Xtronic 360",
+   "model": "Qashqai",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 115000,
+   "year": 2015,
+   "first_registration": "09/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "83209",
+   "city": "Prien a.Chiemsee, M",
+   "distance_km": 133,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_278dffa9-6bce-41b8-b76a-5e1fdf286615.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_43e97ff8-7180-470e-bb46-be6c68804617.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_e6d267d1-ce4f-4513-a87a-3b90821f71cf.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_5b9bf726-383c-4e40-89ce-51d617542f9b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_0c843b5c-4e9d-46ee-8ef0-366c08a8b8cc.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_68d18e61-1df4-4fe4-81be-439baa5b6e0c.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 48,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "642eb6f5-2efe-48cc-aab9-6ec5f1a06bba",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-acenta-1-2-automatik-tuev-neu-kamera-18-benzin-grau-cat_ma52gr201054ge1650va3593mt4728tr846-642eb6f5-2efe-48cc-aab9-6ec5f1a06bba",
+   "title": "Nissan Qashqai Acenta 1.2*Automatik*TÜV NEU*KAMERA*18\"*",
+   "model": "Qashqai",
+   "price_eur": 9995,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 113419,
+   "year": 2017,
+   "first_registration": "04/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "74906",
+   "city": "Bad Rappenau",
+   "distance_km": 192,
+   "seller_type": "dealer",
+   "seller_name": "Autohaus am Wasserschloss",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_465c8297-97a3-4733-979a-358ae192c2cb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_6726614b-04f3-4757-84fd-ec105e6f572e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_21776b2c-cdb6-446d-bf63-8c464428ba7b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_697f9359-df70-44ee-b078-2ddb56f77295.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_47a053f9-ec86-4c7c-b358-769a911aee12.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_ac3c668b-3af4-4a68-b52c-b7441da16a50.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 48,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9995
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7059775818",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-2-dig-t-xtronic-n-vision-ID7HM6bU.html",
+   "title": "Nissan Qashqai 1.2 DIG-T Xtronic N-Vision",
+   "model": "Qashqai",
+   "price_eur": 8950,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 132000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 115,
+   "zip": null,
+   "city": "Tarnaveni, Mures",
+   "distance_km": null,
+   "seller_type": "dealer",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/4p23j2g1ms343-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 48,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8950
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060938224",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ID7HQYAo.html",
+   "title": "Nissan Juke",
+   "model": "Juke",
+   "price_eur": 9200,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 98082,
+   "year": 2016,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 117,
+   "zip": null,
+   "city": "Craiova, Dolj",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/tn9nlgdxrlzc3-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 48,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9200
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3527180519",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-pulsar-1-2-dig-t-tekna-automat/3527180519-216-7246",
+   "title": "Nissan Pulsar 1.2 DIG-T TEKNA AUTOMAT",
+   "model": "Pulsar",
+   "price_eur": 7650,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 121760,
+   "year": 2016,
+   "first_registration": "09/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "95032",
+   "city": "Hof (Saale)",
+   "distance_km": 150,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f7f8aa0-c23c-475c-a0d9-6e1986741b5a?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 48,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 7650
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3539135925",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-automatik-panorama-360-kam/3539135925-216-4616",
+   "title": "Nissan Qashqai N-Connecta/ Automatik/ Panorama/ 360*kam",
+   "model": "Qashqai",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 96600,
+   "year": 2017,
+   "first_registration": "11/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "36100",
+   "city": "Petersberg",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3d/3d1d6d5e-8238-4520-8378-09475cf5b5cf?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3550076390",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-1-6-dig-t-n-connecta-4x4-xtronic-m7/3550076390-216-6706",
+   "title": "Nissan Juke 1.6 DIG-T N-CONNECTA 4x4 Xtronic-M7",
+   "model": "Juke",
+   "price_eur": 8999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 128000,
+   "year": 2017,
+   "first_registration": "05/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89335",
+   "city": "Ichenhausen",
+   "distance_km": 121,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/89842671-fb61-4ad2-857f-4a99e9960cb4?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 46,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8999
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060856980",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-2-dig-t-start-stop-x-tronic-tekna-ID7HQDs0.html",
+   "title": "Nissan Qashqai 1.2 DIG-T Start/Stop X-TRONIC Tekna",
+   "model": "Qashqai",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 114000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 115,
+   "zip": null,
+   "city": "Sibiu",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/yihtao1j7b4h3-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 45,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3545572249",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-n-connecta-ahk-navi-service-neu-garantie/3545572249-216-9025",
+   "title": "Nissan Juke N-Connecta AHK NAVI Service NEU GARANTIE",
+   "model": "Juke",
+   "price_eur": 9499,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 85000,
+   "year": 2017,
+   "first_registration": "06/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "73035",
+   "city": "Göppingen",
+   "distance_km": 151,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/51/51e60c98-9d11-47e5-a658-fb5c579a480d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 45,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9499
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3525107828",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-nissimo/3525107828-216-6651",
+   "title": "Nissan juke nissimo",
+   "model": "Juke",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 9000,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 146000,
+   "year": 2017,
+   "first_registration": "04/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89257",
+   "city": "Illertissen",
+   "distance_km": 142,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c8/c8bbd1be-3173-4fb6-9bec-d85ec1038052?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 45,
+   "flags": [
+    "Price reduced from €9,000"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3501836809",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-miami/3501836809-216-6651",
+   "title": "Nissan juke Miami",
+   "model": "Juke",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 9200,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 145000,
+   "year": 2017,
+   "first_registration": "09/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89257",
+   "city": "Illertissen",
+   "distance_km": 142,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/80/800bc0c6-c02e-435f-a249-457a7f56ed5a?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 45,
+   "flags": [
+    "Price reduced from €9,200"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3543608670",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-1-6-dig-t-nismo-rs-4x4-xtronic-m7-nismo-rs/3543608670-216-6651",
+   "title": "Nissan Juke 1.6 DIG-T NISMO RS 4x4 Xtronic-M7 NISMO RS",
+   "model": "Juke",
+   "price_eur": 9000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 146000,
+   "year": 2017,
+   "first_registration": "04/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89257",
+   "city": "Illertissen",
+   "distance_km": 142,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b0/b0a2be73-7039-49ec-aa52-3ea5460fa85b?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 44,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3555547928",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-micra-n-tec/3555547928-216-6152",
+   "title": "Nissan Micra N-Tec",
+   "model": "Micra",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 63409,
+   "year": 2016,
+   "first_registration": "05/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "97724",
+   "city": "Burglauer",
+   "distance_km": 183,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d9/d9882046-7c33-444a-b6f0-c9200060f45c?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 42,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3453359791",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-nismo-rs/3453359791-216-6058",
+   "title": "Nissan Juke NISMO RS",
+   "model": "Juke",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10900,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 116500,
+   "year": 2015,
+   "first_registration": "04/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "83533",
+   "city": "Edling",
+   "distance_km": 105,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f377f754-b881-477b-946b-10d3c6c8a621?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 39,
+   "flags": [
+    "Price reduced from €10,900"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3456353790",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke-1-6-dig-t-nismo-rs-4x4-xtronic-automatik/3456353790-216-6058",
+   "title": "Nissan Juke 1.6 DIG-T NISMO RS 4x4 Xtronic Automatik",
+   "model": "Juke",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10500,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 116500,
+   "year": 2015,
+   "first_registration": "04/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "83533",
+   "city": "Edling",
+   "distance_km": 105,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8e198a1f-fa67-40a2-9116-a500c63d7af3?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 39,
+   "flags": [
+    "Price reduced from €10,500"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3501065854",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-juke/3501065854-216-13077",
+   "title": "Nissan juke",
+   "model": "Juke",
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10500,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 110000,
+   "year": 2014,
+   "first_registration": "09/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "91413",
+   "city": "Neustadt an der Aisch",
+   "distance_km": 107,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a3/a3dd6331-bf73-49c9-a310-3351af2ce3b8?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 38,
+   "flags": [
+    "Price reduced from €10,500"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "4f57bf78-437b-4839-bb44-e9b3b5840cd1",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-tekna-benzin-blau-cat_ma52gr201054ge1650va3593mt4728tr7812-4f57bf78-437b-4839-bb44-e9b3b5840cd1",
+   "title": "Nissan Qashqai Tekna",
+   "model": "Qashqai",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 140000,
+   "year": 2016,
+   "first_registration": "12/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "74613",
+   "city": "Oehringen",
+   "distance_km": 163,
+   "seller_type": "dealer",
+   "seller_name": "Autohaus Hübel GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_21227a22-6981-4f91-84a0-7ee235a66dd3.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_7d04d3ef-27a0-4276-a707-ce8fd35faf55.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_4ba5926d-e70f-4e9a-85c0-64315af9a398.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_99198ac7-4344-4041-b4a2-edbd6bd94556.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_06b673a7-600a-4a3f-b5ee-ecd407ff2e2b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_7fe63d90-99da-4de1-8c5f-b6a4534988a7.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 37,
+   "flags": [],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3523621983",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai/3523621983-216-7707",
+   "title": "Nissan Qashqai",
+   "model": "Qashqai",
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11000,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 100600,
+   "year": 2017,
+   "first_registration": "11/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "88131",
+   "city": "Lindau",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b1/b1559138-866f-4f1f-bee7-cb31b4393f98?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 34,
+   "flags": [
+    "Price reduced from €11,000"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060923889",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQURb.html",
+   "title": "Nissan Qashqai",
+   "model": "Qashqai",
+   "price_eur": 9790,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 133000,
+   "year": 2017,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 115,
+   "zip": null,
+   "city": "Selimbar, Sibiu",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/jniktmlc5vv23-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 33,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:44:16Z",
+   "last_seen": "2026-10-29T21:44:16Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:44:16Z",
+     "price_eur": 9790
+    }
+   ]
+  }
+ ]
+}
