@@ -1,0 +1,589 @@
+{
+ "id": "d1b92edb7618",
+ "query": {
+  "name": "Mazda CX-5",
+  "make": "Mazda",
+  "model": "CX-5",
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 160000
+  },
+  "price_eur": {
+   "min": 8000,
+   "max": 10000
+  },
+  "fuel": [],
+  "gearbox": [
+   "automatic"
+  ],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "16800",
+    "model_id": "33"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-29T21:15:22Z",
+ "updated_at": "2026-10-29T21:15:22Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=16800%3B33%3B%3B&fr=2014%3A2018&ml=%3A160000&p=8000%3A10000&tr=AUTOMATIC_GEAR&zip=93339&zipr=200&cn=DE",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/mazda/cx-5?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=160000&pricefrom=8000&priceto=10000&gear=A&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis:8000:10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.km_i:%2C160000+autos.marke_s:mazda+autos.model_s:cx_5+autos.shift_s:automatik",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/mazda/cx-5?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=160000&search%5Bfilter_float_price%3Afrom%5D=8000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_gearbox%5D=automatic",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/mazda/?search%5Bfilter_enum_model%5D%5B0%5D=cx-5&search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Afrom%5D=8000&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mazda/cx-5/?gearname=automata",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Mazda/CX-5",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "autoscout24",
+   "source_id": "6c124db1-6e3d-4b5f-861d-99532508765b",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-cx-5-cx-5-diesel-skyactiv-d-175-awd-sports-line-diesel-weiss-cat_ma46gr200952ge1769mt2674tr7323-6c124db1-6e3d-4b5f-861d-99532508765b",
+   "title": "Mazda CX-5 CX-5 Diesel SKYACTIV-D 175 AWD Sports-Line",
+   "model": "CX-5",
+   "price_eur": 9950,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 127273,
+   "year": 2014,
+   "first_registration": "10/2014",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 175,
+   "zip": "85386",
+   "city": "Eching",
+   "distance_km": 74,
+   "seller_type": "dealer",
+   "seller_name": "Automobile JT GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/6c124db1-6e3d-4b5f-861d-99532508765b_86ea051a-5fd1-4bc6-b5c9-2f6c8d25c3f1.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6c124db1-6e3d-4b5f-861d-99532508765b_ca145f2c-451b-46ce-b677-5d6249eb05e2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6c124db1-6e3d-4b5f-861d-99532508765b_5908e445-1587-43d9-b993-79b189932390.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6c124db1-6e3d-4b5f-861d-99532508765b_12911981-2582-4739-992f-38d01592832a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6c124db1-6e3d-4b5f-861d-99532508765b_8a269bb6-82e7-4230-8e30-63fba41e4c01.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6c124db1-6e3d-4b5f-861d-99532508765b_ee269458-49ee-48f4-bc49-bc6304ec7297.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 54,
+   "flags": [],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 9950
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060938528",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ID7HQYFi.html",
+   "title": "Mazda CX-5",
+   "model": "CX-5",
+   "price_eur": 8290,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 156000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 150,
+   "zip": null,
+   "city": "Focsani, Vrancea",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/g67x5mqv9jsd3-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 53,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 8290
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060915126",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ID7HQSzQ.html",
+   "title": "Mazda CX-5",
+   "model": "CX-5",
+   "price_eur": 8600,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 137000,
+   "year": 2014,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 150,
+   "zip": null,
+   "city": "Slatina, Olt",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/16bv3stsx9qf1-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 52,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 8600
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3530090257",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx5-awd-175-ps-camera-/3530090257-216-16395",
+   "title": "Mazda CX5.Awd ,175 PS Camera.",
+   "model": "CX-5",
+   "price_eur": 8600,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 9000,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 145000,
+   "year": 2014,
+   "first_registration": "03/2014",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "80689",
+   "city": "Laim",
+   "distance_km": 93,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a6/a66c228b-090d-4822-9011-797fbd62e53e?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 51,
+   "flags": [
+    "Price reduced from €9,000"
+   ],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 8600
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3544263835",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-neuer-turbo-tuev-08-28/3544263835-216-6868",
+   "title": "Mazda CX-5 neuer Turbo, TÜV 08/28",
+   "model": "CX-5",
+   "price_eur": 8600,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 155893,
+   "year": 2015,
+   "first_registration": "05/2015",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "97531",
+   "city": "Theres",
+   "distance_km": 151,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2f/2f109d76-21a0-4cb3-8f40-10f66b726b56?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "flags": [],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 8600
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3505858697",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-tuev-neu-neuer-turbolader/3505858697-216-6868",
+   "title": "Mazda CX-5 TÜV neu! Neuer Turbolader",
+   "model": "CX-5",
+   "price_eur": 8600,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 8800,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 155893,
+   "year": 2015,
+   "first_registration": "05/2015",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "97531",
+   "city": "Theres",
+   "distance_km": 151,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/87/877bd685-b523-4117-ad03-3091b89086a0?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "flags": [
+    "Price reduced from €8,800"
+   ],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 8600
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "dc464d61-040c-4f2f-8a5c-cd1213368d5c",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-cx-5-sports-line-cx-5-2-2-skyactiv-d-awd-aut-diesel-blau-cat_ma46gr200952ge1769mt2672tr7323-dc464d61-040c-4f2f-8a5c-cd1213368d5c",
+   "title": "Mazda CX-5 Sports-Line CX-5 2.2 SKYACTIV-D AWD Aut.",
+   "model": "CX-5",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 150400,
+   "year": 2015,
+   "first_registration": "11/2015",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 175,
+   "zip": "83607",
+   "city": "Holzkirchen, M",
+   "distance_km": 121,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/dc464d61-040c-4f2f-8a5c-cd1213368d5c_cea17f45-bafa-425f-bead-0306ab522e3b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/dc464d61-040c-4f2f-8a5c-cd1213368d5c_a2048a6e-91b5-4c29-8eca-4f85deca736c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/dc464d61-040c-4f2f-8a5c-cd1213368d5c_656b3ff2-0cda-4bf6-9fc3-814f45078c42.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/dc464d61-040c-4f2f-8a5c-cd1213368d5c_1c9fbc38-0474-4a46-b248-040e7a4a676e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/dc464d61-040c-4f2f-8a5c-cd1213368d5c_e8fca330-e5f0-4749-9460-b794c34ac541.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/dc464d61-040c-4f2f-8a5c-cd1213368d5c_7f5552a5-8461-4cd4-982d-ef1f6d3ebb87.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 45,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "0dba2fc9-5f3a-4056-8cea-d9ab6f254be5",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-cx-5-skyactiv-d-150-drive-exclusive-line-diesel-cat_ma46gr200952ge1769mt2674tr3411-0dba2fc9-5f3a-4056-8cea-d9ab6f254be5",
+   "title": "Mazda CX-5 SKYACTIV-D 150 Drive Exclusive-Line",
+   "model": "CX-5",
+   "price_eur": 9700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 155000,
+   "year": 2015,
+   "first_registration": "08/2015",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 150,
+   "zip": "70794",
+   "city": "Filderstadt",
+   "distance_km": 185,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/0dba2fc9-5f3a-4056-8cea-d9ab6f254be5_8ad1c559-33d4-4e0a-be63-a50c750c94fd.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0dba2fc9-5f3a-4056-8cea-d9ab6f254be5_c1524094-6cc7-434b-8df4-9f605f4cc7d8.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0dba2fc9-5f3a-4056-8cea-d9ab6f254be5_0f5b311b-16b7-41dc-b708-3026fb89b77c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0dba2fc9-5f3a-4056-8cea-d9ab6f254be5_7dfe532b-3d68-4dde-8234-03d79c595274.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0dba2fc9-5f3a-4056-8cea-d9ab6f254be5_6a35d9dd-edd0-4e02-8f4f-7eeca4cc9c15.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0dba2fc9-5f3a-4056-8cea-d9ab6f254be5_0c4b8036-8cff-4d82-b7cf-509d77bb1c74.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-2-2-skyactiv-d-150-exclusive-line-fwd-at/3544514770-216-8892",
+     "notes": [],
+     "error": null
+    },
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5/3543736588-216-8892",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 43,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 9700
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3550270065",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-2-2-awd-sports-line-top-ausstattung/3550270065-216-7392",
+   "title": "Mazda CX-5 2.2 AWD Sports-Line | Top-Ausstattung",
+   "model": "CX-5",
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11900,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 156000,
+   "year": 2017,
+   "first_registration": "07/2017",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "92706",
+   "city": "Luhe-Wildenau",
+   "distance_km": 76,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/04/04da119f-c779-4a6e-81b9-2176ba71dcf9?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 43,
+   "flags": [
+    "Price reduced from €11,900"
+   ],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "c10eb4c0-d18d-44ef-94f7-72c02145ed19",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-cx-5-center-line-awd-automatik-standheizung-euro-6-diesel-weiss-cat_ma46gr200952ge1769mt2672tr1794-c10eb4c0-d18d-44ef-94f7-72c02145ed19",
+   "title": "Mazda CX-5 Center-Line AWD,Automatik,Standheizung,Euro 6",
+   "model": "CX-5",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 133000,
+   "year": 2015,
+   "first_registration": "03/2015",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 150,
+   "zip": "74172",
+   "city": "Neckarsulm",
+   "distance_km": 180,
+   "seller_type": "dealer",
+   "seller_name": "Autohaus Lindenhof",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/c10eb4c0-d18d-44ef-94f7-72c02145ed19_853ba9a4-0960-4c40-94b7-357782be23cf.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10eb4c0-d18d-44ef-94f7-72c02145ed19_d47cdee9-fd23-49fb-ba67-9d98666b0e0c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10eb4c0-d18d-44ef-94f7-72c02145ed19_7d36f974-e363-4e60-9fea-5e1c719db9d1.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10eb4c0-d18d-44ef-94f7-72c02145ed19_e140e26f-217a-4d27-869f-66cb13f3dfc7.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10eb4c0-d18d-44ef-94f7-72c02145ed19_56b8868c-b2df-4c6b-80b3-6225033333d2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c10eb4c0-d18d-44ef-94f7-72c02145ed19_91a67209-2251-499e-8e09-702d9535c368.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 42,
+   "flags": [],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060899574",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ver-2-2-skyactiv-d-awd-aut-sports-line-ID7HQOx0.html",
+   "title": "Mazda CX-5 2.2 SKYACTIV-D AWD Aut. Sports-Line",
+   "model": "CX-5",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 155000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 175,
+   "zip": null,
+   "city": "Cluj-Napoca, Cluj",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/ojg3059ttowz-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 42,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:15:22Z",
+   "last_seen": "2026-10-29T21:15:22Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:15:22Z",
+     "price_eur": 8900
+    }
+   ]
+  }
+ ]
+}
