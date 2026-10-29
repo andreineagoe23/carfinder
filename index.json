@@ -1,5 +1,13 @@
 [
  {
+  "id": "23a56255c8dd",
+  "name": "Mazda CX-5",
+  "summary": "Mazda CX-5 · year 2014–2018 · ≤160,000 km · €≤12,000 · any fuel · automatic · DE: 200 km around 93339",
+  "updated_at": "2026-10-29T21:57:10Z",
+  "count": 43,
+  "new_count": 43
+ },
+ {
   "id": "2b401019cb93",
   "name": "Nissan (all models)",
   "summary": "Nissan (all models) · year 2014–2018 · ≤160,000 km · €≤10,000 · petrol · automatic · DE: 200 km around 93339",
