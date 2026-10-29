@@ -1,5 +1,13 @@
 [
  {
+  "id": "ef140fec9a33",
+  "name": "Mazda CX-5",
+  "summary": "Mazda CX-5 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · automatic · DE: 200 km around 93339",
+  "updated_at": "2026-10-29T21:14:53Z",
+  "count": 0,
+  "new_count": 0
+ },
+ {
   "id": "e4596b0dec44",
   "name": "Mazda CX-3",
   "summary": "Mazda CX-3 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · any gearbox · DE: 200 km around 93339",
