@@ -1,0 +1,1010 @@
+{
+ "id": "4fc58befec81",
+ "query": {
+  "name": "Mazda 6",
+  "make": "Mazda",
+  "model": "6",
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 160000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [],
+  "gearbox": [],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "16800",
+    "model_id": "7"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-29T21:28:58Z",
+ "updated_at": "2026-10-29T21:28:58Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=16800%3B7%3B%3B&fr=2014%3A2018&ml=%3A160000&p=%3A10000&zip=93339&zipr=200&cn=DE",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/mazda/6?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=160000&priceto=10000&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.km_i:%2C160000+autos.marke_s:mazda+autos.model_s:6",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/mazda/6?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=160000&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/mazda/?search%5Bfilter_enum_model%5D%5B0%5D=6&search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mazda/6/",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Mazda/6",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3549997115",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-150-i-eloop/3549997115-216-7568",
+   "title": "Mazda 6 2.2 SKYACTIV-D 150 i-ELOOP",
+   "model": "6",
+   "price_eur": 5000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 99400,
+   "year": 2015,
+   "first_registration": "02/2015",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "83131",
+   "city": "Nußdorf am Inn",
+   "distance_km": 138,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ad/ada1cd66-9d8f-4356-a481-3742c0280321?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 76,
+   "flags": [
+    "42% below similar cars — check for damage or scam"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 5000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3471507828",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-110kw-sports-line-sports-line/3471507828-216-5631",
+   "title": "Mazda 6 2.2 SKYACTIV-D 110kW Sports-Line Sports-Line",
+   "model": "6",
+   "price_eur": 5150,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 149800,
+   "year": 2014,
+   "first_registration": "08/2014",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "91154",
+   "city": "Roth",
+   "distance_km": 52,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/60/603ff30c-f104-43ec-a616-e10e9b46a973?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 73,
+   "flags": [
+    "33% below similar cars — check for damage or scam"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 5150
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3524389911",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-175-sports-line-awd-at-spor-/3524389911-216-7262",
+   "title": "Mazda 6 2.2 SKYACTIV-D 175 Sports-Line AWD AT Spor...",
+   "model": "6",
+   "price_eur": 3000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 125000,
+   "year": 2016,
+   "first_registration": "07/2016",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "87600",
+   "city": "Kaufbeuren",
+   "distance_km": 144,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b8/b8de6937-94b1-4a84-8bbc-91e9c7ccce19?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 72,
+   "flags": [
+    "68% below similar cars — check for damage or scam"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 3000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3520909762",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactive-diesel/3520909762-216-8152",
+   "title": "Mazda 6 2.2 Skyactive Diesel",
+   "model": "6",
+   "price_eur": 6000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 7000,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 122000,
+   "year": 2014,
+   "first_registration": "03/2014",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "88630",
+   "city": "Pfullendorf",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ca/caeabf26-6ffa-4a70-bf0b-453f9e99b4ed?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 72,
+   "flags": [
+    "Price reduced from €7,000"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 6000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3556119222",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-kizoku-intense-vollaustattung/3556119222-216-20156",
+   "title": "Mazda 6 Kombi Kizoku Intense VOLLAUSTATTUNG",
+   "model": "6",
+   "price_eur": 5600,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 154000,
+   "year": 2017,
+   "first_registration": "10/2017",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "71560",
+   "city": "Sulzbach an der Murr",
+   "distance_km": 161,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/77/772bf55c-1445-40f7-ad34-5ade3044b21c?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 68,
+   "flags": [
+    "41% below similar cars — check for damage or scam"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 5600
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "4525b438-4720-419d-8bf7-fc1802d91f66",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-sports-line-6-kombi-skyactiv-d-175-i-eloop-diesel-rot-cat_ma46gr200953ge1755va1461mt2623tr7322-4525b438-4720-419d-8bf7-fc1802d91f66",
+   "title": "Mazda 6 Sports-Line 6 Kombi SKYACTIV-D 175 i-ELOOP",
+   "model": "6",
+   "price_eur": 7500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 125000,
+   "year": 2014,
+   "first_registration": "12/2014",
+   "fuel": "diesel",
+   "gearbox": "manual",
+   "power_hp": 175,
+   "zip": "93336",
+   "city": "Altmannstein, M",
+   "distance_km": 8,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/4525b438-4720-419d-8bf7-fc1802d91f66_29273d4a-edd9-45c1-97d9-5ac55f067efc.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4525b438-4720-419d-8bf7-fc1802d91f66_bd9df187-c743-4145-a0f1-56d8b99a572f.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4525b438-4720-419d-8bf7-fc1802d91f66_615ea987-2d47-4573-8845-28b919e981da.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4525b438-4720-419d-8bf7-fc1802d91f66_95e2e1c7-64ae-4b5b-88dc-9a71ce52f0e3.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4525b438-4720-419d-8bf7-fc1802d91f66_e2c7e661-551e-453c-a8c0-3ba54875879f.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4525b438-4720-419d-8bf7-fc1802d91f66_ee9b04a0-8780-46da-b483-51315cac9f0a.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-175-i-eloop-sports-line-125tkm/3555900884-216-6233",
+     "notes": [],
+     "error": null
+    },
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-gj-2014-125tkm-tuev-bis-06-2028/3555873108-216-6233",
+     "notes": [],
+     "error": null
+    },
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-gj-2014/3512329179-216-6233",
+     "notes": [],
+     "error": null
+    },
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-175-i-eloop-sports-line-spo-/3442011186-216-6233",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 67,
+   "flags": [
+    "Cheaper on Kleinanzeigen: €7,490",
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 7500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3514425023",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-lim-sports-line/3514425023-216-8349",
+   "title": "Mazda 6 Lim. Sports-Line",
+   "model": "6",
+   "price_eur": 6990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 130000,
+   "year": 2015,
+   "first_registration": "04/2015",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "88074",
+   "city": "Meckenbeuren",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2af26da9-e239-4699-9c0c-35f78ccfd89a?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 67,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 6990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3454758043",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-automatik-xenon-klima-navi-1-ha-/3454758043-216-9042",
+   "title": "Mazda 6 Kombi,Automatik,,Xenon,Klima,Navi,,1-Ha!",
+   "model": "6",
+   "price_eur": 8700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 134000,
+   "year": 2016,
+   "first_registration": "08/2016",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "71336",
+   "city": "Waiblingen",
+   "distance_km": 174,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c3/c332053f-fe81-471d-b5c3-5192dfcbe9f2?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 55,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 8700
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3513441778",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-150-exclusive-l-exclusive-line/3513441778-216-8662",
+   "title": "Mazda 6 2.2 SKYACTIV-D 150 Exclusive-L. Exclusive-Line",
+   "model": "6",
+   "price_eur": 8800,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 141490,
+   "year": 2016,
+   "first_registration": "08/2016",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "74177",
+   "city": "Bad Friedrichshall",
+   "distance_km": 184,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2b/2b575d75-6e6b-4cfc-84ed-4595c8009ddf?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 53,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 8800
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3555074033",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-150-i-eloop-sports-line/3555074033-216-16919",
+   "title": "Mazda 6 2.2 SKYACTIV-D 150 i-ELOOP Sports-Line",
+   "model": "6",
+   "price_eur": 7500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 157000,
+   "year": 2014,
+   "first_registration": "08/2014",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "74632",
+   "city": "Neuenstein",
+   "distance_km": 157,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/3320062d-1b11-402c-929c-4c70f7dc0cbe?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 50,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 7500
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060863602",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-6-ver-cd175-revolution-ID7HQFaO.html",
+   "title": "Mazda 6 CD175 Revolution",
+   "model": "6",
+   "price_eur": 7900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 64000,
+   "year": 2014,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": null,
+   "power_hp": 175,
+   "zip": null,
+   "city": "Bucuresti",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/cg7jzg5tonj2-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 49,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 7900
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "0d529cf1-de72-4723-ab47-e957c1863abc",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-nakama-intense-hud-bose-keyless-ahk-diesel-rot-cat_ma46gr200953ge1755va1461mt2623tr5588-0d529cf1-de72-4723-ab47-e957c1863abc",
+   "title": "Mazda 6 Kombi Nakama Intense* HUD* BOSE* KeyLess* AHK*",
+   "model": "6",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 120800,
+   "year": 2017,
+   "first_registration": "05/2017",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 175,
+   "zip": "93051",
+   "city": "Regensburg",
+   "distance_km": 30,
+   "seller_type": "dealer",
+   "seller_name": "Auto Zink",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_95ef0a30-e13a-40b3-8ff6-f6b2c3902da5.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_902b5bdc-3b13-4054-aeb7-67f6441c31a9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_62fa36fd-7bba-4840-b5f7-fa9c34273168.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_c60fb72a-eca2-4624-99d7-c353f5836b7c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_98e89214-5634-4346-baa1-bab6c096e6fb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_acdb9c4f-6a09-4d18-ad54-f04cd5ccaf86.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-nakama-intense-hud-bose-keyless-ahk-/3514407861-216-7654",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 46,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3517402723",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-150-prime-line-prime-line/3517402723-216-8460",
+   "title": "Mazda 6 2.2 SKYACTIV-D 150 Prime-Line Prime-Line",
+   "model": "6",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 97500,
+   "year": 2016,
+   "first_registration": "02/2016",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "73277",
+   "city": "Owen",
+   "distance_km": 170,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e5ec04c2-a0c3-426e-8bd0-8b5c3cbf2025?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 46,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "0a26b256-e1ac-46eb-adb2-b9e6fbf9471c",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-2-2-automatik-ahk-center-line-diesel-rot-cat_ma46gr200953ge1755va1461mt2619tr1792-0a26b256-e1ac-46eb-adb2-b9e6fbf9471c",
+   "title": "Mazda 6 Kombi 2,2 Automatik, AHK Center-Line",
+   "model": "6",
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 138901,
+   "year": 2014,
+   "first_registration": "12/2014",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 150,
+   "zip": "93095",
+   "city": "Hagelstadt",
+   "distance_km": 40,
+   "seller_type": "dealer",
+   "seller_name": "Ludwig Wetzl GmbH & Co. KG",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/0a26b256-e1ac-46eb-adb2-b9e6fbf9471c_0deed7f2-8103-491c-8d7e-61aa4479918a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0a26b256-e1ac-46eb-adb2-b9e6fbf9471c_6de9759e-6e9a-444f-8e38-49ed166d0b86.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0a26b256-e1ac-46eb-adb2-b9e6fbf9471c_0a7e9ed5-8b6d-43ce-beae-46a798d51b7b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0a26b256-e1ac-46eb-adb2-b9e6fbf9471c_71df3afe-879a-40f4-b27e-134eb0b56708.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0a26b256-e1ac-46eb-adb2-b9e6fbf9471c_da90b0bd-878d-4882-80f9-2db8ba15474b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/0a26b256-e1ac-46eb-adb2-b9e6fbf9471c_d4a812f9-5081-4812-a149-0067ae8dc93d.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 45,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060914494",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-6-ver-cd175-at-revolution-plus-ID7HQSpE.html",
+   "title": "Mazda 6 CD175 AT Revolution Plus",
+   "model": "6",
+   "price_eur": 9981,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 154231,
+   "year": 2017,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": null,
+   "power_hp": 175,
+   "zip": null,
+   "city": "Ramnicu Valcea, Valcea",
+   "distance_km": null,
+   "seller_type": "dealer",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/4pzdgoie7htb1-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 43,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9981
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3546001524",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-exclusive-line-allrad-4x4/3546001524-216-8410",
+   "title": "Mazda 6 Kombi Exclusive-Line Allrad 4x4",
+   "model": "6",
+   "price_eur": 9750,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 136000,
+   "year": 2017,
+   "first_registration": "06/2017",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "71706",
+   "city": "Markgröningen",
+   "distance_km": 190,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/0631d9be-5343-4d94-80b8-9b606c5716a9?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 42,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9750
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060931461",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-6-ID7HQVPj.html",
+   "title": "Mazda 6",
+   "model": "6",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 153623,
+   "year": 2016,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": null,
+   "power_hp": 175,
+   "zip": null,
+   "city": "Bucuresti",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/b4bv6zfrs4i21-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 41,
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "a1db595b-8297-4694-833c-c945f4f2a53f",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-sports-line-awd-hud-navi-kamera-diesel-grau-cat_ma46gr200953ge1755va1461mt2623tr7322-a1db595b-8297-4694-833c-c945f4f2a53f",
+   "title": "Mazda 6 Kombi Sports-Line AWD *HUD*NAVI*KAMERA*",
+   "model": "6",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 146469,
+   "year": 2015,
+   "first_registration": "07/2015",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 175,
+   "zip": "85276",
+   "city": "Pfaffenhofen an der Ilm",
+   "distance_km": 51,
+   "seller_type": "dealer",
+   "seller_name": "MYAUTOCENTER OHG",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_85754df9-9acc-4943-b564-41ab5f54cf3e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_19f6f50c-4f11-4ac7-ac3e-fd9aa444fd38.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_7e600c1c-408e-424a-bbc2-c4457facf567.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_c1e3e037-4bf2-4914-94fc-978aa1f575dd.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_4123db38-ebad-427d-b004-9d03d1138a05.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_22e7621f-122e-495f-aebe-688a49556709.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-sports-line-awd-hud-navi-kamera-/3473325675-216-5850",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 37,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3546791746",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-175-sport-line-awd/3546791746-216-6473",
+   "title": "Mazda 6 2.2 SKYACTIV-D 175 Sport-Line AWD",
+   "model": "6",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 158500,
+   "year": 2016,
+   "first_registration": "09/2016",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "81739",
+   "city": "Ramersdorf-Perlach",
+   "distance_km": 96,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/33179410-023d-4248-8e94-189794f42464?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 35,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060921749",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-6-ver-cd175-at-revolution-top-ID7HQUiF.html",
+   "title": "Mazda 6 CD175 AT Revolution Top",
+   "model": "6",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 152000,
+   "year": 2014,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": null,
+   "power_hp": 175,
+   "zip": null,
+   "city": "Chiajna, Ilfov",
+   "distance_km": null,
+   "seller_type": "dealer",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/xhut37qkdz3h3-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 32,
+   "flags": [],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3534497687",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-150-i-eloop-center-line/3534497687-216-8723",
+   "title": "Mazda 6 2.2 SKYACTIV-D 150 i-ELOOP Center-Line",
+   "model": "6",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10900,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 147000,
+   "year": 2014,
+   "first_registration": "03/2014",
+   "fuel": null,
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "88521",
+   "city": "Ertingen",
+   "distance_km": 190,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f0fafef-db8c-42fb-ab4c-44d0f31701b5?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 28,
+   "flags": [
+    "Price reduced from €10,900"
+   ],
+   "first_seen": "2026-10-29T21:28:58Z",
+   "last_seen": "2026-10-29T21:28:58Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T21:28:58Z",
+     "price_eur": 9900
+    }
+   ]
+  }
+ ]
+}
