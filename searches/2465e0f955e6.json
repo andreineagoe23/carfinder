@@ -1,0 +1,3433 @@
+{
+ "id": "2465e0f955e6",
+ "query": {
+  "name": "Mercedes-Benz (all models)",
+  "make": "Mercedes-Benz",
+  "model": null,
+  "year": {
+   "min": 2012,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 170000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [
+   "petrol"
+  ],
+  "gearbox": [
+   "automatic"
+  ],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "ro_location": {
+   "city": "timisoara",
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "17200"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-29T22:21:26Z",
+ "updated_at": "2026-10-29T22:21:26Z",
+ "requested_at": "2026-10-29T22:21:26Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=17200%3B%3B%3B&fr=2012%3A2018&ml=%3A170000&p=%3A10000&ft=PETROL&tr=AUTOMATIC_GEAR&zip=93339&zipr=200&cn=DE",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/mercedes-benz?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2012&fregto=2018&kmto=170000&priceto=10000&fuel=B&gear=A&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2012%2C2018+autos.fuel_s:benzin+autos.km_i:%2C170000+autos.marke_s:mercedes_benz+autos.shift_s:automatik",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/mercedes-benz/timisoara?search%5Bdist%5D=200&search%5Bfilter_float_year%3Afrom%5D=2012&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=170000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_gearbox%5D=automatic",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/mercedes-benz/?search%5Bfilter_float_year%3Afrom%5D=2012&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mercedes-benz/?carfueltype=benzina&gearname=automata",
+   "notes": [
+    "set years, price and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Mercedes-Benz",
+   "notes": [
+    "set years, price and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "autoscout24",
+   "source_id": "9e5fd3e3-8327-4d27-81b1-7b4428d77656",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-blueefficiency-automatik-benzin-schwarz-cat_ma47gr100055ge342mt708tr480496-9e5fd3e3-8327-4d27-81b1-7b4428d77656",
+   "title": "Mercedes-Benz B 200 BlueEfficiency Automatik",
+   "model": "B 200",
+   "price_eur": 7475,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 131000,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "81243",
+   "city": "München",
+   "distance_km": 94,
+   "seller_type": "dealer",
+   "seller_name": "Autoarena München GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/9e5fd3e3-8327-4d27-81b1-7b4428d77656_2d0dc0a4-0bdc-4489-ac54-390f77d5bbb3.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e5fd3e3-8327-4d27-81b1-7b4428d77656_7c45fbad-e242-4767-9f14-f2008c8e52f9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e5fd3e3-8327-4d27-81b1-7b4428d77656_baff7e93-36e6-45c3-a059-4abcfe5eaa11.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e5fd3e3-8327-4d27-81b1-7b4428d77656_ed53d50d-bd48-4846-8ad6-81091af5e830.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e5fd3e3-8327-4d27-81b1-7b4428d77656_84476254-c049-4c12-af36-0d62cd5d442c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e5fd3e3-8327-4d27-81b1-7b4428d77656_a5ae6391-d141-4027-b52e-725bd9e97643.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 95,
+   "score_parts": [
+    "€2,425 below similar B 200 cars (median €9,900) (+24)",
+    "~9,357 km per year (+11)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7475
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "f9b22d5b-af9f-4d4a-850a-1f8912a33793",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-180-t-cgi-automatik-blueefficiency-benzin-silber-cat_ma47gr100056ge11va122mt292tr480497-f9b22d5b-af9f-4d4a-850a-1f8912a33793",
+   "title": "Mercedes-Benz C 180 C 180 T CGI Automatik BlueEFFICIENCY",
+   "model": "C 180",
+   "price_eur": 7000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 160000,
+   "year": 2012,
+   "first_registration": "01/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "85419",
+   "city": "Mauern",
+   "distance_km": 48,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/f9b22d5b-af9f-4d4a-850a-1f8912a33793_bcbeaafc-3b08-46d1-9622-f46fdec47ac7.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f9b22d5b-af9f-4d4a-850a-1f8912a33793_c8944805-271f-4091-a488-376056efb721.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f9b22d5b-af9f-4d4a-850a-1f8912a33793_657f0b04-8e85-477b-8114-dddcf9767b7b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f9b22d5b-af9f-4d4a-850a-1f8912a33793_e5521d7c-4fd6-4985-b620-b6fa4c16e105.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f9b22d5b-af9f-4d4a-850a-1f8912a33793_ff3199d3-4621-40c1-8ac9-5b763e155f42.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/f9b22d5b-af9f-4d4a-850a-1f8912a33793_a53d40c5-ed5f-4fa1-8a88-2bd4a46d429d.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 89,
+   "score_parts": [
+    "€2,495 below similar C 180 cars (median €9,495) (+25)",
+    "~11,429 km per year (+9)",
+    "Site rates it “top price” (+15)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7000
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "817dcbca-8a67-4210-8f9c-80b2ab614f12",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-7g-ahk-parkass-navi-audio-20-autom-klima-mf-lenkrad-chrompaket-tempomat-r-cd-abgasreinigung-euro-6-technik-benzin-beige-cat_ma47gr100055ge342mt707tr480496-817dcbca-8a67-4210-8f9c-80b2ab614f12",
+   "title": "Mercedes-Benz B 180 7G AHK Parkass Navi Audio 20 Autom./Klima/MF-Lenkrad/Chrompaket/Tempomat/R-CD/Abgasreinigung EURO 6 Technik",
+   "model": "B 180",
+   "price_eur": 7990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 147700,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 122,
+   "zip": "83435",
+   "city": "Bad Reichenhall",
+   "distance_km": 163,
+   "seller_type": "dealer",
+   "seller_name": "AVG Auto-Vertrieb-GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/817dcbca-8a67-4210-8f9c-80b2ab614f12_829a5ca5-6507-4e71-8ccd-6a53bdbb0a7b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/817dcbca-8a67-4210-8f9c-80b2ab614f12_c8111e22-7229-447b-ac8b-04043fe24862.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/817dcbca-8a67-4210-8f9c-80b2ab614f12_193992da-b3a3-4bfa-ba6a-e9341613f82a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/817dcbca-8a67-4210-8f9c-80b2ab614f12_521bc72c-48f8-4b89-ad78-ea22429ea4d7.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/817dcbca-8a67-4210-8f9c-80b2ab614f12_eb90132b-a844-45fd-a7aa-e952212a74ac.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/817dcbca-8a67-4210-8f9c-80b2ab614f12_6924ad79-5486-4c66-abe3-349770934cfd.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 82,
+   "score_parts": [
+    "€1,710 below similar B 180 cars (median €9,700) (+18)",
+    "~10,550 km per year (+9)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "d125f5ad-b6a0-470c-9519-c494a203552a",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-b-klasse-blueefficiency-7g-dct-benzin-grau-cat_ma47gr100055ge342mt707tr480496-d125f5ad-b6a0-470c-9519-c494a203552a",
+   "title": "Mercedes-Benz B 180 B-Klasse (BlueEFFICIENCY) 7G-DCT",
+   "model": "B 180",
+   "price_eur": 8600,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 117500,
+   "year": 2012,
+   "first_registration": "02/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 122,
+   "zip": "71384",
+   "city": "Weinstadt",
+   "distance_km": 172,
+   "seller_type": "dealer",
+   "seller_name": "Car Clean Concept",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/d125f5ad-b6a0-470c-9519-c494a203552a_777fe99c-ff38-4fec-9c0e-884bb677cde2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d125f5ad-b6a0-470c-9519-c494a203552a_9083431b-cd3e-42e5-b051-5d700ed29f55.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d125f5ad-b6a0-470c-9519-c494a203552a_bfda13ef-ca59-483a-aeea-d4eb4e5ea45b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d125f5ad-b6a0-470c-9519-c494a203552a_a09df6dc-eb82-4bb3-b430-afbcbfc57f4b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d125f5ad-b6a0-470c-9519-c494a203552a_6890a01e-1837-45d1-8077-7e65fc785bde.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d125f5ad-b6a0-470c-9519-c494a203552a_07285c92-f178-401e-8bb7-75ceade2bc68.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 78,
+   "score_parts": [
+    "€1,100 below similar B 180 cars (median €9,700) (+11)",
+    "~8,393 km per year (+12)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8600
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3529175556",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-200-panorama-ahk-top-ausstattung/3529175556-216-8370",
+   "title": "Mercedes-Benz B 200 Panorama/AHK/Top Ausstattung",
+   "model": "B 200",
+   "price_eur": 7800,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 82000,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "74239",
+   "city": "Hardthausen",
+   "distance_km": 172,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8d/8d369277-daf4-49dd-9c8b-49efeeea1e7e?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 75,
+   "score_parts": [
+    "€2,100 below similar B 200 cars (median €9,900) (+21)",
+    "~5,857 km per year (+14)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7800
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "00d64645-df23-480b-9cf8-15fedcc3293a",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-navi-bi-xenon-tempomat-1hand-benzin-grau-cat_ma47gr100055ge342mt708tr480496-00d64645-df23-480b-9cf8-15fedcc3293a",
+   "title": "Mercedes-Benz B 200 Navi Bi-Xenon Tempomat 1Hand",
+   "model": "B 200",
+   "price_eur": 9690,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 107306,
+   "year": 2012,
+   "first_registration": "11/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "86356",
+   "city": "Neusäß",
+   "distance_km": 91,
+   "seller_type": "dealer",
+   "seller_name": "Plakatan GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/00d64645-df23-480b-9cf8-15fedcc3293a_871f5e79-7ec7-4f1c-a4cf-34b53f2310d1.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/00d64645-df23-480b-9cf8-15fedcc3293a_1cfbac40-cfca-43ff-b15b-45b985198ca9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/00d64645-df23-480b-9cf8-15fedcc3293a_f5b10da7-f0a5-4cf6-9fd1-51e2a2bba3de.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/00d64645-df23-480b-9cf8-15fedcc3293a_59bb42ac-04ba-4a51-b293-186a0e0ccbb6.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/00d64645-df23-480b-9cf8-15fedcc3293a_5bb1fd88-d5af-4ba6-9b39-dda3d5c67452.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/00d64645-df23-480b-9cf8-15fedcc3293a_05931128-3e24-42fc-adb4-5d0f9f857d4c.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 74,
+   "score_parts": [
+    "€210 below similar B 200 cars (median €9,900) (+2)",
+    "~7,665 km per year (+12)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9690
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3544791307",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-b-180-benziner-automatik-leder/3544791307-216-8451",
+   "title": "Mercedes B 180 benziner Automatik Leder",
+   "model": "B 180",
+   "price_eur": 6900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 165000,
+   "year": 2012,
+   "first_registration": "04/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "71696",
+   "city": "Möglingen",
+   "distance_km": 188,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/218ffe09-3a35-4567-b699-7ec07894bc0c?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 73,
+   "score_parts": [
+    "€2,800 below similar B 180 cars (median €9,700) (+25)",
+    "~11,786 km per year (+8)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 6900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3528396710",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b180-w246/3528396710-216-7613",
+   "title": "Mercedes-Benz B180 W246",
+   "model": "B 180",
+   "price_eur": 7799,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 8199,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 105468,
+   "year": 2012,
+   "first_registration": "04/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "85055",
+   "city": "Ingolstadt",
+   "distance_km": 26,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/01/015f2c48-0983-42fe-aa0f-516bf49f8786?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 72,
+   "score_parts": [
+    "€1,901 below similar B 180 cars (median €9,700) (+20)",
+    "~7,533 km per year (+12)"
+   ],
+   "flags": [
+    "Price reduced from €8,199"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7799
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "7ac92b6a-f5ee-4c70-bf4d-8c518066e724",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-200-cgi-blueefficiency-benzin-grau-cat_ma47gr100056ge11va119mt293tr480497-7ac92b6a-f5ee-4c70-bf4d-8c518066e724",
+   "title": "Mercedes-Benz C 200 C 200 CGI BlueEfficiency",
+   "model": "C 200",
+   "price_eur": 9499,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 164400,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 184,
+   "zip": "95460",
+   "city": "Bad Berneck",
+   "distance_km": 120,
+   "seller_type": "dealer",
+   "seller_name": "KE Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/7ac92b6a-f5ee-4c70-bf4d-8c518066e724_512b3dd5-f4d6-4a1e-a6b7-9adf022ecab4.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7ac92b6a-f5ee-4c70-bf4d-8c518066e724_8a925dbf-6049-416f-8896-772ecfb31274.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7ac92b6a-f5ee-4c70-bf4d-8c518066e724_1efe7895-5d05-42e8-8ef1-934e2dcfa069.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7ac92b6a-f5ee-4c70-bf4d-8c518066e724_a9c3150b-e6cd-4aa8-b8a8-7326131f1f83.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7ac92b6a-f5ee-4c70-bf4d-8c518066e724_b7538f9a-9001-4982-bbcf-49045b1d8cbf.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7ac92b6a-f5ee-4c70-bf4d-8c518066e724_97414aa0-3b67-4a19-85a9-a1e1f279aede.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 68,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~11,743 km per year (+8)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9499
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "b98d059c-abeb-43d9-95ee-04470a24a0c8",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-leder-pano-kamera-benzin-schwarz-cat_ma47gr100055ge342mt708tr480496-b98d059c-abeb-43d9-95ee-04470a24a0c8",
+   "title": "Mercedes-Benz B 200 *Leder*Pano*Kamera*",
+   "model": "B 200",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 149600,
+   "year": 2012,
+   "first_registration": "01/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "81825",
+   "city": "München",
+   "distance_km": 94,
+   "seller_type": "dealer",
+   "seller_name": "M&H-Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/b98d059c-abeb-43d9-95ee-04470a24a0c8_e90c9e0d-d558-43f6-b82f-6f7a0656b27b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b98d059c-abeb-43d9-95ee-04470a24a0c8_e3b75c05-a2e8-42f5-b780-66e0e793c89a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b98d059c-abeb-43d9-95ee-04470a24a0c8_3920f56f-450a-4b4a-abf7-770a49af3671.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b98d059c-abeb-43d9-95ee-04470a24a0c8_28cf3fc3-1794-4ad6-b90a-5a6af5b45e68.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b98d059c-abeb-43d9-95ee-04470a24a0c8_b4fb5cf8-508e-4d8f-ac02-537cd0176bd9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b98d059c-abeb-43d9-95ee-04470a24a0c8_e8cbc4f3-3f11-4540-a785-f29d9c201b78.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 67,
+   "score_parts": [
+    "€210 above similar B 200 cars (median €9,690) (-2)",
+    "~10,686 km per year (+9)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3535127339",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-c180/3535127339-216-6831",
+   "title": "mercedes c180",
+   "model": "C 180",
+   "price_eur": 7850,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 145000,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "90429",
+   "city": "Mitte",
+   "distance_km": 73,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d5/d56e8e4f-e056-4b48-9aef-2dea8d20411e?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 67,
+   "score_parts": [
+    "€1,645 below similar C 180 cars (median €9,495) (+17)",
+    "~10,357 km per year (+10)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7850
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "da4913fe-0807-44d1-8ba8-706e11a0cabb",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-a-klasse-a-180-5-tuerig-169-031-benzin-schwarz-cat_ma47gr100054ge181va190mt507tr480494-da4913fe-0807-44d1-8ba8-706e11a0cabb",
+   "title": "Mercedes-Benz A 180 A 180 5-türig (169.031)",
+   "model": "A 180",
+   "price_eur": 8950,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 96000,
+   "year": 2012,
+   "first_registration": "04/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "71522",
+   "city": "Backnang",
+   "distance_km": 165,
+   "seller_type": "dealer",
+   "seller_name": "Ralf Turowski Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/da4913fe-0807-44d1-8ba8-706e11a0cabb_78010472-404d-48b9-938a-5d44c0ce5038.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/da4913fe-0807-44d1-8ba8-706e11a0cabb_eb857023-8bef-46d0-a85a-0a8082faf100.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/da4913fe-0807-44d1-8ba8-706e11a0cabb_8d040f49-f0da-4b5c-93da-00e2cc05e5eb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/da4913fe-0807-44d1-8ba8-706e11a0cabb_53df0a58-5cad-4d48-82fc-b64042b5f424.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/da4913fe-0807-44d1-8ba8-706e11a0cabb_f77c7b6c-1f30-40c4-855a-82a782ffdf6f.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/da4913fe-0807-44d1-8ba8-706e11a0cabb_b0f49025-493c-4159-9133-693a174596e3.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 66,
+   "score_parts": [
+    "€250 below similar A 180 cars (median €9,200) (+3)",
+    "~6,857 km per year (+13)",
+    "Site rates it “fair price” (+5)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8950
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "5e2005a1-ded0-4692-baab-ff95a0cdee29",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-a-klasse-blueefficiency-7g-dct-benzin-cat_ma47gr100054ge182va190mt507tr480494-5e2005a1-ded0-4692-baab-ff95a0cdee29",
+   "title": "Mercedes-Benz A 180 (BlueEFFICIENCY) 7G-DCT",
+   "model": "A 180",
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 168000,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 122,
+   "zip": "73728",
+   "city": "Esslingen am Neckar, Stadt",
+   "distance_km": 176,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/5e2005a1-ded0-4692-baab-ff95a0cdee29_d2326eea-175f-4b41-835a-92805f29a154.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/5e2005a1-ded0-4692-baab-ff95a0cdee29_bbe5c577-4b77-4c7a-bc1c-77d839f9a8e0.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/5e2005a1-ded0-4692-baab-ff95a0cdee29_7a611266-0130-4c6d-81ec-2c43a67dd8c8.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/5e2005a1-ded0-4692-baab-ff95a0cdee29_62e9157c-c858-4400-846e-b8231411caf6.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/5e2005a1-ded0-4692-baab-ff95a0cdee29_d92a5cb4-73ae-462d-96fc-07b883a7a1f2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/5e2005a1-ded0-4692-baab-ff95a0cdee29_e16ff80b-eae7-444f-84c7-b5d80bdbf882.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-a-180-blueefficiency-7g-dct/3530926939-216-9068",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 66,
+   "score_parts": [
+    "€724 below similar A 180 cars (median €9,224) (+8)",
+    "~12,000 km per year (+8)",
+    "Site rates it “good price” (+10)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "75eb377c-f4fc-4d77-bdca-4bb7556e955c",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-benzin-grau-cat_ma47gr100055ge342mt708tr480496-75eb377c-f4fc-4d77-bdca-4bb7556e955c",
+   "title": "Mercedes-Benz B 200",
+   "model": "B 200",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 156260,
+   "year": 2013,
+   "first_registration": "11/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "73779",
+   "city": "Deizisau",
+   "distance_km": 171,
+   "seller_type": "dealer",
+   "seller_name": "A.K. Automobile GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/75eb377c-f4fc-4d77-bdca-4bb7556e955c_70492d37-198e-4c2c-9f16-063be143d8df.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/75eb377c-f4fc-4d77-bdca-4bb7556e955c_28571767-14da-4be0-8c90-18396c2e12ac.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/75eb377c-f4fc-4d77-bdca-4bb7556e955c_64067070-eabb-4a2f-acd7-43329d45bd61.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/75eb377c-f4fc-4d77-bdca-4bb7556e955c_c83981b3-731e-4fd1-93fb-243708b3ab91.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/75eb377c-f4fc-4d77-bdca-4bb7556e955c_b3ca7b49-6a78-4137-a2e5-1e61aa2a4c25.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/75eb377c-f4fc-4d77-bdca-4bb7556e955c_1dec84c1-5db1-483e-8382-0bd694471c6b.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-200/3519483893-216-8393",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 65,
+   "score_parts": [
+    "€309 above similar B 200 cars (median €9,690) (-3)",
+    "~12,020 km per year (+8)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3553170616",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-b200-1-hand/3553170616-216-8389",
+   "title": "Mercedes B200 1.Hand",
+   "model": "B 200",
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 147000,
+   "year": 2012,
+   "first_registration": "04/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "73207",
+   "city": "Plochingen",
+   "distance_km": 169,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b45d2116-68bd-4b50-8060-acc4f8c9728d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 64,
+   "score_parts": [
+    "€1,400 below similar B 200 cars (median €9,900) (+14)",
+    "~10,500 km per year (+10)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3552622612",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-200-urban-automatik-totwinkel-spurhalteass-/3552622612-216-7530",
+   "title": "Mercedes-Benz B 200 Urban Automatik Totwinkel Spurhalteass.",
+   "model": "B 200",
+   "price_eur": 8490,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 138000,
+   "year": 2012,
+   "first_registration": "06/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "86157",
+   "city": "Augsburg",
+   "distance_km": 90,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/24/24b83de2-d69d-43d8-bbb0-873956049e4d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 64,
+   "score_parts": [
+    "€1,410 below similar B 200 cars (median €9,900) (+14)",
+    "~9,857 km per year (+10)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8490
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "55b62a5f-ce0b-4e65-a692-3b6037b5432d",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-cgi-blueefficiency-automatic-benzin-grau-cat_ma47gr100056ge11va119mt292tr480497-55b62a5f-ce0b-4e65-a692-3b6037b5432d",
+   "title": "Mercedes-Benz C 180 CGI BlueEfficiency Automatic",
+   "model": "C 180",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 166896,
+   "year": 2012,
+   "first_registration": "03/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "90431",
+   "city": "Nürnberg",
+   "distance_km": 74,
+   "seller_type": "dealer",
+   "seller_name": "Zahr Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/55b62a5f-ce0b-4e65-a692-3b6037b5432d_21b01344-c8e2-4eef-bbee-b5ebb1589551.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/55b62a5f-ce0b-4e65-a692-3b6037b5432d_f5a50793-18ba-4105-af0b-dfb119ed5b21.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/55b62a5f-ce0b-4e65-a692-3b6037b5432d_02764211-8396-41c0-84b7-015d24a89f1a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/55b62a5f-ce0b-4e65-a692-3b6037b5432d_c5637c12-27fa-421e-9d70-827d66008d5d.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/55b62a5f-ce0b-4e65-a692-3b6037b5432d_415fa80b-5134-47de-9352-26486e1afa58.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/55b62a5f-ce0b-4e65-a692-3b6037b5432d_b9cf2e1b-3ec6-44fd-821f-fec4450678e7.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 63,
+   "score_parts": [
+    "€505 below similar C 180 cars (median €9,495) (+5)",
+    "~11,921 km per year (+8)",
+    "Site rates it “fair price” (+5)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "3d25e35d-f928-4182-8ec2-a945ee8d592a",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-a-klasse-a-160-autotronic-elegance-benzin-grau-cat_ma47gr100054ge181va190mt505tr3051-3d25e35d-f928-4182-8ec2-a945ee8d592a",
+   "title": "Mercedes-Benz A 160 A 160 Autotronic Elegance",
+   "model": "A 160",
+   "price_eur": 9000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 64500,
+   "year": 2012,
+   "first_registration": "06/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 95,
+   "zip": "72660",
+   "city": "Beuren",
+   "distance_km": 174,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/3d25e35d-f928-4182-8ec2-a945ee8d592a_82dd5399-a42b-46c6-99bf-ab5b0655df87.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 60,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~4,607 km per year (+15)",
+    "Site rates it “fair price” (+5)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3547067079",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/unfallauto-mercedes-c-180-automatik/3547067079-216-9346",
+   "title": "UNFALLAUTO  Mercedes C 180 Automatik",
+   "model": "C 180",
+   "price_eur": 4500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 6500,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 69830,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "72760",
+   "city": "Reutlingen",
+   "distance_km": 189,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ecab70d6-8409-4763-aab6-454344491db3?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 60,
+   "score_parts": [
+    "€4,995 below similar C 180 cars (median €9,495) (+25)",
+    "~4,988 km per year (+15)",
+    "Title mentions “UNFALL” (-20)"
+   ],
+   "flags": [
+    "53% below similar cars — check for damage or scam",
+    "Title mentions “UNFALL” — likely damage or defect",
+    "Price reduced from €6,500"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 4500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "1a7ef51f-396e-4dad-91bf-58ffbb15c5f2",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-automatik-tuev-inspek-neu-start-stop-benzin-silber-cat_ma47gr100055ge342mt707tr480496-1a7ef51f-396e-4dad-91bf-58ffbb15c5f2",
+   "title": "Mercedes-Benz B 180 Automatik \"TÜV & Inspek. Neu \"Start/stop",
+   "model": "B 180",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 132350,
+   "year": 2013,
+   "first_registration": "01/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 122,
+   "zip": "72766",
+   "city": "Reutlingen",
+   "distance_km": 188,
+   "seller_type": "dealer",
+   "seller_name": "Brüder Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/1a7ef51f-396e-4dad-91bf-58ffbb15c5f2_ae27430b-3984-4b9e-a699-f1a631a4379a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/1a7ef51f-396e-4dad-91bf-58ffbb15c5f2_3895022e-1e2f-4719-8405-495bdd6eb57a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/1a7ef51f-396e-4dad-91bf-58ffbb15c5f2_fa74c435-e2c2-4e09-a4ee-b2245f0cc14c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/1a7ef51f-396e-4dad-91bf-58ffbb15c5f2_5d73e229-8b99-4fca-9517-84c2cb24fefd.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/1a7ef51f-396e-4dad-91bf-58ffbb15c5f2_ac28c600-a78a-44d1-ac6b-a4da3bf89c43.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/1a7ef51f-396e-4dad-91bf-58ffbb15c5f2_3203e141-3e12-4bc9-b56d-bfc25dad1de1.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-180-automatik-tuev-inspek-neu-start-stop/3506944091-216-9350",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 59,
+   "score_parts": [
+    "€940 above similar B 180 cars (median €9,050) (-10)",
+    "~10,181 km per year (+10)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "7524e7af-0e63-42ab-9f94-cfcafdce8ac7",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-cgi-blueefficiency-2-hand-navi-pdc-szh-benzin-silber-cat_ma47gr100056ge11va122mt292tr3050-7524e7af-0e63-42ab-9f94-cfcafdce8ac7",
+   "title": "Mercedes-Benz C 180 CGI BlueEfficiency| 2.HAND| NAVI| PDC| SZH",
+   "model": "C 180",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 142000,
+   "year": 2013,
+   "first_registration": "04/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "70567",
+   "city": "Stuttgart",
+   "distance_km": 187,
+   "seller_type": "dealer",
+   "seller_name": "Erich Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/7524e7af-0e63-42ab-9f94-cfcafdce8ac7_dedb0b3e-5240-42da-8e67-f8d23ccb3fc8.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7524e7af-0e63-42ab-9f94-cfcafdce8ac7_5c2c6566-80f8-4f46-82d0-f2d65e034f4a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7524e7af-0e63-42ab-9f94-cfcafdce8ac7_7c9006a0-3315-4bc9-afe8-5bb278e58810.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7524e7af-0e63-42ab-9f94-cfcafdce8ac7_31ddb4a4-ad4d-407f-8b06-acc0280651a1.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7524e7af-0e63-42ab-9f94-cfcafdce8ac7_ce1590ad-ed09-4011-aae7-737d176fcaad.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7524e7af-0e63-42ab-9f94-cfcafdce8ac7_837de7a3-2325-4dc4-b9f5-ba08a4d2a36c.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 58,
+   "score_parts": [
+    "€995 above similar C 180 cars (median €8,995) (-11)",
+    "~10,923 km per year (+9)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "270edc4d-ece3-4e26-a9be-19b7453fd2fd",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-blueefficiency-7g-dct-benzin-cat_ma47gr100055ge342mt708tr480496-270edc4d-ece3-4e26-a9be-19b7453fd2fd",
+   "title": "Mercedes-Benz B 200 (BlueEFFICIENCY) 7G-DCT",
+   "model": "B 200",
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 126000,
+   "year": 2012,
+   "first_registration": "06/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "86356",
+   "city": "Neusäß, St",
+   "distance_km": 90,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/270edc4d-ece3-4e26-a9be-19b7453fd2fd_289e7a01-cc20-4848-a2c8-022a90cdc8ec.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/270edc4d-ece3-4e26-a9be-19b7453fd2fd_ddf5d835-f9a9-4fb9-8d1c-513c8f17e1f8.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/270edc4d-ece3-4e26-a9be-19b7453fd2fd_2b892512-12b8-4652-ab26-ce80a1949728.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/270edc4d-ece3-4e26-a9be-19b7453fd2fd_52a426bf-d9a9-4933-95e1-96e423083de4.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/270edc4d-ece3-4e26-a9be-19b7453fd2fd_69cb7be4-f3fa-4a30-bd8d-0f80a1d53699.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/270edc4d-ece3-4e26-a9be-19b7453fd2fd_05ca336f-041e-4e11-a1a1-22d59bab2f81.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 58,
+   "score_parts": [
+    "€310 above similar B 200 cars (median €9,690) (-3)",
+    "~9,000 km per year (+11)",
+    "Site rates it “good price” (+10)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "33364d13-1ee5-4517-8966-717491fcad53",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-a-klasse-1-5-automatik-pdc-navi-bt-klima-tempomat-benzin-schwarz-cat_ma47gr100054ge181va190mt505tr1297-33364d13-1ee5-4517-8966-717491fcad53",
+   "title": "Mercedes-Benz A 160 1.5*Automatik*PDC*Navi*BT*Klima*Tempomat",
+   "model": "A 160",
+   "price_eur": 7990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 114950,
+   "year": 2012,
+   "first_registration": "02/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 95,
+   "zip": "08289",
+   "city": "Schneeberg",
+   "distance_km": 195,
+   "seller_type": "dealer",
+   "seller_name": "E.M.G. Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/33364d13-1ee5-4517-8966-717491fcad53_6ec048ad-7b80-4326-bbd3-ae405b4baa83.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/33364d13-1ee5-4517-8966-717491fcad53_6a7c4daa-5016-4a4c-8d90-1c44de918a9d.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/33364d13-1ee5-4517-8966-717491fcad53_5683a25b-4a2e-411a-a332-465e04ba8998.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/33364d13-1ee5-4517-8966-717491fcad53_947f5062-2237-4bbc-ba62-2002c928e1e8.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/33364d13-1ee5-4517-8966-717491fcad53_85e427da-e635-4654-a634-b4311a7e6710.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/33364d13-1ee5-4517-8966-717491fcad53_42698498-5d3a-48f7-9f96-26a9bd521517.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 57,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~8,211 km per year (+12)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3536107135",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-b200-rentnerfahrzeug-garagenwagen-automatik/3536107135-216-6819",
+   "title": "Mercedes B200 rentnerfahrzeug garagenwagen Automatik",
+   "model": "B 200",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11000,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 100700,
+   "year": 2012,
+   "first_registration": "07/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "90482",
+   "city": "Oststadt",
+   "distance_km": 70,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/87/874697b9-e250-49ce-8982-179296813eaf?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 57,
+   "score_parts": [
+    "€400 below similar B 200 cars (median €9,900) (+4)",
+    "~7,193 km per year (+13)"
+   ],
+   "flags": [
+    "Price reduced from €11,000"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "eec0c165-734a-407a-8c62-52be5b390939",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-cgi-blueefficiency-tuev-neu-avantgarde-benzin-grau-cat_ma47gr100056ge11va122mt293tr1296-eec0c165-734a-407a-8c62-52be5b390939",
+   "title": "Mercedes-Benz C 200 CGI BlueEfficiency *TÜV NEU*AVANTGARDE*",
+   "model": "C 200",
+   "price_eur": 8499,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 141918,
+   "year": 2012,
+   "first_registration": "11/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 184,
+   "zip": "85276",
+   "city": "Pfaffenhofen an der Ilm",
+   "distance_km": 51,
+   "seller_type": "dealer",
+   "seller_name": "MYAUTOCENTER OHG",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/eec0c165-734a-407a-8c62-52be5b390939_068b1234-2b54-4a3c-b9ad-a2dd179653e2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/eec0c165-734a-407a-8c62-52be5b390939_7c03ef72-430f-432e-aec3-813ef15322e0.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/eec0c165-734a-407a-8c62-52be5b390939_0afa077f-808c-4b76-a326-7715f7e5ad99.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/eec0c165-734a-407a-8c62-52be5b390939_7adc0649-c228-4d09-908d-a8d0edc2dc65.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/eec0c165-734a-407a-8c62-52be5b390939_169486d4-f2b1-44f2-aff3-032a9506b1e9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/eec0c165-734a-407a-8c62-52be5b390939_612a1e69-c120-441f-8102-ec1c2ca395e4.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 55,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~10,137 km per year (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8499
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "90d05311-5d20-4fa1-ada4-56cb51444d7c",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-7g-dct-ahk-app-sitzheizung-xenon-pdc-benzin-silber-cat_ma47gr100055ge342mt708tr8238-90d05311-5d20-4fa1-ada4-56cb51444d7c",
+   "title": "Mercedes-Benz B 200 7G-DCT AHK App Sitzheizung Xenon PDC",
+   "model": "B 200",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 115700,
+   "year": 2014,
+   "first_registration": "06/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "71088",
+   "city": "Holzgerlingen",
+   "distance_km": 200,
+   "seller_type": "dealer",
+   "seller_name": "Autohaus Maurer GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/90d05311-5d20-4fa1-ada4-56cb51444d7c_930094cd-3729-4cdb-88c7-e1c394172f81.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/90d05311-5d20-4fa1-ada4-56cb51444d7c_88b4a8f3-63d3-4ff0-a35a-1e2ae8f29088.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/90d05311-5d20-4fa1-ada4-56cb51444d7c_ba2d4f24-9fd9-41f1-9cfd-c9725760d95d.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/90d05311-5d20-4fa1-ada4-56cb51444d7c_30a4998c-1b07-4681-9464-3cffa4c65570.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/90d05311-5d20-4fa1-ada4-56cb51444d7c_ccbc57a7-bcd2-4a66-b32a-9c6c696ce849.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/90d05311-5d20-4fa1-ada4-56cb51444d7c_a348d460-0f0f-4073-b33d-85afc1b4607a.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 55,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~9,642 km per year (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3528472565",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-c-180-t-avantgarde-ahk-automatik-comand/3528472565-216-9340",
+   "title": "Mercedes-Benz C 180 T Avantgarde, AHK, Automatik, Comand",
+   "model": "C 180",
+   "price_eur": 9000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11000,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 141273,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89081",
+   "city": "Ulm",
+   "distance_km": 139,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d8/d802f7d1-cad9-4488-ad39-c7a71c5b481d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 55,
+   "score_parts": [
+    "€490 below similar C 180 cars (median €9,490) (+5)",
+    "~10,091 km per year (+10)"
+   ],
+   "flags": [
+    "Price reduced from €11,000"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3518464276",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-180-b-b-180/3518464276-216-6682",
+   "title": "Mercedes-Benz B 180 B B 180",
+   "model": "B 180",
+   "price_eur": 4299,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 51646,
+   "year": 2015,
+   "first_registration": "04/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89233",
+   "city": "Neu Ulm",
+   "distance_km": 136,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2b/2b1d456f-aba2-4c77-a7fd-2094a7124c0c?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 55,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~4,695 km per year (+15)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 4299
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3534866861",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-200-navi-bi-xenon-tempomat-1hand/3534866861-216-7533",
+   "title": "Mercedes-Benz B 200 Navi Bi-Xenon Tempomat 1Hand",
+   "model": "B 200",
+   "price_eur": 9690,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 107306,
+   "year": 2012,
+   "first_registration": "11/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "86391",
+   "city": "Stadtbergen",
+   "distance_km": 90,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2d/2dbf5af5-2a13-47a6-9bf5-f9386f26642b?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 54,
+   "score_parts": [
+    "€210 below similar B 200 cars (median €9,900) (+2)",
+    "~7,665 km per year (+12)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9690
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3536868163",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/b180-automatik-tuev-neu-sportpaket-sitzhzg-77890km-/3536868163-216-9025",
+   "title": "B180 Automatik, TÜV neu, Sportpaket, Sitzhzg, 77890km,",
+   "model": null,
+   "price_eur": 9950,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 77890,
+   "year": 2013,
+   "first_registration": "10/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "73035",
+   "city": "Göppingen",
+   "distance_km": 154,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/10/10587db7-6402-4331-a768-d5e301c67a74?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 54,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~5,992 km per year (+14)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9950
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3555614881",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-c300/3555614881-216-7436",
+   "title": "Mercedes c300",
+   "model": "C 300",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 80000,
+   "year": 2013,
+   "first_registration": "07/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "63741",
+   "city": "Aschaffenburg",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/40/4046e007-912e-4cfb-a136-6b2f9ef1f83f?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 54,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~6,154 km per year (+14)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "e3c92ea4-cea9-42dc-856d-2246189ab3cb",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-b-klasse-b-180-246-242-autom-klima-navi-org-85tkm-benzin-weiss-cat_ma47gr100055ge342mt707tr480496-e3c92ea4-cea9-42dc-856d-2246189ab3cb",
+   "title": "Mercedes-Benz B 180 B 180 (246.242)/Autom./Klima/Navi/Org. 85TKm",
+   "model": "B 180",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 85000,
+   "year": 2012,
+   "first_registration": "07/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 122,
+   "zip": "72555",
+   "city": "Metzingen",
+   "distance_km": 183,
+   "seller_type": "dealer",
+   "seller_name": "Ilic-Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/e3c92ea4-cea9-42dc-856d-2246189ab3cb_c778eccf-f8c7-48c6-ab3f-db0b79fc3e76.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e3c92ea4-cea9-42dc-856d-2246189ab3cb_faab024a-cfb2-4e14-a74e-f1318b02d29a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e3c92ea4-cea9-42dc-856d-2246189ab3cb_618aeaf2-02da-4de1-8f42-00c48980e3db.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e3c92ea4-cea9-42dc-856d-2246189ab3cb_10f5e64a-4ef1-4bc0-86f2-779d3f41de0c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e3c92ea4-cea9-42dc-856d-2246189ab3cb_9aa87318-673d-4923-b412-334074a8479f.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e3c92ea4-cea9-42dc-856d-2246189ab3cb_8a7ca105-0a53-4070-9f05-aa41f99b3a0d.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 53,
+   "score_parts": [
+    "€1,399 above similar B 180 cars (median €8,600) (-16)",
+    "~6,071 km per year (+14)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3525484839",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-c200-avantgarde/3525484839-216-6838",
+   "title": "Mercedes Benz C200 Avantgarde",
+   "model": "C 200",
+   "price_eur": 9000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 9700,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 96800,
+   "year": 2012,
+   "first_registration": "02/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "90459",
+   "city": "Südstadt",
+   "distance_km": 70,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1bbc7d1c-de5f-490c-b208-2370fa58d71a?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 53,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~6,914 km per year (+13)"
+   ],
+   "flags": [
+    "Price reduced from €9,700"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3534017927",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-limousine-c-350-cgi-blueefficiency-4matic/3534017927-216-9253",
+   "title": "Mercedes-Benz Limousine C 350 CGI BlueEfficiency 4Matic",
+   "model": null,
+   "price_eur": 5990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 108000,
+   "year": 2012,
+   "first_registration": "08/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "74670",
+   "city": "Forchtenberg",
+   "distance_km": 160,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5cf6ffb6-82d5-49a6-ae45-6966388a2951?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 52,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~7,714 km per year (+12)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 5990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3548849061",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-180-b-b-180/3548849061-216-9095",
+   "title": "Mercedes-Benz B 180 B B 180",
+   "model": "B 180",
+   "price_eur": 9499,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 150580,
+   "year": 2014,
+   "first_registration": "12/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "72074",
+   "city": "Tübingen",
+   "distance_km": 198,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b1/b1389a40-b17b-40ac-8b67-c27088743e82?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 51,
+   "score_parts": [
+    "€346 below similar B 180 cars (median €9,845) (+4)",
+    "~12,548 km per year (+7)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9499
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3555913811",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-a-180/3555913811-216-8774",
+   "title": "Mercedes Benz A 180",
+   "model": "A 180",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 160000,
+   "year": 2013,
+   "first_registration": "01/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "74366",
+   "city": "Kirchheim am Neckar",
+   "distance_km": 187,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/db/dbe25faf-37bc-4984-9229-f443068c659b?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 51,
+   "score_parts": [
+    "€324 below similar A 180 cars (median €9,224) (+4)",
+    "~12,308 km per year (+8)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3555754798",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gestohlen-mercedes-s500l-s550l-amg-22-zoll-chrome/3555754798-216-6611",
+   "title": "GESTOHLEN ! Mercedes S500L S550L AMG 22 Zoll Chrome",
+   "model": "S 500",
+   "price_eur": 1,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 124000,
+   "year": 2012,
+   "first_registration": "12/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "86633",
+   "city": "Neuburg a.d. Donau",
+   "distance_km": 45,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2c/2c8c71c7-09c6-4411-a0c1-4f9cf92ba722?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 51,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~8,857 km per year (+11)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 1
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3552558395",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/a-klasse-180/3552558395-216-6396",
+   "title": "A Klasse 180",
+   "model": null,
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 100000,
+   "year": 2015,
+   "first_registration": "05/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "84034",
+   "city": "Landshut",
+   "distance_km": 55,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d6551218-499e-44ef-bcc8-c52fb6f61e44?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 51,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~9,091 km per year (+11)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3528488697",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/c180-t-avantgarde-ahk-automatik-comand/3528488697-216-9340",
+   "title": "C180 T Avantgarde, AHK, Automatik, Comand",
+   "model": null,
+   "price_eur": 9000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 12500,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 141273,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "89081",
+   "city": "Ulm",
+   "distance_km": 139,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e6/e6785a5d-8d6c-4504-8552-03234bf9b1f7?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 50,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~10,091 km per year (+10)"
+   ],
+   "flags": [
+    "Price reduced from €12,500"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3533066692",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-e-200-e-coupe-e-200-cgi-blueefficiency/3533066692-216-6819",
+   "title": "Mercedes-Benz E 200 E Coupe E 200 CGI BlueEfficiency",
+   "model": "E 200",
+   "price_eur": 3999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 144000,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "90482",
+   "city": "Oststadt",
+   "distance_km": 70,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/59/593e8566-bcea-4526-bdda-0e40b6f71afd?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 50,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~10,286 km per year (+10)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 3999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3552371138",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercrdes-b200/3552371138-216-19751",
+   "title": "Mercrdes B200",
+   "model": null,
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 135000,
+   "year": 2013,
+   "first_registration": "05/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "08626",
+   "city": "Adorf-Vogtland",
+   "distance_km": 160,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/73/73d567f2-edb1-46b0-bebc-1a86683398b2?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 50,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~10,385 km per year (+10)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "8c62c4cd-d23d-4bb0-94fd-1d5606c678f5",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-a-klasse-a-250-motorsport-edition-amg-line-kuehlwasser-benzin-silber-cat_ma47gr100054ge182va190mt512tr480494-8c62c4cd-d23d-4bb0-94fd-1d5606c678f5",
+   "title": "Mercedes-Benz A 250 A 250 Motorsport Edition Amg line Kühlwasser...",
+   "model": "A 250",
+   "price_eur": 7550,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 163000,
+   "year": 2016,
+   "first_registration": "01/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 211,
+   "zip": "92342",
+   "city": "Freystadt",
+   "distance_km": 40,
+   "seller_type": "dealer",
+   "seller_name": "Car-Point",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/8c62c4cd-d23d-4bb0-94fd-1d5606c678f5_78713aa6-9314-4d01-bfd9-b33eee9801c7.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/8c62c4cd-d23d-4bb0-94fd-1d5606c678f5_73b39a13-a721-4f1e-bd15-c70f91536c0a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/8c62c4cd-d23d-4bb0-94fd-1d5606c678f5_786c12cd-67c3-41a6-818e-3d4caf6e2c19.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/8c62c4cd-d23d-4bb0-94fd-1d5606c678f5_1006a2fa-a79e-47ce-900c-961853dbf55c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/8c62c4cd-d23d-4bb0-94fd-1d5606c678f5_fdb4fe27-3d50-47ae-9897-d3209370ea7c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/8c62c4cd-d23d-4bb0-94fd-1d5606c678f5_72f5756b-c518-405f-87e9-734bb2d6ffeb.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~16,300 km per year (+4)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7550
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "1c231da7-925f-4d70-b0a0-c6e7e45037c0",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-blueefficiency-7g-tronic-avantgarde-benzin-cat_ma47gr100056ge11va120mt292tr1296-1c231da7-925f-4d70-b0a0-c6e7e45037c0",
+   "title": "Mercedes-Benz C 180 BlueEFFICIENCY 7G-TRONIC Avantgarde",
+   "model": "C 180",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 143000,
+   "year": 2012,
+   "first_registration": "11/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "73061",
+   "city": "Ebersbach an der Fils",
+   "distance_km": 161,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/1c231da7-925f-4d70-b0a0-c6e7e45037c0_8ab3b1e8-1fc1-4b4f-b83e-720dde2d9e93.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/1c231da7-925f-4d70-b0a0-c6e7e45037c0_34172547-d8fd-4b97-b628-db29e398ac8a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/1c231da7-925f-4d70-b0a0-c6e7e45037c0_127b3931-1da8-4b46-a3ab-bb838a128dc2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/1c231da7-925f-4d70-b0a0-c6e7e45037c0_0738fc76-d49c-4265-a035-09d0a2a1f3b2.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "€1,004 above similar C 180 cars (median €8,995) (-11)",
+    "~10,214 km per year (+10)",
+    "Site rates it “good price” (+10)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3541333720",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-200-klima-1-hand-pdc-leder/3541333720-216-6415",
+   "title": "Mercedes-Benz B 200/KLIMA/1.HAND /PDC /Leder",
+   "model": "B 200",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 109100,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "81379",
+   "city": "Thalk.Obersendl.-Forsten-Fürstenr.-Solln",
+   "distance_km": 96,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6d/6d4a074d-5fbb-457b-9e5d-983dd7bafd44?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "€300 above similar B 200 cars (median €9,690) (-3)",
+    "~7,793 km per year (+12)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3539723011",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-e-200-cgi-cabrio-blueef-navi-xenon-pdc-leder-2-h/3539723011-216-5834",
+   "title": "Mercedes-Benz E 200 CGI Cabrio BlueEf*Navi*Xenon*PDC*Leder*2.H",
+   "model": "E 200",
+   "price_eur": 9790,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 160000,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "86529",
+   "city": "Schrobenhausen",
+   "distance_km": 55,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f8/f8e0d7d7-9401-45f7-a4c1-f71b89c6f24f?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~11,429 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9790
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3554221995",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mecedes-c-180-turbo/3554221995-216-6605",
+   "title": "Mecedes C 180 Turbo",
+   "model": null,
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 150000,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "85128",
+   "city": "Nassenfels",
+   "distance_km": 38,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ae/ae3dd514-3929-486a-902e-adbb315aa102?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~10,714 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3546799628",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-e-200-coup-ez-05-2012-tuev-09-2028-sommer-w/3546799628-216-6835",
+   "title": "Mercedes-Benz E 200 Coupé – EZ 05/2012 – TÜV 09/2028 – Sommer & W",
+   "model": "E 200",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 157000,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "90455",
+   "city": "Aussenstadt-Sued",
+   "distance_km": 65,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/06dbb146-76d7-4cc4-bce7-311f32408c10?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~11,214 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3544810525",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-c-250-coup-autom-sport/3544810525-216-6258",
+   "title": "Mercedes-Benz C 250 Coupé Autom. Sport",
+   "model": "C 250",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10300,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 144000,
+   "year": 2013,
+   "first_registration": "03/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "83098",
+   "city": "Brannenburg",
+   "distance_km": 139,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f2/f206a3c7-9081-4228-9187-e097a66bb257?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~11,077 km per year (+9)"
+   ],
+   "flags": [
+    "Price reduced from €10,300"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3549137888",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-cla-180-sb-dct-amg-sportpaket-panorama-memory/3549137888-216-5599",
+   "title": "Mercedes-Benz CLA 180 SB DCT AMG-SPORTPAKET PANORAMA MEMORY",
+   "model": "CLA 180",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 123650,
+   "year": 2016,
+   "first_registration": "12/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "82178",
+   "city": "Puchheim",
+   "distance_km": 91,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/93/9323c6ff-4f72-457d-8afc-777e61b27318?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 48,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,365 km per year (+8)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3535080685",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-c-klasse-limousine-schwarz-/3535080685-216-9065",
+   "title": "Mercedes-Benz C-Klasse Limousine schwarz.",
+   "model": "C-Klasse",
+   "price_eur": 9750,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10500,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 164000,
+   "year": 2013,
+   "first_registration": "04/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "71634",
+   "city": "Ludwigsburg",
+   "distance_km": 185,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c3/c347f855-eb86-42ba-b3ab-ed148c74c405?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,615 km per year (+7)"
+   ],
+   "flags": [
+    "Price reduced from €10,500"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9750
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3518768703",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-c-klasse-180-w204-top-zustand/3518768703-216-6827",
+   "title": "Mercedes C-Klasse 180 / W204 / Top Zustand",
+   "model": "C-Klasse",
+   "price_eur": 9850,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10500,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 164000,
+   "year": 2013,
+   "first_registration": "01/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "90443",
+   "city": "Südstadt",
+   "distance_km": 71,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/72/72b28b6c-a573-499b-a154-75b27abdaecd?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,615 km per year (+7)"
+   ],
+   "flags": [
+    "Price reduced from €10,500"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9850
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3509275458",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-200-pdc-ahk-tuev-neu-klima-tempomat-/3509275458-216-7337",
+   "title": "Mercedes-Benz B 200*PDC*AHK*TÜV Neu*Klima*Tempomat*",
+   "model": "B 200",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 132950,
+   "year": 2012,
+   "first_registration": "05/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "94315",
+   "city": "Straubing",
+   "distance_km": 68,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8e6bc820-abff-4a9d-ab10-f57ac5804eb5?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "€300 above similar B 200 cars (median €9,690) (-3)",
+    "~9,496 km per year (+11)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3546139871",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-180-dct-progressive/3546139871-216-6446",
+   "title": "Mercedes-Benz B 180 DCT Progressive",
+   "model": "B 180",
+   "price_eur": 7000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 105452,
+   "year": 2018,
+   "first_registration": "06/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "80993",
+   "city": "Moosach",
+   "distance_km": 86,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/41/412b6ece-ec89-4ae1-9c9a-2f3eef425ddb?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~13,182 km per year (+7)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3542407250",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-200-automatik/3542407250-216-6453",
+   "title": "Mercedes Benz B 200 Automatik",
+   "model": "B 200",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 156000,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "80933",
+   "city": "Feldmoching",
+   "distance_km": 83,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f9/f9b49378-4129-4fd6-9b62-76b75e9e7cad?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "€210 above similar B 200 cars (median €9,690) (-2)",
+    "~11,143 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3540918513",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-g-63-edition-weiss-designo-carbon/3540918513-216-6808",
+   "title": "Mercedes-Benz G 63 Edition Weiß Designo Carbon",
+   "model": null,
+   "price_eur": 1,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 163000,
+   "year": 2013,
+   "first_registration": "04/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "90763",
+   "city": "Fürth",
+   "distance_km": 76,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8c/8c01e73f-fe20-4338-aebe-c672b48f1754?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,538 km per year (+7)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 1
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3538365476",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-200-automatik/3538365476-216-6453",
+   "title": "Mercedes-Benz B 200 Automatik",
+   "model": "B 200",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10499,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 156000,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "80933",
+   "city": "Feldmoching",
+   "distance_km": 83,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5fb4168a-a9b2-43ec-a7dd-17df66bfb0f7?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "€210 above similar B 200 cars (median €9,690) (-2)",
+    "~11,143 km per year (+9)"
+   ],
+   "flags": [
+    "Price reduced from €10,499"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3530406041",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-a-180-urban-blue-efficiency-ahk/3530406041-216-19032",
+   "title": "Mercedes-Benz A 180 Urban Blue Efficiency AHK",
+   "model": "A 180",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11499,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 159000,
+   "year": 2015,
+   "first_registration": "01/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "73553",
+   "city": "Alfdorf",
+   "distance_km": 145,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af05e00d-44f1-4d31-a7ed-39f92015ac17?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 46,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,455 km per year (+6)"
+   ],
+   "flags": [
+    "Price reduced from €11,499"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3530380202",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-a-180-blueefficiency-urban/3530380202-216-19032",
+   "title": "Mercedes-Benz A 180 BlueEFFICIENCY Urban",
+   "model": "A 180",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11499,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 159000,
+   "year": 2015,
+   "first_registration": "01/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "73553",
+   "city": "Alfdorf",
+   "distance_km": 145,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0c17cc7e-b4b1-46d9-afa5-7a3702733056?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 46,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,455 km per year (+6)"
+   ],
+   "flags": [
+    "Price reduced from €11,499"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3528772634",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-e-200-autom-amg-line/3528772634-216-19956",
+   "title": "Mercedes-Benz E 200 Autom. AMG Line",
+   "model": "E 200",
+   "price_eur": 7100,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 8900,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 143333,
+   "year": 2016,
+   "first_registration": "05/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "97215",
+   "city": "Uffenheim",
+   "distance_km": 125,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8a84985f-8b97-4754-989d-e70af71bd9da?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 46,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,333 km per year (+6)"
+   ],
+   "flags": [
+    "Price reduced from €8,900"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7100
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "27a3c60c-d248-4c5f-a799-ad68462a58a1",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-180-cgi-blueefficiency-204-231-benzin-grau-cat_ma47gr100056ge11va122mt292tr480497-27a3c60c-d248-4c5f-a799-ad68462a58a1",
+   "title": "Mercedes-Benz C 180 C 180 CGI BlueEfficiency (204.231)",
+   "model": "C 180",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 16100,
+   "year": 2012,
+   "first_registration": "08/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 156,
+   "zip": "72585",
+   "city": "Riederich",
+   "distance_km": 183,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/27a3c60c-d248-4c5f-a799-ad68462a58a1_63a4e01d-a889-4bd9-9407-caea57b47c4a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/27a3c60c-d248-4c5f-a799-ad68462a58a1_3666d236-20f7-4098-a8e5-e49ba06f6c34.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/27a3c60c-d248-4c5f-a799-ad68462a58a1_113b27a7-391f-4ac5-baf0-b0dbde773009.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/27a3c60c-d248-4c5f-a799-ad68462a58a1_c9e4eb30-20c5-495a-9011-584fccd54972.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/27a3c60c-d248-4c5f-a799-ad68462a58a1_5e12f605-3453-4151-8374-f4075844a5b0.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/27a3c60c-d248-4c5f-a799-ad68462a58a1_7dbfe50b-e53c-488b-8e55-1d636ceba45a.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 44,
+   "score_parts": [
+    "€1,004 above similar C 180 cars (median €8,995) (-11)",
+    "~1,150 km per year (+15)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3553559261",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-c200-4-matic-night-paket/3553559261-216-4627",
+   "title": "Mercedes Benz C200 4 Matic Night Paket",
+   "model": "C 200",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 160000,
+   "year": 2016,
+   "first_registration": "12/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "36088",
+   "city": "Hünfeld",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0d/0de0c26b-c0c3-4c7c-b7c4-692f38323dbd?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 44,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~16,000 km per year (+4)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3553481498",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b180-automatik-voll/3553481498-216-5540",
+   "title": "Mercedes-Benz B180 Automatik Voll",
+   "model": "B 180",
+   "price_eur": 9700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 110000,
+   "year": 2013,
+   "first_registration": "09/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "82515",
+   "city": "Wolfratshausen",
+   "distance_km": 117,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cf/cff70449-f922-4d0b-959a-198c51de72c9?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 44,
+   "score_parts": [
+    "€650 above similar B 180 cars (median €9,050) (-7)",
+    "~8,462 km per year (+12)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9700
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3551290301",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-c-180-c-limousine-c-180-cgi/3551290301-216-7580",
+   "title": "Mercedes-Benz C 180 C Limousine C 180 CGI",
+   "model": "C 180",
+   "price_eur": 8149,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 150000,
+   "year": 2018,
+   "first_registration": "05/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "83026",
+   "city": "Rosenheim",
+   "distance_km": 126,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2e71aeef-4bbd-48cf-9bf2-07c0831c41ea?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 41,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~18,750 km per year (+1)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 8149
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3526935571",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/a-klasse-mercedes-a-180/3526935571-216-18622",
+   "title": "A Klasse mercedes A 180",
+   "model": "A 180",
+   "price_eur": 9499,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10000,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 162000,
+   "year": 2013,
+   "first_registration": "09/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "74532",
+   "city": "Ilshofen",
+   "distance_km": 132,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9a/9a33e004-2887-4488-b965-2989d0ec8198?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 41,
+   "score_parts": [
+    "€574 above similar A 180 cars (median €8,925) (-6)",
+    "~12,462 km per year (+8)"
+   ],
+   "flags": [
+    "Price reduced from €10,000"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9499
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3530187476",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-180-urban/3530187476-216-7433",
+   "title": "Mercedes-Benz B 180 Urban",
+   "model": "B 180",
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11400,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 108470,
+   "year": 2013,
+   "first_registration": "09/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "63801",
+   "city": "Kleinostheim",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b1/b1be810f-eb8e-4623-9745-6ebd267fb7d9?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 41,
+   "score_parts": [
+    "€950 above similar B 180 cars (median €9,050) (-11)",
+    "~8,344 km per year (+12)"
+   ],
+   "flags": [
+    "Price reduced from €11,400"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3518979773",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-c-200-t-4matic-amg/3518979773-216-5834",
+   "title": "Mercedes-Benz C 200 T 4Matic AMG",
+   "model": "C 200",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 150000,
+   "year": 2018,
+   "first_registration": "08/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "86529",
+   "city": "Schrobenhausen",
+   "distance_km": 54,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/23/23681414-9138-47bf-bed5-710e4bb2509d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 41,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~18,750 km per year (+1)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3543131855",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-c-180t-avantgarde-shz-pdc-navi-t-leder-mfl-/3543131855-216-8892",
+   "title": "Mercedes-Benz C 180T AVANTGARDE /SHZ/PDC/NAVI/T-LEDER/MFL/",
+   "model": "C 180",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 144380,
+   "year": 2013,
+   "first_registration": "12/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "70794",
+   "city": "Filderstadt",
+   "distance_km": 186,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f3937a1-704f-4549-90eb-c82562e99f16?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 38,
+   "score_parts": [
+    "€1,004 above similar C 180 cars (median €8,995) (-11)",
+    "~11,106 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3540655685",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-a-180/3540655685-216-7620",
+   "title": "Mercedes Benz A 180",
+   "model": "A 180",
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 138000,
+   "year": 2013,
+   "first_registration": "04/2013",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "87437",
+   "city": "Kempten",
+   "distance_km": 168,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/92/920e4f6c-4ecc-4a56-81be-9bf08200bc59?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 37,
+   "score_parts": [
+    "€1,075 above similar A 180 cars (median €8,925) (-12)",
+    "~10,615 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3547059805",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-unfallauto-mercedes-c-180-automatik/3547059805-216-9346",
+   "title": "Mercedes-Benz  UNFALLAUTO  Mercedes C 180 Automatik",
+   "model": null,
+   "price_eur": 4500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 6400,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 69830,
+   "year": 2012,
+   "first_registration": "10/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "72760",
+   "city": "Reutlingen",
+   "distance_km": 189,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f4/f472eb18-77eb-41a4-b48f-9033fc264336?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 35,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~4,988 km per year (+15)",
+    "Title mentions “UNFALL” (-20)"
+   ],
+   "flags": [
+    "Title mentions “UNFALL” — likely damage or defect",
+    "Price reduced from €6,400"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 4500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3544426042",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-b-180-b-b-180-urban-style-edition-motorschaden/3544426042-216-9140",
+   "title": "Mercedes-Benz B 180 B B 180 Urban Style Edition  /MOTORSCHADEN",
+   "model": "B 180",
+   "price_eur": 7999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 48794,
+   "year": 2018,
+   "first_registration": "08/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "91555",
+   "city": "Feuchtwangen",
+   "distance_km": 108,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/17/1742ce63-a1f5-4aa1-92ff-d3bdfb33b2c0?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 34,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~6,099 km per year (+14)",
+    "Title mentions “SCHADEN” (-20)"
+   ],
+   "flags": [
+    "Title mentions “SCHADEN” — likely damage or defect"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 7999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3541491515",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-c-klasse-totalschaden/3541491515-216-6235",
+   "title": "Mercedes c Klasse Totalschaden",
+   "model": "C-Klasse",
+   "price_eur": 1800,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 3000,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 170000,
+   "year": 2012,
+   "first_registration": "06/2012",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "93309",
+   "city": "Kelheim",
+   "distance_km": 13,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/8623f1a2-82f9-4757-8824-1788434aebf5?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 28,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,143 km per year (+8)",
+    "Title mentions “schaden” (-20)"
+   ],
+   "flags": [
+    "Title mentions “schaden” — likely damage or defect",
+    "Price reduced from €3,000"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 1800
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3548771610",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-gla-250-benzin-unfall-bastler/3548771610-216-8355",
+   "title": "Mercedes Benz GLA 250 Benzin Unfall Bastler",
+   "model": "GLA 250",
+   "price_eur": 3590,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 122000,
+   "year": 2018,
+   "first_registration": "03/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "71522",
+   "city": "Backnang",
+   "distance_km": 165,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/26/263fba2c-4df9-4c1d-a284-b7601ca0fd86?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 25,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~15,250 km per year (+5)",
+    "Title mentions “Unfall” (-20)"
+   ],
+   "flags": [
+    "Title mentions “Unfall” — likely damage or defect"
+   ],
+   "first_seen": "2026-10-29T22:21:26Z",
+   "last_seen": "2026-10-29T22:21:26Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:21:26Z",
+     "price_eur": 3590
+    }
+   ]
+  }
+ ]
+}
