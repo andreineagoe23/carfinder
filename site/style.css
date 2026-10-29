@@ -108,30 +108,54 @@ h3 {
   display: grid;
   grid-template-columns: 340px 1fr;
   gap: 1.25rem;
-  padding: 1.25rem 1.5rem;
+  padding: 0 1.5rem;
   max-width: 1500px;
   margin: 0 auto;
-  align-items: start;
 }
-.sidebar {
-  display: grid;
-  gap: 1.25rem;
-  position: sticky;
-  top: 72px;
-}
+.sidebar,
 .content {
   display: grid;
+  align-content: start;
   gap: 1.25rem;
+  padding: 1.25rem 0;
   min-width: 0;
+}
+
+/* Desktop: the form and the results scroll independently. */
+@media (min-width: 861px) {
+  body {
+    height: 100vh;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .topbar {
+    position: static;
+    flex: none;
+  }
+  .layout {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    grid-template-rows: minmax(0, 1fr);
+  }
+  .sidebar,
+  .content {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .sidebar {
+    padding-right: 0.4rem;
+    scrollbar-gutter: stable;
+  }
 }
 
 @media (max-width: 860px) {
   .layout {
     grid-template-columns: 1fr;
-    padding: 1rem;
-  }
-  .sidebar {
-    position: static;
+    padding: 0 1rem;
+    gap: 0;
   }
   .tagline {
     display: none;
@@ -148,7 +172,7 @@ h3 {
 
 .footer {
   text-align: center;
-  padding: 1rem 1.5rem 2rem;
+  padding: 0.5rem 0 1rem;
 }
 
 /* ---------- form */
@@ -279,37 +303,6 @@ button:disabled {
 }
 .site-group-name {
   font-size: 0.8rem;
-  color: var(--muted);
-}
-
-/* ---------- saved searches */
-
-.saved {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 0.4rem;
-}
-.saved li {
-  display: flex;
-  gap: 0.3rem;
-}
-.saved-item {
-  flex: 1;
-  display: grid;
-  text-align: left;
-  gap: 0.1rem;
-  min-width: 0;
-}
-.saved-name {
-  display: flex;
-  gap: 0.4rem;
-  align-items: center;
-  font-weight: 600;
-}
-button.icon {
-  padding: 0 0.7rem;
   color: var(--muted);
 }
 

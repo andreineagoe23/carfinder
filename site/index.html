@@ -93,12 +93,6 @@
             <button type="submit" class="primary" id="search-button">Search &amp; show cars</button>
           </div>
         </form>
-
-        <section class="card">
-          <h2>Saved searches</h2>
-          <p class="muted small" id="saved-empty">Searches you run show up here and refresh automatically twice a day.</p>
-          <ul class="saved" id="saved-list"></ul>
-        </section>
       </aside>
 
       <section class="content">
@@ -152,17 +146,17 @@
             <li><b>Search &amp; show cars</b> runs a GitHub Action that reads AutoScout24, Kleinanzeigen (🇩🇪) and
               Autovit (🇷🇴) and brings the matches back here, scored and de-duplicated. Takes about a minute.</li>
             <li>mobile.de, OLX, Publi24 and AutoUncle don't allow automated reading, so use their links above.</li>
-            <li>Saved searches are re-checked twice a day; new cars get a <span class="badge new">NEW</span> badge.</li>
+            <li>Run the same search again later and cars that appeared since get a <span class="badge new">NEW</span> badge.</li>
           </ol>
           <p class="muted small">First time? Open <b>Settings</b> and add a GitHub token so the site can start searches.</p>
         </section>
+
+        <footer class="footer muted small">
+          Personal tool, not affiliated with any of these sites. Prices are as listed; lei prices are converted at the
+          day's ECB rate. Always check the car and its history in person.
+        </footer>
       </section>
     </main>
-
-    <footer class="footer muted small">
-      Personal tool, not affiliated with any of these sites. Prices are as listed; lei prices are converted at the
-      day's ECB rate. Always check the car and its history in person.
-    </footer>
 
     <dialog id="settings">
       <form method="dialog" id="settings-form">

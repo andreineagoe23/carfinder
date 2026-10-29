@@ -39,7 +39,7 @@ GitHub Pages (site/)                GitHub Actions                     results b
   from the `results` branch.
 - The **Python package** (`src/carfinder`) does the fetching, merging and scoring. It is
   also a CLI you can run locally.
-- **Saved searches** are re-run twice a day by `refresh.yml`, which tracks new cars and
+- **Searches you have run** are re-run twice a day by `refresh.yml`, which tracks new cars and
   price drops.
 
 ## Set up your own copy

@@ -405,35 +405,8 @@ function github() {
   return new GitHub(state.settings.repo || repoFromLocation() || "", state.settings.token);
 }
 
-async function loadSaved() {
-  const repo = state.settings.repo || repoFromLocation();
-  if (!repo) return;
-  let index = [];
-  try {
-    index = (await github().readResults("index.json")) || [];
-  } catch (err) {
-    setStatus(`Couldn't load saved searches (${err.message}).`, "error");
-    return;
-  }
-  $("#saved-empty").hidden = index.length > 0;
-  $("#saved-list").replaceChildren(
-    ...index.map((s) =>
-      el(
-        "li",
-        {},
-        el(
-          "button",
-          { type: "button", class: "saved-item", onclick: () => openSaved(s.id) },
-          el("span", { class: "saved-name" }, s.name, s.new_count ? el("span", { class: "badge new" }, `${s.new_count} new`) : null),
-          el("span", { class: "muted small" }, `${s.count} cars · ${timeAgo(s.updated_at)}`),
-        ),
-        el("button", { type: "button", class: "icon", title: "Delete", "aria-label": `Delete ${s.name}`, onclick: () => deleteSaved(s) }, "×"),
-      ),
-    ),
-  );
-}
-
-async function openSaved(id) {
+/** Results of an earlier search, e.g. from a #s=<id> link. */
+async function openResult(id) {
   setStatus("Loading…", "busy");
   try {
     const result = await github().readResults(`searches/${id}.json`);
@@ -498,7 +471,6 @@ async function pollForResult(id, started) {
     if (result && new Date(result.updated_at) >= since) {
       showResult(result);
       setStatus(`Found ${result.listings.length} cars.`, "ok");
-      loadSaved();
       return;
     }
     const run = await gh.runSince(new Date(started.getTime() - 10_000));
@@ -511,20 +483,6 @@ async function pollForResult(id, started) {
     setStatus(`${phase}… ${seconds}s`, "busy", run ? { href: run.html_url, text: "Watch on GitHub ↗" } : null);
   }
   setStatus("Still not done after 10 minutes — check the Actions tab on GitHub.", "error");
-}
-
-async function deleteSaved(saved) {
-  if (!state.settings.token) {
-    openSettings("Add a GitHub token to delete searches.");
-    return;
-  }
-  if (!confirm(`Delete the saved search “${saved.name}” and its results?`)) return;
-  try {
-    await github().dispatch({ delete: saved.id });
-    setStatus("Deleting… it disappears from the list in about a minute.", "info");
-  } catch (err) {
-    setStatus(err.message, "error");
-  }
 }
 
 // ---------- settings
@@ -545,7 +503,6 @@ function saveSettings() {
   state.settings = { repo: f.repo.value.trim(), token: f.token.value.trim() };
   store.set("settings", state.settings);
   renderResults();
-  loadSaved();
 }
 
 // ---------- boot
@@ -576,8 +533,7 @@ async function main() {
   $("#settings").addEventListener("close", saveSettings);
 
   const hashId = location.hash.match(/^#s=([a-f0-9]{12})$/)?.[1];
-  if (hashId) openSaved(hashId);
-  loadSaved();
+  if (hashId) openResult(hashId);
 }
 
 main();
