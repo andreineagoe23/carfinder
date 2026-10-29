@@ -1,0 +1,572 @@
+{
+ "id": "4abb1af7593a",
+ "query": {
+  "name": "Kia (all models)",
+  "make": "Kia",
+  "model": null,
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 170000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [
+   "petrol"
+  ],
+  "gearbox": [
+   "automatic"
+  ],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "ro_location": {
+   "city": "timisoara",
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "13200"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-29T22:18:49Z",
+ "updated_at": "2026-10-29T22:18:49Z",
+ "requested_at": "2026-10-29T22:18:49Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=13200%3B%3B%3B&fr=2014%3A2018&ml=%3A170000&p=%3A10000&ft=PETROL&tr=AUTOMATIC_GEAR&zip=93339&zipr=200&cn=DE",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/kia?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=170000&priceto=10000&fuel=B&gear=A&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.fuel_s:benzin+autos.km_i:%2C170000+autos.marke_s:kia+autos.shift_s:automatik",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/kia/timisoara?search%5Bdist%5D=200&search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=170000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_gearbox%5D=automatic",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/kia/?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/kia/?carfueltype=benzina&gearname=automata",
+   "notes": [
+    "set years, price and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Kia",
+   "notes": [
+    "set years, price and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "autoscout24",
+   "source_id": "ec026ff2-e0f6-4f4f-a572-560e76933335",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/kia-ceed-ceed-sportswagon-1-6-aut-led-navi-kamera-17zoll-benzin-rot-cat_ma39gr200738ge961va1316mt2416tr7097-ec026ff2-e0f6-4f4f-a572-560e76933335",
+   "title": "Kia Ceed SW / cee'd SW Ceed Sportswagon 1.6 Aut*LED*Navi*Kamera*17Zoll*",
+   "model": "Ceed SW / cee'd SW",
+   "price_eur": 7990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 136000,
+   "year": 2014,
+   "first_registration": "07/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 135,
+   "zip": "92224",
+   "city": "Amberg",
+   "distance_km": 54,
+   "seller_type": "dealer",
+   "seller_name": "Gerber Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/ec026ff2-e0f6-4f4f-a572-560e76933335_1ad58348-1218-47e0-a90d-e61e22c9740d.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/ec026ff2-e0f6-4f4f-a572-560e76933335_3bbd3c12-aa12-4289-8d18-25e735273e6f.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/ec026ff2-e0f6-4f4f-a572-560e76933335_2d0ecb6f-5985-4516-89c6-de9bbc0eb9f4.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/ec026ff2-e0f6-4f4f-a572-560e76933335_5b4644d3-18bf-4f0f-bab8-2fe7192ec1ce.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/ec026ff2-e0f6-4f4f-a572-560e76933335_7ce953c4-a45b-4713-8f0e-4a1108b106ad.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/ec026ff2-e0f6-4f4f-a572-560e76933335_1c70efb0-8694-4301-88a9-43797f8f86b8.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 64,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~11,333 km per year (+9)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 7990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "290c7389-8ca8-44a9-98d4-6f914b6db3c2",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/kia-carens-spirit-automatik-navi-xen-rfk-pdc-tuev-neu-benzin-beige-cat_ma39gr200748ge957mt2399tr7107-290c7389-8ca8-44a9-98d4-6f914b6db3c2",
+   "title": "Kia Carens Spirit*AUTOMATIK*NAVI*XEN*RFK*PDC*TÜV NEU",
+   "model": "Carens",
+   "price_eur": 8970,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 151000,
+   "year": 2014,
+   "first_registration": "03/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 166,
+   "zip": "71088",
+   "city": "Holzgerlingen",
+   "distance_km": 199,
+   "seller_type": "dealer",
+   "seller_name": "Autozentrum Altintas",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/290c7389-8ca8-44a9-98d4-6f914b6db3c2_35ab1fff-0f4e-47ee-b48e-1ca6a3ceb526.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/290c7389-8ca8-44a9-98d4-6f914b6db3c2_44de2158-c680-464d-aa67-1aee8975fe48.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/290c7389-8ca8-44a9-98d4-6f914b6db3c2_8fe4d10d-c4da-4452-bac3-3633b42857ea.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/290c7389-8ca8-44a9-98d4-6f914b6db3c2_875cf154-928b-4721-a47e-2e4a88ea27f2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/290c7389-8ca8-44a9-98d4-6f914b6db3c2_0757d16b-6266-421e-b702-ad3e04cfccd9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/290c7389-8ca8-44a9-98d4-6f914b6db3c2_76e9e352-da0a-4f82-9f08-4efd248e0b5c.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 57,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,583 km per year (+7)",
+    "Site rates it “fair price” (+5)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 8970
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3553946751",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kia-rio-iii-1-4-automatik-mit-neuem-service-und-doppelt-bereift-/3553946751-216-7654",
+   "title": "Kia Rio III 1.4 Automatik (mit neuem Service und doppelt bereift)",
+   "model": "Rio",
+   "price_eur": 8700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 72800,
+   "year": 2014,
+   "first_registration": "06/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "93051",
+   "city": "Regensburg",
+   "distance_km": 28,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4d/4df0e80c-cc88-443e-b103-993be2b2bb4b?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 54,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~6,067 km per year (+14)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 8700
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "c7a3194e-e76a-43a2-8950-fe741b3add90",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/kia-sportage-vision-2wd-klima-neuer-motor-tuev-neu-benzin-grau-cat_ma39gr200737ge996mt2498tr8328-c7a3194e-e76a-43a2-8950-fe741b3add90",
+   "title": "Kia Sportage Vision 2WD KLIMA-NEUER-MOTOR-TÜV-NEU",
+   "model": "Sportage",
+   "price_eur": 8950,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 144511,
+   "year": 2015,
+   "first_registration": "03/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 166,
+   "zip": "80636",
+   "city": "München",
+   "distance_km": 91,
+   "seller_type": "dealer",
+   "seller_name": "WMB GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/c7a3194e-e76a-43a2-8950-fe741b3add90_109ecf82-9085-4081-af75-477acb168e68.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c7a3194e-e76a-43a2-8950-fe741b3add90_de90078e-4986-4916-8f2e-e667d01674a9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c7a3194e-e76a-43a2-8950-fe741b3add90_604ed1fd-d96b-4c3a-83d6-6a9710e0d7d1.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c7a3194e-e76a-43a2-8950-fe741b3add90_30fed3ba-e213-452a-ac16-377e8abf0690.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c7a3194e-e76a-43a2-8950-fe741b3add90_f393a7ad-ad3b-4686-bf15-8646b7bb7d9c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c7a3194e-e76a-43a2-8950-fe741b3add90_09cc89ab-c28f-4d93-8bf6-5b515ab29e59.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 52,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~13,137 km per year (+7)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 8950
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3555325381",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kia-picanto-gt-line-navi-bc-shz-klimaautomatik-leder/3555325381-216-6861",
+   "title": "Kia Picanto GT-Line NAVI BC SHZ KLIMAAUTOMATIK LEDER",
+   "model": "Picanto",
+   "price_eur": 7999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 88630,
+   "year": 2018,
+   "first_registration": "02/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "97437",
+   "city": "Haßfurt",
+   "distance_km": 146,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b1/b18afee7-edd4-49af-9496-dead9b426119?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~11,079 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 7999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3532958158",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kia-ceed-sportswagon-1-6-aut-led-navi-kamera-17zoll-/3532958158-216-5790",
+   "title": "Kia Ceed Sportswagon 1.6 Aut*LED*Navi*Kamera*17Zoll*",
+   "model": "cee'd Sportswagon",
+   "price_eur": 7990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 136000,
+   "year": 2014,
+   "first_registration": "07/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "92224",
+   "city": "Amberg",
+   "distance_km": 55,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/28/28de45de-0f30-4314-b60d-0381bb090c7d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~11,333 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 7990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3533069197",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kia-venga-1-6-cvvt-spirit-automatik-spirit/3533069197-216-6350",
+   "title": "Kia Venga 1.6 CVVT Spirit Automatik Spirit",
+   "model": "Venga",
+   "price_eur": 5500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 145297,
+   "year": 2014,
+   "first_registration": "05/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "82194",
+   "city": "Gröbenzell",
+   "distance_km": 88,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb46813c-faab-42b6-b07f-f654935435bd?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 48,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,108 km per year (+8)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 5500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3523696300",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kia-cee-d-spirit-sportswagon/3523696300-216-6052",
+   "title": "Kia Cee'D Spirit Sportswagon",
+   "model": null,
+   "price_eur": 5999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 6999,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 165538,
+   "year": 2014,
+   "first_registration": "09/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "84164",
+   "city": "Moosthenning",
+   "distance_km": 65,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6a/6a09097a-28ba-4189-bd76-3d19d9d6bbeb?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 46,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~13,795 km per year (+6)"
+   ],
+   "flags": [
+    "Price reduced from €6,999"
+   ],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 5999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3551207393",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kia-carens-vision-2-0l-automatik-navi-kamera/3551207393-216-8740",
+   "title": "Kia Carens Vision 2.0l AUTOMATIK/NAVI/KAMERA",
+   "model": "Carens",
+   "price_eur": 9750,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 118400,
+   "year": 2018,
+   "first_registration": "07/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "88410",
+   "city": "Bad Wurzach",
+   "distance_km": 179,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a644bae-3ce2-460c-968e-ce32def82d8b?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 45,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,800 km per year (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 9750
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3532841309",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kia-soul-1-6-t-gdi-dct-turbo-turbo/3532841309-216-5599",
+   "title": "Kia Soul 1.6 T-GDI DCT Turbo Turbo",
+   "model": "Soul",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11490,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 148000,
+   "year": 2016,
+   "first_registration": "10/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "82178",
+   "city": "Puchheim",
+   "distance_km": 92,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e01f7c0b-bfe5-46ed-90b1-b3b3e87ea28d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 45,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,800 km per year (+5)"
+   ],
+   "flags": [
+    "Price reduced from €11,490"
+   ],
+   "first_seen": "2026-10-29T22:18:49Z",
+   "last_seen": "2026-10-29T22:18:49Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:18:49Z",
+     "price_eur": 9999
+    }
+   ]
+  }
+ ]
+}
