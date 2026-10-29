@@ -1,0 +1,1394 @@
+{
+ "id": "57cea8edb13a",
+ "query": {
+  "name": "Nissan Qashqai",
+  "make": "Nissan",
+  "model": "Qashqai",
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 170000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [],
+  "gearbox": [
+   "automatic"
+  ],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "ro_location": {
+   "city": null,
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "18700",
+    "model_id": "47"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-29T22:38:54Z",
+ "updated_at": "2026-10-29T22:38:54Z",
+ "requested_at": "2026-10-29T22:38:54Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=18700%3B47%3B%3B&fr=2014%3A2018&ml=%3A170000&p=%3A10000&tr=AUTOMATIC_GEAR&cn=DE&ll=48.9667%2C11.6833&rd=200&gn=Riedenburg%2C+Bayern",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/nissan/qashqai?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=170000&priceto=10000&gear=A&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.km_i:%2C170000+autos.marke_s:nissan+autos.model_s:qashqai+autos.shift_s:automatik",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/nissan/qashqai?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=170000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_gearbox%5D=automatic",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/nissan/?search%5Bfilter_enum_model%5D%5B0%5D=qashqai&search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/nissan/qashqai/?gearname=automata",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Nissan/Qashqai",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "autoscout24",
+   "source_id": "9e896f68-fa05-4db8-a14f-84c79e089ebe",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-n-connecta-klima-navi-shz-pdc-assistenz-benzin-weiss-cat_ma52gr201054ge1650va3593mt4728tr5606-9e896f68-fa05-4db8-a14f-84c79e089ebe",
+   "title": "Nissan Qashqai N-Connecta *KLIMA*NAVI*SHZ*PDC*ASSISTENZ",
+   "model": "Qashqai",
+   "price_eur": 7490,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 133500,
+   "year": 2016,
+   "first_registration": "03/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "90571",
+   "city": "Schwaig",
+   "distance_km": 66,
+   "seller_type": "dealer",
+   "seller_name": "ASS Auto Service Schwaig",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_f40fc663-b682-4498-a91f-63bc7d4e7b56.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_4ee3be7f-f24b-419f-9cec-f811eae2f880.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_5510590a-730b-4201-9bbb-97453d540437.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_7d02ae9e-04d9-419b-b555-ac5ba2776924.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_7e7cbe4a-a2db-49ab-a40a-34888807fe83.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9e896f68-fa05-4db8-a14f-84c79e089ebe_17ca67b7-a765-4628-99a7-6cc4742a47d2.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-klima-navi-shz-pdc-assistenz/3522629147-216-6377",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 78,
+   "score_parts": [
+    "€1,500 below similar Qashqai cars (median €8,990) (+17)",
+    "~13,350 km per year (+7)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 7490
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060915698",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQSJ4.html",
+   "title": "Nissan Qashqai",
+   "model": "Qashqai",
+   "price_eur": 4300,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 123000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 115,
+   "zip": null,
+   "city": "Sibiu",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/domn14e16w3r2-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 74,
+   "score_parts": [
+    "€4,690 below similar Qashqai cars (median €8,990) (+25)",
+    "~11,182 km per year (+9)"
+   ],
+   "flags": [
+    "52% below similar cars — check for damage or scam",
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 4300
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3532689946",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta/3532689946-216-8362",
+   "title": "Nissan Qashqai N-Connecta",
+   "model": "Qashqai",
+   "price_eur": 6200,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 119707,
+   "year": 2017,
+   "first_registration": "12/2017",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "71570",
+   "city": "Oppenweiler",
+   "distance_km": 163,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f1/f1a180b1-bf83-4533-9954-127f6cc3a14e?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 72,
+   "score_parts": [
+    "€3,048 below similar Qashqai cars (median €9,248) (+25)",
+    "~13,301 km per year (+7)"
+   ],
+   "flags": [
+    "33% below similar cars — check for damage or scam"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 6200
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "82e47b61-d06d-41bb-84c5-821034a087b5",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-n-connecta-navi-autom-rfk-shz-benzin-violett-cat_ma52gr201054ge1650va3593mt4728tr5606-82e47b61-d06d-41bb-84c5-821034a087b5",
+   "title": "Nissan Qashqai N-Connecta, Navi, Autom, RFK, SHZ",
+   "model": "Qashqai",
+   "price_eur": 8499,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 118147,
+   "year": 2016,
+   "first_registration": "11/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "90765",
+   "city": "Fürth",
+   "distance_km": 77,
+   "seller_type": "dealer",
+   "seller_name": "BB Autohandel & Vermittlung",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_3003c4bf-b9c0-40c7-81be-8970f5548a2a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_831fb968-091b-4694-81a9-8bb611e14f7f.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_31ed2268-8626-4e20-aef9-0210a3195b68.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_ed907a15-00d8-4ecb-93aa-114e2edcbe3b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_9a04ab88-4790-46e4-bd53-73ea48f37507.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/82e47b61-d06d-41bb-84c5-821034a087b5_6688e7fd-37be-421a-8d02-07327e1e9ea2.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 69,
+   "score_parts": [
+    "€491 below similar Qashqai cars (median €8,990) (+5)",
+    "~11,815 km per year (+8)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8499
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "b31340b8-2540-47f8-92a4-16a02d5ae256",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-acenta-navi-kamera-benzin-weiss-cat_ma52gr201054ge1650va3593mt4728tr846-b31340b8-2540-47f8-92a4-16a02d5ae256",
+   "title": "Nissan Qashqai Acenta/ Navi / Kamera",
+   "model": "Qashqai",
+   "price_eur": 8490,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 146500,
+   "year": 2017,
+   "first_registration": "02/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "74080",
+   "city": "Heilbronn",
+   "distance_km": 183,
+   "seller_type": "dealer",
+   "seller_name": "Auto- Center- Heilbronn",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_06706251-5069-4dcd-9761-c74460e72919.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_3ca6a28a-1b1e-4a23-ab66-c495d72c078c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_0a38ff34-2bae-4026-bdca-7b200dc78100.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_9eb519dd-627b-4c22-9484-7d00564412fb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_56cf5832-bc83-480d-bc6d-5a7188d78fa9.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b31340b8-2540-47f8-92a4-16a02d5ae256_cfe19054-74cf-4a22-8d27-2870738ac314.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-automatik/3501152399-216-9247",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 67,
+   "score_parts": [
+    "€758 below similar Qashqai cars (median €9,248) (+8)",
+    "~16,278 km per year (+4)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8490
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "e8832690-76ae-4102-ae46-73a48eb55a88",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-tekna-benzin-schwarz-cat_ma52gr201054ge1650va3593mt4728tr7812-e8832690-76ae-4102-ae46-73a48eb55a88",
+   "title": "Nissan Qashqai Tekna",
+   "model": "Qashqai",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 60000,
+   "year": 2016,
+   "first_registration": "07/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "75446",
+   "city": "Wiernsheim",
+   "distance_km": 208,
+   "seller_type": "dealer",
+   "seller_name": "Mulliqi Automobile",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_7a418a64-f8fb-4d2c-b1ad-ffd3a70b4799.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_14dc2c40-d033-4965-bb6d-0acd297c8e14.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_b500a283-16eb-4ae1-9e3b-d520cdff3772.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_0edc2a8f-57ae-427e-8b0c-69007198e080.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_bf4536c1-1d8f-4124-917f-27442bd8ea72.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/e8832690-76ae-4102-ae46-73a48eb55a88_5056da01-0914-48a3-a50d-a83923a76ee7.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 59,
+   "score_parts": [
+    "~6,000 km per year (+14)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3555320185",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-1-6-dci-dpf-xtronic-360-360-/3555320185-216-6450",
+   "title": "Nissan Qashqai 1.6 dCi DPF Xtronic 360° 360°",
+   "model": "Qashqai",
+   "price_eur": 7790,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 170000,
+   "year": 2015,
+   "first_registration": "07/2015",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "80939",
+   "city": "Schwabing-Freimann",
+   "distance_km": 84,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4b/4b4997cc-8184-4e0e-95f9-e8f0f27d5f8d?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 58,
+   "score_parts": [
+    "€1,200 below similar Qashqai cars (median €8,990) (+13)",
+    "~15,455 km per year (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 7790
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "a080d955-f70e-46c2-8968-13d9f92fbaf7",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-acenta-autom-navi-kamera-diesel-weiss-cat_ma52gr201054ge1650va3593mt4733tr846-a080d955-f70e-46c2-8968-13d9f92fbaf7",
+   "title": "Nissan Qashqai Acenta \" Autom\"Navi\"Kamera",
+   "model": "Qashqai",
+   "price_eur": 9980,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 129000,
+   "year": 2016,
+   "first_registration": "12/2016",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 131,
+   "zip": "89231",
+   "city": "Neu-Ulm",
+   "distance_km": 138,
+   "seller_type": "dealer",
+   "seller_name": "L & H Automobile GbR.",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/a080d955-f70e-46c2-8968-13d9f92fbaf7_c2574a61-2222-4c8c-b704-fc08233ac988.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a080d955-f70e-46c2-8968-13d9f92fbaf7_0e84de69-066d-4939-afda-74141e2585e6.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a080d955-f70e-46c2-8968-13d9f92fbaf7_984ea09a-24c4-4e81-8659-1973cefe92ce.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a080d955-f70e-46c2-8968-13d9f92fbaf7_c83eeda3-fe4b-44a5-9d7e-62767abe4eb3.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a080d955-f70e-46c2-8968-13d9f92fbaf7_096acb32-851d-4b12-bc60-659218793395.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a080d955-f70e-46c2-8968-13d9f92fbaf7_4c0a0678-0831-4fe2-bbc7-3cb5c953e474.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 56,
+   "score_parts": [
+    "€990 above similar Qashqai cars (median €8,990) (-11)",
+    "~12,900 km per year (+7)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9980
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3546290824",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-klima-pano-automatik-kamera/3546290824-216-16909",
+   "title": "Nissan Qashqai N-Connecta-KLIMA-PANO-AUTOMATIK-KAMERA",
+   "model": "Qashqai",
+   "price_eur": 8500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 105000,
+   "year": 2017,
+   "first_registration": "02/2017",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "94469",
+   "city": "Deggendorf",
+   "distance_km": 95,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f03635ea-d8c3-4ead-bf31-713509404622?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 56,
+   "score_parts": [
+    "€748 below similar Qashqai cars (median €9,248) (+8)",
+    "~11,667 km per year (+8)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8500
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3526171218",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/-getriebeschaden-nissan-qashqai-j11-tekna-automatik-1-2-dig/3526171218-216-6400",
+   "title": "!Getriebeschaden! Nissan Qashqai J11 TEKNA/ Automatik 1.2 DIG",
+   "model": "Qashqai",
+   "price_eur": 6399,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 104757,
+   "year": 2015,
+   "first_registration": "05/2015",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "84137",
+   "city": "Vilsbiburg",
+   "distance_km": 74,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b0/b0eb4aea-f421-4f01-aee8-864f2e791cdf?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 55,
+   "score_parts": [
+    "€2,591 below similar Qashqai cars (median €8,990) (+25)",
+    "~9,523 km per year (+10)",
+    "Title mentions “schaden” (-20)"
+   ],
+   "flags": [
+    "Title mentions “schaden” — likely damage or defect"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 6399
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "b9b39408-eeae-47b2-893f-d694a68bcda5",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-acenta-diesel-grau-cat_ma52gr201054ge1649va3593mt4733tr846-b9b39408-eeae-47b2-893f-d694a68bcda5",
+   "title": "Nissan Qashqai Acenta",
+   "model": "Qashqai",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 117500,
+   "year": 2014,
+   "first_registration": "11/2014",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 131,
+   "zip": "75449",
+   "city": "Wurmberg",
+   "distance_km": 210,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/b9b39408-eeae-47b2-893f-d694a68bcda5_f88eb03f-7701-48cf-b0f6-8cddeef65144.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b9b39408-eeae-47b2-893f-d694a68bcda5_e66eef24-d734-4fb5-88ba-55a084113bca.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b9b39408-eeae-47b2-893f-d694a68bcda5_34ac58a3-cfbc-466b-a1f4-05fe77a4ceaf.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b9b39408-eeae-47b2-893f-d694a68bcda5_25d53f3a-307c-470e-9458-945289d66d87.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b9b39408-eeae-47b2-893f-d694a68bcda5_89df8112-ff5a-4460-8cce-68f0bf89dc8c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b9b39408-eeae-47b2-893f-d694a68bcda5_97940c9d-52af-4a15-9d94-834b9fa14e90.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 54,
+   "score_parts": [
+    "€550 above similar Qashqai cars (median €8,950) (-6)",
+    "~9,792 km per year (+10)",
+    "Site rates it “good price” (+10)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "7554b4b3-be6b-454c-940f-567cf0969235",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-qashqai-1-2-dig-t-xtronic-360-benzin-blau-cat_ma52gr201054ge1650va3593mt4728tr714-7554b4b3-be6b-454c-940f-567cf0969235",
+   "title": "Nissan Qashqai Qashqai 1.2 DIG-T Xtronic 360",
+   "model": "Qashqai",
+   "price_eur": 9500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 115000,
+   "year": 2015,
+   "first_registration": "09/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "83209",
+   "city": "Prien a.Chiemsee, M",
+   "distance_km": 133,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_278dffa9-6bce-41b8-b76a-5e1fdf286615.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_43e97ff8-7180-470e-bb46-be6c68804617.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_e6d267d1-ce4f-4513-a87a-3b90821f71cf.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_5b9bf726-383c-4e40-89ce-51d617542f9b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_0c843b5c-4e9d-46ee-8ef0-366c08a8b8cc.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7554b4b3-be6b-454c-940f-567cf0969235_68d18e61-1df4-4fe4-81be-439baa5b6e0c.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 54,
+   "score_parts": [
+    "€510 above similar Qashqai cars (median €8,990) (-6)",
+    "~10,455 km per year (+10)",
+    "Site rates it “good price” (+10)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9500
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7059775818",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-2-dig-t-xtronic-n-vision-ID7HM6bU.html",
+   "title": "Nissan Qashqai 1.2 DIG-T Xtronic N-Vision",
+   "model": "Qashqai",
+   "price_eur": 8950,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 132000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 115,
+   "zip": null,
+   "city": "Tarnaveni, Mures",
+   "distance_km": null,
+   "seller_type": "dealer",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/4p23j2g1ms343-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 53,
+   "score_parts": [
+    "~12,000 km per year (+8)",
+    "Dealer (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8950
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3539135925",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-automatik-panorama-360-kam/3539135925-216-4616",
+   "title": "Nissan Qashqai N-Connecta/ Automatik/ Panorama/ 360*kam",
+   "model": "Qashqai",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 96600,
+   "year": 2017,
+   "first_registration": "11/2017",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "36100",
+   "city": "Petersberg",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3d/3d1d6d5e-8238-4520-8378-09475cf5b5cf?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 53,
+   "score_parts": [
+    "€348 below similar Qashqai cars (median €9,248) (+4)",
+    "~10,733 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "7b47cfbf-9834-401d-90c2-22efbc4bc105",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-qashqai-1-6-dci-xtronictekna-diesel-schwarz-cat_ma52gr201054ge1650va3593mt4733tr7812-7b47cfbf-9834-401d-90c2-22efbc4bc105",
+   "title": "Nissan Qashqai Qashqai 1.6 dCi XtronicTEKNA",
+   "model": "Qashqai",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 125400,
+   "year": 2015,
+   "first_registration": "12/2015",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 131,
+   "zip": "97529",
+   "city": "Sulzheim",
+   "distance_km": 147,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/7b47cfbf-9834-401d-90c2-22efbc4bc105_9e77c986-3a49-48fa-a5c5-ccf3ee06253d.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7b47cfbf-9834-401d-90c2-22efbc4bc105_8485dda1-08dd-418a-8482-ace5b0a08a38.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7b47cfbf-9834-401d-90c2-22efbc4bc105_3e9f800a-61ea-46b3-a292-210c28dfa6a3.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7b47cfbf-9834-401d-90c2-22efbc4bc105_eac7532b-a027-4e56-b16b-804a34c5199a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7b47cfbf-9834-401d-90c2-22efbc4bc105_0dbf625a-52a4-4fa3-a131-fb91dcb86cea.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/7b47cfbf-9834-401d-90c2-22efbc4bc105_6f32fe97-b0a8-4915-9b0d-c9b7d56f7da6.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-1-6-dci-tekna-cvt-instandgesetzt/3449586545-216-6875",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 52,
+   "score_parts": [
+    "€1,000 above similar Qashqai cars (median €8,990) (-11)",
+    "~11,400 km per year (+9)",
+    "Site rates it “top price” (+15)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "642eb6f5-2efe-48cc-aab9-6ec5f1a06bba",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-acenta-1-2-automatik-tuev-neu-kamera-18-benzin-grau-cat_ma52gr201054ge1650va3593mt4728tr846-642eb6f5-2efe-48cc-aab9-6ec5f1a06bba",
+   "title": "Nissan Qashqai Acenta 1.2*Automatik*TÜV NEU*KAMERA*18\"*",
+   "model": "Qashqai",
+   "price_eur": 9995,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 113419,
+   "year": 2017,
+   "first_registration": "04/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "74906",
+   "city": "Bad Rappenau",
+   "distance_km": 192,
+   "seller_type": "dealer",
+   "seller_name": "Autohaus am Wasserschloss",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_465c8297-97a3-4733-979a-358ae192c2cb.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_6726614b-04f3-4757-84fd-ec105e6f572e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_21776b2c-cdb6-446d-bf63-8c464428ba7b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_697f9359-df70-44ee-b078-2ddb56f77295.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_47a053f9-ec86-4c7c-b358-769a911aee12.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/642eb6f5-2efe-48cc-aab9-6ec5f1a06bba_ac3c668b-3af4-4a68-b52c-b7441da16a50.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 51,
+   "score_parts": [
+    "€1,000 above similar Qashqai cars (median €8,995) (-11)",
+    "~12,602 km per year (+7)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9995
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060939368",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6-dci-start-stop-x-tronic-acenta-ID7HQYSQ.html",
+   "title": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC Acenta",
+   "model": "Qashqai",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 168000,
+   "year": 2014,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 130,
+   "zip": null,
+   "city": "Cristian, Sibiu",
+   "distance_km": null,
+   "seller_type": "dealer",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/fvxljw1ek6k82-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 51,
+   "score_parts": [
+    "~14,000 km per year (+6)",
+    "Dealer (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060856980",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-2-dig-t-start-stop-x-tronic-tekna-ID7HQDs0.html",
+   "title": "Nissan Qashqai 1.2 DIG-T Start/Stop X-TRONIC Tekna",
+   "model": "Qashqai",
+   "price_eur": 8900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 114000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 115,
+   "zip": null,
+   "city": "Sibiu",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/yihtao1j7b4h3-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 51,
+   "score_parts": [
+    "€90 below similar Qashqai cars (median €8,990) (+1)",
+    "~10,364 km per year (+10)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "028add40-3147-46d7-81b3-d6c1a1f5f15c",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-qashqai-1-6-dci-xtronic-acenta-diesel-blau-cat_ma52gr201054ge1650va3593mt4733tr846-028add40-3147-46d7-81b3-d6c1a1f5f15c",
+   "title": "Nissan Qashqai Qashqai 1.6 dCi Xtronic ACENTA",
+   "model": "Qashqai",
+   "price_eur": 9000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 97000,
+   "year": 2016,
+   "first_registration": "10/2016",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 131,
+   "zip": "71336",
+   "city": "Waiblingen, Stadt",
+   "distance_km": 174,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/028add40-3147-46d7-81b3-d6c1a1f5f15c_5d154b05-5dd8-4e06-8c4e-811d89ca3532.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/028add40-3147-46d7-81b3-d6c1a1f5f15c_9a0eadb5-9ab5-4496-8542-e901b3351150.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/028add40-3147-46d7-81b3-d6c1a1f5f15c_e786229a-ba01-42cd-8e49-7acc43e15c0e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/028add40-3147-46d7-81b3-d6c1a1f5f15c_8c626919-1b70-4427-94ac-61ca4e669a42.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/028add40-3147-46d7-81b3-d6c1a1f5f15c_c9a30c67-8c3c-4a70-b48a-210797eb4592.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/028add40-3147-46d7-81b3-d6c1a1f5f15c_d960e82c-0c8d-4060-8a89-2ba0c57e5f6b.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 50,
+   "score_parts": [
+    "~9,700 km per year (+10)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9000
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060936927",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6-dci-xtronic-tekna-ID7HQYft.html",
+   "title": "Nissan Qashqai 1.6 DCI Xtronic TEKNA",
+   "model": "Qashqai",
+   "price_eur": 8850,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 163262,
+   "year": 2014,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 130,
+   "zip": null,
+   "city": "Cornetu, Ilfov",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/j1sd2td766h81-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 48,
+   "score_parts": [
+    "€140 below similar Qashqai cars (median €8,990) (+2)",
+    "~13,605 km per year (+6)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8850
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3539040882",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-nissan-qashqai-tekna-1-6-automatik-wr/3539040882-216-7091",
+   "title": "Nissan Nissan Qashqai TEKNA 1,6 Automatik / WR",
+   "model": "Qashqai",
+   "price_eur": 8990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 164000,
+   "year": 2015,
+   "first_registration": "03/2015",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "86899",
+   "city": "Landsberg (Lech)",
+   "distance_km": 117,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/17/179f14c8-cea9-4fa9-9546-ba3b73839eb0?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 45,
+   "score_parts": [
+    "~14,909 km per year (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "4f57bf78-437b-4839-bb44-e9b3b5840cd1",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-tekna-benzin-blau-cat_ma52gr201054ge1650va3593mt4728tr7812-4f57bf78-437b-4839-bb44-e9b3b5840cd1",
+   "title": "Nissan Qashqai Tekna",
+   "model": "Qashqai",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 140000,
+   "year": 2016,
+   "first_registration": "12/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "74613",
+   "city": "Oehringen",
+   "distance_km": 163,
+   "seller_type": "dealer",
+   "seller_name": "Autohaus Hübel GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_21227a22-6981-4f91-84a0-7ee235a66dd3.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_7d04d3ef-27a0-4276-a707-ce8fd35faf55.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_4ba5926d-e70f-4e9a-85c0-64315af9a398.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_99198ac7-4344-4041-b4a2-edbd6bd94556.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_06b673a7-600a-4a3f-b5ee-ecd407ff2e2b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/4f57bf78-437b-4839-bb44-e9b3b5840cd1_7fe63d90-99da-4de1-8c5f-b6a4534988a7.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 41,
+   "score_parts": [
+    "€910 above similar Qashqai cars (median €8,990) (-10)",
+    "~14,000 km per year (+6)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3542326555",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqaiacenta-navi-euro6-tuevneu-1-hand-automatik/3542326555-216-3734",
+   "title": "Nissan QashqaiAcenta/Navi/Euro6/TÜVNeu/1.Hand/Automatik",
+   "model": "Qashqai",
+   "price_eur": 9497,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 135000,
+   "year": 2016,
+   "first_registration": "04/2016",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "98528",
+   "city": "Suhl",
+   "distance_km": 200,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56d6489c-e55f-4ad1-997b-748f482088da?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 41,
+   "score_parts": [
+    "€507 above similar Qashqai cars (median €8,990) (-6)",
+    "~13,500 km per year (+6)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9497
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060898153",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6-dci-start-stop-x-tronic-n-connecta-ID7HQOa5.html",
+   "title": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC N-Connecta",
+   "model": "Qashqai",
+   "price_eur": 9700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 143000,
+   "year": 2016,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 130,
+   "zip": null,
+   "city": "Caldararu, Ilfov",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/1jjqmv5ftrse2-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 38,
+   "score_parts": [
+    "€710 above similar Qashqai cars (median €8,990) (-8)",
+    "~14,300 km per year (+6)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9700
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3523621983",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai/3523621983-216-7707",
+   "title": "Nissan Qashqai",
+   "model": "Qashqai",
+   "price_eur": 10000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 11000,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 100600,
+   "year": 2017,
+   "first_registration": "11/2017",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "88131",
+   "city": "Lindau",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b1/b1559138-866f-4f1f-bee7-cb31b4393f98?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 38,
+   "score_parts": [
+    "€1,005 above similar Qashqai cars (median €8,995) (-11)",
+    "~11,178 km per year (+9)"
+   ],
+   "flags": [
+    "Price reduced from €11,000"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 10000
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060923889",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQURb.html",
+   "title": "Nissan Qashqai",
+   "model": "Qashqai",
+   "price_eur": 9790,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 133000,
+   "year": 2017,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 115,
+   "zip": null,
+   "city": "Selimbar, Sibiu",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/jniktmlc5vv23-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 36,
+   "score_parts": [
+    "€795 above similar Qashqai cars (median €8,995) (-9)",
+    "~14,778 km per year (+5)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9790
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060701797",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6-dci-xtronic-teknaplus-ID7HPZ53.html",
+   "title": "Nissan Qashqai 1.6 DCI Xtronic TEKNA+",
+   "model": "Qashqai",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 170000,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 130,
+   "zip": null,
+   "city": "Geamana, Arges",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/w87hfa8bgx631-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 33,
+   "score_parts": [
+    "€1,009 above similar Qashqai cars (median €8,990) (-11)",
+    "~15,455 km per year (+5)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-29T22:38:54Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:38:54Z",
+     "price_eur": 9999
+    }
+   ]
+  }
+ ]
+}
