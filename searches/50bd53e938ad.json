@@ -1,0 +1,108 @@
+{
+ "id": "50bd53e938ad",
+ "query": {
+  "name": "Mazda 6",
+  "make": "Mazda",
+  "model": "6",
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 160000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [
+   "petrol"
+  ],
+  "gearbox": [],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "16800",
+    "model_id": "7"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-29T21:28:32Z",
+ "updated_at": "2026-10-29T21:28:32Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=16800%3B7%3B%3B&fr=2014%3A2018&ml=%3A160000&p=%3A10000&ft=PETROL&zip=93339&zipr=200&cn=DE",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/mazda/6?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=160000&priceto=10000&fuel=B&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.fuel_s:benzin+autos.km_i:%2C160000+autos.marke_s:mazda+autos.model_s:6",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/mazda/6?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=160000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/mazda/?search%5Bfilter_enum_model%5D%5B0%5D=6&search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mazda/6/?carfueltype=benzina",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Mazda/6",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": []
+}
