@@ -1,8 +1,16 @@
 [
  {
+  "id": "8a9bc6bf19ab",
+  "name": "BMW (all models)",
+  "summary": "BMW (all models) · year any · ≤170,000 km · €13,000–16,000 · diesel · automatic · DE: 200 km around 93339 · RO: 200 km around timisoara",
+  "updated_at": "2026-10-29T22:00:22Z",
+  "count": 312,
+  "new_count": 312
+ },
+ {
   "id": "23a56255c8dd",
   "name": "Mazda CX-5",
-  "summary": "Mazda CX-5 · year 2014–2018 · ≤160,000 km · €≤12,000 · any fuel · automatic · DE: 200 km around 93339",
+  "summary": "Mazda CX-5 · year 2014–2018 · ≤160,000 km · €≤12,000 · any fuel · automatic · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:57:10Z",
   "count": 43,
   "new_count": 43
@@ -10,7 +18,7 @@
  {
   "id": "2b401019cb93",
   "name": "Nissan (all models)",
-  "summary": "Nissan (all models) · year 2014–2018 · ≤160,000 km · €≤10,000 · petrol · automatic · DE: 200 km around 93339",
+  "summary": "Nissan (all models) · year 2014–2018 · ≤160,000 km · €≤10,000 · petrol · automatic · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:44:16Z",
   "count": 54,
   "new_count": 54
@@ -18,7 +26,7 @@
  {
   "id": "e98349bbe30f",
   "name": "Volvo (all models)",
-  "summary": "Volvo (all models) · year 2014–2018 · ≤160,000 km · €≤10,000 · petrol · automatic · DE: 200 km around 93339",
+  "summary": "Volvo (all models) · year 2014–2018 · ≤160,000 km · €≤10,000 · petrol · automatic · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:42:50Z",
   "count": 1,
   "new_count": 1
@@ -26,7 +34,7 @@
  {
   "id": "ed79f46e8c99",
   "name": "Mazda 6",
-  "summary": "Mazda 6 · year 2014–2018 · ≤160,000 km · €≤10,000 · any fuel · automatic · DE: 200 km around 93339",
+  "summary": "Mazda 6 · year 2014–2018 · ≤160,000 km · €≤10,000 · any fuel · automatic · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:40:58Z",
   "count": 13,
   "new_count": 13
@@ -34,7 +42,7 @@
  {
   "id": "4fc58befec81",
   "name": "Mazda 6",
-  "summary": "Mazda 6 · year 2014–2018 · ≤160,000 km · €≤10,000 · any fuel · any gearbox · DE: 200 km around 93339",
+  "summary": "Mazda 6 · year 2014–2018 · ≤160,000 km · €≤10,000 · any fuel · any gearbox · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:28:58Z",
   "count": 21,
   "new_count": 21
@@ -42,7 +50,7 @@
  {
   "id": "50bd53e938ad",
   "name": "Mazda 6",
-  "summary": "Mazda 6 · year 2014–2018 · ≤160,000 km · €≤10,000 · petrol · any gearbox · DE: 200 km around 93339",
+  "summary": "Mazda 6 · year 2014–2018 · ≤160,000 km · €≤10,000 · petrol · any gearbox · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:28:32Z",
   "count": 0,
   "new_count": 0
@@ -50,7 +58,7 @@
  {
   "id": "4a31f38cc02f",
   "name": "Mazda CX-3",
-  "summary": "Mazda CX-3 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · any fuel · any gearbox · DE: 200 km around 93339",
+  "summary": "Mazda CX-3 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · any fuel · any gearbox · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:20:37Z",
   "count": 14,
   "new_count": 14
@@ -58,7 +66,7 @@
  {
   "id": "d1b92edb7618",
   "name": "Mazda CX-5",
-  "summary": "Mazda CX-5 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · any fuel · automatic · DE: 200 km around 93339",
+  "summary": "Mazda CX-5 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · any fuel · automatic · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:15:22Z",
   "count": 11,
   "new_count": 11
@@ -66,7 +74,7 @@
  {
   "id": "ef140fec9a33",
   "name": "Mazda CX-5",
-  "summary": "Mazda CX-5 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · automatic · DE: 200 km around 93339",
+  "summary": "Mazda CX-5 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · automatic · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:14:53Z",
   "count": 0,
   "new_count": 0
@@ -74,7 +82,7 @@
  {
   "id": "e4596b0dec44",
   "name": "Mazda CX-3",
-  "summary": "Mazda CX-3 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · any gearbox · DE: 200 km around 93339",
+  "summary": "Mazda CX-3 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · any gearbox · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T21:14:06Z",
   "count": 4,
   "new_count": 4
@@ -82,7 +90,7 @@
  {
   "id": "98e53996df04",
   "name": "Mazda CX-3",
-  "summary": "Mazda CX-3 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · any gearbox · DE: 200 km around 93339",
+  "summary": "Mazda CX-3 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · any gearbox · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T20:59:20Z",
   "count": 4,
   "new_count": 4
@@ -90,7 +98,7 @@
  {
   "id": "f1cff322f919",
   "name": "Mazda 6",
-  "summary": "Mazda 6 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · automatic · DE: 200 km around 93339",
+  "summary": "Mazda 6 · year 2014–2018 · ≤160,000 km · €8,000–10,000 · petrol · automatic · DE: 200 km around 93339 · RO: whole country",
   "updated_at": "2026-10-29T20:58:42Z",
   "count": 0,
   "new_count": 0
