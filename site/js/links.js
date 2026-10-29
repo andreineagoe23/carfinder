@@ -175,15 +175,28 @@ const AUTOVIT_FUELS = {
   lpg: ["petrol-lpg"],
 };
 
+const AUTOVIT_RADII = [5, 10, 15, 25, 50, 75, 100, 150, 200, 250, 300];
+
+function roCityNotes(q) {
+  return q.ro_location?.city ? ["pick the city on the site"] : [];
+}
+
 export function autovit(q) {
-  const path = ["https://www.autovit.ro/autoturisme", slugify(q.make, "-"), q.model ? slugify(q.model, "-") : null]
+  const city = q.ro_location?.city || null;
+  const path = ["https://www.autovit.ro/autoturisme", slugify(q.make, "-"), q.model ? slugify(q.model, "-") : null, city]
     .filter(Boolean)
     .join("/");
   const params = new URLSearchParams();
+  const notes = [];
+  if (city) {
+    const [radius, note] = snapRadius(q.ro_location.radius_km, AUTOVIT_RADII);
+    params.append("search[dist]", String(radius));
+    if (note) notes.push(note);
+  }
   addRanges(params, [["year", q.year], ["mileage", q.mileage_km], ["price", q.price_eur]]);
   (q.fuel || []).flatMap((f) => AUTOVIT_FUELS[f]).forEach((v, i) => params.append(`search[filter_enum_fuel_type][${i}]`, v));
   if (q.gearbox?.length === 1) params.append("search[filter_enum_gearbox]", q.gearbox[0]);
-  return { url: withQuery(path, params), notes: [] };
+  return { url: withQuery(path, params), notes };
 }
 
 export function olx(q) {
@@ -192,7 +205,7 @@ export function olx(q) {
   if (q.model) params.append("search[filter_enum_model][0]", slugify(q.model, "-"));
   addRanges(params, [["year", q.year], ["price", q.price_eur]]);
   const notes = q.fuel?.length || q.gearbox?.length || q.mileage_km?.max != null ? ["set fuel, gearbox and km on the site"] : [];
-  return { url: withQuery(path, params), notes };
+  return { url: withQuery(path, params), notes: [...notes, ...roCityNotes(q)] };
 }
 
 const PUBLI24_FUELS = { petrol: "benzina", diesel: "diesel" };
@@ -203,13 +216,13 @@ export function publi24(q) {
   const params = new URLSearchParams();
   if (q.fuel?.length === 1 && PUBLI24_FUELS[q.fuel[0]]) params.append("carfueltype", PUBLI24_FUELS[q.fuel[0]]);
   if (q.gearbox?.length === 1 && q.gearbox[0] === "automatic") params.append("gearname", "automata");
-  return { url: withQuery(`${parts.join("/")}/`, params), notes: ["set years, price and km on the site"] };
+  return { url: withQuery(`${parts.join("/")}/`, params), notes: ["set years, price and km on the site", ...roCityNotes(q)] };
 }
 
 export function autoUncleRo(q) {
   const parts = ["https://www.autouncle.ro/ro/masini-second-hand", encodeURIComponent(q.make.replaceAll(" ", "-"))];
   if (q.model) parts.push(encodeURIComponent(q.model.replaceAll(" ", "-")));
-  return { url: parts.join("/"), notes: ["set years, price and km on the site"] };
+  return { url: parts.join("/"), notes: ["set years, price and km on the site", ...roCityNotes(q)] };
 }
 
 export function buildLinks(q, { mobileIds, kaLocationId } = {}) {

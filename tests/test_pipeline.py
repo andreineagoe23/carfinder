@@ -156,3 +156,39 @@ def test_label_models_guesses_from_title_for_any_model_search(profile):
     listing = car(source="kleinanzeigen", title="Mazda CX3 2.0 Skyactiv", model=None)
     label_models(profile, [listing])
     assert listing.model == "CX-3"
+
+
+def test_refresh_keeps_requested_at_and_prunes_old_searches(profile, cache, tmp_path, monkeypatch):
+    from datetime import UTC, datetime
+
+    monkeypatch.setattr("carfinder.sites.autoscout24.AutoScout24.fetch", lambda self, p, n: [car()])
+    profile.sites = ["autoscout24"]
+    store = Store(tmp_path)
+    client = httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(404)))
+    first = run_search(profile, client, cache, store, at="2026-10-01T00:00:00Z")
+    refreshed = run_search(profile, client, cache, store, first.id, at="2026-10-02T00:00:00Z", requested=False)
+    assert refreshed.requested_at == "2026-10-01T00:00:00Z"
+
+    old = profile.model_copy(update={"model": "MX-5"})
+    run_search(old, client, cache, store, at="2026-08-01T00:00:00Z")
+    now = datetime(2026, 10, 10, tzinfo=UTC)
+    assert [r.id for r in store.recently_requested(days=14, limit=5, now=now)] == [first.id]
+    assert store.prune(days=30, now=now) == [old.query_id()]
+    assert [r.id for r in store.all()] == [first.id]
+
+
+def test_all_models_search_reads_more_pages(profile, cache, tmp_path, monkeypatch):
+    pages = []
+    monkeypatch.setattr("carfinder.sites.autoscout24.AutoScout24.fetch", lambda self, p, n: pages.append(n) or [])
+    profile.sites = ["autoscout24"]
+    client = httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(404)))
+    run_search(profile, client, cache, Store(tmp_path))
+    run_search(profile.model_copy(update={"model": None}), client, cache, Store(tmp_path))
+    assert pages == [5, 10]
+
+
+def test_score_explains_itself():
+    listings = [car(source_id=str(i), price=10_000) for i in range(4)] + [car(source_id="deal", price=9000, seller_type="dealer")]
+    deal = next(x for x in score(listings, today=date(2026, 10, 1)) if x.source_id == "deal")
+    assert any("€1,000 below similar CX-3 cars" in p for p in deal.score_parts)
+    assert any(p.startswith("Dealer") for p in deal.score_parts)

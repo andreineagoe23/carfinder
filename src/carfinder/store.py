@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from pydantic import BaseModel
@@ -24,6 +24,7 @@ class SearchResult(BaseModel):
     query: SearchProfile
     created_at: str
     updated_at: str
+    requested_at: str | None = None  # last time someone started this search (not the scheduler)
     links: list[SearchLink] = []
     errors: dict[str, str] = {}
     listings: list[Listing] = []
@@ -44,6 +45,10 @@ class IndexEntry(BaseModel):
 
 def now_iso() -> str:
     return datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def parse_iso(value: str) -> datetime:
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
 def check_id(search_id: str) -> str:
@@ -71,6 +76,22 @@ class Store:
         self.searches.mkdir(parents=True, exist_ok=True)
         self.path(result.id).write_text(result.model_dump_json(indent=1))
         self.write_index()
+
+    def recently_requested(self, days: int, limit: int, now: datetime | None = None) -> list[SearchResult]:
+        """Searches someone started in the last `days` days, newest first."""
+        cutoff = (now or datetime.now(UTC)) - timedelta(days=days)
+        recent = [r for r in self.all() if parse_iso(r.requested_at or r.created_at) >= cutoff]
+        return sorted(recent, key=lambda r: r.requested_at or r.created_at, reverse=True)[:limit]
+
+    def prune(self, days: int, now: datetime | None = None) -> list[str]:
+        """Delete searches nobody has started for `days` days; returns their IDs."""
+        cutoff = (now or datetime.now(UTC)) - timedelta(days=days)
+        stale = [r.id for r in self.all() if parse_iso(r.requested_at or r.created_at) < cutoff]
+        for search_id in stale:
+            self.path(search_id).unlink()
+        if stale:
+            self.write_index()
+        return stale
 
     def delete(self, search_id: str) -> bool:
         path = self.path(search_id)

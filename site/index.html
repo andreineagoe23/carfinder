@@ -12,6 +12,7 @@
     <header class="topbar">
       <a class="brand" href="./">car<span>finder</span></a>
       <p class="tagline">One search across German &amp; Romanian car sites</p>
+      <button type="button" class="ghost" id="open-shortlist">★ Shortlist <span id="shortlist-count">0</span></button>
       <button type="button" class="ghost" id="open-settings" aria-label="Settings">⚙ Settings</button>
     </header>
 
@@ -25,7 +26,7 @@
               <select name="make" required></select>
             </label>
             <label>Model
-              <select name="model" required></select>
+              <select name="model"></select>
             </label>
           </div>
 
@@ -64,27 +65,53 @@
             </div>
           </fieldset>
 
-          <div class="row">
-            <label>🇩🇪 Near zip
-              <input name="zip" inputmode="numeric" pattern="\d{5}" maxlength="5" required />
-            </label>
-            <label>Radius
-              <select name="radius">
-                <option value="10">10 km</option>
-                <option value="20">20 km</option>
-                <option value="50">50 km</option>
-                <option value="100">100 km</option>
-                <option value="150">150 km</option>
-                <option value="200">200 km</option>
-              </select>
-            </label>
-          </div>
+          <fieldset class="where">
+            <legend>Where to search</legend>
 
-          <p class="muted small hint">🇷🇴 Romanian sites search the whole country.</p>
+            <div class="region" data-country="DE">
+              <label class="region-toggle"><input type="checkbox" name="country" value="DE" /> 🇩🇪 Germany</label>
+              <div class="region-body">
+                <div class="row">
+                  <label>Near zip
+                    <input name="zip" inputmode="numeric" pattern="\d{5}" maxlength="5" />
+                  </label>
+                  <label>Radius
+                    <select name="radius">
+                      <option value="10">10 km</option>
+                      <option value="20">20 km</option>
+                      <option value="50">50 km</option>
+                      <option value="100">100 km</option>
+                      <option value="150">150 km</option>
+                      <option value="200">200 km</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="chips" data-sites="DE"></div>
+              </div>
+            </div>
 
-          <fieldset>
-            <legend>Sites</legend>
-            <div id="site-chips"></div>
+            <div class="region" data-country="RO">
+              <label class="region-toggle"><input type="checkbox" name="country" value="RO" /> 🇷🇴 Romania</label>
+              <div class="region-body">
+                <div class="row">
+                  <label>Near city
+                    <select name="ro_city"><option value="">Whole country</option></select>
+                  </label>
+                  <label>Radius
+                    <select name="ro_radius">
+                      <option value="25">25 km</option>
+                      <option value="50">50 km</option>
+                      <option value="75">75 km</option>
+                      <option value="100">100 km</option>
+                      <option value="150">150 km</option>
+                      <option value="200">200 km</option>
+                      <option value="300">300 km</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="chips" data-sites="RO"></div>
+              </div>
+            </div>
           </fieldset>
 
           <p class="form-error" id="form-error" role="alert" hidden></p>
@@ -103,6 +130,18 @@
         </section>
 
         <div class="status" id="status" hidden></div>
+
+        <section id="shortlist-section" hidden>
+          <div class="results-head">
+            <div>
+              <h2 id="shortlist-title">Shortlist</h2>
+              <p class="muted small" id="shortlist-meta"></p>
+            </div>
+            <div class="controls" id="shortlist-actions"></div>
+          </div>
+          <div class="grid" id="shortlist-cars"></div>
+          <div id="shortlist-checklist"></div>
+        </section>
 
         <section id="results-section" hidden>
           <div class="results-head">
@@ -146,6 +185,8 @@
             <li><b>Search &amp; show cars</b> runs a GitHub Action that reads AutoScout24, Kleinanzeigen (🇩🇪) and
               Autovit (🇷🇴) and brings the matches back here, scored and de-duplicated. Takes about a minute.</li>
             <li>mobile.de, OLX, Publi24 and AutoUncle don't allow automated reading, so use their links above.</li>
+            <li>Tap <b>☆</b> on cars you like to add them to your <b>Shortlist</b>, then send the list — with photos and a
+              viewing checklist — over WhatsApp to whoever goes to see them.</li>
             <li>Run the same search again later and cars that appeared since get a <span class="badge new">NEW</span> badge.</li>
           </ol>
           <p class="muted small">First time? Open <b>Settings</b> and add a GitHub token so the site can start searches.</p>

@@ -160,6 +160,26 @@ h3 {
   .tagline {
     display: none;
   }
+  .topbar {
+    padding: 0.6rem 1rem;
+    gap: 0.5rem;
+  }
+  .topbar .brand {
+    margin-right: auto;
+  }
+  .topbar button {
+    padding: 0.45rem 0.7rem;
+    white-space: nowrap;
+  }
+}
+
+/* Someone opened a shared shortlist: show just the cars and the checklist. */
+body.shared-view .sidebar,
+body.shared-view .links-card {
+  display: none;
+}
+body.shared-view .layout {
+  grid-template-columns: 1fr;
 }
 
 .card {
@@ -290,20 +310,40 @@ button:disabled {
   font-size: 0.9rem;
 }
 
-.hint {
-  margin: -0.4rem 0 0;
+/* ---------- where to search */
+
+.where {
+  gap: 0.5rem;
 }
-#site-chips {
+.region {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.6rem 0.7rem;
   display: grid;
   gap: 0.6rem;
 }
-.site-group {
-  display: grid;
-  gap: 0.35rem;
+.region:has(input[name="country"]:checked) {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
 }
-.site-group-name {
-  font-size: 0.8rem;
-  color: var(--muted);
+.region-toggle {
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  color: var(--text) !important;
+  cursor: pointer;
+}
+.region-toggle input {
+  width: auto;
+  accent-color: var(--accent);
+}
+.region-body {
+  display: grid;
+  gap: 0.6rem;
+}
+select:disabled {
+  opacity: 0.5;
 }
 
 /* ---------- links */
@@ -598,4 +638,202 @@ dialog::backdrop {
   border-radius: 8px;
   background: var(--ok-bg);
   color: var(--ok);
+}
+
+/* ---------- card extras: gallery, star, score breakdown, notes */
+
+.photo .nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 45%);
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.photo:hover .nav,
+.photo .nav:focus-visible {
+  opacity: 1;
+}
+@media (hover: none) {
+  .photo .nav {
+    opacity: 1;
+  }
+}
+.photo .prev {
+  left: 0.5rem;
+}
+.photo .next {
+  right: 0.5rem;
+}
+.photo-count {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  font-size: 0.75rem;
+  color: #fff;
+  background: rgb(0 0 0 / 50%);
+  padding: 0.1rem 0.45rem;
+  border-radius: 6px;
+}
+.photo-count:empty {
+  display: none;
+}
+.star {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 92%);
+  color: #6b7280;
+  font-size: 1.35rem;
+  line-height: 1;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+.star.on {
+  color: #f59e0b;
+}
+
+.why {
+  font-size: 0.83rem;
+}
+.why summary {
+  cursor: pointer;
+  color: var(--accent);
+}
+.why ul {
+  margin: 0.3rem 0 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.1rem;
+}
+
+.compare {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--text);
+}
+
+.note {
+  margin: 0;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  background: var(--ok-bg);
+  color: var(--ok);
+  font-size: 0.88rem;
+}
+.note-input {
+  font: inherit;
+  font-size: 0.88rem;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.45rem 0.6rem;
+  resize: vertical;
+}
+
+a.button {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--border);
+  text-decoration: none;
+}
+a.button.primary {
+  background: #16a34a;
+  border-color: #16a34a;
+  color: #fff;
+  font-weight: 600;
+}
+
+#shortlist-count {
+  display: inline-block;
+  min-width: 1.3rem;
+  padding: 0 0.35rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-text);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* ---------- viewing checklist */
+
+.checklist {
+  margin-top: 1.25rem;
+}
+.check-group h3 {
+  margin: 1rem 0 0.4rem;
+}
+.check-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+.check-group label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.check-group input {
+  width: auto;
+  flex: none;
+  margin-top: 0.25rem;
+  accent-color: var(--accent);
+}
+
+/* ---------- print: just the shortlist and checklist */
+
+@media print {
+  body {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+    background: #fff;
+  }
+  .topbar,
+  .sidebar,
+  .links-card,
+  .status,
+  .footer,
+  #shortlist-actions,
+  .star,
+  .photo .nav,
+  .photo-count,
+  .note-input:placeholder-shown {
+    display: none !important;
+  }
+  .layout {
+    display: block;
+    padding: 0;
+  }
+  .content {
+    overflow: visible !important;
+    padding: 0;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .car,
+  .check-group {
+    break-inside: avoid;
+  }
+  .photo {
+    aspect-ratio: 16 / 9;
+  }
 }

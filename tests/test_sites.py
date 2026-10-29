@@ -140,3 +140,16 @@ def test_blank_model_means_all_models():
 
     p = SearchProfile(make="Mazda", model="  ", location={"zip": "93339"})
     assert p.model is None and p.title == "Mazda (all models)"
+
+
+def test_autovit_city_and_radius(profile, cache):
+    from carfinder.sites.autovit import Autovit
+
+    from carfinder.models import RoLocation
+
+    profile.ro_location = RoLocation(city="cluj-napoca", radius_km=60)
+    site = Autovit(None, cache)
+    link = site.link(profile)
+    assert urlsplit(link.url).path == "/autoturisme/mazda/cx-3/cluj-napoca"
+    assert ("search[dist]", "75") in query(link.url)  # rounded up to the nearest radius Autovit offers
+    assert link.notes == ["radius 60 km not offered, using 75 km"]

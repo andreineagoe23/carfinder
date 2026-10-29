@@ -30,7 +30,10 @@ ProfilesDir = Annotated[
     Path, typer.Option("--profiles-dir", "-d", help="Folder with profile YAML files.")
 ]
 ResultsDir = Annotated[Path, typer.Option("--results-dir", "-r", help="Where search results are stored.")]
-MaxPages = Annotated[int, typer.Option("--max-pages", min=1, max=10, help="Result pages to read per site.")]
+MaxPages = Annotated[
+    Optional[int],
+    typer.Option("--max-pages", min=1, max=20, help="Result pages per site (default: 5, or 10 for all models)."),
+]
 Notify = Annotated[bool, typer.Option("--notify", help="Send new listings to Telegram (needs env vars).")]
 
 
@@ -118,7 +121,7 @@ def search(
     query_json: Annotated[Optional[str], typer.Option("--query-json", help="Search profile as JSON.")] = None,
     search_id: Annotated[Optional[str], typer.Option("--id", help="Results ID (12 hex chars).")] = None,
     results_dir: ResultsDir = Path("results"),
-    max_pages: MaxPages = 3,
+    max_pages: MaxPages = None,
     notify: Notify = False,
     directory: ProfilesDir = default_dir(),
 ) -> None:
@@ -136,12 +139,23 @@ def search(
 
 
 @app.command()
-def refresh(results_dir: ResultsDir = Path("results"), max_pages: MaxPages = 3, notify: Notify = False) -> None:
-    """Re-run every saved search (used by the scheduled GitHub Action)."""
+def refresh(
+    results_dir: ResultsDir = Path("results"),
+    max_pages: MaxPages = None,
+    notify: Notify = False,
+    days: Annotated[int, typer.Option(help="Only searches started in the last N days.")] = 14,
+    limit: Annotated[int, typer.Option(help="At most this many searches.")] = 5,
+    prune_days: Annotated[int, typer.Option(help="Delete searches not started for N days.")] = 30,
+) -> None:
+    """Re-run recent searches and clean up old ones (used by the scheduled GitHub Action)."""
     store = Store(results_dir)
+    for search_id in store.prune(prune_days):
+        typer.echo(f"Removed old search {search_id}")
     with http_client() as client:
-        for saved in store.all():
-            result = run_search(saved.query, client, Cache(default_path()), store, saved.id, max_pages)
+        for saved in store.recently_requested(days, limit):
+            result = run_search(
+                saved.query, client, Cache(default_path()), store, saved.id, max_pages, requested=False
+            )
             _print_result(result)
             if notify:
                 send_telegram(client, result)

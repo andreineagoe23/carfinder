@@ -12,6 +12,9 @@ from carfinder.scoring import score
 from carfinder.sites import SITES, build_links
 from carfinder.store import SearchResult, Store, check_id, merge_history, now_iso
 
+DEFAULT_PAGES = 5
+ALL_MODELS_PAGES = 10
+
 
 def run_search(
     profile: SearchProfile,
@@ -19,11 +22,15 @@ def run_search(
     cache: Cache,
     store: Store,
     search_id: str | None = None,
-    max_pages: int = 3,
+    max_pages: int | None = None,
     at: str | None = None,
+    requested: bool = True,
 ) -> SearchResult:
+    """Run one search. `requested=False` marks a scheduled refresh rather than a person asking."""
     search_id = check_id(search_id or profile.query_id())
     at = at or now_iso()
+    # "All models" searches spread over many more ads, so read further.
+    max_pages = max_pages or (DEFAULT_PAGES if profile.model else ALL_MODELS_PAGES)
     links = build_links(profile, client, cache)
     errors = {link.site: link.error for link in links if link.error}
 
@@ -53,6 +60,7 @@ def run_search(
         query=profile,
         created_at=previous.created_at if previous else at,
         updated_at=at,
+        requested_at=at if requested else (previous.requested_at if previous else None),
         links=links,
         errors=errors,
         listings=listings,

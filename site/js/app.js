@@ -1,5 +1,8 @@
+import { card } from "./cards.js";
+import { $, FLAGS, copyText, el, euro, median, store, timeAgo } from "./dom.js";
 import { GitHub, GitHubError, repoFromLocation } from "./github.js";
 import { COUNTRIES, SITES, buildLinks } from "./links.js";
+import { checklist, keyOf, readShared, shareLink, shortlist, whatsappText } from "./shortlist.js";
 
 const DEFAULT_QUERY = {
   make: "Mazda",
@@ -10,77 +13,25 @@ const DEFAULT_QUERY = {
   fuel: ["petrol"],
   gearbox: [],
   location: { zip: "93339", country: "DE", radius_km: 200 },
+  ro_location: { city: null, radius_km: 100 },
   sites: Object.keys(SITES),
 };
 // Kleinanzeigen location IDs we already know; more are learned from search results.
 const KNOWN_KA_LOCATIONS = { 93339: "6234" };
 const POLL_MS = 5000;
 const POLL_TIMEOUT_MS = 10 * 60 * 1000;
-const FLAGS = { DE: "🇩🇪", RO: "🇷🇴" };
-const PRICE_LABELS = {
-  "top-price": ["Top price", "good"],
-  "good-price": ["Good price", "good"],
-  "fair-price": ["Fair price", "ok"],
-  "somewhat-expensive": ["A bit pricey", "warn"],
-  expensive: ["Expensive", "bad"],
-};
+const FORM_KEY = "lastQuery.v3";
 
-const $ = (sel) => document.querySelector(sel);
 const form = $("#search-form");
-const euro = new Intl.NumberFormat("en-IE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
-const num = new Intl.NumberFormat("en-IE");
-
-const store = {
-  get(key, fallback) {
-    try {
-      return JSON.parse(localStorage.getItem(`carfinder.${key}`)) ?? fallback;
-    } catch {
-      return fallback;
-    }
-  },
-  set(key, value) {
-    localStorage.setItem(`carfinder.${key}`, JSON.stringify(value));
-  },
-};
 
 const state = {
   catalog: { makes: [] },
   settings: { repo: "", token: "", ...store.get("settings", {}) },
   kaLocations: { ...KNOWN_KA_LOCATIONS, ...store.get("kaLocations", {}) },
   result: null,
-  polling: null,
+  shared: null, // shortlist opened from someone's #list= link
+  view: "intro", // intro | results | shortlist
 };
-
-// ---------- small DOM helpers (all listing text goes through textContent, never innerHTML)
-
-function el(tag, attrs = {}, ...children) {
-  const node = document.createElement(tag);
-  for (const [key, value] of Object.entries(attrs)) {
-    if (value == null || value === false) continue;
-    if (key === "class") node.className = value;
-    else if (key.startsWith("on")) node.addEventListener(key.slice(2), value);
-    else if (key === "href" || key === "src") node.setAttribute(key, safeUrl(value));
-    else node.setAttribute(key, value === true ? "" : value);
-  }
-  for (const child of children.flat(Infinity)) {
-    if (child == null || child === false) continue;
-    node.append(child instanceof Node ? child : document.createTextNode(String(child)));
-  }
-  return node;
-}
-
-function safeUrl(url) {
-  return /^https:\/\//i.test(url) || url.startsWith("#") || url.startsWith("./") ? url : "#";
-}
-
-function timeAgo(iso) {
-  const minutes = Math.round((Date.now() - new Date(iso)) / 60000);
-  if (minutes < 1) return "just now";
-  if (minutes < 60) return `${minutes} min ago`;
-  const hours = Math.round(minutes / 60);
-  if (hours < 48) return `${hours} h ago`;
-  return `${Math.round(hours / 24)} days ago`;
-}
 
 // ---------- catalog & form
 
@@ -102,36 +53,26 @@ function fillModels(selected) {
   form.model.value = selected && models.some((m) => m.name === selected) ? selected : "";
 }
 
-function sitesByCountry() {
-  return Object.keys(COUNTRIES).map((country) => [
-    country,
-    Object.entries(SITES).filter(([, site]) => site.country === country),
-  ]);
+function fillCities(cities) {
+  form.ro_city.append(...cities.map((c) => el("option", { value: c.slug }, c.name)));
 }
 
 function fillSites() {
-  $("#site-chips").replaceChildren(
-    ...sitesByCountry().map(([country, sites]) =>
-      el(
-        "div",
-        { class: "site-group" },
-        el("span", { class: "site-group-name" }, `${FLAGS[country]} ${COUNTRIES[country]}`),
-        el(
-          "div",
-          { class: "chips" },
-          sites.map(([key, site]) =>
-            el(
-              "label",
-              { class: "chip", title: site.fetches ? site.note : `${site.note}. Link only: no automated reading.` },
-              el("input", { type: "checkbox", name: "site", value: key }),
-              site.name,
-              site.fetches ? null : el("small", {}, " link"),
-            ),
+  for (const country of Object.keys(COUNTRIES)) {
+    form.querySelector(`[data-sites="${country}"]`).replaceChildren(
+      ...Object.entries(SITES)
+        .filter(([, site]) => site.country === country)
+        .map(([key, site]) =>
+          el(
+            "label",
+            { class: "chip", title: site.fetches ? site.note : `${site.note}. Link only: no automated reading.` },
+            el("input", { type: "checkbox", name: "site", value: key }),
+            site.name,
+            site.fetches ? null : el("small", {}, " link"),
           ),
         ),
-      ),
-    ),
-  );
+    );
+  }
 }
 
 function checked(name) {
@@ -144,6 +85,7 @@ function numberOrNull(input) {
 
 function readForm() {
   const f = form.elements;
+  const countries = checked("country");
   const q = {
     name: `${f.make.value} ${f.model.value || "(all models)"}`,
     make: f.make.value,
@@ -154,7 +96,8 @@ function readForm() {
     fuel: checked("fuel"),
     gearbox: checked("gearbox"),
     location: { zip: f.zip.value.trim(), country: "DE", radius_km: Number(f.radius.value) },
-    sites: checked("site"),
+    ro_location: { city: f.ro_city.value || null, radius_km: Number(f.ro_radius.value) },
+    sites: checked("site").filter((site) => countries.includes(SITES[site].country)),
     overrides: {},
   };
   const ids = mobileIds(q);
@@ -175,17 +118,35 @@ function writeForm(q) {
   f.km_max.value = q.mileage_km?.max ?? "";
   f.zip.value = q.location.zip;
   f.radius.value = String(q.location.radius_km);
+  f.ro_city.value = q.ro_location?.city || "";
+  f.ro_radius.value = String(q.ro_location?.radius_km ?? 100);
   const sites = q.sites?.length ? q.sites : Object.keys(SITES);
+  const countries = Object.keys(COUNTRIES).filter((c) => sites.some((s) => SITES[s]?.country === c));
   for (const input of form.querySelectorAll('input[type="checkbox"]')) {
-    const list = { fuel: q.fuel, gearbox: q.gearbox, site: sites }[input.name] || [];
+    const list = { fuel: q.fuel, gearbox: q.gearbox, site: sites, country: countries }[input.name] || [];
     input.checked = list.includes(input.value);
   }
+  syncRegions();
   renderLinks();
+}
+
+/** Show each country's fields only when it's ticked; ticking a country ticks its sites if none are. */
+function syncRegions(changed) {
+  for (const region of form.querySelectorAll(".region")) {
+    const country = region.dataset.country;
+    const on = region.querySelector('input[name="country"]').checked;
+    region.querySelector(".region-body").hidden = !on;
+    const sites = [...region.querySelectorAll('input[name="site"]')];
+    if (on && changed === country && !sites.some((s) => s.checked)) sites.forEach((s) => (s.checked = true));
+  }
+  form.ro_radius.disabled = !form.ro_city.value;
 }
 
 function validate(q) {
   if (!q.make) return "Pick a make.";
-  if (!/^\d{5}$/.test(q.location.zip)) return "Zip must be a 5-digit German postcode.";
+  const countries = checked("country");
+  if (!countries.length) return "Pick Germany, Romania or both.";
+  if (countries.includes("DE") && !/^\d{5}$/.test(q.location.zip)) return "Zip must be a 5-digit German postcode.";
   for (const [label, range] of [["Year", q.year], ["Price", q.price_eur]]) {
     if (range.min != null && range.max != null && range.min > range.max) return `${label}: “from” is above “to”.`;
   }
@@ -221,32 +182,36 @@ function flatKeys(obj, out = {}) {
 
 function renderLinks() {
   const q = readForm();
-  const links = buildLinks(q, { mobileIds: mobileIds(q), kaLocationId: state.kaLocations[q.location.zip] });
+  const links = q.sites.length
+    ? buildLinks(q, { mobileIds: mobileIds(q), kaLocationId: state.kaLocations[q.location.zip] })
+    : [];
   const groups = Object.keys(COUNTRIES)
     .map((country) => [country, links.filter((l) => l.country === country)])
     .filter(([, group]) => group.length);
   $("#links").replaceChildren(
-    ...groups.map(([country, group]) =>
-      el(
-        "div",
-        { class: "link-group" },
-        el("h3", {}, `${FLAGS[country]} ${COUNTRIES[country]}`),
-        el(
-          "div",
-          { class: "links" },
-          group.map((link) =>
+    ...(groups.length ? groups : [[null, []]]).map(([country, group]) =>
+      country
+        ? el(
+            "div",
+            { class: "link-group" },
+            el("h3", {}, `${FLAGS[country]} ${COUNTRIES[country]}`),
             el(
               "div",
-              { class: "link-item" },
-              link.error
-                ? el("span", { class: "link disabled" }, link.name)
-                : el("a", { class: "link", href: link.url, target: "_blank", rel: "noopener" }, `${link.name} ↗`),
-              el("small", { class: "trust" }, link.fetches ? `${link.note} · shown below` : link.note),
-              ...(link.error ? [link.error] : link.notes).map((n) => el("small", { class: "muted" }, n)),
+              { class: "links" },
+              group.map((link) =>
+                el(
+                  "div",
+                  { class: "link-item" },
+                  link.error
+                    ? el("span", { class: "link disabled" }, link.name)
+                    : el("a", { class: "link", href: link.url, target: "_blank", rel: "noopener" }, `${link.name} ↗`),
+                  el("small", { class: "trust" }, link.fetches ? `${link.note} · shown below` : link.note),
+                  ...(link.error ? [link.error] : link.notes).map((n) => el("small", { class: "muted" }, n)),
+                ),
+              ),
             ),
-          ),
-        ),
-      ),
+          )
+        : el("p", { class: "muted small" }, "Pick at least one site."),
     ),
   );
 }
@@ -257,6 +222,28 @@ function learnKaLocation(result) {
   if (!match) return;
   state.kaLocations[result.query.location.zip] = match[1];
   store.set("kaLocations", state.kaLocations);
+}
+
+// ---------- views
+
+function showView(view) {
+  state.view = view;
+  document.body.classList.toggle("shared-view", view === "shortlist" && Boolean(state.shared));
+  $("#intro").hidden = view !== "intro";
+  $("#results-section").hidden = view !== "results";
+  $("#shortlist-section").hidden = view !== "shortlist";
+  $(".content").scrollTo?.(0, 0);
+}
+
+function toggleStar(listing) {
+  shortlist.toggle(listing);
+  updateShortlistCount();
+  if (state.view === "shortlist") renderShortlist();
+  else renderResults();
+}
+
+function updateShortlistCount() {
+  $("#shortlist-count").textContent = shortlist.items().length;
 }
 
 // ---------- results
@@ -273,24 +260,33 @@ function sortListings(listings, how) {
   return [...listings].sort(by);
 }
 
+/** "🇩🇪 12 cars, median €9,800 · 🇷🇴 5 cars, median €11,200" when both countries have results. */
+function countryComparison(listings) {
+  const parts = Object.keys(COUNTRIES)
+    .map((country) => {
+      const prices = listings.filter((l) => (l.country || "DE") === country).map((l) => l.price_eur);
+      return prices.length ? `${FLAGS[country]} ${prices.length} cars, median ${euro.format(median(prices))}` : null;
+    })
+    .filter(Boolean);
+  return parts.length > 1 ? parts.join(" · ") : null;
+}
+
 function renderResults() {
   const result = state.result;
   if (!result) return;
-  $("#results-section").hidden = false;
-  $("#intro").hidden = true;
-
   const all = result.listings;
-  const prices = all.map((l) => l.price_eur).sort((a, b) => a - b);
-  const median = prices.length ? prices[Math.floor(prices.length / 2)] : null;
-  $("#results-title").textContent = result.query.name || `${result.query.make} ${result.query.model}`;
-  $("#results-meta").textContent = [
-    `${all.length} car${all.length === 1 ? "" : "s"}`,
-    prices.length ? `from ${euro.format(prices[0])}` : null,
-    median ? `median ${euro.format(median)}` : null,
-    `updated ${timeAgo(result.updated_at)}`,
-  ]
-    .filter(Boolean)
-    .join(" · ");
+  const prices = all.map((l) => l.price_eur);
+  $("#results-title").textContent = result.query.name || `${result.query.make} ${result.query.model || ""}`;
+  $("#results-meta").replaceChildren(
+    [
+      `${all.length} car${all.length === 1 ? "" : "s"}`,
+      prices.length ? `from ${euro.format(Math.min(...prices))}` : null,
+      `updated ${timeAgo(result.updated_at)}`,
+    ]
+      .filter(Boolean)
+      .join(" · "),
+    countryComparison(all) ? el("span", { class: "compare" }, countryComparison(all)) : null,
+  );
 
   $("#results-warnings").replaceChildren(
     ...Object.entries(result.errors || {}).map(([site, error]) =>
@@ -311,79 +307,102 @@ function renderResults() {
   );
   $("#results").replaceChildren(
     ...(visible.length
-      ? visible.map((l) => card(l, result))
-      : [el("p", { class: "muted empty" }, all.length ? "Nothing matches these filters." : "No cars found yet. Try widening price, years or radius.")]),
+      ? visible.map((l) =>
+          card(l, {
+            isNew: l.first_seen === result.updated_at && result.created_at !== result.updated_at,
+            starred: shortlist.has(keyOf(l)),
+            onStar: toggleStar,
+          }),
+        )
+      : [el("p", { class: "muted empty" }, all.length ? "Nothing matches these filters." : "No cars found. Try widening price, years or radius.")]),
   );
 }
 
-function card(l, result) {
-  const isNew = l.first_seen === result.updated_at && result.created_at !== result.updated_at;
-  const label = PRICE_LABELS[l.price_label];
-  const history = l.price_history || [];
-  const firstPrice = history.length > 1 ? history[0].price_eur : null;
-  const scoreClass = l.score >= 70 ? "good" : l.score >= 50 ? "ok" : "low";
-  const specs = [
-    l.first_registration || l.year,
-    l.mileage_km != null ? `${num.format(l.mileage_km)} km` : null,
-    l.power_hp ? `${l.power_hp} hp` : null,
-    l.gearbox,
-    l.fuel,
-  ].filter(Boolean);
+// ---------- shortlist
 
-  return el(
-    "article",
-    { class: "car" },
-    el(
-      "a",
-      { class: "photo", href: l.url, target: "_blank", rel: "noopener" },
-      l.images?.length
-        ? el("img", { src: l.images[0], alt: "", loading: "lazy", referrerpolicy: "no-referrer" })
-        : el("span", { class: "no-photo" }, "No photo"),
-      el("span", { class: `score ${scoreClass}`, title: "Match score (price vs similar cars, km/year, seller, site rating)" }, l.score ?? "–"),
-    ),
-    el(
-      "div",
-      { class: "body" },
-      el(
-        "div",
-        { class: "badges" },
-        el("span", { class: "badge site" }, `${FLAGS[l.country || "DE"]} ${SITES[l.source]?.name || l.source}`),
-        isNew ? el("span", { class: "badge new" }, "NEW") : null,
-        label ? el("span", { class: `badge ${label[1]}` }, label[0]) : null,
-        l.seller_type ? el("span", { class: "badge" }, l.seller_type === "dealer" ? "Dealer" : "Private") : null,
-        l.negotiable ? el("span", { class: "badge" }, "VB") : null,
-      ),
-      el("h3", {}, el("a", { href: l.url, target: "_blank", rel: "noopener" }, l.title)),
-      el(
-        "p",
-        { class: "price" },
-        euro.format(l.price_eur),
-        l.old_price_eur ? el("s", {}, euro.format(l.old_price_eur)) : null,
-        firstPrice && firstPrice !== l.price_eur ? el("s", {}, euro.format(firstPrice)) : null,
-      ),
-      l.listed_currency
-        ? el("p", { class: "muted small" }, `Listed at ${num.format(l.listed_price)} ${l.listed_currency === "RON" ? "lei" : l.listed_currency}`)
-        : null,
-      el("p", { class: "specs" }, [l.model, ...specs].filter(Boolean).join(" · ")),
-      el(
-        "p",
-        { class: "muted small" },
-        [l.zip, l.city].filter(Boolean).join(" "),
-        l.distance_km != null ? ` · ${l.distance_km} km away` : "",
-        l.seller_name ? ` · ${l.seller_name}` : "",
-      ),
-      l.flags?.length ? el("ul", { class: "flags" }, l.flags.map((f) => el("li", {}, f))) : null,
-      l.also_on?.length
-        ? el(
-            "p",
-            { class: "small" },
-            "Also on ",
-            l.also_on.map((o, i) => [i ? ", " : "", el("a", { href: o.url, target: "_blank", rel: "noopener" }, o.name)]),
-          )
-        : null,
-      el("p", { class: "muted small" }, `First seen ${timeAgo(l.first_seen)}`),
-    ),
+async function renderShortlist() {
+  const shared = state.shared;
+  const items = shared || shortlist.items();
+  $("#shortlist-title").textContent = shared ? "Cars shared with you" : "Your shortlist";
+  $("#shortlist-meta").textContent = items.length
+    ? `${items.length} car${items.length === 1 ? "" : "s"}${shared ? "" : " · saved in this browser"}`
+    : "";
+
+  await renderShortlistActions();
+
+  $("#shortlist-cars").replaceChildren(
+    ...(items.length
+      ? items.map(({ key, listing, note }) =>
+          card(listing, {
+            starred: true,
+            onStar: shared ? null : toggleStar,
+            extra: shared
+              ? note
+                ? el("p", { class: "note" }, `📝 ${note}`)
+                : null
+              : el("textarea", {
+                  class: "note-input",
+                  rows: "2",
+                  placeholder: "Note for the viewing, e.g. “ask about the timing chain”",
+                  oninput: (e) => {
+                    shortlist.setNote(key, e.target.value);
+                    clearTimeout(noteTimer);
+                    noteTimer = setTimeout(renderShortlistActions, 400); // share link carries the notes
+                  },
+                }, note),
+          }),
+        )
+      : [el("p", { class: "muted empty" }, "Nothing here yet. Tap ☆ on a car in your results to add it.")]),
   );
+  $("#shortlist-checklist").replaceChildren(items.length ? checklist() : "");
+}
+
+let noteTimer;
+
+/** Share buttons are rebuilt whenever the list or a note changes, so links are never stale. */
+async function renderShortlistActions() {
+  const shared = state.shared;
+  const items = shared || shortlist.items();
+  const actions = [];
+  if (state.result || shared) {
+    actions.push(el("button", { type: "button", class: "ghost", onclick: () => leaveShortlist() }, state.result ? "← Back to results" : "← New search"));
+  }
+  if (items.length && !shared) {
+    const link = await shareLink(items);
+    const message = whatsappText(items, link);
+    actions.push(
+      el("a", { class: "button primary", href: `https://wa.me/?text=${encodeURIComponent(message)}`, target: "_blank", rel: "noopener" }, "Send on WhatsApp"),
+      el("button", { type: "button", onclick: async () => flash(await copyText(message), "Message copied") }, "Copy message"),
+      el("button", { type: "button", onclick: async () => flash(await copyText(link), "Link copied") }, "Copy link"),
+    );
+  }
+  if (items.length) actions.push(el("button", { type: "button", class: "ghost", onclick: () => window.print() }, "Print"));
+  $("#shortlist-actions").replaceChildren(...actions);
+}
+
+function openShortlist() {
+  state.shared = null;
+  history.replaceState(null, "", "#shortlist");
+  showView("shortlist");
+  renderShortlist();
+}
+
+function leaveShortlist() {
+  state.shared = null;
+  document.body.classList.remove("shared-view");
+  if (state.result) {
+    history.replaceState(null, "", `#s=${state.result.id}`);
+    showView("results");
+    renderResults();
+  } else {
+    history.replaceState(null, "", location.pathname);
+    showView("intro");
+  }
+}
+
+function flash(ok, message) {
+  setStatus(ok ? message : "", "ok");
+  if (ok) setTimeout(() => setStatus(""), 2500);
 }
 
 // ---------- status line
@@ -423,9 +442,11 @@ async function openResult(id) {
 
 function showResult(result) {
   state.result = result;
+  state.shared = null;
   learnKaLocation(result);
   writeForm(result.query);
   history.replaceState(null, "", `#s=${result.id}`);
+  showView("results");
   renderResults();
 }
 
@@ -437,7 +458,7 @@ async function runSearch(event) {
   $("#form-error").textContent = problem || "";
   if (problem) return;
   if (!state.settings.token) {
-    openSettings("Add a GitHub token to run searches. The site links above work without one.");
+    openSettings("Add a GitHub token to run searches. The site links work without one.");
     return;
   }
 
@@ -502,38 +523,66 @@ function saveSettings() {
   const f = $("#settings-form").elements;
   state.settings = { repo: f.repo.value.trim(), token: f.token.value.trim() };
   store.set("settings", state.settings);
-  renderResults();
 }
 
 // ---------- boot
 
+async function loadJson(path, fallback) {
+  try {
+    return await (await fetch(path)).json();
+  } catch {
+    setStatus(`Couldn't load ${path}.`, "error");
+    return fallback;
+  }
+}
+
+async function route() {
+  const hash = location.hash;
+  const resultId = hash.match(/^#s=([a-f0-9]{12})$/)?.[1];
+  const sharedList = hash.match(/^#list=([A-Za-z0-9_-]+)$/)?.[1];
+  if (resultId) return openResult(resultId);
+  if (hash === "#shortlist") return openShortlist();
+  if (sharedList) {
+    try {
+      state.shared = await readShared(sharedList);
+      showView("shortlist");
+      renderShortlist();
+    } catch {
+      setStatus("This shared list link is broken or incomplete.", "error");
+    }
+  }
+}
+
 async function main() {
   fillSites();
-  try {
-    state.catalog = await (await fetch("data/catalog.json")).json();
-  } catch {
-    setStatus("Couldn't load the car catalog.", "error");
-  }
+  const [catalog, cities] = await Promise.all([
+    loadJson("data/catalog.json", { makes: [] }),
+    loadJson("data/ro_cities.json", []),
+  ]);
+  state.catalog = catalog;
   fillMakes();
-  writeForm(store.get("lastQuery.v2", DEFAULT_QUERY));
+  fillCities(cities);
+  writeForm(store.get(FORM_KEY, DEFAULT_QUERY));
+  updateShortlistCount();
 
   form.make.addEventListener("change", () => {
     fillModels();
     renderLinks();
   });
-  form.addEventListener("input", () => {
+  form.addEventListener("input", (event) => {
+    if (event.target.name === "country" || event.target.name === "ro_city") syncRegions(event.target.value);
     renderLinks();
-    store.set("lastQuery.v2", readForm());
+    store.set(FORM_KEY, readForm());
   });
   form.addEventListener("submit", runSearch);
   for (const id of ["#sort", "#only-new", "#filter-text", "#filter-country", "#filter-seller"]) {
     $(id).addEventListener("input", renderResults);
   }
+  $("#open-shortlist").addEventListener("click", openShortlist);
   $("#open-settings").addEventListener("click", () => openSettings());
   $("#settings").addEventListener("close", saveSettings);
-
-  const hashId = location.hash.match(/^#s=([a-f0-9]{12})$/)?.[1];
-  if (hashId) openResult(hashId);
+  window.addEventListener("hashchange", route);
+  route();
 }
 
 main();

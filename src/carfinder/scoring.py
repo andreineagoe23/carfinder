@@ -55,31 +55,43 @@ def score(listings: list[Listing], today: date | None = None) -> list[Listing]:
     today = today or date.today()
     for listing in listings:
         points = 40.0
+        parts: list[str] = []
         flags = list(listing.flags)
+
+        def add(delta: float, reason: str) -> None:
+            nonlocal points
+            points += delta
+            if round(delta):
+                parts.append(f"{reason} ({round(delta):+d})")
 
         market = market_price(listing, listings)
         if market:
             gap = (market - listing.price_eur) / market  # +0.2 = 20 % below market
-            points += max(-20, min(25, gap * 100))
+            diff = abs(market - listing.price_eur)
+            where = "below" if gap >= 0 else "above"
+            add(max(-20, min(25, gap * 100)), f"€{diff:,.0f} {where} similar {listing.model} cars (median €{market:,.0f})")
             if gap >= 0.30:
                 flags.append(f"{gap:.0%} below similar cars — check for damage or scam")
+        else:
+            parts.append("Too few similar cars in this search to compare the price")
 
         per_year = km_per_year(listing, today)
         if per_year is not None:
-            points += max(-10, min(15, (20_000 - per_year) / 1000))
+            add(max(-10, min(15, (20_000 - per_year) / 1000)), f"~{per_year:,.0f} km per year")
             if per_year > 25_000:
                 flags.append(f"High mileage: ~{per_year:,.0f} km/year")
 
-        points += PRICE_LABEL_POINTS.get(listing.price_label or "", 0)
+        if listing.price_label in PRICE_LABEL_POINTS:
+            add(PRICE_LABEL_POINTS[listing.price_label], f"Site rates it “{listing.price_label.replace('-', ' ')}”")
         if listing.seller_type == "dealer":
-            points += 5  # dealers owe 12 months' Gewährleistung (warranty) in Germany
+            add(5, "Dealer: 12 months' warranty in Germany" if listing.country == "DE" else "Dealer")
         elif listing.seller_type == "private":
             flags.append("Private seller: usually sold without warranty")
         if damage := DAMAGE_WORDS.search(listing.title):
-            points -= 20
+            add(-20, f"Title mentions “{damage.group(0)}”")
             flags.append(f"Title mentions “{damage.group(0)}” — likely damage or defect")
         if not listing.images:
-            points -= 10
+            add(-10, "No photos")
             flags.append("No photos")
         if listing.old_price_eur:
             flags.append(f"Price reduced from €{listing.old_price_eur:,}")
@@ -87,5 +99,6 @@ def score(listings: list[Listing], today: date | None = None) -> list[Listing]:
             flags.append(f"Price dropped since first seen (€{listing.price_history[0].price_eur:,})")
 
         listing.score = round(max(0, min(100, points)))
+        listing.score_parts = parts
         listing.flags = list(dict.fromkeys(flags))
     return sorted(listings, key=lambda x: x.score or 0, reverse=True)

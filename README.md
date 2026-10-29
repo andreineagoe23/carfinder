@@ -17,9 +17,28 @@ de-duplicated across sites and flagged for anything suspicious.
 | 🇷🇴 | [Publi24](https://www.publi24.ro) | Private classifieds | Link: make, model and fuel (other URL filters are unreliable) |
 | 🇷🇴 | [AutoUncle.ro](https://www.autouncle.ro) | Collects Romanian ads and rates the price | Link: make and model |
 
-German sites search around a zip code. Romanian sites search the whole country. Prices
-in lei are converted to euros at the day's ECB rate, and the card also shows the
+Pick **Germany**, **Romania** or both:
+
+- **Germany:** search around a zip code.
+- **Romania:** search the whole country, or around one of the 41 county-seat cities
+  with a radius. The city and radius apply on Autovit; on the Romanian link-only sites
+  you pick the city yourself.
+
+Prices in lei are converted to euros at the day's ECB rate, and the card also shows the
 listed amount.
+
+## Shortlist for the viewing
+
+Tap ☆ on any car to add it to your **Shortlist**, which is saved in your browser. Add a
+note per car ("ask about the timing chain"), then:
+
+- **Send on WhatsApp:** sends every car with price, specs, place and link, plus a link
+  to the full list.
+- **Copy link:** the cars and notes are packed into the link itself, so it works on any
+  phone without logging in. Whoever opens it sees just the cars, with photos and a
+  **viewing checklist**: papers, VIN, rust and accident signs, test drive, contract,
+  export plates.
+- **Print:** the shortlist and checklist on paper.
 
 ## How it works
 
@@ -39,8 +58,9 @@ GitHub Pages (site/)                GitHub Actions                     results b
   from the `results` branch.
 - The **Python package** (`src/carfinder`) does the fetching, merging and scoring. It is
   also a CLI you can run locally.
-- **Searches you have run** are re-run twice a day by `refresh.yml`, which tracks new cars and
-  price drops.
+- **Recent searches are refreshed:** `refresh.yml` re-runs, twice a day, the 5 newest
+  searches started in the last 14 days, tracking new cars and price drops. Searches
+  nobody has started for 30 days are deleted.
 
 ## Set up your own copy
 
@@ -70,6 +90,9 @@ Each car gets a score from 0 to 100, built from:
 - **AutoScout24's own price rating** (top / good / fair price)
 - **Seller type:** dealers in Germany owe 12 months' warranty (*Gewährleistung*)
 - **Photos:** a listing without any loses points
+
+Each card has a **"Why 72?"** link that lists exactly which of these added or removed
+points.
 
 Flags warn about:
 

@@ -28,6 +28,8 @@ class Olx(Site):
         notes = []
         if profile.fuel or profile.gearbox or profile.mileage_km.max is not None:
             notes.append("set fuel, gearbox and km on the site")
+        if profile.ro_location.city:
+            notes.append("pick the city on the site")
         return f"{path}?{urlencode(params)}" if params else path, notes
 
 
@@ -51,7 +53,10 @@ class Publi24(Site):
         if profile.gearbox == [Gearbox.AUTOMATIC]:
             params.append(("gearname", "automata"))
         url = "/".join(parts) + "/"
-        return (f"{url}?{urlencode(params)}" if params else url), ["set years, price and km on the site"]
+        notes = ["set years, price and km on the site"]
+        if profile.ro_location.city:
+            notes.append("pick the city on the site")
+        return (f"{url}?{urlencode(params)}" if params else url), notes
 
 
 class AutoUncleRo(Site):
@@ -65,4 +70,7 @@ class AutoUncleRo(Site):
         parts = ["https://www.autouncle.ro/ro/masini-second-hand", quote(profile.make.replace(" ", "-"))]
         if profile.model:
             parts.append(quote(profile.model.replace(" ", "-")))
-        return "/".join(parts), ["set years, price and km on the site"]
+        notes = ["set years, price and km on the site"]
+        if profile.ro_location.city:
+            notes.append("pick the city on the site")
+        return "/".join(parts), notes

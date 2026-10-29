@@ -53,9 +53,18 @@ class Range(BaseModel):
 
 
 class Location(BaseModel):
+    """Where to search in Germany."""
+
     zip: str = Field(pattern=r"^\d{4,5}$")
     country: str = Field("DE", pattern=r"^[A-Z]{2}$")
     radius_km: int = Field(200, gt=0, le=1000)
+
+
+class RoLocation(BaseModel):
+    """Where to search in Romania: a city (Autovit's slug, e.g. "cluj-napoca") or the whole country."""
+
+    city: str | None = Field(None, pattern=r"^[a-z0-9-]{2,40}$")
+    radius_km: int = Field(100, gt=0, le=1000)
 
 
 class SearchProfile(BaseModel):
@@ -70,6 +79,7 @@ class SearchProfile(BaseModel):
     fuel: list[Fuel] = []
     gearbox: list[Gearbox] = []
     location: Location
+    ro_location: RoLocation = RoLocation()
     sites: list[str] | None = None
     overrides: dict[str, dict[str, str]] = {}
 
@@ -105,6 +115,9 @@ class SearchProfile(BaseModel):
             "/".join(self.fuel) or "any fuel",
             "/".join(self.gearbox) or "any gearbox",
             f"DE: {self.location.radius_km} km around {self.location.zip}",
+            f"RO: {self.ro_location.radius_km} km around {self.ro_location.city}"
+            if self.ro_location.city
+            else "RO: whole country",
         ]
         return " · ".join(parts)
 
@@ -154,6 +167,7 @@ class Listing(BaseModel):
     # Filled in after fetching:
     also_on: list[SearchLink] = []
     score: int | None = None
+    score_parts: list[str] = []  # why the score is what it is, e.g. "€900 below similar cars (+9)"
     flags: list[str] = []
     first_seen: str | None = None
     last_seen: str | None = None

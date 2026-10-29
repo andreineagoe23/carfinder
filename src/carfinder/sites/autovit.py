@@ -13,9 +13,10 @@ from datetime import date
 from urllib.parse import urlencode
 
 from carfinder.models import Fuel, Gearbox, Listing, SearchProfile
-from carfinder.sites.base import Site, slugify
+from carfinder.sites.base import Site, slugify, snap_radius
 
 SEARCH_URL = "https://www.autovit.ro/autoturisme"
+RADII = (5, 10, 15, 25, 50, 75, 100, 150, 200, 250, 300)
 RATES_API = "https://api.frankfurter.dev/v1/latest"
 FUELS = {
     Fuel.PETROL: ["petrol"],
@@ -42,14 +43,21 @@ class Autovit(Site):
         }
 
     def build_url(self, profile: SearchProfile, ids: dict[str, str]) -> tuple[str, list[str]]:
-        return self._url(profile, ids, with_price=True), []
+        notes = []
+        if profile.ro_location.city:
+            _, note = snap_radius(profile.ro_location.radius_km, RADII)
+            notes += [note] if note else []
+        return self._url(profile, ids, with_price=True), notes
 
     def fetch_url(self, profile: SearchProfile, ids: dict[str, str]) -> str:
         return self._url(profile, ids, with_price=False)
 
     def _url(self, profile: SearchProfile, ids: dict[str, str], with_price: bool) -> str:
-        path = "/".join(p for p in (SEARCH_URL, ids["make_slug"], ids["model_slug"]) if p)
+        city = profile.ro_location.city
+        path = "/".join(p for p in (SEARCH_URL, ids["make_slug"], ids["model_slug"], city) if p)
         params: list[tuple[str, str]] = []
+        if city:
+            params.append(("search[dist]", str(snap_radius(profile.ro_location.radius_km, RADII)[0])))
         ranges = [("year", profile.year), ("mileage", profile.mileage_km)]
         if with_price:
             ranges.append(("price", profile.price_eur))

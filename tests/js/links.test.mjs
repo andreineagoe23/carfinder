@@ -112,3 +112,12 @@ test("all models on German sites", () => {
   assert.match(mobileDe(anyModel, { make_id: "16800" }).url, /ms=16800%3B%3B%3B/);
   assert.doesNotMatch(kleinanzeigen(anyModel, "6234").url, /model_s/);
 });
+
+test("Autovit around a Romanian city", () => {
+  const q = { ...query, year: { min: 2015 }, mileage_km: {}, price_eur: {}, fuel: [], ro_location: { city: "cluj-napoca", radius_km: 60 } };
+  const link = autovit(q);
+  // Same URL as the Python builder for this query.
+  assert.equal(link.url, "https://www.autovit.ro/autoturisme/mazda/cx-3/cluj-napoca?search%5Bdist%5D=75&search%5Bfilter_float_year%3Afrom%5D=2015");
+  assert.deepEqual(link.notes, ["radius 60 km not offered, using 75 km"]);
+  assert.ok(olx(q).notes.includes("pick the city on the site"));
+});
