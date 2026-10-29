@@ -1,0 +1,27 @@
+[project]
+name = "carfinder"
+version = "0.1.0"
+description = "Find used cars across mobile.de, AutoScout24 and Kleinanzeigen from one search, with a GitHub Pages UI."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "pydantic>=2.7",
+    "pyyaml>=6.0",
+    "selectolax>=1.0",
+    "typer>=0.12",
+]
+
+[project.scripts]
+carfinder = "carfinder.cli:app"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

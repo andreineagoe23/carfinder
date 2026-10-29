@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>carfinder</title>
+    <meta name="description" content="Search mobile.de, AutoScout24 and Kleinanzeigen from one form." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./">car<span>finder</span></a>
+      <p class="tagline">One search across mobile.de, AutoScout24 &amp; Kleinanzeigen</p>
+      <button type="button" class="ghost" id="open-settings" aria-label="Settings">⚙ Settings</button>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <form id="search-form" class="card" novalidate>
+          <h2>Search</h2>
+
+          <div class="row">
+            <label>Make
+              <select name="make" required></select>
+            </label>
+            <label>Model
+              <select name="model" required></select>
+            </label>
+          </div>
+
+          <fieldset class="row">
+            <legend>Year</legend>
+            <input name="year_min" type="number" min="1950" max="2100" placeholder="from" aria-label="Year from" />
+            <input name="year_max" type="number" min="1950" max="2100" placeholder="to" aria-label="Year to" />
+          </fieldset>
+
+          <fieldset class="row">
+            <legend>Price (€)</legend>
+            <input name="price_min" type="number" min="0" step="500" placeholder="min" aria-label="Minimum price" />
+            <input name="price_max" type="number" min="0" step="500" placeholder="max" aria-label="Maximum price" />
+          </fieldset>
+
+          <label>Max mileage (km)
+            <input name="km_max" type="number" min="0" step="10000" placeholder="any" />
+          </label>
+
+          <fieldset>
+            <legend>Fuel</legend>
+            <div class="chips">
+              <label class="chip"><input type="checkbox" name="fuel" value="petrol" />Petrol</label>
+              <label class="chip"><input type="checkbox" name="fuel" value="diesel" />Diesel</label>
+              <label class="chip"><input type="checkbox" name="fuel" value="hybrid" />Hybrid</label>
+              <label class="chip"><input type="checkbox" name="fuel" value="electric" />Electric</label>
+              <label class="chip"><input type="checkbox" name="fuel" value="lpg" />LPG</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Gearbox</legend>
+            <div class="chips">
+              <label class="chip"><input type="checkbox" name="gearbox" value="manual" />Manual</label>
+              <label class="chip"><input type="checkbox" name="gearbox" value="automatic" />Automatic</label>
+            </div>
+          </fieldset>
+
+          <div class="row">
+            <label>Near zip (DE)
+              <input name="zip" inputmode="numeric" pattern="\d{5}" maxlength="5" required />
+            </label>
+            <label>Radius
+              <select name="radius">
+                <option value="10">10 km</option>
+                <option value="20">20 km</option>
+                <option value="50">50 km</option>
+                <option value="100">100 km</option>
+                <option value="150">150 km</option>
+                <option value="200">200 km</option>
+              </select>
+            </label>
+          </div>
+
+          <fieldset>
+            <legend>Sites</legend>
+            <div class="chips" id="site-chips"></div>
+          </fieldset>
+
+          <p class="form-error" id="form-error" role="alert" hidden></p>
+
+          <div class="actions">
+            <button type="submit" class="primary" id="search-button">Search &amp; show cars</button>
+          </div>
+        </form>
+
+        <section class="card">
+          <h2>Saved searches</h2>
+          <p class="muted small" id="saved-empty">Searches you run show up here and refresh automatically twice a day.</p>
+          <ul class="saved" id="saved-list"></ul>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="card links-card">
+          <h2>Open on the sites</h2>
+          <p class="muted small">Always up to date with the form; opens the site's own search.</p>
+          <div class="links" id="links"></div>
+        </section>
+
+        <div class="status" id="status" hidden></div>
+
+        <section id="results-section" hidden>
+          <div class="results-head">
+            <div>
+              <h2 id="results-title"></h2>
+              <p class="muted small" id="results-meta"></p>
+            </div>
+            <div class="controls">
+              <label class="inline">Sort
+                <select id="sort">
+                  <option value="score">Best match</option>
+                  <option value="price">Price ↑</option>
+                  <option value="km">Mileage ↑</option>
+                  <option value="year">Year ↓</option>
+                  <option value="distance">Distance ↑</option>
+                  <option value="new">Newest first</option>
+                </select>
+              </label>
+              <label class="inline chip"><input type="checkbox" id="only-new" />New only</label>
+              <input type="search" id="filter-text" placeholder="Filter…" aria-label="Filter by text" />
+            </div>
+          </div>
+          <div class="warnings" id="results-warnings"></div>
+          <div class="grid" id="results"></div>
+        </section>
+
+        <section class="card intro" id="intro">
+          <h2>How it works</h2>
+          <ol>
+            <li>Pick the car and your limits on the left. The links above update as you type.</li>
+            <li><b>Search &amp; show cars</b> runs a GitHub Action that reads AutoScout24 and Kleinanzeigen and
+              brings the matches back here, scored and de-duplicated. Takes about a minute.</li>
+            <li>mobile.de blocks automated reading, so use its link above.</li>
+            <li>Saved searches are re-checked twice a day; new cars get a <span class="badge new">NEW</span> badge.</li>
+          </ol>
+          <p class="muted small">First time? Open <b>Settings</b> and add a GitHub token so the site can start searches.</p>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer muted small">
+      Personal tool. Not affiliated with mobile.de, AutoScout24 or Kleinanzeigen. Prices and import costs are estimates —
+      always check the car in person.
+    </footer>
+
+    <dialog id="settings">
+      <form method="dialog" id="settings-form">
+        <h2>Settings</h2>
+        <p class="settings-reason" id="settings-reason" hidden></p>
+
+        <h3>GitHub</h3>
+        <label>Repository (owner/name)
+          <input name="repo" placeholder="you/carfinder" />
+        </label>
+        <label>Access token
+          <input name="token" type="password" autocomplete="off" placeholder="github_pat_…" />
+        </label>
+        <p class="muted small">
+          Needed only to start searches. Create a
+          <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>
+          for <b>this repository only</b> with <b>Actions: Read and write</b> and <b>Contents: Read-only</b>.
+          It's stored in this browser only.
+        </p>
+
+        <h3>Cost to bring it to Romania (€)</h3>
+        <p class="muted small">Your own estimates; added to each car's price as “total”.</p>
+        <div class="cost-grid">
+          <label>Trip &amp; fuel <input name="cost_trip" type="number" min="0" step="10" /></label>
+          <label>Export plates + insurance <input name="cost_plates" type="number" min="0" step="10" /></label>
+          <label>RAR checks <input name="cost_rar" type="number" min="0" step="10" /></label>
+          <label>Registration (RO) <input name="cost_registration" type="number" min="0" step="10" /></label>
+          <label>Other <input name="cost_other" type="number" min="0" step="10" /></label>
+        </div>
+
+        <div class="actions">
+          <button value="cancel" formnovalidate class="ghost">Cancel</button>
+          <button value="save" class="primary">Save</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

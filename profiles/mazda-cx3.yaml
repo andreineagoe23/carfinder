@@ -1,0 +1,27 @@
+# Search profile. Copy this file to search for another car; the filename
+# (without .yaml) is the profile name used on the command line.
+
+name: Mazda CX-3
+make: Mazda
+model: CX-3
+
+year: {min: 2015, max: 2017}      # CX-3 production started in 2015
+mileage_km: {max: 160000}
+price_eur: {min: 8000, max: 10000}
+
+fuel: [petrol]                    # petrol, diesel, hybrid, electric, lpg ([] = any)
+gearbox: []                       # manual, automatic ([] = any)
+
+location:
+  zip: "93339"                    # Riedenburg
+  country: DE
+  radius_km: 200
+
+# Limit to some sites (omit = all): mobile_de, autoscout24, kleinanzeigen
+# sites: [mobile_de, autoscout24]
+
+# Only needed if the automatic make/model lookup fails for a site:
+# overrides:
+#   mobile_de: {make_id: "16800", model_id: "34"}
+#   autoscout24: {make_slug: mazda, model_slug: cx-3}
+#   kleinanzeigen: {make_slug: mazda, model_slug: cx_3, location_id: "6234"}

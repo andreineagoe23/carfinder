@@ -1,0 +1,51 @@
+# Started by the web UI (or by hand from the Actions tab).
+name: search
+run-name: ${{ inputs.delete != '' && 'delete saved search' || 'search' }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      query:
+        description: Search profile as JSON (sent by the web UI)
+        required: false
+        default: ""
+      id:
+        description: Results ID, 12 hex characters (optional)
+        required: false
+        default: ""
+      delete:
+        description: ID of a saved search to delete
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: results
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --no-dev --frozen
+      - run: scripts/results-branch.sh checkout
+
+      - name: Search
+        if: inputs.query != ''
+        env:
+          QUERY: ${{ inputs.query }}
+          SEARCH_ID: ${{ inputs.id }}
+        run: uv run carfinder search --query-json "$QUERY" ${SEARCH_ID:+--id "$SEARCH_ID"} --results-dir results
+
+      - name: Delete
+        if: inputs.delete != ''
+        env:
+          SEARCH_ID: ${{ inputs.delete }}
+        run: uv run carfinder delete "$SEARCH_ID" --results-dir results
+
+      - run: scripts/results-branch.sh push "search run ${{ github.run_id }}"
