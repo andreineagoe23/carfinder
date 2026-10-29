@@ -1,0 +1,671 @@
+{
+ "id": "d8d1ba9e0924",
+ "query": {
+  "name": "Toyota (all models)",
+  "make": "Toyota",
+  "model": null,
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 170000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [
+   "petrol"
+  ],
+  "gearbox": [
+   "automatic"
+  ],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "ro_location": {
+   "city": "timisoara",
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "24100"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-29T22:16:38Z",
+ "updated_at": "2026-10-29T22:16:38Z",
+ "requested_at": "2026-10-29T22:16:38Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=24100%3B%3B%3B&fr=2014%3A2018&ml=%3A170000&p=%3A10000&ft=PETROL&tr=AUTOMATIC_GEAR&zip=93339&zipr=200&cn=DE",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/toyota?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=170000&priceto=10000&fuel=B&gear=A&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.fuel_s:benzin+autos.km_i:%2C170000+autos.marke_s:toyota+autos.shift_s:automatik",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/toyota/timisoara?search%5Bdist%5D=200&search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=170000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_gearbox%5D=automatic",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/toyota/?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/toyota/?carfueltype=benzina&gearname=automata",
+   "notes": [
+    "set years, price and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Toyota",
+   "notes": [
+    "set years, price and km on the site",
+    "pick the city on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "autoscout24",
+   "source_id": "6daf2182-8287-4df6-ae6e-eaa74684c3c5",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/toyota-aygo-aygo-x-play-edition-s-automatik-21444-km-kamera-benzin-schwarz-cat_ma70gr201443ge1214va3888tr480841-6daf2182-8287-4df6-ae6e-eaa74684c3c5",
+   "title": "Toyota Aygo AYGO x-play Edition-S Automatik 21444 km Kamera",
+   "model": "Aygo",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 21444,
+   "year": 2017,
+   "first_registration": "08/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 69,
+   "zip": "80999",
+   "city": "München",
+   "distance_km": 89,
+   "seller_type": "dealer",
+   "seller_name": "IK Automobile München",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/6daf2182-8287-4df6-ae6e-eaa74684c3c5_6c045c03-8ab4-4e2b-b16e-185e97c4258c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6daf2182-8287-4df6-ae6e-eaa74684c3c5_5cd90add-d492-49e5-96d2-4ff0cd813c53.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6daf2182-8287-4df6-ae6e-eaa74684c3c5_dd76fec8-30b4-4ff1-a378-2096512a7e20.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6daf2182-8287-4df6-ae6e-eaa74684c3c5_0b45e287-08cc-49db-b83e-fe9926fb909b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6daf2182-8287-4df6-ae6e-eaa74684c3c5_9d2808cc-3152-4630-963f-0824f9488002.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6daf2182-8287-4df6-ae6e-eaa74684c3c5_e616959a-0052-4de6-81e2-ff1769fb084b.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 75,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~2,383 km per year (+15)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "23bc1216-3be2-4148-98b0-8415f00bcec8",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/toyota-aygo-1-0-x-clusiv-kamera+aut+kamera+keyless+lm-benzin-grau-cat_ma70gr201443ge1214va3888tr480841-23bc1216-3be2-4148-98b0-8415f00bcec8",
+   "title": "Toyota Aygo 1.0 x-clusiv Kamera+AUT+Kamera+KeyLess+LM",
+   "model": "Aygo",
+   "price_eur": 9980,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 93800,
+   "year": 2016,
+   "first_registration": "10/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 69,
+   "zip": "24119",
+   "city": "Kiel",
+   "distance_km": 608,
+   "seller_type": "dealer",
+   "seller_name": "Auto Centrum Lass GmbH",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/23bc1216-3be2-4148-98b0-8415f00bcec8_c7272fca-e4ad-43f2-8e01-bac842a56fd4.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/23bc1216-3be2-4148-98b0-8415f00bcec8_356d199f-d4a0-4bda-8d9d-3ac50c2b6c08.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/23bc1216-3be2-4148-98b0-8415f00bcec8_8480a142-8bad-4e40-a22d-67f26ace2d77.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/23bc1216-3be2-4148-98b0-8415f00bcec8_61b7cb05-eefd-4fbb-bcfb-c9a89d200078.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/23bc1216-3be2-4148-98b0-8415f00bcec8_44fe84d7-e483-4f4a-ba9f-927ab8c69465.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/23bc1216-3be2-4148-98b0-8415f00bcec8_2e920e02-8e53-4cf6-a74e-735217653520.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 66,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~9,380 km per year (+11)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 9980
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "c24ddc6a-93d3-4813-b83f-135ebeb0ac30",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/toyota-auris-design-edition-kamera-hu-au-neu-benzin-grau-cat_ma70gr201446ge1209va3721mt10213tr2550-c24ddc6a-93d3-4813-b83f-135ebeb0ac30",
+   "title": "Toyota Auris Design Edition*KAMERA*HU/AU NEU*",
+   "model": "Auris",
+   "price_eur": 9495,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 157605,
+   "year": 2015,
+   "first_registration": "11/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 116,
+   "zip": "70597",
+   "city": "Stuttgart",
+   "distance_km": 187,
+   "seller_type": "dealer",
+   "seller_name": "Automobile Yildiz",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/c24ddc6a-93d3-4813-b83f-135ebeb0ac30_6b6dd1a8-0127-497f-893c-6d20fa1fbcd1.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c24ddc6a-93d3-4813-b83f-135ebeb0ac30_2a99ee22-b36c-415f-a9ce-0e6f0379a7a5.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c24ddc6a-93d3-4813-b83f-135ebeb0ac30_7b41af2c-43f9-4867-84d8-b70ab28ecc4b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c24ddc6a-93d3-4813-b83f-135ebeb0ac30_1b242f7e-ea66-40d7-93ca-b1175c2ad2de.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c24ddc6a-93d3-4813-b83f-135ebeb0ac30_455926bd-e6db-4a33-aea2-fbafba76c288.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/c24ddc6a-93d3-4813-b83f-135ebeb0ac30_67645f5f-4efd-4490-a77e-3e4625ce82f4.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/toyota-auris-design-edition-kamera-hu-au-neu-/3534864999-216-9297",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 61,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,328 km per year (+6)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 9495
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "b648641a-df5f-40f0-a41c-3526bf8e8a25",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/toyota-avensis-touring-sports-1-8-multidrive-s-edition-s-benzin-cat_ma70gr201445ge1212va2089mt3587tr2981-b648641a-df5f-40f0-a41c-3526bf8e8a25",
+   "title": "Toyota Avensis Touring Sports 1.8 Multidrive S Edition-S",
+   "model": "Avensis",
+   "price_eur": 9700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 169500,
+   "year": 2016,
+   "first_registration": "07/2016",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 147,
+   "zip": "93086",
+   "city": "Wörth a.d.Donau",
+   "distance_km": 53,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/b648641a-df5f-40f0-a41c-3526bf8e8a25_82723cba-197e-4d9f-807e-594d9d47855d.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b648641a-df5f-40f0-a41c-3526bf8e8a25_50c10ab8-ef5d-43ec-843b-c09e13f7de6b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b648641a-df5f-40f0-a41c-3526bf8e8a25_e3d27965-cefb-48cb-80df-f3c0be7af3e2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b648641a-df5f-40f0-a41c-3526bf8e8a25_66aac45a-ee88-44d6-9156-444e69e61f8b.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b648641a-df5f-40f0-a41c-3526bf8e8a25_4a0edb7c-9b99-4373-a27b-85911b00ba03.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/b648641a-df5f-40f0-a41c-3526bf8e8a25_f5b08de5-3980-4260-8e15-4d5f53cb47fc.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/toyota-avensis-1-8-l-v-multidr-s-edition-s-t-sports/3548062425-216-7349",
+     "notes": [],
+     "error": null
+    },
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/toyota-avensis-t27-edition-s-braun-automatik-benziner/3546176216-216-7349",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 58,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~16,950 km per year (+3)",
+    "Site rates it “top price” (+15)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 9700
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "9d15a911-5a97-4ffb-a3d6-961badf35816",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/toyota-aygo-x-play-team-d-kamera-aux-usb-navi-automatik-benzin-weiss-cat_ma70gr201443ge1214va3888tr8523-9d15a911-5a97-4ffb-a3d6-961badf35816",
+   "title": "Toyota Aygo x-play Team D KAMERA AUX USB NAVI  AUTOMATIK",
+   "model": "Aygo",
+   "price_eur": 9390,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "fair-price",
+   "mileage_km": 114543,
+   "year": 2018,
+   "first_registration": "04/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 69,
+   "zip": "91717",
+   "city": "Wassertrüdingen",
+   "distance_km": 80,
+   "seller_type": "dealer",
+   "seller_name": "Autohandel Hoffmann",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/9d15a911-5a97-4ffb-a3d6-961badf35816_73e587ed-38dd-4861-a56a-adde91bda8cf.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9d15a911-5a97-4ffb-a3d6-961badf35816_f16cb7e4-5698-4a89-93a7-2f6b4bc11314.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9d15a911-5a97-4ffb-a3d6-961badf35816_6f797df9-520d-499c-b83f-b44557743704.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9d15a911-5a97-4ffb-a3d6-961badf35816_676452bb-a18a-4afd-81ca-08b081fafd8a.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9d15a911-5a97-4ffb-a3d6-961badf35816_3a060297-9a6f-4695-a497-aa66d4a17b02.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/9d15a911-5a97-4ffb-a3d6-961badf35816_495f1db1-5b1b-4d5d-a1c4-faac6792188d.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 56,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,318 km per year (+6)",
+    "Site rates it “fair price” (+5)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 9390
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3546529363",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/toyota-yaris-edition-automatik-kamera-1hand/3546529363-216-6402",
+   "title": "Toyota Yaris Edition Automatik Kamera 1Hand",
+   "model": "Yaris",
+   "price_eur": 9300,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 65811,
+   "year": 2014,
+   "first_registration": "06/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "84107",
+   "city": "Weihmichl",
+   "distance_km": 47,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/27d865c9-14b9-4c6c-8aec-1614cf37884e?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 55,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~5,484 km per year (+15)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 9300
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3502472017",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/toyota-aygo-x-play-edition-s-automatik-21444-km-kamera/3502472017-216-6445",
+   "title": "Toyota AYGO x-play Edition-S Automatik 21444 km Kamera",
+   "model": "Aygo (X)",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 21444,
+   "year": 2017,
+   "first_registration": "08/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "80999",
+   "city": "Allach-Untermenzing",
+   "distance_km": 87,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/84/84a13136-a28f-4763-9f22-b991833ad0b3?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 55,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~2,383 km per year (+15)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 9999
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3476857936",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/toyota-verso-s-life/3476857936-216-4886",
+   "title": "Toyota Verso-S Life",
+   "model": "Verso-S",
+   "price_eur": 8499,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 134500,
+   "year": 2014,
+   "first_registration": "02/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "36043",
+   "city": "Fulda",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a3/a34e73a5-8660-4f5a-8a84-dfb0e6b666ca?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~11,208 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 8499
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3542996638",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/toyota-aygo-km-144000-bj-2014/3542996638-216-9231",
+   "title": "Toyota Aygo, km.144000, Bj.2014",
+   "model": null,
+   "price_eur": 6000,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 6500,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 144000,
+   "year": 2014,
+   "first_registration": "03/2014",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "71717",
+   "city": "Beilstein",
+   "distance_km": 172,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e7/e7a8378c-2654-49da-8f6c-afab1e71f009?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 48,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,000 km per year (+8)"
+   ],
+   "flags": [
+    "Price reduced from €6,500"
+   ],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 6000
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "6a3e50cc-657c-43d7-9f40-848660f2ae7a",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/toyota-corolla-1-6-valvematic-multidrive-s-excecutive-benzin-cat_ma70gr201440ge1228va2103mt3900tr480847-6a3e50cc-657c-43d7-9f40-848660f2ae7a",
+   "title": "Toyota Corolla 1.6 Valvematic Multidrive S Excecutive",
+   "model": "Corolla",
+   "price_eur": 8450,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "toolow-price ",
+   "mileage_km": 155500,
+   "year": 2015,
+   "first_registration": "09/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 132,
+   "zip": "07343",
+   "city": "Wurzbach",
+   "distance_km": 168,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/6a3e50cc-657c-43d7-9f40-848660f2ae7a_334179f3-631d-43ed-9886-b10d6732e7ec.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6a3e50cc-657c-43d7-9f40-848660f2ae7a_19b7a9aa-621d-49a5-9a76-d5db38e3a258.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6a3e50cc-657c-43d7-9f40-848660f2ae7a_52dfbc79-9d72-44d5-a0b3-63c4cbe6a37e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6a3e50cc-657c-43d7-9f40-848660f2ae7a_cf86a2ad-5999-40d4-a23a-8a6e8b9ac352.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6a3e50cc-657c-43d7-9f40-848660f2ae7a_652d08e1-9fd8-44b9-a43a-bf70de907f5c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/6a3e50cc-657c-43d7-9f40-848660f2ae7a_cf66b543-4ea2-443c-94ba-b015353af150.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/toyota-corolla-1-8-automatik/3515344384-216-3661",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 46,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,136 km per year (+6)"
+   ],
+   "flags": [
+    "Cheaper on Kleinanzeigen: €7,500",
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 8450
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3553140400",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/2x-toyota-yaris-1-5-hybrid-2018-2019-unfallwagen-ersatzte/3553140400-216-7469",
+   "title": "2x Toyota Yaris 1.5 Hybrid | 2018 + 2019 | Unfallwagen | Ersatzte",
+   "model": "Yaris",
+   "price_eur": 1700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 30259,
+   "year": 2018,
+   "first_registration": "06/2018",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "94116",
+   "city": "Hutthurm",
+   "distance_km": 134,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0d/0d471814-bb32-4730-b413-1a65d0336fc7?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 35,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~3,782 km per year (+15)",
+    "Title mentions “Unfall” (-20)"
+   ],
+   "flags": [
+    "Title mentions “Unfall” — likely damage or defect"
+   ],
+   "first_seen": "2026-10-29T22:16:38Z",
+   "last_seen": "2026-10-29T22:16:38Z",
+   "price_history": [
+    {
+     "at": "2026-10-29T22:16:38Z",
+     "price_eur": 1700
+    }
+   ]
+  }
+ ]
+}
