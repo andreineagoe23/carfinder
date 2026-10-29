@@ -49,13 +49,13 @@
   }
  },
  "created_at": "2026-10-29T22:09:08Z",
- "updated_at": "2026-10-29T22:09:08Z",
- "requested_at": "2026-10-29T22:09:08Z",
+ "updated_at": "2026-10-29T22:25:41Z",
+ "requested_at": "2026-10-29T22:25:41Z",
  "links": [
   {
    "site": "mobile_de",
    "name": "mobile.de",
-   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=18700%3B47%3B%3B&fr=2014%3A2018&ml=%3A170000&p=%3A10000&tr=AUTOMATIC_GEAR&zip=93339&zipr=200&cn=DE",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=18700%3B47%3B%3B&fr=2014%3A2018&ml=%3A170000&p=%3A10000&tr=AUTOMATIC_GEAR&cn=DE&ll=48.9667%2C11.6833&rd=200&gn=Riedenburg%2C+Bayern",
    "notes": [],
    "error": null
   },
@@ -163,7 +163,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -208,7 +208,7 @@
     "31% below similar cars — check for damage or scam"
    ],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -258,7 +258,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -316,7 +316,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -359,7 +359,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -407,7 +407,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -457,7 +457,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -508,7 +508,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -555,7 +555,7 @@
     "Title mentions “schaden” — likely damage or defect"
    ],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -606,7 +606,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -649,7 +649,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -708,7 +708,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -758,7 +758,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -807,7 +807,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -850,7 +850,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -893,7 +893,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -942,7 +942,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -985,7 +985,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
@@ -1030,7 +1030,7 @@
     "Price reduced from €11,000"
    ],
    "first_seen": "2026-10-29T22:09:08Z",
-   "last_seen": "2026-10-29T22:09:08Z",
+   "last_seen": "2026-10-29T22:25:41Z",
    "price_history": [
     {
      "at": "2026-10-29T22:09:08Z",
