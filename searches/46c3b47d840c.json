@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-10-30T09:49:04Z",
- "updated_at": "2026-10-30T11:27:18Z",
+ "updated_at": "2026-10-30T21:34:10Z",
  "requested_at": "2026-10-30T09:49:04Z",
  "links": [
   {
@@ -140,15 +140,15 @@
    "also_on": [],
    "score": 75,
    "score_parts": [
-    "€3,945 below similar 6 cars (median €9,945) (+25)",
+    "€3,445 below similar 6 cars (median €9,445) (+25)",
     "~10,167 km per year (+10)"
    ],
    "flags": [
-    "40% below similar cars — check for damage or scam",
+    "36% below similar cars — check for damage or scam",
     "Price reduced from €7,000"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -189,65 +189,20 @@
     "https://prod.pictures.autoscout24.net/listing-images/0a26b256-e1ac-46eb-adb2-b9e6fbf9471c_d4a812f9-5081-4812-a149-0067ae8dc93d.jpg/480x360.webp"
    ],
    "also_on": [],
-   "score": 73,
+   "score": 68,
    "score_parts": [
-    "€1,445 below similar 6 cars (median €9,945) (+15)",
+    "€945 below similar 6 cars (median €9,445) (+10)",
     "~11,575 km per year (+8)",
     "Site rates it “fair price” (+5)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
      "price_eur": 8500
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3524389911",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-175-sports-line-awd-at-spor-/3524389911-216-7262",
-   "title": "Mazda 6 2.2 SKYACTIV-D 175 Sports-Line AWD AT Spor...",
-   "model": "6",
-   "price_eur": 3000,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 125000,
-   "year": 2016,
-   "first_registration": "07/2016",
-   "fuel": null,
-   "gearbox": "automatic",
-   "power_hp": null,
-   "zip": "87600",
-   "city": "Kaufbeuren",
-   "distance_km": 144,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b8/b8de6937-94b1-4a84-8bbc-91e9c7ccce19?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 72,
-   "score_parts": [
-    "€6,866 below similar 6 cars (median €9,866) (+25)",
-    "~12,500 km per year (+8)"
-   ],
-   "flags": [
-    "70% below similar cars — check for damage or scam"
-   ],
-   "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
-   "price_history": [
-    {
-     "at": "2026-10-30T09:49:04Z",
-     "price_eur": 3000
     }
    ]
   },
@@ -279,14 +234,14 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c3/c332053f-fe81-471d-b5c3-5192dfcbe9f2?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 58,
+   "score": 59,
    "score_parts": [
-    "€1,166 below similar 6 cars (median €9,866) (+12)",
+    "€1,281 below similar 6 cars (median €9,981) (+13)",
     "~13,400 km per year (+7)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -322,14 +277,14 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e7/e74786c5-f18d-4c91-b737-6df53b72357b?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 54,
+   "score": 55,
    "score_parts": [
-    "€466 below similar 6 cars (median €9,866) (+5)",
+    "€581 below similar 6 cars (median €9,981) (+6)",
     "~11,020 km per year (+9)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -338,60 +293,52 @@
    ]
   },
   {
-   "source": "autoscout24",
-   "source_id": "a1db595b-8297-4694-833c-c945f4f2a53f",
+   "source": "kleinanzeigen",
+   "source_id": "3534497687",
    "country": "DE",
-   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-sports-line-awd-hud-navi-kamera-diesel-grau-cat_ma46gr200953ge1755va1461mt2623tr7322-a1db595b-8297-4694-833c-c945f4f2a53f",
-   "title": "Mazda 6 Kombi Sports-Line AWD *HUD*NAVI*KAMERA*",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-150-i-eloop-center-line/3534497687-216-8723",
+   "title": "Mazda 6 2.2 SKYACTIV-D 150 i-ELOOP Center-Line",
    "model": "6",
-   "price_eur": 9999,
+   "price_eur": 8900,
    "listed_price": null,
    "listed_currency": null,
-   "old_price_eur": null,
+   "old_price_eur": 10900,
    "negotiable": false,
-   "price_label": "fair-price",
-   "mileage_km": 146469,
-   "year": 2015,
-   "first_registration": "07/2015",
-   "fuel": "diesel",
+   "price_label": null,
+   "mileage_km": 147000,
+   "year": 2014,
+   "first_registration": "03/2014",
+   "fuel": null,
    "gearbox": "automatic",
-   "power_hp": 175,
-   "zip": "85276",
-   "city": "Pfaffenhofen an der Ilm",
-   "distance_km": 51,
-   "seller_type": "dealer",
-   "seller_name": "MYAUTOCENTER OHG",
+   "power_hp": null,
+   "zip": "88521",
+   "city": "Ertingen",
+   "distance_km": 190,
+   "seller_type": null,
+   "seller_name": null,
    "images": [
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_85754df9-9acc-4943-b564-41ab5f54cf3e.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_19f6f50c-4f11-4ac7-ac3e-fd9aa444fd38.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_7e600c1c-408e-424a-bbc2-c4457facf567.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_c1e3e037-4bf2-4914-94fc-978aa1f575dd.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_4123db38-ebad-427d-b004-9d03d1138a05.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_22e7621f-122e-495f-aebe-688a49556709.jpg/480x360.webp"
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/17/176ca15d-43a5-41cc-b9ff-b7748c584694?rule=$_59.AUTO"
    ],
-   "also_on": [
-    {
-     "site": "kleinanzeigen",
-     "name": "Kleinanzeigen",
-     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-sports-line-awd-hud-navi-kamera-/3473325675-216-5850",
-     "notes": [],
-     "error": null
-    }
-   ],
-   "score": 50,
+   "also_on": [],
+   "score": 51,
    "score_parts": [
-    "€599 above similar 6 cars (median €9,400) (-6)",
-    "~13,315 km per year (+7)",
-    "Site rates it “fair price” (+5)",
-    "Dealer: 12 months' warranty in Germany (+5)"
+    "€345 below similar 6 cars (median €9,245) (+4)",
+    "~12,250 km per year (+8)"
    ],
-   "flags": [],
+   "flags": [
+    "Price reduced from €10,900",
+    "Price dropped since first seen (€9,900)"
+   ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
-     "price_eur": 9999
+     "price_eur": 9900
+    },
+    {
+     "at": "2026-10-30T21:34:10Z",
+     "price_eur": 8900
     }
    ]
   },
@@ -423,16 +370,16 @@
     "https://ireland.apollo.olxcdn.com/v1/files/b4bv6zfrs4i21-AUTOVITRO/image;s=640x480"
    ],
    "also_on": [],
-   "score": 48,
+   "score": 49,
    "score_parts": [
-    "€366 below similar 6 cars (median €9,866) (+4)",
+    "€481 below similar 6 cars (median €9,981) (+5)",
     "~15,362 km per year (+5)"
    ],
    "flags": [
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -481,15 +428,15 @@
      "error": null
     }
    ],
-   "score": 46,
+   "score": 48,
    "score_parts": [
-    "€499 above similar 6 cars (median €9,500) (-5)",
+    "€374 above similar 6 cars (median €9,625) (-4)",
     "~13,422 km per year (+7)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -498,90 +445,60 @@
    ]
   },
   {
-   "source": "autovit",
-   "source_id": "7060921749",
-   "country": "RO",
-   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-6-ver-cd175-at-revolution-top-ID7HQUiF.html",
-   "title": "Mazda 6 CD175 AT Revolution Top",
+   "source": "autoscout24",
+   "source_id": "a1db595b-8297-4694-833c-c945f4f2a53f",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-sports-line-awd-hud-navi-kamera-diesel-grau-cat_ma46gr200953ge1755va1461mt2623tr7322-a1db595b-8297-4694-833c-c945f4f2a53f",
+   "title": "Mazda 6 Kombi Sports-Line AWD *HUD*NAVI*KAMERA*",
    "model": "6",
-   "price_eur": 9990,
+   "price_eur": 9999,
    "listed_price": null,
    "listed_currency": null,
    "old_price_eur": null,
    "negotiable": false,
-   "price_label": null,
-   "mileage_km": 152000,
-   "year": 2014,
-   "first_registration": null,
+   "price_label": "fair-price",
+   "mileage_km": 146469,
+   "year": 2015,
+   "first_registration": "07/2015",
    "fuel": "diesel",
    "gearbox": "automatic",
    "power_hp": 175,
-   "zip": null,
-   "city": "Chiajna, Ilfov",
-   "distance_km": null,
+   "zip": "85276",
+   "city": "Pfaffenhofen an der Ilm",
+   "distance_km": 51,
    "seller_type": "dealer",
-   "seller_name": null,
+   "seller_name": "MYAUTOCENTER OHG",
    "images": [
-    "https://ireland.apollo.olxcdn.com/v1/files/xhut37qkdz3h3-AUTOVITRO/image;s=640x480"
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_85754df9-9acc-4943-b564-41ab5f54cf3e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_19f6f50c-4f11-4ac7-ac3e-fd9aa444fd38.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_7e600c1c-408e-424a-bbc2-c4457facf567.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_c1e3e037-4bf2-4914-94fc-978aa1f575dd.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_4123db38-ebad-427d-b004-9d03d1138a05.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_22e7621f-122e-495f-aebe-688a49556709.jpg/480x360.webp"
    ],
-   "also_on": [],
-   "score": 44,
-   "score_parts": [
-    "€790 above similar 6 cars (median €9,200) (-9)",
-    "~12,667 km per year (+7)",
-    "Dealer (+5)"
-   ],
-   "flags": [],
-   "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
-   "price_history": [
+   "also_on": [
     {
-     "at": "2026-10-30T09:49:04Z",
-     "price_eur": 9990
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-sports-line-awd-hud-navi-kamera-/3473325675-216-5850",
+     "notes": [],
+     "error": null
     }
-   ]
-  },
-  {
-   "source": "autovit",
-   "source_id": "7060914494",
-   "country": "RO",
-   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-6-ver-cd175-at-revolution-plus-ID7HQSpE.html",
-   "title": "Mazda 6 CD175 AT Revolution Plus",
-   "model": "6",
-   "price_eur": 9981,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 154231,
-   "year": 2017,
-   "first_registration": null,
-   "fuel": "diesel",
-   "gearbox": "automatic",
-   "power_hp": 175,
-   "zip": null,
-   "city": "Ramnicu Valcea, Valcea",
-   "distance_km": null,
-   "seller_type": "dealer",
-   "seller_name": null,
-   "images": [
-    "https://ireland.apollo.olxcdn.com/v1/files/4pzdgoie7htb1-AUTOVITRO/image;s=640x480"
    ],
-   "also_on": [],
-   "score": 43,
+   "score": 47,
    "score_parts": [
-    "€481 above similar 6 cars (median €9,500) (-5)",
-    "~17,137 km per year (+3)",
-    "Dealer (+5)"
+    "€849 above similar 6 cars (median €9,150) (-9)",
+    "~13,315 km per year (+7)",
+    "Site rates it “fair price” (+5)",
+    "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
-     "price_eur": 9981
+     "price_eur": 9999
     }
    ]
   },
@@ -613,14 +530,13 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/0631d9be-5343-4d94-80b8-9b606c5716a9?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 42,
+   "score": 45,
    "score_parts": [
-    "€250 above similar 6 cars (median €9,500) (-3)",
     "~15,111 km per year (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -629,47 +545,46 @@
    ]
   },
   {
-   "source": "kleinanzeigen",
-   "source_id": "3534497687",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-2-2-skyactiv-d-150-i-eloop-center-line/3534497687-216-8723",
-   "title": "Mazda 6 2.2 SKYACTIV-D 150 i-ELOOP Center-Line",
+   "source": "autovit",
+   "source_id": "7060914494",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-6-ver-cd175-at-revolution-plus-ID7HQSpE.html",
+   "title": "Mazda 6 CD175 AT Revolution Plus",
    "model": "6",
-   "price_eur": 9900,
+   "price_eur": 9981,
    "listed_price": null,
    "listed_currency": null,
-   "old_price_eur": 10900,
+   "old_price_eur": null,
    "negotiable": false,
    "price_label": null,
-   "mileage_km": 147000,
-   "year": 2014,
-   "first_registration": "03/2014",
-   "fuel": null,
+   "mileage_km": 154231,
+   "year": 2017,
+   "first_registration": null,
+   "fuel": "diesel",
    "gearbox": "automatic",
-   "power_hp": null,
-   "zip": "88521",
-   "city": "Ertingen",
-   "distance_km": 190,
-   "seller_type": null,
+   "power_hp": 175,
+   "zip": null,
+   "city": "Ramnicu Valcea, Valcea",
+   "distance_km": null,
+   "seller_type": "dealer",
    "seller_name": null,
    "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f0fafef-db8c-42fb-ab4c-44d0f31701b5?rule=$_59.AUTO"
+    "https://ireland.apollo.olxcdn.com/v1/files/4pzdgoie7htb1-AUTOVITRO/image;s=640x480"
    ],
    "also_on": [],
-   "score": 41,
+   "score": 44,
    "score_parts": [
-    "€655 above similar 6 cars (median €9,245) (-7)",
-    "~12,250 km per year (+8)"
+    "€356 above similar 6 cars (median €9,625) (-4)",
+    "~17,137 km per year (+3)",
+    "Dealer (+5)"
    ],
-   "flags": [
-    "Price reduced from €10,900"
-   ],
+   "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
-     "price_eur": 9900
+     "price_eur": 9981
     }
    ]
   },
@@ -701,14 +616,58 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/33179410-023d-4248-8e94-189794f42464?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 40,
+   "score": 42,
    "score_parts": [
-    "€365 above similar 6 cars (median €9,625) (-4)",
+    "€240 above similar 6 cars (median €9,750) (-2)",
     "~15,850 km per year (+4)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-30T11:27:18Z",
+   "last_seen": "2026-10-30T21:34:10Z",
+   "price_history": [
+    {
+     "at": "2026-10-30T09:49:04Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "autovit",
+   "source_id": "7060921749",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-6-ver-cd175-at-revolution-top-ID7HQUiF.html",
+   "title": "Mazda 6 CD175 AT Revolution Top",
+   "model": "6",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 152000,
+   "year": 2014,
+   "first_registration": null,
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 175,
+   "zip": null,
+   "city": "Chiajna, Ilfov",
+   "distance_km": null,
+   "seller_type": "dealer",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/xhut37qkdz3h3-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 38,
+   "score_parts": [
+    "€1,290 above similar 6 cars (median €8,700) (-15)",
+    "~12,667 km per year (+7)",
+    "Dealer (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-30T09:49:04Z",
+   "last_seen": "2026-10-30T21:34:10Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
