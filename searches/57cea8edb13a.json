@@ -49,8 +49,8 @@
   }
  },
  "created_at": "2026-10-29T22:38:54Z",
- "updated_at": "2026-10-29T22:38:54Z",
- "requested_at": "2026-10-29T22:38:54Z",
+ "updated_at": "2026-10-30T08:37:09Z",
+ "requested_at": "2026-10-30T08:37:09Z",
  "links": [
   {
    "site": "mobile_de",
@@ -153,14 +153,14 @@
    ],
    "score": 78,
    "score_parts": [
-    "€1,500 below similar Qashqai cars (median €8,990) (+17)",
+    "€1,510 below similar Qashqai cars (median €9,000) (+17)",
     "~13,350 km per year (+7)",
     "Site rates it “good price” (+10)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -198,7 +198,7 @@
    "also_on": [],
    "score": 74,
    "score_parts": [
-    "€4,690 below similar Qashqai cars (median €8,990) (+25)",
+    "€4,695 below similar Qashqai cars (median €8,995) (+25)",
     "~11,182 km per year (+9)"
    ],
    "flags": [
@@ -206,7 +206,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -251,7 +251,7 @@
     "33% below similar cars — check for damage or scam"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -294,14 +294,14 @@
    "also_on": [],
    "score": 69,
    "score_parts": [
-    "€491 below similar Qashqai cars (median €8,990) (+5)",
+    "€500 below similar Qashqai cars (median €9,000) (+6)",
     "~11,815 km per year (+8)",
     "Site rates it “good price” (+10)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -359,7 +359,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -407,11 +407,61 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
      "price_eur": 8990
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "19b7f3ce-8aea-4306-9e0b-b2d00e1cfc3b",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/nissan-qashqai-automatik-360-kamera-tuev-neu-diesel-schwarz-cat_ma52gr201054ge1650va3593mt4733tr714-19b7f3ce-8aea-4306-9e0b-b2d00e1cfc3b",
+   "title": "Nissan Qashqai Automatik 360° Kamera TÜV NEU",
+   "model": "Qashqai",
+   "price_eur": 9999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 116500,
+   "year": 2015,
+   "first_registration": "05/2015",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 131,
+   "zip": "97084",
+   "city": "Würzburg",
+   "distance_km": 151,
+   "seller_type": "dealer",
+   "seller_name": "Andro Cars",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/19b7f3ce-8aea-4306-9e0b-b2d00e1cfc3b_8da0d19c-c5d5-4712-bbe3-f9227968d818.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/19b7f3ce-8aea-4306-9e0b-b2d00e1cfc3b_5f0ddda5-9331-4868-b1ec-540310fc19ae.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/19b7f3ce-8aea-4306-9e0b-b2d00e1cfc3b_cfcdb7e8-e434-4e43-a834-dbd94ee16c1c.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/19b7f3ce-8aea-4306-9e0b-b2d00e1cfc3b_4797a406-76ef-45f5-ae14-48e8e9870ed2.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/19b7f3ce-8aea-4306-9e0b-b2d00e1cfc3b_9b6b6b98-5f83-479c-847f-0fb125adf215.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/19b7f3ce-8aea-4306-9e0b-b2d00e1cfc3b_75cba372-28aa-4ee1-8be8-843ad5b03457.jpg/480x360.webp"
+   ],
+   "also_on": [],
+   "score": 58,
+   "score_parts": [
+    "€1,009 above similar Qashqai cars (median €8,990) (-11)",
+    "~10,591 km per year (+9)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-30T08:37:09Z",
+   "last_seen": "2026-10-30T08:37:09Z",
+   "price_history": [
+    {
+     "at": "2026-10-30T08:37:09Z",
+     "price_eur": 9999
     }
    ]
   },
@@ -445,12 +495,12 @@
    "also_on": [],
    "score": 58,
    "score_parts": [
-    "€1,200 below similar Qashqai cars (median €8,990) (+13)",
+    "€1,205 below similar Qashqai cars (median €8,995) (+13)",
     "~15,455 km per year (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -493,61 +543,18 @@
    "also_on": [],
    "score": 56,
    "score_parts": [
-    "€990 above similar Qashqai cars (median €8,990) (-11)",
+    "€986 above similar Qashqai cars (median €8,994) (-11)",
     "~12,900 km per year (+7)",
     "Site rates it “top price” (+15)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
      "price_eur": 9980
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3546290824",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-klima-pano-automatik-kamera/3546290824-216-16909",
-   "title": "Nissan Qashqai N-Connecta-KLIMA-PANO-AUTOMATIK-KAMERA",
-   "model": "Qashqai",
-   "price_eur": 8500,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 105000,
-   "year": 2017,
-   "first_registration": "02/2017",
-   "fuel": null,
-   "gearbox": "automatic",
-   "power_hp": null,
-   "zip": "94469",
-   "city": "Deggendorf",
-   "distance_km": 95,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f03635ea-d8c3-4ead-bf31-713509404622?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 56,
-   "score_parts": [
-    "€748 below similar Qashqai cars (median €9,248) (+8)",
-    "~11,667 km per year (+8)"
-   ],
-   "flags": [],
-   "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
-   "price_history": [
-    {
-     "at": "2026-10-29T22:38:54Z",
-     "price_eur": 8500
     }
    ]
   },
@@ -581,7 +588,7 @@
    "also_on": [],
    "score": 55,
    "score_parts": [
-    "€2,591 below similar Qashqai cars (median €8,990) (+25)",
+    "€2,596 below similar Qashqai cars (median €8,995) (+25)",
     "~9,523 km per year (+10)",
     "Title mentions “schaden” (-20)"
    ],
@@ -589,7 +596,7 @@
     "Title mentions “schaden” — likely damage or defect"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -632,7 +639,7 @@
    "also_on": [],
    "score": 54,
    "score_parts": [
-    "€550 above similar Qashqai cars (median €8,950) (-6)",
+    "€530 above similar Qashqai cars (median €8,970) (-6)",
     "~9,792 km per year (+10)",
     "Site rates it “good price” (+10)"
    ],
@@ -640,7 +647,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -691,7 +698,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -727,14 +734,15 @@
     "https://ireland.apollo.olxcdn.com/v1/files/4p23j2g1ms343-AUTOVITRO/image;s=640x480"
    ],
    "also_on": [],
-   "score": 53,
+   "score": 54,
    "score_parts": [
+    "€45 below similar Qashqai cars (median €8,995) (+1)",
     "~12,000 km per year (+8)",
     "Dealer (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -777,7 +785,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -836,7 +844,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -879,14 +887,14 @@
    "also_on": [],
    "score": 51,
    "score_parts": [
-    "€1,000 above similar Qashqai cars (median €8,995) (-11)",
+    "€996 above similar Qashqai cars (median €9,000) (-11)",
     "~12,602 km per year (+7)",
     "Site rates it “good price” (+10)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -929,7 +937,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -967,18 +975,61 @@
    "also_on": [],
    "score": 51,
    "score_parts": [
-    "€90 below similar Qashqai cars (median €8,990) (+1)",
+    "€95 below similar Qashqai cars (median €8,995) (+1)",
     "~10,364 km per year (+10)"
    ],
    "flags": [
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
      "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3556260209",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-klima-pano-automatik-kamera/3556260209-216-16909",
+   "title": "Nissan Qashqai N-Connecta-KLIMA-PANO-AUTOMATIK-KAMERA",
+   "model": "Qashqai",
+   "price_eur": 8999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 105000,
+   "year": 2017,
+   "first_registration": "02/2017",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "94469",
+   "city": "Deggendorf",
+   "distance_km": 95,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/336d97d0-18cf-4860-a0ec-cceb6a36f2ee?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 51,
+   "score_parts": [
+    "€250 below similar Qashqai cars (median €9,248) (+3)",
+    "~11,667 km per year (+8)"
+   ],
+   "flags": [],
+   "first_seen": "2026-10-30T08:37:09Z",
+   "last_seen": "2026-10-30T08:37:09Z",
+   "price_history": [
+    {
+     "at": "2026-10-30T08:37:09Z",
+     "price_eur": 8999
     }
    ]
   },
@@ -1023,7 +1074,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -1068,7 +1119,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -1110,7 +1161,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -1153,13 +1204,13 @@
    "also_on": [],
    "score": 41,
    "score_parts": [
-    "€910 above similar Qashqai cars (median €8,990) (-10)",
+    "€906 above similar Qashqai cars (median €8,994) (-10)",
     "~14,000 km per year (+6)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -1197,12 +1248,12 @@
    "also_on": [],
    "score": 41,
    "score_parts": [
-    "€507 above similar Qashqai cars (median €8,990) (-6)",
+    "€502 above similar Qashqai cars (median €8,994) (-6)",
     "~13,500 km per year (+6)"
    ],
    "flags": [],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -1240,14 +1291,14 @@
    "also_on": [],
    "score": 38,
    "score_parts": [
-    "€710 above similar Qashqai cars (median €8,990) (-8)",
+    "€706 above similar Qashqai cars (median €8,994) (-8)",
     "~14,300 km per year (+6)"
    ],
    "flags": [
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -1285,14 +1336,14 @@
    "also_on": [],
    "score": 38,
    "score_parts": [
-    "€1,005 above similar Qashqai cars (median €8,995) (-11)",
+    "€1,000 above similar Qashqai cars (median €9,000) (-11)",
     "~11,178 km per year (+9)"
    ],
    "flags": [
     "Price reduced from €11,000"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -1330,14 +1381,14 @@
    "also_on": [],
    "score": 36,
    "score_parts": [
-    "€795 above similar Qashqai cars (median €8,995) (-9)",
+    "€790 above similar Qashqai cars (median €9,000) (-9)",
     "~14,778 km per year (+5)"
    ],
    "flags": [
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
@@ -1382,7 +1433,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-29T22:38:54Z",
-   "last_seen": "2026-10-29T22:38:54Z",
+   "last_seen": "2026-10-30T08:37:09Z",
    "price_history": [
     {
      "at": "2026-10-29T22:38:54Z",
