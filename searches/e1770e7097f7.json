@@ -51,7 +51,7 @@
   }
  },
  "created_at": "2026-10-30T09:45:26Z",
- "updated_at": "2026-10-30T09:45:26Z",
+ "updated_at": "2026-10-30T11:27:24Z",
  "requested_at": "2026-10-30T09:45:26Z",
  "links": [
   {
@@ -113,6 +113,51 @@
  "errors": {},
  "listings": [
   {
+   "source": "kleinanzeigen",
+   "source_id": "3556423467",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-tekna/3556423467-216-27746",
+   "title": "Nissan Qashqai Tekna",
+   "model": "Qashqai",
+   "price_eur": 5500,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 80000,
+   "year": 2015,
+   "first_registration": "06/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "97255",
+   "city": "Gelchsheim",
+   "distance_km": 139,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46d01c46-7909-4ce6-ba4b-5e04e57ef5a0?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 78,
+   "score_parts": [
+    "€3,400 below similar Qashqai cars (median €8,900) (+25)",
+    "~7,273 km per year (+13)"
+   ],
+   "flags": [
+    "38% below similar cars — check for damage or scam"
+   ],
+   "first_seen": "2026-10-30T11:27:24Z",
+   "last_seen": "2026-10-30T11:27:24Z",
+   "price_history": [
+    {
+     "at": "2026-10-30T11:27:24Z",
+     "price_eur": 5500
+    }
+   ]
+  },
+  {
    "source": "autoscout24",
    "source_id": "9e896f68-fa05-4db8-a14f-84c79e089ebe",
    "country": "DE",
@@ -162,7 +207,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -208,7 +253,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -253,7 +298,7 @@
     "31% below similar cars — check for damage or scam"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -303,7 +348,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -361,54 +406,11 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
      "price_eur": 8490
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3493396755",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-360-automatik-panorama-navi-keyless-kam/3493396755-216-8684",
-   "title": "Nissan Qashqai 360° Automatik Panorama Navi Keyless Kam",
-   "model": "Qashqai",
-   "price_eur": 7990,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 70000,
-   "year": 2015,
-   "first_registration": "06/2015",
-   "fuel": "petrol",
-   "gearbox": "automatic",
-   "power_hp": null,
-   "zip": "89155",
-   "city": "Erbach",
-   "distance_km": 149,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2b/2b497877-7d28-4b8f-8002-b327bfa46149?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 64,
-   "score_parts": [
-    "€910 below similar Qashqai cars (median €8,900) (+10)",
-    "~6,364 km per year (+14)"
-   ],
-   "flags": [],
-   "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
-   "price_history": [
-    {
-     "at": "2026-10-30T09:45:26Z",
-     "price_eur": 7990
     }
    ]
   },
@@ -447,7 +449,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -496,7 +498,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -542,7 +544,7 @@
     "Title mentions “schaden” — likely damage or defect"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -592,7 +594,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -635,7 +637,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -686,7 +688,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -730,7 +732,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -773,7 +775,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -818,7 +820,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -867,7 +869,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -912,7 +914,7 @@
     "Price reduced from €11,000"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -957,7 +959,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-30T09:45:26Z",
+   "last_seen": "2026-10-30T11:27:24Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
