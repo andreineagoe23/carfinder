@@ -1,0 +1,206 @@
+{
+ "id": "5972b2189587",
+ "query": {
+  "name": "Honda Civic",
+  "make": "Honda",
+  "model": "Civic",
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 170000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [
+   "petrol"
+  ],
+  "gearbox": [
+   "automatic"
+  ],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "ro_location": {
+   "city": null,
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "11000",
+    "model_id": "3"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-10-30T09:04:24Z",
+ "updated_at": "2026-10-30T09:04:24Z",
+ "requested_at": "2026-10-30T09:04:24Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=11000%3B3%3B%3B&fr=2014%3A2018&ml=%3A170000&p=%3A10000&ft=PETROL&tr=AUTOMATIC_GEAR&cn=DE&ll=48.9667%2C11.6833&rd=200&gn=Riedenburg%2C+Bayern",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/honda/civic?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=170000&priceto=10000&fuel=B&gear=A&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.fuel_s:benzin+autos.km_i:%2C170000+autos.marke_s:honda+autos.model_s:civic+autos.shift_s:automatik",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/honda/civic?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=170000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_gearbox%5D=automatic",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/honda/?search%5Bfilter_enum_model%5D%5B0%5D=civic&search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/honda/civic/?carfueltype=benzina&gearname=automata",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Honda/Civic",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "autovit",
+   "source_id": "7060918189",
+   "country": "RO",
+   "url": "https://www.autovit.ro/autoturisme/anunt/honda-civic-ver-1-8-i-vtec-automatik-comfort-ID7HQTnf.html",
+   "title": "Honda Civic 1.8 i-VTEC Automatik Comfort",
+   "model": "Civic",
+   "price_eur": 9700,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 79803,
+   "year": 2015,
+   "first_registration": null,
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": 142,
+   "zip": null,
+   "city": "Bucuresti",
+   "distance_km": null,
+   "seller_type": "private",
+   "seller_name": null,
+   "images": [
+    "https://ireland.apollo.olxcdn.com/v1/files/2zpilmqeh32e3-AUTOVITRO/image;s=640x480"
+   ],
+   "also_on": [],
+   "score": 53,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~7,255 km per year (+13)"
+   ],
+   "flags": [
+    "Private seller: usually sold without warranty"
+   ],
+   "first_seen": "2026-10-30T09:04:24Z",
+   "last_seen": "2026-10-30T09:04:24Z",
+   "price_history": [
+    {
+     "at": "2026-10-30T09:04:24Z",
+     "price_eur": 9700
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3506918170",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/honda-civic-automatik-benzin/3506918170-216-16382",
+   "title": "Honda Civic Automatik Benzin",
+   "model": "Civic",
+   "price_eur": 9950,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10950,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 160000,
+   "year": 2015,
+   "first_registration": "12/2015",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "81369",
+   "city": "Sendling",
+   "distance_km": 94,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f9/f9bbdcb7-bc56-42da-8c3f-c8bb156de803?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 45,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~14,545 km per year (+5)"
+   ],
+   "flags": [
+    "Price reduced from €10,950"
+   ],
+   "first_seen": "2026-10-30T09:04:24Z",
+   "last_seen": "2026-10-30T09:04:24Z",
+   "price_history": [
+    {
+     "at": "2026-10-30T09:04:24Z",
+     "price_eur": 9950
+    }
+   ]
+  }
+ ]
+}
