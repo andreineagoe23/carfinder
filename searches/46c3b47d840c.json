@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-10-30T09:49:04Z",
- "updated_at": "2026-10-31T10:58:13Z",
+ "updated_at": "2026-10-31T20:28:50Z",
  "requested_at": "2026-10-30T09:49:04Z",
  "links": [
   {
@@ -148,7 +148,7 @@
     "Price reduced from €7,000"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -193,7 +193,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-31T10:58:13Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-31T10:58:13Z",
@@ -236,7 +236,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -279,7 +279,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -326,7 +326,7 @@
     "Title mentions “schaden” — likely damage or defect"
    ],
    "first_seen": "2026-10-31T10:58:13Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-31T10:58:13Z",
@@ -376,7 +376,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -416,15 +416,7 @@
     "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_98e89214-5634-4346-baa1-bab6c096e6fb.jpg/480x360.webp",
     "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_acdb9c4f-6a09-4d18-ad54-f04cd5ccaf86.jpg/480x360.webp"
    ],
-   "also_on": [
-    {
-     "site": "kleinanzeigen",
-     "name": "Kleinanzeigen",
-     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-nakama-intense-hud-bose-keyless-ahk-/3514407861-216-7654",
-     "notes": [],
-     "error": null
-    }
-   ],
+   "also_on": [],
    "score": 48,
    "score_parts": [
     "€374 above similar 6 cars (median €9,625) (-4)",
@@ -433,7 +425,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -478,7 +470,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -520,7 +512,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -564,7 +556,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -624,7 +616,7 @@
     "Cheaper on Kleinanzeigen: €8,799"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -667,7 +659,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -711,7 +703,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -757,7 +749,7 @@
     "Price dropped since first seen (€9,900)"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-10-31T20:28:50Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
