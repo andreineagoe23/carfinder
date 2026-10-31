@@ -3,7 +3,7 @@
   "id": "fefa1d067044",
   "name": "Honda CR-V",
   "summary": "Honda CR-V · year 2014–2018 · ≤170,000 km · €≤10,000 · any fuel · automatic · DE: 200 km around 93339 · RO: whole country",
-  "updated_at": "2026-10-30T21:34:23Z",
+  "updated_at": "2026-10-31T10:58:26Z",
   "count": 0,
   "new_count": 0
  },
@@ -11,7 +11,7 @@
   "id": "5972b2189587",
   "name": "Honda Civic",
   "summary": "Honda Civic · year 2014–2018 · ≤170,000 km · €≤10,000 · petrol · automatic · DE: 200 km around 93339 · RO: whole country",
-  "updated_at": "2026-10-30T21:34:20Z",
+  "updated_at": "2026-10-31T10:58:24Z",
   "count": 2,
   "new_count": 0
  },
@@ -19,15 +19,15 @@
   "id": "e1770e7097f7",
   "name": "Nissan Qashqai",
   "summary": "Nissan Qashqai · year 2014–2018 · ≤170,000 km · €≤10,000 · petrol · automatic · DE: 200 km around 93339 · RO: whole country",
-  "updated_at": "2026-10-30T21:34:17Z",
+  "updated_at": "2026-10-31T10:58:21Z",
   "count": 19,
-  "new_count": 2
+  "new_count": 0
  },
  {
   "id": "8ef626efa873",
   "name": "Mazda 6",
   "summary": "Mazda 6 · year 2014–2018 · ≤170,000 km · €≤10,000 · petrol · automatic · DE: 200 km around 93339 · RO: whole country",
-  "updated_at": "2026-10-30T21:34:14Z",
+  "updated_at": "2026-10-31T10:58:17Z",
   "count": 0,
   "new_count": 0
  },
@@ -35,9 +35,9 @@
   "id": "46c3b47d840c",
   "name": "Mazda 6",
   "summary": "Mazda 6 · year 2014–2018 · ≤170,000 km · €≤10,000 · any fuel · automatic · DE: 200 km around 93339 · RO: whole country",
-  "updated_at": "2026-10-30T21:34:10Z",
-  "count": 12,
-  "new_count": 0
+  "updated_at": "2026-10-31T10:58:13Z",
+  "count": 14,
+  "new_count": 2
  },
  {
   "id": "c604f270ef7c",
