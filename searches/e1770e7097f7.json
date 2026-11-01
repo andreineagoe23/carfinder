@@ -51,7 +51,7 @@
   }
  },
  "created_at": "2026-10-30T09:45:26Z",
- "updated_at": "2026-10-31T20:28:59Z",
+ "updated_at": "2026-11-01T11:54:05Z",
  "requested_at": "2026-10-30T09:45:26Z",
  "links": [
   {
@@ -162,7 +162,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -207,7 +207,7 @@
     "31% below similar cars — check for damage or scam"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -257,7 +257,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -307,7 +307,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -350,7 +350,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T21:34:17Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T21:34:17Z",
@@ -393,7 +393,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -442,7 +442,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -488,7 +488,7 @@
     "Title mentions “schaden” — likely damage or defect"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -539,7 +539,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -583,7 +583,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -633,7 +633,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -678,7 +678,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -721,11 +721,60 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
      "price_eur": 8900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3556260209",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-klima-pano-automatik-kamera/3556260209-216-16909",
+   "title": "Nissan Qashqai N-Connecta-KLIMA-PANO-AUTOMATIK-KAMERA",
+   "model": "Qashqai",
+   "price_eur": 8999,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 105000,
+   "year": 2017,
+   "first_registration": "02/2017",
+   "fuel": "petrol",
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "94469",
+   "city": "Deggendorf",
+   "distance_km": 95,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ce/cef2b6de-aff0-4bfd-a43f-bac28982045b?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "€99 above similar Qashqai cars (median €8,900) (-1)",
+    "~11,667 km per year (+8)"
+   ],
+   "flags": [
+    "Price dropped since first seen (€9,999)"
+   ],
+   "first_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
+   "price_history": [
+    {
+     "at": "2026-10-31T20:28:59Z",
+     "price_eur": 9999
+    },
+    {
+     "at": "2026-11-01T11:54:05Z",
+     "price_eur": 8999
     }
    ]
   },
@@ -766,7 +815,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T21:34:17Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T21:34:17Z",
@@ -815,7 +864,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -861,7 +910,7 @@
     "Price dropped since first seen (€9,790)"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",
@@ -870,49 +919,6 @@
     {
      "at": "2026-10-31T20:28:59Z",
      "price_eur": 9590
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3556260209",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/nissan-qashqai-n-connecta-klima-pano-automatik-kamera/3556260209-216-16909",
-   "title": "Nissan Qashqai N-Connecta-KLIMA-PANO-AUTOMATIK-KAMERA",
-   "model": "Qashqai",
-   "price_eur": 9999,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 105000,
-   "year": 2017,
-   "first_registration": "02/2017",
-   "fuel": "petrol",
-   "gearbox": "automatic",
-   "power_hp": null,
-   "zip": "94469",
-   "city": "Deggendorf",
-   "distance_km": 95,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3f/3fcbb101-df14-4cf9-9009-0b96e44e83a2?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 36,
-   "score_parts": [
-    "€1,099 above similar Qashqai cars (median €8,900) (-12)",
-    "~11,667 km per year (+8)"
-   ],
-   "flags": [],
-   "first_seen": "2026-10-31T20:28:59Z",
-   "last_seen": "2026-10-31T20:28:59Z",
-   "price_history": [
-    {
-     "at": "2026-10-31T20:28:59Z",
-     "price_eur": 9999
     }
    ]
   },
@@ -953,7 +959,7 @@
     "Price reduced from €11,000"
    ],
    "first_seen": "2026-10-30T09:45:26Z",
-   "last_seen": "2026-10-31T20:28:59Z",
+   "last_seen": "2026-11-01T11:54:05Z",
    "price_history": [
     {
      "at": "2026-10-30T09:45:26Z",

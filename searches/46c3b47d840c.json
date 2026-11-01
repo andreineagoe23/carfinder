@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-10-30T09:49:04Z",
- "updated_at": "2026-10-31T20:28:50Z",
+ "updated_at": "2026-11-01T11:53:59Z",
  "requested_at": "2026-10-30T09:49:04Z",
  "links": [
   {
@@ -140,7 +140,7 @@
    "also_on": [],
    "score": 75,
    "score_parts": [
-    "€2,700 below similar 6 cars (median €8,700) (+25)",
+    "€2,650 below similar 6 cars (median €8,650) (+25)",
     "~10,167 km per year (+10)"
    ],
    "flags": [
@@ -148,7 +148,7 @@
     "Price reduced from €7,000"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -184,20 +184,83 @@
     "https://ireland.apollo.olxcdn.com/v1/files/ickx06gz1h091-AUTOVITRO/image;s=640x480"
    ],
    "also_on": [],
-   "score": 68,
+   "score": 67,
    "score_parts": [
-    "€1,900 below similar 6 cars (median €8,700) (+22)",
+    "€1,850 below similar 6 cars (median €8,650) (+21)",
     "~13,918 km per year (+6)"
    ],
    "flags": [
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-31T10:58:13Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-31T10:58:13Z",
      "price_eur": 6800
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "a1db595b-8297-4694-833c-c945f4f2a53f",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-sports-line-awd-hud-navi-kamera-diesel-grau-cat_ma46gr200953ge1755va1461mt2623tr7322-a1db595b-8297-4694-833c-c945f4f2a53f",
+   "title": "Mazda 6 Kombi Sports-Line AWD *HUD*NAVI*KAMERA*",
+   "model": "6",
+   "price_eur": 8799,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "good-price",
+   "mileage_km": 146469,
+   "year": 2015,
+   "first_registration": "07/2015",
+   "fuel": "diesel",
+   "gearbox": "automatic",
+   "power_hp": 175,
+   "zip": "85276",
+   "city": "Pfaffenhofen an der Ilm",
+   "distance_km": 51,
+   "seller_type": "dealer",
+   "seller_name": "MYAUTOCENTER OHG",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_85754df9-9acc-4943-b564-41ab5f54cf3e.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_19f6f50c-4f11-4ac7-ac3e-fd9aa444fd38.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_7e600c1c-408e-424a-bbc2-c4457facf567.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_c1e3e037-4bf2-4914-94fc-978aa1f575dd.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_4123db38-ebad-427d-b004-9d03d1138a05.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_22e7621f-122e-495f-aebe-688a49556709.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-sports-line-awd-hud-navi-kamera-/3473325675-216-5850",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 62,
+   "score_parts": [
+    "~13,315 km per year (+7)",
+    "Site rates it “good price” (+10)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [
+    "Price dropped since first seen (€9,999)"
+   ],
+   "first_seen": "2026-10-30T09:49:04Z",
+   "last_seen": "2026-11-01T11:53:59Z",
+   "price_history": [
+    {
+     "at": "2026-10-30T09:49:04Z",
+     "price_eur": 9999
+    },
+    {
+     "at": "2026-11-01T11:53:59Z",
+     "price_eur": 8799
     }
    ]
   },
@@ -229,18 +292,71 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c3/c332053f-fe81-471d-b5c3-5192dfcbe9f2?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 58,
+   "score": 55,
    "score_parts": [
-    "€1,166 below similar 6 cars (median €9,866) (+12)",
+    "€800 below similar 6 cars (median €9,500) (+8)",
     "~13,400 km per year (+7)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
      "price_eur": 8700
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3556995255",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-175-ps-top-ausstattung-motorschaden/3556995255-216-6021",
+   "title": "Mazda 6 Kombi | 175 PS | Top Ausstattung | Motorschaden",
+   "model": "6",
+   "price_eur": 3300,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 3500,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 142000,
+   "year": 2015,
+   "first_registration": "04/2015",
+   "fuel": null,
+   "gearbox": "automatic",
+   "power_hp": null,
+   "zip": "94447",
+   "city": "Plattling",
+   "distance_km": 91,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/36/3668c5c9-1703-4363-83ef-277bce27da0a?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 52,
+   "score_parts": [
+    "€5,550 below similar 6 cars (median €8,850) (+25)",
+    "~12,909 km per year (+7)",
+    "Title mentions “schaden” (-20)"
+   ],
+   "flags": [
+    "63% below similar cars — check for damage or scam",
+    "Title mentions “schaden” — likely damage or defect",
+    "Price reduced from €3,500",
+    "Price dropped since first seen (€3,500)"
+   ],
+   "first_seen": "2026-10-31T10:58:13Z",
+   "last_seen": "2026-11-01T11:53:59Z",
+   "price_history": [
+    {
+     "at": "2026-10-31T10:58:13Z",
+     "price_eur": 3500
+    },
+    {
+     "at": "2026-11-01T11:53:59Z",
+     "price_eur": 3300
     }
    ]
   },
@@ -272,65 +388,18 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e7/e74786c5-f18d-4c91-b737-6df53b72357b?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 54,
+   "score": 50,
    "score_parts": [
-    "€466 below similar 6 cars (median €9,866) (+5)",
+    "€100 below similar 6 cars (median €9,500) (+1)",
     "~11,020 km per year (+9)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
      "price_eur": 9400
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3556995255",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-175-ps-top-ausstattung-motorschaden/3556995255-216-6021",
-   "title": "Mazda 6 Kombi | 175 PS | Top Ausstattung | Motorschaden",
-   "model": "6",
-   "price_eur": 3500,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": true,
-   "price_label": null,
-   "mileage_km": 142000,
-   "year": 2015,
-   "first_registration": "04/2015",
-   "fuel": null,
-   "gearbox": "automatic",
-   "power_hp": null,
-   "zip": "94447",
-   "city": "Plattling",
-   "distance_km": 91,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/36/3668c5c9-1703-4363-83ef-277bce27da0a?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 52,
-   "score_parts": [
-    "€5,650 below similar 6 cars (median €9,150) (+25)",
-    "~12,909 km per year (+7)",
-    "Title mentions “schaden” (-20)"
-   ],
-   "flags": [
-    "62% below similar cars — check for damage or scam",
-    "Title mentions “schaden” — likely damage or defect"
-   ],
-   "first_seen": "2026-10-31T10:58:13Z",
-   "last_seen": "2026-10-31T20:28:50Z",
-   "price_history": [
-    {
-     "at": "2026-10-31T10:58:13Z",
-     "price_eur": 3500
     }
    ]
   },
@@ -367,69 +436,20 @@
     "https://prod.pictures.autoscout24.net/listing-images/0a26b256-e1ac-46eb-adb2-b9e6fbf9471c_d4a812f9-5081-4812-a149-0067ae8dc93d.jpg/480x360.webp"
    ],
    "also_on": [],
-   "score": 50,
+   "score": 49,
    "score_parts": [
-    "€650 above similar 6 cars (median €7,850) (-8)",
+    "€700 above similar 6 cars (median €7,800) (-9)",
     "~11,575 km per year (+8)",
     "Site rates it “fair price” (+5)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
      "price_eur": 8500
-    }
-   ]
-  },
-  {
-   "source": "autoscout24",
-   "source_id": "0d529cf1-de72-4723-ab47-e957c1863abc",
-   "country": "DE",
-   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-nakama-intense-hud-bose-keyless-ahk-diesel-rot-cat_ma46gr200953ge1755va1461mt2623tr5588-0d529cf1-de72-4723-ab47-e957c1863abc",
-   "title": "Mazda 6 Kombi Nakama Intense* HUD* BOSE* KeyLess* AHK*",
-   "model": "6",
-   "price_eur": 9999,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": "toolow-price ",
-   "mileage_km": 120800,
-   "year": 2017,
-   "first_registration": "05/2017",
-   "fuel": "diesel",
-   "gearbox": "automatic",
-   "power_hp": 175,
-   "zip": "93051",
-   "city": "Regensburg",
-   "distance_km": 30,
-   "seller_type": "dealer",
-   "seller_name": "Auto Zink",
-   "images": [
-    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_95ef0a30-e13a-40b3-8ff6-f6b2c3902da5.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_902b5bdc-3b13-4054-aeb7-67f6441c31a9.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_62fa36fd-7bba-4840-b5f7-fa9c34273168.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_c60fb72a-eca2-4624-99d7-c353f5836b7c.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_98e89214-5634-4346-baa1-bab6c096e6fb.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/0d529cf1-de72-4723-ab47-e957c1863abc_acdb9c4f-6a09-4d18-ad54-f04cd5ccaf86.jpg/480x360.webp"
-   ],
-   "also_on": [],
-   "score": 48,
-   "score_parts": [
-    "€374 above similar 6 cars (median €9,625) (-4)",
-    "~13,422 km per year (+7)",
-    "Dealer: 12 months' warranty in Germany (+5)"
-   ],
-   "flags": [],
-   "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
-   "price_history": [
-    {
-     "at": "2026-10-30T09:49:04Z",
-     "price_eur": 9999
     }
    ]
   },
@@ -461,62 +481,20 @@
     "https://ireland.apollo.olxcdn.com/v1/files/b4bv6zfrs4i21-AUTOVITRO/image;s=640x480"
    ],
    "also_on": [],
-   "score": 48,
+   "score": 44,
    "score_parts": [
-    "€366 below similar 6 cars (median €9,866) (+4)",
+    "€100 above similar 6 cars (median €9,400) (-1)",
     "~15,362 km per year (+5)"
    ],
    "flags": [
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
      "price_eur": 9500
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3546001524",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-exclusive-line-allrad-4x4/3546001524-216-8410",
-   "title": "Mazda 6 Kombi Exclusive-Line Allrad 4x4",
-   "model": "6",
-   "price_eur": 9750,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 136000,
-   "year": 2017,
-   "first_registration": "06/2017",
-   "fuel": null,
-   "gearbox": "automatic",
-   "power_hp": null,
-   "zip": "71706",
-   "city": "Markgröningen",
-   "distance_km": 190,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/0631d9be-5343-4d94-80b8-9b606c5716a9?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 45,
-   "score_parts": [
-    "~15,111 km per year (+5)"
-   ],
-   "flags": [],
-   "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
-   "price_history": [
-    {
-     "at": "2026-10-30T09:49:04Z",
-     "price_eur": 9750
     }
    ]
   },
@@ -548,15 +526,15 @@
     "https://ireland.apollo.olxcdn.com/v1/files/4pzdgoie7htb1-AUTOVITRO/image;s=640x480"
    ],
    "also_on": [],
-   "score": 44,
+   "score": 43,
    "score_parts": [
-    "€356 above similar 6 cars (median €9,625) (-4)",
+    "€481 above similar 6 cars (median €9,500) (-5)",
     "~17,137 km per year (+3)",
     "Dealer (+5)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -565,62 +543,45 @@
    ]
   },
   {
-   "source": "autoscout24",
-   "source_id": "a1db595b-8297-4694-833c-c945f4f2a53f",
+   "source": "kleinanzeigen",
+   "source_id": "3546001524",
    "country": "DE",
-   "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-sports-line-awd-hud-navi-kamera-diesel-grau-cat_ma46gr200953ge1755va1461mt2623tr7322-a1db595b-8297-4694-833c-c945f4f2a53f",
-   "title": "Mazda 6 Kombi Sports-Line AWD *HUD*NAVI*KAMERA*",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-exclusive-line-allrad-4x4/3546001524-216-8410",
+   "title": "Mazda 6 Kombi Exclusive-Line Allrad 4x4",
    "model": "6",
-   "price_eur": 9999,
+   "price_eur": 9750,
    "listed_price": null,
    "listed_currency": null,
    "old_price_eur": null,
    "negotiable": false,
-   "price_label": "fair-price",
-   "mileage_km": 146469,
-   "year": 2015,
-   "first_registration": "07/2015",
-   "fuel": "diesel",
+   "price_label": null,
+   "mileage_km": 136000,
+   "year": 2017,
+   "first_registration": "06/2017",
+   "fuel": null,
    "gearbox": "automatic",
-   "power_hp": 175,
-   "zip": "85276",
-   "city": "Pfaffenhofen an der Ilm",
-   "distance_km": 51,
-   "seller_type": "dealer",
-   "seller_name": "MYAUTOCENTER OHG",
+   "power_hp": null,
+   "zip": "71706",
+   "city": "Markgröningen",
+   "distance_km": 190,
+   "seller_type": null,
+   "seller_name": null,
    "images": [
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_85754df9-9acc-4943-b564-41ab5f54cf3e.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_19f6f50c-4f11-4ac7-ac3e-fd9aa444fd38.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_7e600c1c-408e-424a-bbc2-c4457facf567.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_c1e3e037-4bf2-4914-94fc-978aa1f575dd.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_4123db38-ebad-427d-b004-9d03d1138a05.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/a1db595b-8297-4694-833c-c945f4f2a53f_22e7621f-122e-495f-aebe-688a49556709.jpg/480x360.webp"
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/0631d9be-5343-4d94-80b8-9b606c5716a9?rule=$_59.AUTO"
    ],
-   "also_on": [
-    {
-     "site": "kleinanzeigen",
-     "name": "Kleinanzeigen",
-     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-6-kombi-sports-line-awd-hud-navi-kamera-/3473325675-216-5850",
-     "notes": [],
-     "error": null
-    }
-   ],
-   "score": 43,
+   "also_on": [],
+   "score": 42,
    "score_parts": [
-    "€1,199 above similar 6 cars (median €8,800) (-14)",
-    "~13,315 km per year (+7)",
-    "Site rates it “fair price” (+5)",
-    "Dealer: 12 months' warranty in Germany (+5)"
+    "€250 above similar 6 cars (median €9,500) (-3)",
+    "~15,111 km per year (+5)"
    ],
-   "flags": [
-    "Cheaper on Kleinanzeigen: €8,799"
-   ],
+   "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
-     "price_eur": 9999
+     "price_eur": 9750
     }
    ]
   },
@@ -652,14 +613,14 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/33179410-023d-4248-8e94-189794f42464?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 40,
+   "score": 38,
    "score_parts": [
-    "€365 above similar 6 cars (median €9,625) (-4)",
+    "€590 above similar 6 cars (median €9,400) (-6)",
     "~15,850 km per year (+4)"
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -703,7 +664,7 @@
    ],
    "flags": [],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
@@ -749,7 +710,7 @@
     "Price dropped since first seen (€9,900)"
    ],
    "first_seen": "2026-10-30T09:49:04Z",
-   "last_seen": "2026-10-31T20:28:50Z",
+   "last_seen": "2026-11-01T11:53:59Z",
    "price_history": [
     {
      "at": "2026-10-30T09:49:04Z",
