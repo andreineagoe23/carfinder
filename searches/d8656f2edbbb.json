@@ -1,0 +1,203 @@
+{
+ "id": "d8656f2edbbb",
+ "query": {
+  "name": "Mazda CX-5",
+  "make": "Mazda",
+  "model": "CX-5",
+  "year": {
+   "min": 2014,
+   "max": 2018
+  },
+  "mileage_km": {
+   "min": null,
+   "max": 170000
+  },
+  "price_eur": {
+   "min": null,
+   "max": 10000
+  },
+  "fuel": [
+   "petrol"
+  ],
+  "gearbox": [],
+  "location": {
+   "zip": "93339",
+   "country": "DE",
+   "radius_km": 200
+  },
+  "ro_location": {
+   "city": null,
+   "radius_km": 200
+  },
+  "sites": [
+   "mobile_de",
+   "autoscout24",
+   "kleinanzeigen",
+   "autovit",
+   "olx_ro",
+   "publi24",
+   "autouncle_ro"
+  ],
+  "overrides": {
+   "mobile_de": {
+    "make_id": "16800",
+    "model_id": "33"
+   },
+   "kleinanzeigen": {
+    "location_id": "6234"
+   }
+  }
+ },
+ "created_at": "2026-11-01T11:27:29Z",
+ "updated_at": "2026-11-01T11:27:29Z",
+ "requested_at": "2026-11-01T11:27:29Z",
+ "links": [
+  {
+   "site": "mobile_de",
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&s=Car&vc=Car&dam=false&ms=16800%3B33%3B%3B&fr=2014%3A2018&ml=%3A170000&p=%3A10000&ft=PETROL&cn=DE&ll=48.9667%2C11.6833&rd=200&gn=Riedenburg%2C+Bayern",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autoscout24",
+   "name": "AutoScout24",
+   "url": "https://www.autoscout24.de/lst/mazda/cx-5?atype=C&cy=D&damaged_listing=exclude&ustate=N%2CU&sort=standard&desc=0&fregfrom=2014&fregto=2018&kmto=170000&priceto=10000&fuel=B&zip=93339&zipr=200",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/93339/preis::10000/c216l6234r200+autos.ez_i:2014%2C2018+autos.fuel_s:benzin+autos.km_i:%2C170000+autos.marke_s:mazda+autos.model_s:cx_5",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "autovit",
+   "name": "Autovit",
+   "url": "https://www.autovit.ro/autoturisme/mazda/cx-5?search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_mileage%3Ato%5D=170000&search%5Bfilter_float_price%3Ato%5D=10000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol",
+   "notes": [],
+   "error": null
+  },
+  {
+   "site": "olx_ro",
+   "name": "OLX.ro",
+   "url": "https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/mazda/?search%5Bfilter_enum_model%5D%5B0%5D=cx-5&search%5Bfilter_float_year%3Afrom%5D=2014&search%5Bfilter_float_year%3Ato%5D=2018&search%5Bfilter_float_price%3Ato%5D=10000",
+   "notes": [
+    "set fuel, gearbox and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "publi24",
+   "name": "Publi24",
+   "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mazda/cx-5/?carfueltype=benzina",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  },
+  {
+   "site": "autouncle_ro",
+   "name": "AutoUncle.ro",
+   "url": "https://www.autouncle.ro/ro/masini-second-hand/Mazda/CX-5",
+   "notes": [
+    "set years, price and km on the site"
+   ],
+   "error": null
+  }
+ ],
+ "errors": {},
+ "listings": [
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3535930937",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-2-dj/3535930937-216-8892",
+   "title": "Mazda 2 DJ",
+   "model": "CX-5",
+   "price_eur": 7200,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 145000,
+   "year": 2015,
+   "first_registration": "12/2015",
+   "fuel": "petrol",
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "70794",
+   "city": "Filderstadt",
+   "distance_km": 185,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/69/6981002d-6b7f-46c3-a44b-f09363895c30?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 47,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~13,182 km per year (+7)"
+   ],
+   "flags": [],
+   "first_seen": "2026-11-01T11:27:29Z",
+   "last_seen": "2026-11-01T11:27:29Z",
+   "price_history": [
+    {
+     "at": "2026-11-01T11:27:29Z",
+     "price_eur": 7200
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3548161400",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-unfall-xenon-navi-super-ausstattung-auto-faehrt/3548161400-216-6306",
+   "title": "Mazda CX 5 Unfall xenon navi super Ausstattung auto fährt",
+   "model": "CX-5",
+   "price_eur": 3200,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": true,
+   "price_label": null,
+   "mileage_km": 145932,
+   "year": 2017,
+   "first_registration": "01/2017",
+   "fuel": "petrol",
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "85748",
+   "city": "Garching b München",
+   "distance_km": 78,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e7/e7857024-a3b4-48da-aff9-1644e29d568c?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 24,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~16,215 km per year (+4)",
+    "Title mentions “Unfall” (-20)"
+   ],
+   "flags": [
+    "Title mentions “Unfall” — likely damage or defect"
+   ],
+   "first_seen": "2026-11-01T11:27:29Z",
+   "last_seen": "2026-11-01T11:27:29Z",
+   "price_history": [
+    {
+     "at": "2026-11-01T11:27:29Z",
+     "price_eur": 3200
+    }
+   ]
+  }
+ ]
+}
