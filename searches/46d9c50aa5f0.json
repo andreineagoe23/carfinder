@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:30:05Z",
- "updated_at": "2026-11-01T18:30:05Z",
+ "updated_at": "2026-11-01T21:14:35Z",
  "requested_at": "2026-11-01T18:30:05Z",
  "links": [
   {
@@ -160,7 +160,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-01T18:30:05Z",
-   "last_seen": "2026-11-01T18:30:05Z",
+   "last_seen": "2026-11-01T21:14:35Z",
    "price_history": [
     {
      "at": "2026-11-01T18:30:05Z",
@@ -203,57 +203,11 @@
    ],
    "flags": [],
    "first_seen": "2026-11-01T18:30:05Z",
-   "last_seen": "2026-11-01T18:30:05Z",
+   "last_seen": "2026-11-01T21:14:35Z",
    "price_history": [
     {
      "at": "2026-11-01T18:30:05Z",
      "price_eur": 7200
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3548161400",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-unfall-xenon-navi-super-ausstattung-auto-faehrt/3548161400-216-6306",
-   "title": "Mazda CX 5 Unfall xenon navi super Ausstattung auto fährt",
-   "model": "CX-5",
-   "price_eur": 3200,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": true,
-   "price_label": null,
-   "mileage_km": 145932,
-   "year": 2017,
-   "first_registration": "01/2017",
-   "fuel": "petrol",
-   "gearbox": null,
-   "power_hp": null,
-   "zip": "85748",
-   "city": "Garching b München",
-   "distance_km": 78,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e7/e7857024-a3b4-48da-aff9-1644e29d568c?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 24,
-   "score_parts": [
-    "Too few similar cars in this search to compare the price",
-    "~16,215 km per year (+4)",
-    "Title mentions “Unfall” (-20)"
-   ],
-   "flags": [
-    "Title mentions “Unfall” — likely damage or defect"
-   ],
-   "first_seen": "2026-11-01T18:30:05Z",
-   "last_seen": "2026-11-01T18:30:05Z",
-   "price_history": [
-    {
-     "at": "2026-11-01T18:30:05Z",
-     "price_eur": 3200
     }
    ]
   }
