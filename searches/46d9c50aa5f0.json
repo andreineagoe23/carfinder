@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:30:05Z",
- "updated_at": "2026-11-02T13:38:26Z",
+ "updated_at": "2026-11-02T23:55:16Z",
  "requested_at": "2026-11-01T18:30:05Z",
  "links": [
   {
@@ -111,64 +111,6 @@
  "errors": {},
  "listings": [
   {
-   "source": "autoscout24",
-   "source_id": "57fa89a5-13f5-4cc0-8aac-4945bd84e329",
-   "country": "DE",
-   "url": "https://www.autoscout24.de/angebote/mazda-cx-5-sports-line-awd+automatik+leder+xenon+ahk-benzin-grau-cat_ma46gr200952ge1769mt2671tr7323-57fa89a5-13f5-4cc0-8aac-4945bd84e329",
-   "title": "Mazda CX-5 Sports-Line AWD+Automatik+Leder+Xenon+AHK",
-   "model": "CX-5",
-   "price_eur": 10000,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": "fair-price",
-   "mileage_km": 173000,
-   "year": 2014,
-   "first_registration": "08/2014",
-   "fuel": "petrol",
-   "gearbox": "automatic",
-   "power_hp": 160,
-   "zip": "63906",
-   "city": "Erlenbach a. Main",
-   "distance_km": 207,
-   "seller_type": "dealer",
-   "seller_name": "Automarkt Karacavus",
-   "images": [
-    "https://prod.pictures.autoscout24.net/listing-images/57fa89a5-13f5-4cc0-8aac-4945bd84e329_b36da830-b62f-42fd-9f49-8440fa74e072.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/57fa89a5-13f5-4cc0-8aac-4945bd84e329_cc5a2044-0b5e-4898-988a-6130d374ed87.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/57fa89a5-13f5-4cc0-8aac-4945bd84e329_5fde1ee0-ab96-401a-9e9e-598df1fb228f.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/57fa89a5-13f5-4cc0-8aac-4945bd84e329_07f32f25-671b-4b1a-a31f-555228dc906a.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/57fa89a5-13f5-4cc0-8aac-4945bd84e329_d62e733a-79a5-4f27-a84b-ed0fd52f5c0c.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/57fa89a5-13f5-4cc0-8aac-4945bd84e329_de942288-f06e-4d05-93ca-708b516f0df6.jpg/480x360.webp"
-   ],
-   "also_on": [
-    {
-     "site": "kleinanzeigen",
-     "name": "Kleinanzeigen",
-     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-sports-line-awd-automatik-leder-xenon-ahk/3540378423-216-13074",
-     "notes": [],
-     "error": null
-    }
-   ],
-   "score": 56,
-   "score_parts": [
-    "Too few similar cars in this search to compare the price",
-    "~14,417 km per year (+6)",
-    "Site rates it “fair price” (+5)",
-    "Dealer: 12 months' warranty in Germany (+5)"
-   ],
-   "flags": [],
-   "first_seen": "2026-11-01T18:30:05Z",
-   "last_seen": "2026-11-02T13:38:26Z",
-   "price_history": [
-    {
-     "at": "2026-11-01T18:30:05Z",
-     "price_eur": 10000
-    }
-   ]
-  },
-  {
    "source": "kleinanzeigen",
    "source_id": "3535930937",
    "country": "DE",
@@ -203,7 +145,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-01T18:30:05Z",
-   "last_seen": "2026-11-02T13:38:26Z",
+   "last_seen": "2026-11-02T23:55:16Z",
    "price_history": [
     {
      "at": "2026-11-01T18:30:05Z",

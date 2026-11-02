@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T11:23:44Z",
- "updated_at": "2026-11-02T13:38:36Z",
+ "updated_at": "2026-11-02T23:55:22Z",
  "requested_at": "2026-11-01T13:56:39Z",
  "links": [
   {
@@ -153,7 +153,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T13:38:36Z",
+   "last_seen": "2026-11-02T23:55:22Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -209,9 +209,11 @@
     "Site rates it “top price” (+15)",
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
-   "flags": [],
+   "flags": [
+    "Cheaper on Kleinanzeigen: €9,650"
+   ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T13:38:36Z",
+   "last_seen": "2026-11-02T23:55:22Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -256,7 +258,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T13:38:36Z",
+   "last_seen": "2026-11-02T23:55:22Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -301,7 +303,7 @@
     "Price reduced from €9,800"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T13:38:36Z",
+   "last_seen": "2026-11-02T23:55:22Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -346,7 +348,7 @@
     "Price reduced from €10,200"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T13:38:36Z",
+   "last_seen": "2026-11-02T23:55:22Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -391,7 +393,7 @@
     "Price reduced from €10,000"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T13:38:36Z",
+   "last_seen": "2026-11-02T23:55:22Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
