@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T11:23:44Z",
- "updated_at": "2026-11-02T23:55:22Z",
+ "updated_at": "2026-11-03T12:52:44Z",
  "requested_at": "2026-11-01T13:56:39Z",
  "links": [
   {
@@ -153,7 +153,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T23:55:22Z",
+   "last_seen": "2026-11-03T12:52:44Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -168,7 +168,7 @@
    "url": "https://www.autoscout24.de/angebote/mazda-cx-3-2-0skyactiv-g-prime-line-1hd-klima-garantie-benzin-weiss-cat_ma46gr200958ge1767mt2663tr480472-ee6d5c04-163f-4e50-a465-f58e49d085b5",
    "title": "Mazda CX-3 2.0Skyactiv-G Prime-Line*1Hd*Klima*Garantie",
    "model": "CX-3",
-   "price_eur": 9850,
+   "price_eur": 9650,
    "listed_price": null,
    "listed_currency": null,
    "old_price_eur": null,
@@ -210,14 +210,18 @@
     "Dealer: 12 months' warranty in Germany (+5)"
    ],
    "flags": [
-    "Cheaper on Kleinanzeigen: €9,650"
+    "Price dropped since first seen (€9,850)"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T23:55:22Z",
+   "last_seen": "2026-11-03T12:52:44Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
      "price_eur": 9850
+    },
+    {
+     "at": "2026-11-03T12:52:44Z",
+     "price_eur": 9650
     }
    ]
   },
@@ -258,7 +262,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T23:55:22Z",
+   "last_seen": "2026-11-03T12:52:44Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -303,7 +307,7 @@
     "Price reduced from €9,800"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T23:55:22Z",
+   "last_seen": "2026-11-03T12:52:44Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -348,7 +352,7 @@
     "Price reduced from €10,200"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T23:55:22Z",
+   "last_seen": "2026-11-03T12:52:44Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
@@ -393,7 +397,7 @@
     "Price reduced from €10,000"
    ],
    "first_seen": "2026-11-01T11:23:44Z",
-   "last_seen": "2026-11-02T23:55:22Z",
+   "last_seen": "2026-11-03T12:52:44Z",
    "price_history": [
     {
      "at": "2026-11-01T11:23:44Z",
