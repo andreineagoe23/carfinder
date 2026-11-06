@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:22:39Z",
- "updated_at": "2026-11-06T13:00:45Z",
+ "updated_at": "2026-11-06T22:10:18Z",
  "requested_at": "2026-11-01T18:22:39Z",
  "links": [
   {
@@ -153,7 +153,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-06T13:00:45Z",
+   "last_seen": "2026-11-06T22:10:18Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -203,7 +203,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-04T22:40:38Z",
-   "last_seen": "2026-11-06T13:00:45Z",
+   "last_seen": "2026-11-06T22:10:18Z",
    "price_history": [
     {
      "at": "2026-11-04T22:40:38Z",
@@ -263,7 +263,7 @@
     "Price dropped since first seen (€9,850)"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-06T13:00:45Z",
+   "last_seen": "2026-11-06T22:10:18Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -272,51 +272,6 @@
     {
      "at": "2026-11-03T12:52:41Z",
      "price_eur": 9650
-    }
-   ]
-  },
-  {
-   "source": "autovit",
-   "source_id": "7060914804",
-   "country": "RO",
-   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-3-ID7HQSuE.html",
-   "title": "Mazda CX-3",
-   "model": "CX-3",
-   "price_eur": 5900,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 57964,
-   "year": 2018,
-   "first_registration": null,
-   "fuel": "petrol",
-   "gearbox": null,
-   "power_hp": 121,
-   "zip": null,
-   "city": "Bucuresti",
-   "distance_km": null,
-   "seller_type": "private",
-   "seller_name": null,
-   "images": [
-    "https://ireland.apollo.olxcdn.com/v1/files/rhm2rkads5ro-AUTOVITRO/image;s=640x480"
-   ],
-   "also_on": [],
-   "score": 53,
-   "score_parts": [
-    "Too few similar cars in this search to compare the price",
-    "~7,246 km per year (+13)"
-   ],
-   "flags": [
-    "Private seller: usually sold without warranty"
-   ],
-   "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-06T13:00:45Z",
-   "price_history": [
-    {
-     "at": "2026-11-01T18:22:39Z",
-     "price_eur": 5900
     }
    ]
   },
@@ -357,7 +312,7 @@
     "Price reduced from €9,800"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-06T13:00:45Z",
+   "last_seen": "2026-11-06T22:10:18Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -402,7 +357,7 @@
     "Price reduced from €10,200"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-06T13:00:45Z",
+   "last_seen": "2026-11-06T22:10:18Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -447,7 +402,7 @@
     "Price reduced from €10,000"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-06T13:00:45Z",
+   "last_seen": "2026-11-06T22:10:18Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
