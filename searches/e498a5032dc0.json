@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:35:43Z",
- "updated_at": "2026-11-05T22:42:33Z",
+ "updated_at": "2026-11-06T13:00:36Z",
  "requested_at": "2026-11-01T19:01:30Z",
  "links": [
   {
@@ -153,7 +153,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -199,7 +199,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -249,7 +249,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-04T22:40:29Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-04T22:40:29Z",
@@ -309,7 +309,7 @@
     "Price dropped since first seen (€9,850)"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -358,7 +358,7 @@
     "Price reduced from €9,800"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -403,11 +403,69 @@
     "Price reduced from €10,200"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
      "price_eur": 9400
+    }
+   ]
+  },
+  {
+   "source": "autoscout24",
+   "source_id": "d8c2aaf9-75af-4e36-afb1-5267cf8b1691",
+   "country": "DE",
+   "url": "https://www.autoscout24.de/angebote/mazda-cx-3-sports-line-navi-led-bose-soundsystem-benzin-rot-cat_ma46gr200958ge1767mt2663tr7326-d8c2aaf9-75af-4e36-afb1-5267cf8b1691",
+   "title": "Mazda CX-3 *Sports-Line*NAVI*LED*BOSE-SOUNDSYSTEM*",
+   "model": "CX-3",
+   "price_eur": 10990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": "top-price",
+   "mileage_km": 85000,
+   "year": 2015,
+   "first_registration": "11/2015",
+   "fuel": "petrol",
+   "gearbox": "manual",
+   "power_hp": 120,
+   "zip": "84371",
+   "city": "Triftern",
+   "distance_km": 116,
+   "seller_type": "dealer",
+   "seller_name": "90er-Sportwagen-Schüller",
+   "images": [
+    "https://prod.pictures.autoscout24.net/listing-images/d8c2aaf9-75af-4e36-afb1-5267cf8b1691_2eb448c3-5ea0-40f1-b037-1d49d3896fd7.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d8c2aaf9-75af-4e36-afb1-5267cf8b1691_cf68fe03-033d-49be-a941-2de39fa609ea.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d8c2aaf9-75af-4e36-afb1-5267cf8b1691_82e7a279-789e-45d3-9024-0390b2b9159d.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d8c2aaf9-75af-4e36-afb1-5267cf8b1691_05c1d171-06ef-4feb-a76a-7ec82deebce0.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d8c2aaf9-75af-4e36-afb1-5267cf8b1691_460144cd-aa68-4694-a3a5-b79d37a772ee.jpg/480x360.webp",
+    "https://prod.pictures.autoscout24.net/listing-images/d8c2aaf9-75af-4e36-afb1-5267cf8b1691_fdfbd92f-e9b4-402b-9319-704523b94bd9.jpg/480x360.webp"
+   ],
+   "also_on": [
+    {
+     "site": "kleinanzeigen",
+     "name": "Kleinanzeigen",
+     "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-sports-line-navi-led-bose-soundsystem-/3562356291-216-5916",
+     "notes": [],
+     "error": null
+    }
+   ],
+   "score": 58,
+   "score_parts": [
+    "€1,340 above similar CX-3 cars (median €9,650) (-14)",
+    "~7,727 km per year (+12)",
+    "Site rates it “top price” (+15)",
+    "Dealer: 12 months' warranty in Germany (+5)"
+   ],
+   "flags": [],
+   "first_seen": "2026-11-06T13:00:36Z",
+   "last_seen": "2026-11-06T13:00:36Z",
+   "price_history": [
+    {
+     "at": "2026-11-06T13:00:36Z",
+     "price_eur": 10990
     }
    ]
   },
@@ -446,7 +504,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-05T22:42:33Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-05T22:42:33Z",
@@ -491,7 +549,7 @@
     "Price reduced from €10,000"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -541,11 +599,60 @@
    ],
    "flags": [],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
      "price_eur": 10990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3453158054",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-prime-line/3453158054-216-9217",
+   "title": "Mazda CX-3 Prime-Line",
+   "model": "CX-3",
+   "price_eur": 10299,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 126459,
+   "year": 2017,
+   "first_registration": "06/2017",
+   "fuel": "petrol",
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "88094",
+   "city": "Oberteuringen",
+   "distance_km": null,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5ecd764a-f878-4628-8c31-308e3f48f587?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 48,
+   "score_parts": [
+    "€201 below similar CX-3 cars (median €10,500) (+2)",
+    "~14,051 km per year (+6)"
+   ],
+   "flags": [
+    "Price dropped since first seen (€10,499)"
+   ],
+   "first_seen": "2026-11-01T18:35:43Z",
+   "last_seen": "2026-11-06T13:00:36Z",
+   "price_history": [
+    {
+     "at": "2026-11-01T18:35:43Z",
+     "price_eur": 10499
+    },
+    {
+     "at": "2026-11-06T13:00:36Z",
+     "price_eur": 10299
     }
    ]
   },
@@ -577,16 +684,16 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f2321a1-bb2c-44d4-8cf2-446d70d41c2e?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 49,
+   "score": 47,
    "score_parts": [
-    "€501 above similar CX-3 cars (median €10,499) (-5)",
+    "€701 above similar CX-3 cars (median €10,299) (-7)",
     "~6,505 km per year (+13)"
    ],
    "flags": [
     "Price reduced from €13,000"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -622,62 +729,20 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3a/3a0042db-ac9d-402d-b6ed-181c7debd36f?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 49,
+   "score": 47,
    "score_parts": [
-    "€501 above similar CX-3 cars (median €10,499) (-5)",
+    "€701 above similar CX-3 cars (median €10,299) (-7)",
     "~6,505 km per year (+13)"
    ],
    "flags": [
     "Price reduced from €13,000"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
      "price_eur": 11000
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3453158054",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-prime-line/3453158054-216-9217",
-   "title": "Mazda CX-3 Prime-Line",
-   "model": "CX-3",
-   "price_eur": 10499,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 126459,
-   "year": 2017,
-   "first_registration": "06/2017",
-   "fuel": "petrol",
-   "gearbox": null,
-   "power_hp": null,
-   "zip": "88094",
-   "city": "Oberteuringen",
-   "distance_km": null,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/24/240caf03-b292-475e-88e9-cd6a760ebbfc?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 46,
-   "score_parts": [
-    "~14,051 km per year (+6)"
-   ],
-   "flags": [],
-   "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
-   "price_history": [
-    {
-     "at": "2026-11-01T18:35:43Z",
-     "price_eur": 10499
     }
    ]
   },
@@ -709,63 +774,20 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3ef81717-f526-4981-9f04-1b55e8723fea?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 41,
+   "score": 39,
    "score_parts": [
-    "€301 above similar CX-3 cars (median €10,499) (-3)",
+    "€501 above similar CX-3 cars (median €10,299) (-5)",
     "~16,556 km per year (+3)"
    ],
    "flags": [
     "Price reduced from €10,999"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
      "price_eur": 10800
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3562356291",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-sports-line-navi-led-bose-soundsystem-/3562356291-216-5916",
-   "title": "Mazda CX-3 *Sports-Line*NAVI*LED*BOSE-SOUNDSYSTEM*",
-   "model": "CX-3",
-   "price_eur": 10990,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 85000,
-   "year": 2015,
-   "first_registration": "11/2015",
-   "fuel": "petrol",
-   "gearbox": null,
-   "power_hp": null,
-   "zip": "84371",
-   "city": "Triftern",
-   "distance_km": 114,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/52bcaafe-02c6-43b1-8722-abedaf505068?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 38,
-   "score_parts": [
-    "€1,340 above similar CX-3 cars (median €9,650) (-14)",
-    "~7,727 km per year (+12)"
-   ],
-   "flags": [],
-   "first_seen": "2026-11-05T13:17:06Z",
-   "last_seen": "2026-11-05T22:42:33Z",
-   "price_history": [
-    {
-     "at": "2026-11-05T13:17:06Z",
-     "price_eur": 10990
     }
    ]
   },
@@ -804,7 +826,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-02T23:55:10Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-02T23:55:10Z",
@@ -849,7 +871,7 @@
     "Price reduced from €12,900"
    ],
    "first_seen": "2026-11-03T12:52:34Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-03T12:52:34Z",
@@ -885,9 +907,8 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2f/2f0e8f16-8686-416b-a981-a72756a3300a?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 32,
+   "score": 31,
    "score_parts": [
-    "€150 below similar CX-3 cars (median €10,650) (+1)",
     "~9,569 km per year (+10)",
     "Title mentions “schaden” (-20)"
    ],
@@ -895,7 +916,7 @@
     "Title mentions “schaden” — likely damage or defect"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-05T22:42:33Z",
+   "last_seen": "2026-11-06T13:00:36Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
