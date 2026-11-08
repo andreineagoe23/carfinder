@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:30:05Z",
- "updated_at": "2026-11-08T11:59:23Z",
+ "updated_at": "2026-11-08T21:13:58Z",
  "requested_at": "2026-11-01T18:30:05Z",
  "links": [
   {
@@ -112,49 +112,6 @@
  "listings": [
   {
    "source": "kleinanzeigen",
-   "source_id": "3535930937",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-2-dj/3535930937-216-8892",
-   "title": "Mazda 2 DJ",
-   "model": "CX-5",
-   "price_eur": 7200,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": true,
-   "price_label": null,
-   "mileage_km": 145000,
-   "year": 2015,
-   "first_registration": "12/2015",
-   "fuel": "petrol",
-   "gearbox": null,
-   "power_hp": null,
-   "zip": "70794",
-   "city": "Filderstadt",
-   "distance_km": 185,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/69/6981002d-6b7f-46c3-a44b-f09363895c30?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 47,
-   "score_parts": [
-    "Too few similar cars in this search to compare the price",
-    "~13,182 km per year (+7)"
-   ],
-   "flags": [],
-   "first_seen": "2026-11-01T18:30:05Z",
-   "last_seen": "2026-11-08T11:59:23Z",
-   "price_history": [
-    {
-     "at": "2026-11-01T18:30:05Z",
-     "price_eur": 7200
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
    "source_id": "3562279212",
    "country": "DE",
    "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-2-2017/3562279212-216-4876",
@@ -188,7 +145,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-05T13:17:10Z",
-   "last_seen": "2026-11-08T11:59:23Z",
+   "last_seen": "2026-11-08T21:13:58Z",
    "price_history": [
     {
      "at": "2026-11-05T13:17:10Z",
@@ -231,7 +188,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-05T13:17:10Z",
-   "last_seen": "2026-11-08T11:59:23Z",
+   "last_seen": "2026-11-08T21:13:58Z",
    "price_history": [
     {
      "at": "2026-11-05T13:17:10Z",
