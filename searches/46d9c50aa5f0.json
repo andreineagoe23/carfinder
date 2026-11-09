@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:30:05Z",
- "updated_at": "2026-11-08T21:13:58Z",
+ "updated_at": "2026-11-09T14:00:05Z",
  "requested_at": "2026-11-01T18:30:05Z",
  "links": [
   {
@@ -112,6 +112,51 @@
  "listings": [
   {
    "source": "kleinanzeigen",
+   "source_id": "3562423389",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-2-0-skyactiv-g-sendo-ahk-standheizung/3562423389-216-5580",
+   "title": "Mazda CX-5 2.0 SKYACTIV-G SENDO AHK Standheizung",
+   "model": "CX-5",
+   "price_eur": 9900,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": 10800,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 136000,
+   "year": 2015,
+   "first_registration": "02/2015",
+   "fuel": "petrol",
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "85598",
+   "city": "Baldham",
+   "distance_km": 95,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/05/054cdc65-6e10-4b3c-ae59-148e17e7fcc2?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 48,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,364 km per year (+8)"
+   ],
+   "flags": [
+    "Price reduced from €10,800"
+   ],
+   "first_seen": "2026-11-09T14:00:05Z",
+   "last_seen": "2026-11-09T14:00:05Z",
+   "price_history": [
+    {
+     "at": "2026-11-09T14:00:05Z",
+     "price_eur": 9900
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
    "source_id": "3562279212",
    "country": "DE",
    "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-2-2017/3562279212-216-4876",
@@ -145,54 +190,11 @@
    ],
    "flags": [],
    "first_seen": "2026-11-05T13:17:10Z",
-   "last_seen": "2026-11-08T21:13:58Z",
+   "last_seen": "2026-11-09T14:00:05Z",
    "price_history": [
     {
      "at": "2026-11-05T13:17:10Z",
      "price_eur": 7800
-    }
-   ]
-  },
-  {
-   "source": "kleinanzeigen",
-   "source_id": "3561997931",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-2-0-skyactiv-g-165-center-line-fwd/3561997931-216-9292",
-   "title": "Mazda CX-5 2.0 SKYACTIV-G 165 Center-Line FWD",
-   "model": "CX-5",
-   "price_eur": 8635,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": null,
-   "mileage_km": 154589,
-   "year": 2015,
-   "first_registration": "07/2015",
-   "fuel": "petrol",
-   "gearbox": null,
-   "power_hp": null,
-   "zip": "70199",
-   "city": "Stuttgart-Süd",
-   "distance_km": 187,
-   "seller_type": null,
-   "seller_name": null,
-   "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b4e0a87d-97f4-420d-abc1-fce81e2fc332?rule=$_59.AUTO"
-   ],
-   "also_on": [],
-   "score": 46,
-   "score_parts": [
-    "Too few similar cars in this search to compare the price",
-    "~14,054 km per year (+6)"
-   ],
-   "flags": [],
-   "first_seen": "2026-11-05T13:17:10Z",
-   "last_seen": "2026-11-08T21:13:58Z",
-   "price_history": [
-    {
-     "at": "2026-11-05T13:17:10Z",
-     "price_eur": 8635
     }
    ]
   }

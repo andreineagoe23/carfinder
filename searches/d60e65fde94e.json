@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:22:39Z",
- "updated_at": "2026-11-08T21:14:00Z",
+ "updated_at": "2026-11-09T14:00:08Z",
  "requested_at": "2026-11-01T18:22:39Z",
  "links": [
   {
@@ -153,7 +153,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-08T21:14:00Z",
+   "last_seen": "2026-11-09T14:00:08Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -203,66 +203,10 @@
    ],
    "flags": [],
    "first_seen": "2026-11-04T22:40:38Z",
-   "last_seen": "2026-11-08T21:14:00Z",
+   "last_seen": "2026-11-09T14:00:08Z",
    "price_history": [
     {
      "at": "2026-11-04T22:40:38Z",
-     "price_eur": 9650
-    }
-   ]
-  },
-  {
-   "source": "autoscout24",
-   "source_id": "ee6d5c04-163f-4e50-a465-f58e49d085b5",
-   "country": "DE",
-   "url": "https://www.autoscout24.de/angebote/mazda-cx-3-2-0skyactiv-g-prime-line-1hd-klima-garantie-benzin-weiss-cat_ma46gr200958ge1767mt2663tr480472-ee6d5c04-163f-4e50-a465-f58e49d085b5",
-   "title": "Mazda CX-3 2.0Skyactiv-G Prime-Line*1Hd*Klima*Garantie",
-   "model": "CX-3",
-   "price_eur": 9650,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": "top-price",
-   "mileage_km": 149759,
-   "year": 2018,
-   "first_registration": "01/2018",
-   "fuel": "petrol",
-   "gearbox": "manual",
-   "power_hp": 120,
-   "zip": "97078",
-   "city": "Würzburg",
-   "distance_km": 156,
-   "seller_type": "dealer",
-   "seller_name": "Auto Mager",
-   "images": [
-    "https://prod.pictures.autoscout24.net/listing-images/ee6d5c04-163f-4e50-a465-f58e49d085b5_1f00a874-ec66-4f74-a94a-1b75eef3ac65.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/ee6d5c04-163f-4e50-a465-f58e49d085b5_ad93dc43-f73c-4fda-827d-bf5c23ba6b84.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/ee6d5c04-163f-4e50-a465-f58e49d085b5_ac7dd060-c6d3-4fec-80e1-20e6a02b94c6.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/ee6d5c04-163f-4e50-a465-f58e49d085b5_f1508950-242e-40c6-bde1-2a96e04123f5.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/ee6d5c04-163f-4e50-a465-f58e49d085b5_94366527-03db-42d4-a68d-1f5f1764a778.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/ee6d5c04-163f-4e50-a465-f58e49d085b5_55bcc896-2ab6-4798-b700-9c11528530b4.jpg/480x360.webp"
-   ],
-   "also_on": [],
-   "score": 61,
-   "score_parts": [
-    "Too few similar cars in this search to compare the price",
-    "~18,720 km per year (+1)",
-    "Site rates it “top price” (+15)",
-    "Dealer: 12 months' warranty in Germany (+5)"
-   ],
-   "flags": [
-    "Price dropped since first seen (€9,850)"
-   ],
-   "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-08T21:14:00Z",
-   "price_history": [
-    {
-     "at": "2026-11-01T18:22:39Z",
-     "price_eur": 9850
-    },
-    {
-     "at": "2026-11-03T12:52:41Z",
      "price_eur": 9650
     }
    ]
@@ -304,7 +248,7 @@
     "Price reduced from €9,800"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-08T21:14:00Z",
+   "last_seen": "2026-11-09T14:00:08Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -349,7 +293,7 @@
     "Price reduced from €10,200"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-08T21:14:00Z",
+   "last_seen": "2026-11-09T14:00:08Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -394,7 +338,7 @@
     "Price reduced from €10,000"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-08T21:14:00Z",
+   "last_seen": "2026-11-09T14:00:08Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
