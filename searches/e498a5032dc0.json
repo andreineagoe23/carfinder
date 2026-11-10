@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:35:43Z",
- "updated_at": "2026-11-09T13:59:59Z",
+ "updated_at": "2026-11-10T00:44:04Z",
  "requested_at": "2026-11-01T19:01:30Z",
  "links": [
   {
@@ -153,7 +153,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -203,7 +203,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-04T22:40:29Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-04T22:40:29Z",
@@ -261,7 +261,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-06T13:00:36Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-06T13:00:36Z",
@@ -306,7 +306,7 @@
     "Price reduced from €9,800"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -351,7 +351,7 @@
     "Price reduced from €10,200"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -366,7 +366,7 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-2-0-skyactiv-g-120-sports-line-fwd-spor-/3457417621-216-6611",
    "title": "Mazda CX-3 2.0 SKYACTIV-G 120 Sports-Line FWD Spor...",
    "model": "CX-3",
-   "price_eur": 9600,
+   "price_eur": 9500,
    "listed_price": null,
    "listed_currency": null,
    "old_price_eur": 10000,
@@ -384,23 +384,28 @@
    "seller_type": null,
    "seller_name": null,
    "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/96cbc106-c78c-4f5c-af91-ffb0fcaf3455?rule=$_59.AUTO"
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af47e622-0c24-4eea-bda9-d9a566d4b2b8?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 53,
+   "score": 54,
    "score_parts": [
-    "€800 below similar CX-3 cars (median €10,400) (+8)",
+    "€900 below similar CX-3 cars (median €10,400) (+9)",
     "~15,091 km per year (+5)"
    ],
    "flags": [
-    "Price reduced from €10,000"
+    "Price reduced from €10,000",
+    "Price dropped since first seen (€9,600)"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
      "price_eur": 9600
+    },
+    {
+     "at": "2026-11-10T00:44:04Z",
+     "price_eur": 9500
     }
    ]
   },
@@ -446,7 +451,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -494,7 +499,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-08T11:59:18Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-08T11:59:18Z",
@@ -539,7 +544,7 @@
     "Price dropped since first seen (€10,499)"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -588,7 +593,7 @@
     "Price reduced from €13,000"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -633,7 +638,7 @@
     "Price reduced from €13,000"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -676,7 +681,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-08T11:59:18Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-08T11:59:18Z",
@@ -721,7 +726,7 @@
     "Price reduced from €12,900"
    ],
    "first_seen": "2026-11-03T12:52:34Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-03T12:52:34Z",
@@ -764,7 +769,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-02T23:55:10Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-02T23:55:10Z",
@@ -809,7 +814,7 @@
     "Price reduced from €10,999"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
@@ -857,7 +862,7 @@
     "Price dropped since first seen (€10,500)"
    ],
    "first_seen": "2026-11-01T18:35:43Z",
-   "last_seen": "2026-11-09T13:59:59Z",
+   "last_seen": "2026-11-10T00:44:04Z",
    "price_history": [
     {
      "at": "2026-11-01T18:35:43Z",
