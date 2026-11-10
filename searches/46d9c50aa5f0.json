@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:30:05Z",
- "updated_at": "2026-11-10T00:44:09Z",
+ "updated_at": "2026-11-10T13:34:40Z",
  "requested_at": "2026-11-01T18:30:05Z",
  "links": [
   {
@@ -112,6 +112,49 @@
  "listings": [
   {
    "source": "kleinanzeigen",
+   "source_id": "3567265982",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-center-line-awd-2-hand-131-tkm-kamera/3567265982-216-6623",
+   "title": "Mazda CX-5 Center-Line AWD * 2 HAND * 131 Tkm * KAMERA",
+   "model": "CX-5",
+   "price_eur": 9990,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 131000,
+   "year": 2014,
+   "first_registration": "06/2014",
+   "fuel": "petrol",
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "84453",
+   "city": "Mühldorf a.Inn",
+   "distance_km": 99,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6f/6ff08b8f-3be4-4af3-b670-f860954421f6?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 49,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~10,917 km per year (+9)"
+   ],
+   "flags": [],
+   "first_seen": "2026-11-10T13:34:40Z",
+   "last_seen": "2026-11-10T13:34:40Z",
+   "price_history": [
+    {
+     "at": "2026-11-10T13:34:40Z",
+     "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
    "source_id": "3562423389",
    "country": "DE",
    "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-5-2-0-skyactiv-g-sendo-ahk-standheizung/3562423389-216-5580",
@@ -147,7 +190,7 @@
     "Price reduced from €10,800"
    ],
    "first_seen": "2026-11-09T14:00:05Z",
-   "last_seen": "2026-11-10T00:44:09Z",
+   "last_seen": "2026-11-10T13:34:40Z",
    "price_history": [
     {
      "at": "2026-11-09T14:00:05Z",
@@ -190,7 +233,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-05T13:17:10Z",
-   "last_seen": "2026-11-10T00:44:09Z",
+   "last_seen": "2026-11-10T13:34:40Z",
    "price_history": [
     {
      "at": "2026-11-05T13:17:10Z",
