@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:22:39Z",
- "updated_at": "2026-11-11T23:30:16Z",
+ "updated_at": "2026-11-12T13:50:29Z",
  "requested_at": "2026-11-01T18:22:39Z",
  "links": [
   {
@@ -143,9 +143,9 @@
     "https://prod.pictures.autoscout24.net/listing-images/dd9bff29-70e1-44cc-ba3d-385a8aef4758_2e5f1b46-df5a-4ace-afe3-78732d2d2083.jpg/480x360.webp"
    ],
    "also_on": [],
-   "score": 75,
+   "score": 74,
    "score_parts": [
-    "€1,275 below similar CX-3 cars (median €9,575) (+13)",
+    "€1,200 below similar CX-3 cars (median €9,500) (+13)",
     "~13,300 km per year (+7)",
     "Site rates it “top price” (+15)"
    ],
@@ -153,7 +153,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-11T23:30:16Z",
+   "last_seen": "2026-11-12T13:50:29Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -162,61 +162,11 @@
    ]
   },
   {
-   "source": "autoscout24",
-   "source_id": "b61bf62e-05c8-4d47-a474-a4c971326d14",
-   "country": "DE",
-   "url": "https://www.autoscout24.de/angebote/mazda-cx-3-cx-3-skyactiv-g-120-fwd-sports-line-benzin-rot-cat_ma46gr200958ge1767mt2663tr7326-b61bf62e-05c8-4d47-a474-a4c971326d14",
-   "title": "Mazda CX-3 CX-3 SKYACTIV-G 120 FWD Sports-Line",
-   "model": "CX-3",
-   "price_eur": 9650,
-   "listed_price": null,
-   "listed_currency": null,
-   "old_price_eur": null,
-   "negotiable": false,
-   "price_label": "top-price",
-   "mileage_km": 157736,
-   "year": 2015,
-   "first_registration": "11/2015",
-   "fuel": "petrol",
-   "gearbox": "manual",
-   "power_hp": 120,
-   "zip": "95448",
-   "city": "Bayreuth",
-   "distance_km": 106,
-   "seller_type": "dealer",
-   "seller_name": "Auto-Karadas GmbH & Co. KG",
-   "images": [
-    "https://prod.pictures.autoscout24.net/listing-images/b61bf62e-05c8-4d47-a474-a4c971326d14_64bc71d9-5f5f-44de-a281-d45a7735c503.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/b61bf62e-05c8-4d47-a474-a4c971326d14_c67fc420-8049-4e8b-9f4e-cbca5e65d723.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/b61bf62e-05c8-4d47-a474-a4c971326d14_b92445fb-4c04-41d3-9f53-369ec989f07e.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/b61bf62e-05c8-4d47-a474-a4c971326d14_be67783d-b2c3-451b-9084-c58e61b9b878.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/b61bf62e-05c8-4d47-a474-a4c971326d14_59e52a21-5d95-43a4-bc10-a01041628b17.jpg/480x360.webp",
-    "https://prod.pictures.autoscout24.net/listing-images/b61bf62e-05c8-4d47-a474-a4c971326d14_f18fe68f-9492-4760-a315-f54e03d97056.jpg/480x360.webp"
-   ],
-   "also_on": [],
-   "score": 62,
-   "score_parts": [
-    "€350 above similar CX-3 cars (median €9,300) (-4)",
-    "~14,340 km per year (+6)",
-    "Site rates it “top price” (+15)",
-    "Dealer: 12 months' warranty in Germany (+5)"
-   ],
-   "flags": [],
-   "first_seen": "2026-11-04T22:40:38Z",
-   "last_seen": "2026-11-11T23:30:16Z",
-   "price_history": [
-    {
-     "at": "2026-11-04T22:40:38Z",
-     "price_eur": 9650
-    }
-   ]
-  },
-  {
    "source": "kleinanzeigen",
    "source_id": "3568746595",
    "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-prime-line2-0i-nur-82tkm-/3568746595-216-5681",
-   "title": "Mazda CX-3 Prime-Line2.0i /Nur 82tkm/",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-prime-line2-0i-nur-80tkm-service-neu-8-fach/3568746595-216-5681",
+   "title": "Mazda CX-3 Prime-Line2.0i/Nur 80tkm/Service NEU/8-fach",
    "model": "CX-3",
    "price_eur": 9990,
    "listed_price": null,
@@ -224,7 +174,7 @@
    "old_price_eur": null,
    "negotiable": false,
    "price_label": null,
-   "mileage_km": 82000,
+   "mileage_km": 80000,
    "year": 2018,
    "first_registration": "10/2018",
    "fuel": "petrol",
@@ -236,17 +186,17 @@
    "seller_type": null,
    "seller_name": null,
    "images": [
-    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/13/13bb9ea8-e906-44da-9afa-887d91a5355e?rule=$_59.AUTO"
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/34979f73-a4f7-46b3-8702-662dbfc0175c?rule=$_59.AUTO"
    ],
    "also_on": [],
    "score": 50,
    "score_parts": [
     "Too few similar cars in this search to compare the price",
-    "~10,250 km per year (+10)"
+    "~10,000 km per year (+10)"
    ],
    "flags": [],
    "first_seen": "2026-11-11T23:30:16Z",
-   "last_seen": "2026-11-11T23:30:16Z",
+   "last_seen": "2026-11-12T13:50:29Z",
    "price_history": [
     {
      "at": "2026-11-11T23:30:16Z",
@@ -282,16 +232,16 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1e988673-23e0-4411-b594-082726a55960?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 50,
+   "score": 49,
    "score_parts": [
-    "€275 below similar CX-3 cars (median €9,575) (+3)",
+    "€200 below similar CX-3 cars (median €9,500) (+2)",
     "~13,200 km per year (+7)"
    ],
    "flags": [
     "Price reduced from €9,800"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-11T23:30:16Z",
+   "last_seen": "2026-11-12T13:50:29Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -327,9 +277,9 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af47e622-0c24-4eea-bda9-d9a566d4b2b8?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 43,
+   "score": 45,
    "score_parts": [
-    "€200 above similar CX-3 cars (median €9,300) (-2)",
+    "Too few similar cars in this search to compare the price",
     "~15,091 km per year (+5)"
    ],
    "flags": [
@@ -337,7 +287,7 @@
     "Price dropped since first seen (€9,600)"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-11T23:30:16Z",
+   "last_seen": "2026-11-12T13:50:29Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -384,7 +334,7 @@
    ],
    "flags": [],
    "first_seen": "2026-11-11T23:30:16Z",
-   "last_seen": "2026-11-11T23:30:16Z",
+   "last_seen": "2026-11-12T13:50:29Z",
    "price_history": [
     {
      "at": "2026-11-11T23:30:16Z",
