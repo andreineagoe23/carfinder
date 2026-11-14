@@ -49,7 +49,7 @@
   }
  },
  "created_at": "2026-11-01T18:22:39Z",
- "updated_at": "2026-11-14T12:17:43Z",
+ "updated_at": "2026-11-14T21:33:59Z",
  "requested_at": "2026-11-01T18:22:39Z",
  "links": [
   {
@@ -145,7 +145,7 @@
    "also_on": [],
    "score": 74,
    "score_parts": [
-    "€1,200 below similar CX-3 cars (median €9,500) (+13)",
+    "€1,150 below similar CX-3 cars (median €9,450) (+12)",
     "~13,300 km per year (+7)",
     "Site rates it “top price” (+15)"
    ],
@@ -153,7 +153,7 @@
     "Private seller: usually sold without warranty"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-14T12:17:43Z",
+   "last_seen": "2026-11-14T21:33:59Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -196,11 +196,54 @@
    ],
    "flags": [],
    "first_seen": "2026-11-11T23:30:16Z",
-   "last_seen": "2026-11-14T12:17:43Z",
+   "last_seen": "2026-11-14T21:33:59Z",
    "price_history": [
     {
      "at": "2026-11-11T23:30:16Z",
      "price_eur": 9990
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3571407274",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-sports-line/3571407274-216-9140",
+   "title": "Mazda CX-3 Sports-Line",
+   "model": "CX-3",
+   "price_eur": 8599,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 99372,
+   "year": 2018,
+   "first_registration": "11/2018",
+   "fuel": "petrol",
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "91555",
+   "city": "Feuchtwangen",
+   "distance_km": 108,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c8/c8d228a5-44b8-43ae-9559-052447b26864?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 48,
+   "score_parts": [
+    "Too few similar cars in this search to compare the price",
+    "~12,422 km per year (+8)"
+   ],
+   "flags": [],
+   "first_seen": "2026-11-14T21:33:59Z",
+   "last_seen": "2026-11-14T21:33:59Z",
+   "price_history": [
+    {
+     "at": "2026-11-14T21:33:59Z",
+     "price_eur": 8599
     }
    ]
   },
@@ -232,20 +275,63 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1e988673-23e0-4411-b594-082726a55960?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 49,
+   "score": 48,
    "score_parts": [
-    "€200 below similar CX-3 cars (median €9,500) (+2)",
+    "€150 below similar CX-3 cars (median €9,450) (+2)",
     "~13,200 km per year (+7)"
    ],
    "flags": [
     "Price reduced from €9,800"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-14T12:17:43Z",
+   "last_seen": "2026-11-14T21:33:59Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
      "price_eur": 9300
+    }
+   ]
+  },
+  {
+   "source": "kleinanzeigen",
+   "source_id": "3571446295",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mazda-cx-3-2-0-skyactiv-g-120-sports-line-fwd/3571446295-216-6986",
+   "title": "Mazda CX-3 2.0 SKYACTIV-G 120 Sports-Line FWD",
+   "model": "CX-3",
+   "price_eur": 9400,
+   "listed_price": null,
+   "listed_currency": null,
+   "old_price_eur": null,
+   "negotiable": false,
+   "price_label": null,
+   "mileage_km": 153000,
+   "year": 2015,
+   "first_registration": "11/2015",
+   "fuel": "petrol",
+   "gearbox": null,
+   "power_hp": null,
+   "zip": "95100",
+   "city": "Selb",
+   "distance_km": 140,
+   "seller_type": null,
+   "seller_name": null,
+   "images": [
+    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f6/f6d522b4-8c4e-4f61-9ab2-02720fceaace?rule=$_59.AUTO"
+   ],
+   "also_on": [],
+   "score": 45,
+   "score_parts": [
+    "€100 above similar CX-3 cars (median €9,300) (-1)",
+    "~13,909 km per year (+6)"
+   ],
+   "flags": [],
+   "first_seen": "2026-11-14T21:33:59Z",
+   "last_seen": "2026-11-14T21:33:59Z",
+   "price_history": [
+    {
+     "at": "2026-11-14T21:33:59Z",
+     "price_eur": 9400
     }
    ]
   },
@@ -277,9 +363,9 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af47e622-0c24-4eea-bda9-d9a566d4b2b8?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 45,
+   "score": 43,
    "score_parts": [
-    "Too few similar cars in this search to compare the price",
+    "€200 above similar CX-3 cars (median €9,300) (-2)",
     "~15,091 km per year (+5)"
    ],
    "flags": [
@@ -287,7 +373,7 @@
     "Price dropped since first seen (€9,600)"
    ],
    "first_seen": "2026-11-01T18:22:39Z",
-   "last_seen": "2026-11-14T12:17:43Z",
+   "last_seen": "2026-11-14T21:33:59Z",
    "price_history": [
     {
      "at": "2026-11-01T18:22:39Z",
@@ -327,14 +413,14 @@
     "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e7/e73a0e47-067c-41cc-a91f-fabb2dd6c443?rule=$_59.AUTO"
    ],
    "also_on": [],
-   "score": 34,
+   "score": 30,
    "score_parts": [
-    "€690 above similar CX-3 cars (median €9,300) (-7)",
+    "€1,040 above similar CX-3 cars (median €8,950) (-12)",
     "~18,333 km per year (+2)"
    ],
    "flags": [],
    "first_seen": "2026-11-11T23:30:16Z",
-   "last_seen": "2026-11-14T12:17:43Z",
+   "last_seen": "2026-11-14T21:33:59Z",
    "price_history": [
     {
      "at": "2026-11-11T23:30:16Z",
